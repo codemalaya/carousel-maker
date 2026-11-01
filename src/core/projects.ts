@@ -103,8 +103,8 @@ export async function createProject(id: string, from?: string, format?: Carousel
   await mkdir(assetsDir(id), { recursive: true });
   await mkdir(referencesDir(id), { recursive: true });
   if (from) {
-    // duplicate: spec + assets + references
-    for (const sub of ["assets", "references"]) {
+    // duplicate: spec + assets + references + fonts
+    for (const sub of ["assets", "references", "fonts"]) {
       const src = join(projectDir(from), sub);
       if (await exists(src)) await cp(src, join(projectDir(id), sub), { recursive: true });
     }
@@ -154,6 +154,7 @@ const trashEntry = (name: string) => {
 
 /** Raw spec text of a trashed project (for thumbnails on the trash page). */
 export const readTrashSpec = (name: string) => readFile(join(trashEntry(name), "carousel.json"), "utf8");
+export const trashFontsDir = (name: string) => join(trashEntry(name), "fonts");
 export const readTrashAsset = (name: string, file: string) => readFile(join(trashEntry(name), "assets", checkFile(file)));
 
 /** Move a trashed project back. If its id is taken, restore under a free "<id>-restored[-n]" name. */

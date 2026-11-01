@@ -12,6 +12,7 @@ import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
 import { fetchSource, formatSource } from "../core/source";
 import { applyBrand, createBrand, listBrands, loadBrand } from "../core/brands";
+import { importFont } from "../core/fonts";
 import { createTemplate, instantiateTemplate, listTemplates, loadTemplate } from "../core/templates";
 import { insertInstance } from "../core/templateUtil";
 import { createPlanItem, listPlan, updatePlanItem } from "../core/planner";
@@ -113,6 +114,21 @@ server.registerTool(
   async ({ path, kind, project: p }) => {
     const name = await importAsset(p ?? DEFAULT_PROJECT, path, kind);
     return text(kind === "assets" ? `added; use src "assets/${name}"` : `added reference ${name}`);
+  },
+);
+
+server.registerTool(
+  "add_font",
+  {
+    description:
+      "Copy a local font file (.woff2, .woff, .ttf, .otf; max 5 MB) into the project and attach it: it is rendered with @font-face everywhere (editor, PNG, PDF, HTML, video). " +
+      "The CSS family name is the file name without extension (\"Poppins-Bold.woff2\" -> font-family 'Poppins-Bold'); a token with that name is added to tokens.fonts so slides can use {Poppins_Bold} or fontFamily \"'Poppins-Bold', sans-serif\". " +
+      "Upload each weight as its own file. The user is responsible for the font's license. Only when the user gives you a font file.",
+    inputSchema: { path: z.string().describe("Absolute path of a local font file"), project },
+  },
+  async ({ path, project: p }) => {
+    const r = await importFont(p ?? DEFAULT_PROJECT, path);
+    return text(`added ${r.file}; font-family '${r.family}', token {${r.token}}`);
   },
 );
 

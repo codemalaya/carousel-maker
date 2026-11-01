@@ -10,6 +10,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - **Mode presentasi**: fullscreen, speaker notes, laser, blackout, timer.
 - **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber.
 - **Template slide**: simpan slide bagus beserta gambarnya, sisipkan ke project lain dari galeri (filter format, tag, cari).
+- **Font sendiri**: unggah .woff2/.woff/.ttf/.otf; dipakai di editor dan semua export (PNG, PDF, HTML mandiri, MP4, GIF).
 - **Brand kit**: palette, font, css, brief, logo; diterapkan sebagai snapshot ke project.
 - **Planner konten**: kalender bulan/minggu, status slot, pengingat, export `.ics`. Tidak pernah posting otomatis.
 - **Sampah**: project, brand kit, template, dan slot planner dihapus ke trash dan bisa dipulihkan.
@@ -57,7 +58,7 @@ Hasil export default ke `projects/<id>/out`.
 
 Konfigurasi ada di `.mcp.json` (env `CAROUSEL_PROJECT` = project default). Setiap tool menerima `project` opsional.
 
-Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`, `set_meta`, `set_slide`, `set_element`, `reorder_slides`, `add_asset`, `render_slide`, `lint`, `export`, `delete` (ke trash), `fetch_source`, `list_brands`, `get_brand`, `apply_brand`, `save_brand`, `list_templates`, `get_template`, `apply_template`, `save_template`, `list_plan`, `set_plan_item`.
+Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`, `set_meta`, `set_slide`, `set_element`, `reorder_slides`, `add_asset`, `add_font`, `render_slide`, `lint`, `export`, `delete` (ke trash), `fetch_source`, `list_brands`, `get_brand`, `apply_brand`, `save_brand`, `list_templates`, `get_template`, `apply_template`, `save_template`, `list_plan`, `set_plan_item`.
 
 `fetch_source` mengambil halaman web sebagai teks tidak tepercaya, dengan pengaman: hanya http(s) port 80/443, tanpa alamat lokal/privat, batas 2 MB / 15 dtk / 5 redirect.
 
@@ -67,6 +68,7 @@ Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`,
 projects/<id>/
   carousel.json   spec carousel
   assets/         gambar yang dipakai slide
+  fonts/          font yang diunggah
   references/     referensi gaya untuk agent
   out/            hasil export
 projects/.trash/  project terhapus

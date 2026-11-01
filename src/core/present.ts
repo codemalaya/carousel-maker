@@ -1,6 +1,8 @@
 import { FORMATS, type Carousel } from "./schema.ts";
 import { ANIM_CSS, maxStep, renderSlideBody, stepCss } from "./render.ts";
 import { IMAGE_TYPES, readAsset } from "./projects.ts";
+import { fontsDir, readFontFile } from "./fonts.ts";
+import { fontFaceCss } from "./fontUtil.ts";
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -16,6 +18,21 @@ async function inlineAssets(c: Carousel, project?: string): Promise<Map<string, 
       out.set(name, `data:${type};base64,${(await readAsset(project, name)).toString("base64")}`);
     } catch {
       /* missing asset: leave the original src */
+    }
+  }
+  return out;
+}
+
+/** file -> data URI for every attached font, so the exported file needs no network for them. */
+async function inlineFonts(c: Carousel, project?: string): Promise<Map<string, string>> {
+  const out = new Map<string, string>();
+  if (!project) return out;
+  for (const f of c.tokens.fontFiles) {
+    try {
+      const { data, type } = await readFontFile(fontsDir(project), f);
+      out.set(f, `data:${type};base64,${data.toString("base64")}`);
+    } catch {
+      /* missing font file: falls back like in the editor */
     }
   }
   return out;
@@ -81,6 +98,7 @@ export async function renderPresentHtml(c: Carousel, project?: string): Promise<
   if (!c.slides.length) throw new Error("no slides to export");
   const { width, height } = FORMATS[c.format];
   const assets = await inlineAssets(c, project);
+  const fonts = await inlineFonts(c, project);
   const opts = { animate: true, assetUrl: (f: string) => assets.get(f) ?? `assets/${f}` };
   const max = Math.max(0, ...c.slides.map(maxStep));
   const slides = c.slides
@@ -89,7 +107,8 @@ export async function renderPresentHtml(c: Carousel, project?: string): Promise<
   return `<!doctype html><html lang="id"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(c.title || project || "Presentasi")}</title>
-<style>${c.tokens.css}</style>
+<style>${c.tokens.css}
+${fontFaceCss([...fonts.keys()], (f) => fonts.get(f)!)}</style>
 <style>${PLAYER_CSS}${ANIM_CSS}${stepCss(max)}</style>
 </head><body data-w="${width}" data-h="${height}">
 <div id="frame" style="width:${width}px;height:${height}px">

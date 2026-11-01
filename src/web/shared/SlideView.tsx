@@ -1,6 +1,7 @@
 import { useMemo, type ReactNode } from "react";
 import { FORMATS, type Carousel } from "../../core/schema";
 import { ANIM_CSS, maxStep, renderSlideBody, stepCss } from "../../core/render";
+import { fontFaceCss } from "../../core/fontUtil";
 
 const BASE = ".cm-stage *{box-sizing:border-box;margin:0}.cm-stage svg{display:block}";
 
@@ -27,6 +28,9 @@ export function SlideView({ doc, project, index, scale, assetBase, animate, acti
     [slide, doc.tokens, doc.format, project, assetBase, animate],
   );
   // step/active live on a wrapper attribute so changing them never rewrites `html` (that would restart every animation)
+  // uploaded fonts live next to the assets route (project, template and trash pages all follow the same pattern)
+  const fontBase = assetBase ? assetBase.replace(/\/assets$/, "/fonts") : `/api/projects/${encodeURIComponent(project)}/fonts`;
+  const fontCss = useMemo(() => fontFaceCss(doc.tokens.fontFiles, (f) => `${fontBase}/${encodeURIComponent(f)}`), [doc.tokens.fontFiles, fontBase]);
   const present = animate && slide ? { css: ANIM_CSS + stepCss(maxStep(slide)), t: slide.transition } : null;
   return (
     <div style={{ width: width * scale, height: height * scale, position: "relative", overflow: "hidden" }}>
@@ -34,7 +38,7 @@ export function SlideView({ doc, project, index, scale, assetBase, animate, acti
         className="cm-stage"
         style={{ width, height, transform: `scale(${scale})`, transformOrigin: "0 0", position: "absolute" }}
       >
-        <style>{doc.tokens.css + BASE + (present?.css ?? "")}</style>
+        <style>{doc.tokens.css + fontCss + BASE + (present?.css ?? "")}</style>
         {present ? (
           <div data-active={!!active} data-cur={step} data-t={present.t !== "slide" ? present.t : undefined} style={{ width, height }}>
             <div ref={stageRef} dangerouslySetInnerHTML={{ __html: html }} />

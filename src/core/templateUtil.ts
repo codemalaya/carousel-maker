@@ -22,6 +22,8 @@ export type TemplateInstance = {
   /** tokens the template has that the project did not (project values always win) */
   palette: Record<string, string>;
   fonts: Record<string, string>;
+  /** font files (already copied into the project's fonts/) to attach */
+  fontFiles: string[];
   /** marked css block to prepend, or "" */
   css: string;
   /** true when the template was designed for another format than the project's */
@@ -34,6 +36,7 @@ export function insertInstance(c: Carousel, inst: TemplateInstance, at?: number)
   c.slides.splice(i, 0, inst.slide);
   c.tokens.palette = { ...inst.palette, ...c.tokens.palette };
   c.tokens.fonts = { ...inst.fonts, ...c.tokens.fonts };
+  c.tokens.fontFiles = [...new Set([...c.tokens.fontFiles, ...inst.fontFiles])];
   if (inst.css && !c.tokens.css.includes(inst.css)) c.tokens.css = `${inst.css}\n${c.tokens.css}`.trim();
   return i;
 }

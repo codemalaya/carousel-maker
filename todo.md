@@ -118,15 +118,17 @@ Urutan kerja disarankan: Template, Font upload, Grafik dan tabel, Library aset, 
 - [ ] Cek dengan agent sungguhan (`apply_template` lalu ganti teks), belum dicoba
 
 ### Font upload
-- [ ] Storage font per project: `projects/<id>/assets/fonts/` (file `.woff2/.woff/.ttf/.otf`, batas ukuran)
-- [ ] `@font-face` dibuat dari file font yang ada, dipakai lewat token `fonts` (nama family)
-- [ ] Renderer: sertakan `@font-face` di editor, PNG, PDF, lint (tunggu `document.fonts.ready` sebelum ukur dan screenshot)
-- [ ] Ekspor HTML mandiri: font di-inline sebagai data URI; MP4/GIF menunggu font siap
-- [ ] Brand kit: font ikut tersimpan dan ikut tersalin saat apply (marked block seperti css/logo)
-- [ ] UI: Inspector > Tokens, tombol "Unggah font", daftar font, hapus
-- [ ] API upload (validasi tipe + ukuran) dan tool MCP `add_font`
-- [ ] Cek lisensi: catatan di UI bahwa pengguna bertanggung jawab atas lisensi font
-- [ ] Tes: teks tidak overflow di lint dengan font custom, editor == export
+- [x] Storage font per project: `projects/<id>/assets/fonts/` (file `.woff2/.woff/.ttf/.otf`, batas ukuran)
+- [x] `@font-face` dibuat dari file font yang ada, dipakai lewat token `fonts` (nama family)
+- [x] Renderer: sertakan `@font-face` di editor, PNG, PDF, lint (tunggu `document.fonts.ready` sebelum ukur dan screenshot)
+- [x] Ekspor HTML mandiri: font di-inline sebagai data URI; MP4/GIF menunggu font siap
+- [x] Brand kit: font ikut tersimpan (dari "simpan project sebagai brand") dan ikut tersalin + terpasang saat apply; unggah langsung di halaman Brand belum ada
+- [x] UI: Inspector > Tokens, tombol "Unggah font", daftar font, hapus
+- [x] API upload (validasi tipe + ukuran) dan tool MCP `add_font`
+- [x] Cek lisensi: catatan di UI bahwa pengguna bertanggung jawab atas lisensi font
+- [x] Tes: PNG/PDF/HTML memakai font unggahan, file palsu/ekstensi salah/terlalu besar ditolak; lint menunggu `document.fonts.ready`
+- [ ] Belum dicoba: woff2/otf asli dan MP4/GIF dengan font unggahan (hanya TTF dan PNG/PDF/HTML yang dites)
+- [ ] Batas diketahui: dua project dengan file berbeda tapi nama family sama bentrok di halaman yang menampilkan keduanya (thumbnail Home)
 
 ### Grafik dan tabel
 - [ ] Tipe elemen baru `chart` di schema: `kind` (bar|line|pie|donut), data (label + nilai, banyak seri), judul, warna dari `{tokens}`, legenda, label nilai

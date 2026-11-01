@@ -88,6 +88,8 @@ export const Tokens = z.object({
   fonts: z.record(z.string(), z.string()).default({}),
   /** Extra CSS injected into every slide (e.g. @import for web fonts) */
   css: z.string().default(""),
+  /** Uploaded font files attached to the project (names inside projects/<id>/fonts/); rendered as @font-face, family = file name without extension */
+  fontFiles: z.array(z.string()).default([]),
 });
 
 /** Reusable look shared across projects (`brands/<id>/brand.json`). Applying it COPIES these into a project's tokens. */
@@ -101,6 +103,8 @@ export const Brand = z.object({
   brief: z.string().default(""),
   /** File name inside brands/<id>/ (png, svg, jpg, webp), copied to the project's assets as brand-logo.<ext> */
   logo: z.string().optional(),
+  /** Uploaded font files in brands/<id>/fonts/, copied into the project's fonts/ and attached when the brand is applied */
+  fontFiles: z.array(z.string()).default([]),
 });
 export type Brand = z.infer<typeof Brand>;
 
@@ -111,7 +115,7 @@ export const SlideTemplate = z.object({
   format: z.enum(["1:1", "4:5", "9:16", "16:9", "4:3"]).default("4:5"),
   tags: z.array(z.string().trim().min(1).max(24)).max(8).default([]),
   /** Tokens the slide was designed with: the gallery thumbnail renders with them, and inserting adds the ones the project lacks */
-  tokens: Tokens.default({ palette: {}, fonts: {}, css: "" }),
+  tokens: Tokens.default({ palette: {}, fonts: {}, css: "", fontFiles: [] }),
   slide: Slide,
 });
 export type SlideTemplate = z.infer<typeof SlideTemplate>;
@@ -149,7 +153,7 @@ export const Carousel = z.object({
   /** Design direction for this project (style, tone, rules). Agents read this before composing. */
   brief: z.string().default(""),
   format: z.enum(["1:1", "4:5", "9:16", "16:9", "4:3"]).default("4:5"),
-  tokens: Tokens.default({ palette: {}, fonts: {}, css: "" }),
+  tokens: Tokens.default({ palette: {}, fonts: {}, css: "", fontFiles: [] }),
   slides: z.array(Slide).default([]),
 });
 export type Carousel = z.infer<typeof Carousel>;

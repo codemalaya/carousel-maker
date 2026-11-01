@@ -1,7 +1,8 @@
 import { copyFile, mkdir, readdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
 import { extname, join, resolve } from "node:path";
 import { Carousel, Slide, SlideTemplate } from "./schema.ts";
-import { IMAGE_TYPES, ROOT, assetsDir, checkFile, checkId, loadProject } from "./projects.ts";
+import { copyFonts } from "./fonts.ts";
+import { IMAGE_TYPES, ROOT, assetsDir, checkFile, checkId, loadProject, projectDir } from "./projects.ts";
 import { renameAssets, slideAssets, type TemplateInstance } from "./templateUtil.ts";
 
 /** templates/ sits next to projects/. Same rules as brands: ids are folder names, deleting moves to templates/.trash, nothing is hard-deleted here. */
@@ -10,6 +11,7 @@ export const TEMPLATES_ROOT = resolve(process.env.CAROUSEL_TEMPLATES ?? join(ROO
 export const templateDir = (id: string) => join(TEMPLATES_ROOT, checkId(id));
 const specPath = (id: string) => join(templateDir(id), "template.json");
 export const templateAssetsDir = (id: string) => join(templateDir(id), "assets");
+export const templateFontsDir = (id: string) => join(templateDir(id), "fonts");
 const exists = (p: string) => stat(p).then(() => true, () => false);
 
 export type TemplateInfo = { id: string; name: string; format: SlideTemplate["format"]; tags: string[]; elements: number; updated: number };
@@ -73,6 +75,7 @@ export async function createTemplate(o: { name: string; tags?: string[]; project
   const files = (await Promise.all(slideAssets(t.slide).map(async (f) => ((await exists(join(assetsDir(o.project), f))) ? f : null)))).filter((f): f is string => !!f);
   await mkdir(templateAssetsDir(id), { recursive: true });
   for (const f of files) await copyFile(join(assetsDir(o.project), checkFile(f)), join(templateAssetsDir(id), f));
+  t.tokens.fontFiles = await copyFonts(join(projectDir(o.project), "fonts"), templateFontsDir(id), t.tokens.fontFiles); // only fonts that really exist
   await writeSpec(id, t);
   return { id, template: t };
 }
@@ -110,6 +113,7 @@ export async function instantiateTemplate(templateId: string, projectId: string)
     if (name !== f) map[f] = name;
     if (!(await exists(join(assetsDir(projectId), name)))) await copyFile(src, join(assetsDir(projectId), name));
   }
+  const fontFiles = await copyFonts(templateFontsDir(templateId), join(projectDir(projectId), "fonts"), t.tokens.fontFiles); // a font of the same name already in the project is kept
   const missing = (have: Record<string, string>, want: Record<string, string>) => Object.fromEntries(Object.entries(want).filter(([k]) => !(k in have)));
   const css = t.tokens.css.trim();
   return {
@@ -118,6 +122,7 @@ export async function instantiateTemplate(templateId: string, projectId: string)
     slide: renameAssets(t.slide, map),
     palette: missing(proj.tokens.palette, t.tokens.palette),
     fonts: missing(proj.tokens.fonts, t.tokens.fonts),
+    fontFiles,
     css: css && !proj.tokens.css.includes(`/* template:${templateId} */`) && !proj.tokens.css.includes(css) ? `/* template:${templateId} */\n${css}\n/* /template */` : "",
     mismatch: t.format !== proj.format,
   };
@@ -160,6 +165,7 @@ export async function readTrashTemplateSpec(name: string): Promise<string> {
   const t = SlideTemplate.parse(JSON.parse(await readFile(join(trashEntry(name), "template.json"), "utf8")));
   return JSON.stringify(Carousel.parse({ format: t.format, tokens: t.tokens, slides: [t.slide], title: t.name }));
 }
+export const readTrashTemplateFontsDir = (name: string) => join(trashEntry(name), "fonts");
 export const readTrashTemplateAsset = (name: string, file: string) => readFile(join(trashEntry(name), "assets", checkFile(file)));
 
 /** Moves a trashed template back. If its id is taken, restores under a free "<id>-restored[-n]" name. */

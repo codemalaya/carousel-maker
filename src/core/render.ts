@@ -1,3 +1,4 @@
+import { fontFaceCss } from "./fontUtil.ts";
 import { FORMATS, type Carousel, type Element, type Slide } from "./schema.ts";
 
 export type RenderOpts = {
@@ -7,6 +8,8 @@ export type RenderOpts = {
   assetUrl?: (file: string) => string;
   /** Present mode: mark animated/stepped elements so `animCss` can drive them. Off = final state (editor, PNG, PDF). */
   animate?: boolean;
+  /** Where an uploaded font file (`tokens.fontFiles`) is served from; without it no @font-face is emitted (the web editor injects its own). */
+  fontUrl?: (file: string) => string;
 };
 
 /** Entrance keyframes use the individual `translate`/`scale` properties so they compose with the element's own `rotate` transform. */
@@ -115,6 +118,7 @@ export function renderSlideHtml(c: Carousel, index: number, o: RenderOpts = {}):
   if (!slide) throw new Error(`slide ${index} not found (have ${c.slides.length})`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>
 ${c.tokens.css}
+${fontFaceCss(c.tokens.fontFiles, o.fontUrl)}
 *{box-sizing:border-box;margin:0}
 body{margin:0;background:#fff}
 svg{display:block}
@@ -127,6 +131,7 @@ export function renderDeckHtml(c: Carousel, o: RenderOpts = {}): string {
   const pages = c.slides.map((s) => renderSlideBody(s, c, o)).join("\n");
   return `<!doctype html><html><head><meta charset="utf-8"><style>
 ${c.tokens.css}
+${fontFaceCss(c.tokens.fontFiles, o.fontUrl)}
 @page{size:${width}px ${height}px;margin:0}
 *{box-sizing:border-box;margin:0}
 html,body{margin:0;background:#fff}

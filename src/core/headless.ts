@@ -6,9 +6,11 @@ import { mkdtemp, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { IMAGE_TYPES, readAsset } from "./projects.ts";
+import { fontsDir, readFontFile } from "./fonts.ts";
+import { fontFaceCss } from "./fontUtil.ts";
 
 const ASSET_HOST = "http://carousel.local";
-const OPTS: RenderOpts = { assetBase: `${ASSET_HOST}/assets` };
+const OPTS: RenderOpts = { assetBase: `${ASSET_HOST}/assets`, fontUrl: (f) => `${ASSET_HOST}/fonts/${encodeURIComponent(f)}` };
 
 export type LintIssue = { slide: number; element: number; kind: string; message: string };
 
@@ -35,11 +37,25 @@ async function serveAssets(page: Page, project?: string) {
   });
 }
 
+/** Same for uploaded fonts (`tokens.fontFiles`), served from the project's fonts/ folder. */
+async function serveFonts(page: Page, project?: string) {
+  await page.route(`${ASSET_HOST}/fonts/**`, async (route) => {
+    try {
+      if (!project) throw new Error("no project");
+      const f = await readFontFile(fontsDir(project), decodeURIComponent(new URL(route.request().url()).pathname.replace("/fonts/", "")));
+      await route.fulfill({ body: f.data, contentType: f.type });
+    } catch {
+      await route.fulfill({ status: 404, body: "missing font" });
+    }
+  });
+}
+
 export async function renderPng(c: Carousel, indices: number[], project?: string, scale = 1): Promise<Buffer[]> {
   const { width, height } = FORMATS[c.format];
   return withBrowser(async (browser) => {
     const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: scale });
     await serveAssets(page, project);
+    await serveFonts(page, project);
     const out: Buffer[] = [];
     for (const i of indices) {
       await page.setContent(renderSlideHtml(c, i, OPTS), { waitUntil: "networkidle" });
@@ -56,6 +72,7 @@ export async function renderPdf(c: Carousel, project?: string): Promise<Buffer> 
   return withBrowser(async (browser) => {
     const page = await browser.newPage({ viewport: { width, height } });
     await serveAssets(page, project);
+    await serveFonts(page, project);
     await page.setContent(renderDeckHtml(c, OPTS), { waitUntil: "networkidle" });
     await page.evaluate(() => document.fonts.ready);
     return page.pdf({ width: `${width}px`, height: `${height}px`, printBackground: true, preferCSSPageSize: true });
@@ -67,9 +84,11 @@ export async function lint(c: Carousel, indices: number[], project?: string): Pr
   return withBrowser(async (browser) => {
     const page = await browser.newPage({ viewport: { width, height } });
     await serveAssets(page, project);
+    await serveFonts(page, project);
     const issues: LintIssue[] = [];
     for (const i of indices) {
       await page.setContent(renderSlideHtml(c, i, OPTS), { waitUntil: "networkidle" });
+      await page.evaluate(() => document.fonts.ready); // measure with the real (uploaded) fonts, not the fallback
       const found = await page.evaluate(
         ({ W, H }) => {
           const res: { element: number; kind: string; message: string }[] = [];
@@ -148,6 +167,7 @@ export async function renderVideo(c: Carousel, project?: string, o: VideoOpts = 
     try {
       const page = await browser.newPage({ viewport: { width, height } });
       await serveAssets(page, project);
+      await serveFonts(page, project);
       for (const slide of c.slides) {
         const trans = videoTransition(slide.transition);
         const max = maxStep(slide);
@@ -157,6 +177,7 @@ export async function renderVideo(c: Carousel, project?: string, o: VideoOpts = 
         const total = animEnd + hold;
         await page.setContent(
           `<!doctype html><html><head><meta charset="utf-8"><style>${c.tokens.css}
+${fontFaceCss(c.tokens.fontFiles, OPTS.fontUrl)}
 *{box-sizing:border-box;margin:0}body{margin:0;background:#000}svg{display:block}
 ${ANIM_CSS}${stepCss(max)}</style></head><body>
 <div id="w" data-active="true" data-cur="0" data-t="${trans}" style="width:${width}px;height:${height}px">${renderSlideBody(slide, c, { ...OPTS, animate: true })}</div></body></html>`,

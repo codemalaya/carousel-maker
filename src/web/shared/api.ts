@@ -52,6 +52,7 @@ export const api = {
   deleteTemplate: (id: string) => call(`/api/templates/${enc(id)}`, { method: "DELETE" }),
   useTemplate: (project: string, template: string) => call<TemplateInstance>(`/api/projects/${enc(project)}/templates/${enc(template)}`, { method: "POST" }),
   remove: (id: string) => call(`/api/projects/${enc(id)}`, { method: "DELETE" }),
+  fonts: (id: string) => call<string[]>(`/api/projects/${enc(id)}/fonts`),
   assets: (id: string) => call<string[]>(`/api/projects/${enc(id)}/assets`),
   plan: () => call<PlanItem[]>("/api/plan"),
   createPlan: (i: PlanInput) => call<PlanItem>("/api/plan", send("POST", i)),
@@ -91,6 +92,13 @@ export async function uploadAsset(project: string, file: File, kind: "assets" | 
   await call(`/api/projects/${enc(project)}/${kind}/${enc(name)}`, { method: "POST", body: file });
   const bmp = await createImageBitmap(file).catch(() => null); // svg etc. may fail: fall back to square
   return { name, w: bmp?.width ?? 600, h: bmp?.height ?? 600 };
+}
+
+/** Uploads a font file into the project's fonts/ (the file only; the caller attaches it to the spec). Returns the stored name. */
+export async function uploadFont(project: string, file: File): Promise<string> {
+  const name = file.name.replace(/[^\w .()-]+/g, "-").replace(/^[^\w]+/, "").slice(0, 120);
+  await call(`/api/projects/${enc(project)}/fonts/${enc(name)}`, { method: "POST", body: file });
+  return name;
 }
 
 export function useAssets(project: string) {

@@ -9,6 +9,7 @@ import { LayersList } from "@/editor/inspector/LayersList";
 import type { Editor } from "@/editor/useEditor";
 import { ImageFields } from "@/editor/inspector/ImageFields";
 import { BrandRow } from "@/editor/inspector/BrandRow";
+import { FontRow } from "@/editor/inspector/FontRow";
 import { type El, num, type Focus, Field, NumField, OpacityField, AlignField, TextField, ColorField, OptionField, JsonBox, Section } from "@/editor/inspector/fields";
 
 
@@ -172,6 +173,7 @@ export function Inspector({ ed, project, cur, sel, setSel, footer }: {
               </Section>
               <Section value="tokens" title="Tokens (JSON)">
                 <BrandRow ed={ed} project={project} current={doc.brand} />
+                <FontRow ed={ed} project={project} />
                 <JsonBox value={doc.tokens} parse={(v) => Tokens.parse(v)} onApply={(t) => ed.mutate((d) => { d.tokens = t; })} />
               </Section>
             </>

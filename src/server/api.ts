@@ -1,13 +1,14 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { z } from "zod";
+import { fontsDir, listFonts, readFontFile, saveFont } from "../core/fonts.ts";
 import {
   IMAGE_TYPES, assetsDir, createProject, listFiles, listProjects, projectExists,
-  emptyTrash, listTrash, loadProject, readAsset, readProjectText, referencesDir, purgeTrash, readTrashAsset, readTrashSpec, renameProject, restoreProject, saveAsset, saveProject, setProjectTitle, trashProject,
+  emptyTrash, listTrash, loadProject, readAsset, readProjectText, referencesDir, purgeTrash, readTrashAsset, readTrashSpec, trashFontsDir, renameProject, restoreProject, saveAsset, saveProject, setProjectTitle, trashProject,
 } from "../core/projects.ts";
 import { Brand, Carousel } from "../core/schema.ts";
 import { createPlanItem, emptyPlanTrash, listPlan, toIcs, listPlanTrash, markExported, purgePlanTrash, removePlanItem, restorePlanItem, updatePlanItem } from "../core/planner.ts";
 import {
-  createTemplate, emptyTemplateTrash, instantiateTemplate, listTemplateTrash, listTemplates, loadTemplate, purgeTemplateTrash, readTemplateAsset, readTrashTemplateAsset,
+  createTemplate, emptyTemplateTrash, instantiateTemplate, listTemplateTrash, listTemplates, loadTemplate, purgeTemplateTrash, readTemplateAsset, readTrashTemplateAsset, readTrashTemplateFontsDir, templateFontsDir,
   readTrashTemplateSpec, restoreTemplate, templateAsCarousel, trashTemplate, updateTemplate,
 } from "../core/templates.ts";
 import { applyBrand, createBrand, emptyBrandTrash, listBrandTrash, listBrands, purgeBrandTrash, restoreBrand, loadBrand, readBrandLogo, saveBrand, setBrandLogo, trashBrand } from "../core/brands.ts";
@@ -80,6 +81,7 @@ async function exportProject(res: ServerResponse, id: string, q: URLSearchParams
  * /api/projects                         GET list | POST {id, from?}
  * /api/projects/:id                     GET spec (raw text) | POST spec | PATCH {rename} | DELETE (to trash)
  * /api/projects/:id/agent               POST {prompt} -> ndjson stream (headless Claude Code on the carousel MCP)
+ * /api/projects/:id/fonts[/:name]        GET list/file | POST raw bytes (woff2|woff|ttf|otf, max 5 MB, magic bytes checked; never replaces a different file of the same name)
  * /api/projects/:id/assets[/:name]    GET list/file | POST raw bytes
  * /api/projects/:id/references[/:name]  GET list/file | POST raw bytes
  */
@@ -97,6 +99,11 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
         if (key && m[3] === "assets" && m[4] && req.method === "GET") {
           res.setHeader("content-type", IMAGE_TYPES[m[4].split(".").pop()!.toLowerCase()] ?? "application/octet-stream");
           return res.end(await readTrashTemplateAsset(key, m[4])), true;
+        }
+        if (key && m[3] === "fonts" && m[4] && req.method === "GET") {
+          const f = await readFontFile(readTrashTemplateFontsDir(key), m[4]);
+          res.setHeader("content-type", f.type);
+          return res.end(f.data), true;
         }
         if (!key && req.method === "GET") return json(res, await listTemplateTrash()), true;
         if (key && req.method === "POST") return json(res, { id: await restoreTemplate(key) }), true;
@@ -117,6 +124,11 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       if (m[1] && m[2] === "spec" && req.method === "GET") {
         res.setHeader("content-type", "application/json");
         return res.end(await readTrashSpec(m[1])), true;
+      }
+      if (m[1] && m[2] === "fonts" && m[3] && req.method === "GET") {
+        const f = await readFontFile(trashFontsDir(m[1]), m[3]);
+        res.setHeader("content-type", f.type);
+        return res.end(f.data), true;
       }
       if (m[1] && m[2] === "assets" && m[3] && req.method === "GET") {
         res.setHeader("content-type", IMAGE_TYPES[m[3].split(".").pop()!.toLowerCase()] ?? "application/octet-stream");
@@ -173,7 +185,7 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       if (bid && !what && req.method === "PUT") {
         const current = await loadBrand(bid); // must exist: PUT never creates
         const next = Brand.parse(JSON.parse((await body(req)).toString()));
-        return json(res, await saveBrand(bid, { ...next, logo: current.logo })), true; // the logo only changes through POST :id/logo
+        return json(res, await saveBrand(bid, { ...next, logo: current.logo, fontFiles: current.fontFiles })), true; // the logo only changes through POST :id/logo, font files come from "save project as brand"
       }
       if (bid && !what && req.method === "DELETE") return await trashBrand(bid), json(res, { ok: true }), true;
       if (bid && what === "logo" && req.method === "GET") {
@@ -213,6 +225,12 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
         res.setHeader("content-type", "application/json");
         res.setHeader("cache-control", "no-cache");
         return res.end(JSON.stringify(await templateAsCarousel(tid))), true;
+      }
+      if (tid && what === "fonts" && file && req.method === "GET") {
+        const f = await readFontFile(templateFontsDir(tid), file);
+        res.setHeader("content-type", f.type);
+        res.setHeader("cache-control", "no-cache");
+        return res.end(f.data), true;
       }
       if (tid && what === "assets" && file && req.method === "GET") {
         const a = await readTemplateAsset(tid, file);
@@ -280,6 +298,17 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
     } else if (sub === "export" && req.method === "GET") {
       await exportProject(res, id, query);
       return true;
+    } else if (sub === "fonts") {
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      if (!name && req.method === "GET") return json(res, await listFonts(id)), true;
+      if (name && req.method === "GET") {
+        const f = await readFontFile(fontsDir(id), name);
+        res.setHeader("content-type", f.type);
+        res.setHeader("cache-control", "no-cache");
+        return res.end(f.data), true;
+      }
+      // the file only; the editor attaches it to the spec itself (keeps undo). Refuses to replace a different font of the same name.
+      if (name && req.method === "POST") return json(res, { name: await saveFont(id, name, await body(req, 6 * 1024 * 1024)) }), true;
     } else if (sub === "assets" || sub === "references") {
       const dir = sub === "assets" ? assetsDir(id) : referencesDir(id);
       if (!name && req.method === "GET") return json(res, await listFiles(dir)), true;

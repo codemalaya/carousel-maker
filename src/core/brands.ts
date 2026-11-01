@@ -1,13 +1,15 @@
 import { copyFile, mkdir, readdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
 import { extname, join, resolve } from "node:path";
 import { Brand, Carousel } from "./schema.ts";
-import { IMAGE_TYPES, ROOT, assetsDir, checkFile, checkId, loadProject, saveProject } from "./projects.ts";
+import { copyFonts } from "./fonts.ts";
+import { IMAGE_TYPES, ROOT, assetsDir, checkFile, checkId, loadProject, projectDir, saveProject } from "./projects.ts";
 
 /** brands/ sits next to projects/. Same rules: ids are folder names, deleting moves to brands/.trash, nothing is ever hard-deleted here. */
 export const BRANDS_ROOT = resolve(process.env.CAROUSEL_BRANDS ?? join(ROOT, "..", "brands"));
 
 const MAX_LOGO = 5 * 1024 * 1024;
 export const brandDir = (id: string) => join(BRANDS_ROOT, checkId(id));
+export const brandFontsDir = (id: string) => join(brandDir(id), "fonts");
 const specPath = (id: string) => join(brandDir(id), "brand.json");
 
 export type BrandInfo = { id: string; name: string; colors: string[]; logo?: string; updated: number };
@@ -58,7 +60,12 @@ export async function createBrand(id: string, o: { name?: string; fromProject?: 
     const c = await loadProject(o.fromProject);
     b = Brand.parse({ name: o.name ?? o.fromProject, palette: c.tokens.palette, fonts: c.tokens.fonts, css: stripBlock(c.tokens.css, "css"), brief: stripBlock(c.brief, "brief") });
   }
-  return saveBrand(id, b);
+  const saved = await saveBrand(id, b);
+  if (o.fromProject) {
+    const fontFiles = await copyFonts(join(projectDir(o.fromProject), "fonts"), brandFontsDir(id), (await loadProject(o.fromProject)).tokens.fontFiles);
+    return saveBrand(id, { ...saved, fontFiles });
+  }
+  return saved;
 }
 
 export async function setBrandLogo(id: string, ext: string, data: Buffer): Promise<string> {
@@ -155,7 +162,7 @@ function putBlock(text: string, id: string, body: string, kind: "css" | "brief")
   return kind === "css" ? `${block}\n${rest}`.trim() : `${rest}\n\n${block}`.trim(); // @import must stay first in css
 }
 
-export type ApplyResult = { palette: string[]; fonts: string[]; logo?: string };
+export type ApplyResult = { palette: string[]; fonts: string[]; fontFiles: string[]; logo?: string };
 
 /**
  * Copies a brand into a project: palette and fonts are MERGED (brand keys win, project-only keys stay, so `{tokens}` used by slides never go missing),
@@ -167,6 +174,8 @@ export async function applyBrand(projectId: string, brandId: string): Promise<Ap
   c.tokens.palette = { ...c.tokens.palette, ...b.palette };
   c.tokens.fonts = { ...c.tokens.fonts, ...b.fonts };
   c.tokens.css = putBlock(c.tokens.css, brandId, b.css, "css");
+  const fontFiles = await copyFonts(brandFontsDir(brandId), join(projectDir(projectId), "fonts"), b.fontFiles); // an existing file of the same name is kept
+  c.tokens.fontFiles = [...new Set([...c.tokens.fontFiles, ...fontFiles])];
   c.brief = putBlock(c.brief, brandId, b.brief, "brief");
   c.brand = brandId;
   let logo: string | undefined;
@@ -176,5 +185,5 @@ export async function applyBrand(projectId: string, brandId: string): Promise<Ap
     await copyFile(join(brandDir(brandId), checkFile(b.logo)), join(assetsDir(projectId), logo));
   }
   await saveProject(projectId, c);
-  return { palette: Object.keys(b.palette), fonts: Object.keys(b.fonts), logo: logo ? `assets/${logo}` : undefined };
+  return { palette: Object.keys(b.palette), fonts: Object.keys(b.fonts), fontFiles, logo: logo ? `assets/${logo}` : undefined };
 }
