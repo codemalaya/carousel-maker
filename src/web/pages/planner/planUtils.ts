@@ -12,6 +12,28 @@ export const MONTHS = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "
 export const STATUS_HINT: Record<Status, string> = { ide: "baru sebatas gagasan", draft: "carousel sedang dibuat", siap: "siap tayang", terjadwal: "jam tayang sudah diatur", terbit: "sudah tayang" };
 
 export const AUTO_PUBLISH_KEY = "carousel-plan-autopublish";
+/** "Buat carousel" also starts the AI right away (checkbox in the idea dialog, on by default). */
+export const AUTO_AI_KEY = "carousel-plan-autoai";
+
+/** Marker of the plan block in a project's brief; agent.ts looks for it to know the user already decided what this carousel is about. */
+export const PLAN_BLOCK_OPEN = "[rencana konten]";
+export const PLAN_BLOCK_CLOSE = "[/rencana konten]";
+/** What the agent receives (and history shows) when it is started from "Buat carousel". */
+export const PLAN_AI_PROMPT = "Buat carousel lengkap dari [rencana konten] di brief project ini.";
+
+/** The slot's idea, as a block for the brief: topic, platform, caption draft (the angle), hashtags, and the URLs in the caption as sources. */
+export function planBrief(f: { title: string; platform: string; caption: string; hashtags: string }, platformLabel: string, format: string): string {
+  const urls = [...new Set(f.caption.match(/https?:\/\/[^\s)>\]"']+/g) ?? [])].slice(0, 3);
+  return [
+    PLAN_BLOCK_OPEN,
+    `Judul / ide: ${f.title.trim()}`,
+    `Platform: ${platformLabel} (format ${format})`,
+    f.caption.trim() && `Draft caption (arah cerita dan sudut pandang; jangan disalin mentah ke slide):\n${f.caption.trim()}`,
+    f.hashtags.trim() && `Hashtag: ${f.hashtags.trim()}`,
+    urls.length > 0 && `Sumber (baca dengan fetch_source, cantumkan kreditnya di slide terakhir):\n${urls.map((u) => `- ${u}`).join("\n")}`,
+    PLAN_BLOCK_CLOSE,
+  ].filter(Boolean).join("\n");
+}
 
 export const pad = (n: number) => String(n).padStart(2, "0");
 export const iso = (d: Date) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;

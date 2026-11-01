@@ -52,6 +52,11 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
   const [assetsOpen, setAssetsOpen] = useState(false);
   const [captionOpen, setCaptionOpen] = useState(false);
   const aiBusy = useRuns(project)[0]?.status === "running";
+  // a run that was started elsewhere (planner "Buat carousel") is already going when the editor opens: show it
+  useEffect(() => {
+    if (aiBusy) setAiOpen(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [project]);
   const running = useRunning();
   const elsewhere = [...running].filter((id) => id !== project);
   useEffect(() => {

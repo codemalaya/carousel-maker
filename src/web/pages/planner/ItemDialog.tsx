@@ -15,7 +15,8 @@ import { PLATFORM_LABEL, STATUS_DOT, STATUS_LABEL } from "@/pages/planner/planMe
 import { useDialogs } from "@/app/dialogs";
 import { CaptionGenerator } from "@/shared/CaptionGenerator";
 import { normalizeTags } from "../../../core/caption";
-import { type Status, type Platform, type Format, errMsg, NONE, FORMAT_IDS } from "@/pages/planner/planUtils";
+import { type Status, type Platform, type Format, errMsg, NONE, FORMAT_IDS, AUTO_AI_KEY, PLAN_AI_PROMPT, planBrief } from "@/pages/planner/planUtils";
+import { startRun } from "@/editor/ai/agentRuns";
 
 export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpenProject }: {
   /** Existing item, or a draft for a new one (no id) */
@@ -31,6 +32,7 @@ export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpen
   const [f, setF] = useState(item);
   const [busy, setBusy] = useState(false);
   const [capOpen, setCapOpen] = useState(false);
+  const [autoAi, setAutoAi] = useState(() => localStorage.getItem(AUTO_AI_KEY) !== "0");
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((cur) => ({ ...cur, [k]: v }));
   const linked = projects.find((p) => p.id === f.project);
   const body = () => ({ ...f, project: f.project ?? "", brand: f.brand ?? "", format: f.format ?? "" });
@@ -73,13 +75,14 @@ export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpen
       if (f.brand) await api.applyBrand(id, f.brand);
       await api.setTitle(id, title.slice(0, 60));
       const spec = (await (await fetch(`/api/projects/${encodeURIComponent(id)}`)).json()) as Carousel;
-      const note = [`Topik: ${title}`, f.caption.trim() && `Caption rencana:\n${f.caption.trim()}`, `Platform: ${PLATFORM_LABEL[f.platform]}`].filter(Boolean).join("\n");
+      const note = planBrief(f, PLATFORM_LABEL[f.platform], f.format ?? "4:5");
       await api.saveSpec(id, { ...spec, brief: [note, spec.brief].filter(Boolean).join("\n\n") });
       const next = { ...f, project: id, status: f.status === "ide" ? ("draft" as const) : f.status };
       if (f.id) await api.updatePlan(f.id, { ...next, brand: next.brand ?? "", format: next.format ?? "" });
       else await api.createPlan(next);
       await onSaved();
       onClose();
+      if (autoAi) startRun(id, PLAN_AI_PROMPT, async () => {}); // the brief is already on disk; the run lives in the module store and keeps going in the editor
       onOpenProject(id);
     } catch (e) {
       toast.error(errMsg(e));
@@ -198,6 +201,21 @@ export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpen
             <Label htmlFor="pl-tags">Hashtag</Label>
             <Input id="pl-tags" placeholder="#desain #tips" maxLength={1000} value={f.hashtags} onChange={(e) => set("hashtags", e.target.value)} />
           </div>
+
+          {!f.project && (
+            <label className="text-muted-foreground flex items-start gap-2 text-xs leading-relaxed">
+              <input
+                type="checkbox"
+                className="mt-0.5"
+                checked={autoAi}
+                onChange={(e) => {
+                  setAutoAi(e.target.checked);
+                  localStorage.setItem(AUTO_AI_KEY, e.target.checked ? "1" : "0");
+                }}
+              />
+              <span>Setelah carousel dibuat, langsung minta AI menyusun slide dari judul, caption, dan sumber di atas (tanpa prompt tambahan).</span>
+            </label>
+          )}
 
           <DialogFooter className="gap-2 sm:justify-between">
             <div className="flex gap-2">
