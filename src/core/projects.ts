@@ -3,7 +3,7 @@ import { basename, join, resolve } from "node:path";
 import { Carousel } from "./schema.ts";
 
 export const ROOT = resolve(process.env.CAROUSEL_HOME ?? "projects");
-export const DEFAULT_PROJECT = process.env.CAROUSEL_PROJECT ?? "default";
+export const DEFAULT_PROJECT = process.env.CAROUSEL_PROJECT ?? "apa-llm";
 
 const ID = /^[a-z0-9][a-z0-9_-]{0,63}$/i;
 const FILENAME = /^[\w][\w .()-]{0,127}$/;
