@@ -18,6 +18,8 @@ const STEP: Record<string, string> = {
   fetch_source: "Membaca sumber…",
   list_projects: "Melihat project…",
   list_brands: "Melihat brand…",
+  WebSearch: "Mencari di web…",
+  ToolSearch: "Menyiapkan…",
 };
 
 type Msg = { t: "status"; tool: string } | { t: "text"; text: string } | { t: "done"; text: string } | { t: "error"; message: string };
