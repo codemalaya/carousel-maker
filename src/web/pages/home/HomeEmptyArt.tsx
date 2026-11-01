@@ -56,3 +56,28 @@ export function NoResultsArt({ className }: { className?: string }) {
     </svg>
   );
 }
+
+/** A project with no slides yet: three dashed slide frames waiting, a brand sparkle on the middle one. */
+export function NoSlidesArt({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 220 150" fill="none" className={className} role="img" aria-label="Belum ada slide">
+      <ellipse cx="110" cy="134" rx="62" ry="6" fill="var(--muted)" />
+
+      {/* frames waiting on both sides */}
+      <rect x="22" y="40" width="54" height="68" rx="8" transform="rotate(-9 49 74)" fill="var(--card)" stroke="var(--muted-foreground)" strokeWidth="2" strokeDasharray="5 6" strokeLinecap="round" opacity="0.55" />
+      <rect x="144" y="40" width="54" height="68" rx="8" transform="rotate(9 171 74)" fill="var(--card)" stroke="var(--muted-foreground)" strokeWidth="2" strokeDasharray="5 6" strokeLinecap="round" opacity="0.55" />
+
+      {/* middle frame with the sparkle */}
+      <rect x="80" y="26" width="60" height="84" rx="9" fill="var(--card)" {...line} strokeDasharray="6 6" />
+      <path d="M110 44c2 11 6 15 17 17-11 2-15 6-17 17-2-11-6-15-17-17 11-2 15-6 17-17z" fill="var(--brand)" />
+      <rect x="92" y="88" width="36" height="4" rx="2" fill="var(--muted-foreground)" opacity="0.3" />
+      <rect x="98" y="97" width="24" height="4" rx="2" fill="var(--muted-foreground)" opacity="0.2" />
+
+      {/* small sparkles */}
+      <path d="M38 22v9M33.5 26.5h9" stroke="var(--brand)" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M184 24v7M180.5 27.5h7" stroke="var(--muted-foreground)" strokeWidth="2" strokeLinecap="round" opacity="0.6" />
+      <circle cx="196" cy="116" r="2.5" fill="var(--brand)" opacity="0.7" />
+      <circle cx="22" cy="118" r="2.5" fill="var(--muted-foreground)" opacity="0.4" />
+    </svg>
+  );
+}

@@ -1,4 +1,5 @@
 import { ArrowRight, Loader2 } from "lucide-react";
+import { NoSlidesArt } from "@/pages/home/HomeEmptyArt";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FORMATS } from "../../../core/schema";
@@ -19,8 +20,8 @@ export function Hero({ p, onOpen }: { p: ProjectInfo; onOpen: OpenFn }) {
   const scale = HERO_H / FORMATS[p.format].height;
   const fresh = Date.now() - p.updated < FRESH_MS;
   return (
-    <section className="bg-card flex flex-col gap-4 overflow-hidden rounded-xl border p-5 sm:flex-row sm:items-center">
-      <div className="flex shrink-0 flex-col gap-3 sm:w-56">
+    <section className="bg-card flex flex-col gap-4 overflow-hidden rounded-xl border p-5 md:flex-row md:items-center">
+      <div className="flex shrink-0 flex-col gap-3 md:w-56">
         <span className="text-muted-foreground text-xs font-medium tracking-wide uppercase">Lanjutkan</span>
         <div>
           <h2 className="truncate text-lg font-semibold" title={p.id}>{label(p)}</h2>
@@ -36,7 +37,23 @@ export function Hero({ p, onOpen }: { p: ProjectInfo; onOpen: OpenFn }) {
       <div ref={box} className="no-scrollbar -mr-5 flex min-w-0 flex-1 gap-3 overflow-x-auto py-2 pr-5" style={{ minHeight: HERO_H + 16 }}>
         {doc && width > 0
           ? doc.slides.length === 0
-            ? <p className="text-muted-foreground m-auto text-sm">Belum ada slide</p>
+            ? (
+              <button
+                type="button"
+                onClick={() => onOpen(p.id)}
+                className="bg-muted/50 hover:border-brand/50 hover:bg-muted/70 @container group flex w-full min-w-[17rem] flex-1 items-center justify-center gap-6 rounded-lg border border-dashed px-6 text-left transition-colors"
+                style={{ height: HERO_H }}
+              >
+                <NoSlidesArt className="hidden w-40 shrink-0 @lg:block" />
+                <span className="min-w-0 max-w-sm">
+                  <span className="block text-base font-semibold">Belum ada slide</span>
+                  <span className="text-muted-foreground mt-1 block text-sm leading-relaxed">Project ini masih kosong. Buka editor, lalu tambah slide sendiri atau minta AI menyusunnya.</span>
+                  <span className="text-brand mt-3 inline-flex items-center gap-1 text-sm font-medium">
+                    Mulai di editor <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-0.5" />
+                  </span>
+                </span>
+              </button>
+            )
             : (
               <>
                 {doc.slides.slice(0, HERO_MAX).map((_, i) => (
