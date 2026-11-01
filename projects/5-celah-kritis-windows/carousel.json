@@ -1,0 +1,27 @@
+{
+  "title": "",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[rencana konten]\nJudul / ide: 5 Celah Kritis Windows DHCP: Sudah Patch Belum?\nPlatform: Instagram (format 4:5)\nDraft caption (arah cerita dan sudut pandang; jangan disalin mentah ke slide):\nPatch Tuesday Oktober 2026 memuat lima celah RCE kritis di Windows DHCP Server. Ini yang perlu dicek admin dan tim IT sekarang. Sumber: https://www.splashtop.com/de/es/blog/patch-tuesday-october-2026\nHashtag: #CyberSecurity #PatchTuesday #Windows #CVE #KeamananSiber\nSumber (baca dengan fetch_source, cantumkan kreditnya di slide terakhir):\n- https://www.splashtop.com/de/es/blog/patch-tuesday-october-2026\n[/rencana konten]",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "bg": "#0B0F14",
+      "panel": "#151C25",
+      "ink": "#F2F5F7",
+      "muted": "#8A97A6",
+      "red": "#FF4D3D",
+      "amber": "#FFB020",
+      "line": "#263241"
+    },
+    "fonts": {
+      "head": "'Space Grotesk', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500;700&display=swap');",
+    "fontFiles": []
+  },
+  "slides": []
+}

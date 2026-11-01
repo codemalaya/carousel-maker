@@ -39,7 +39,7 @@
     {
       "id": "61ff6e5331",
       "title": "api-ai",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "time": "09:00",
       "platform": "instagram",
       "project": "api-ai",
@@ -147,7 +147,7 @@
     {
       "id": "2d2f340e8f",
       "title": "AI Agent Itu Apa?",
-      "date": "2026-11-04",
+      "date": "2026-11-03",
       "time": "09:00",
       "platform": "instagram",
       "project": "ai-agent-itu-apa",
@@ -183,6 +183,7 @@
       "date": "2026-11-05",
       "time": "09:00",
       "platform": "instagram",
+      "project": "5-celah-kritis-windows",
       "format": "4:5",
       "caption": "Patch Tuesday Oktober 2026 memuat lima celah RCE kritis di Windows DHCP Server. Ini yang perlu dicek admin dan tim IT sekarang. Sumber: https://www.splashtop.com/de/es/blog/patch-tuesday-october-2026",
       "hashtags": "#CyberSecurity #PatchTuesday #Windows #CVE #KeamananSiber",
@@ -208,6 +209,171 @@
       "format": "4:5",
       "caption": "Microsoft Ignite (17-20 Nov), SC26 (15-20 Nov), dan AWS re:Invent (30 Nov-4 Des) jadi panggung pengumuman AI berikutnya. Catat tanggalnya biar tidak ketinggalan. Sumber: https://hpcwire.com/aiwire/editorial-calendar",
       "hashtags": "#AI #MicrosoftIgnite #reInvent #SC26 #TechEvent",
+      "status": "ide"
+    },
+    {
+      "id": "48df5a3644",
+      "title": "Prompt Jelek vs Prompt Bagus: Bedanya Apa?",
+      "date": "2026-11-06",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Prompt asal-asalan hasilnya asal-asalan. Lihat contoh sebelum-sesudah yang bikin jawaban AI jauh lebih tajam.",
+      "hashtags": "#PromptEngineering #AI #BelajarAI #TipsAI",
+      "status": "ide"
+    },
+    {
+      "id": "9e5568c01b",
+      "title": "Kenapa AI Bisa Ngarang? Kenalan Sama Halusinasi",
+      "date": "2026-11-06",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "AI kadang menjawab yakin tapi salah. Ini penyebab halusinasi dan cara menguranginya.",
+      "hashtags": "#AI #LLM #Halusinasi #BelajarAI",
+      "status": "ide"
+    },
+    {
+      "id": "766692482c",
+      "title": "Apa Itu API? Analogi Restoran yang Gampang",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Pelanggan, pelayan, dapur: begitulah cara kerja API. Penjelasan paling simpel buat pemula.",
+      "hashtags": "#API #Programming #BelajarCoding #Teknologi",
+      "status": "ide"
+    },
+    {
+      "id": "0131c3ac79",
+      "title": "Cek Jawaban AI: 4 Cara Biar Nggak Tertipu",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Jangan telan mentah-mentah jawaban AI. Empat langkah cepat untuk memverifikasi sebelum dipakai.",
+      "hashtags": "#AI #LiterasiDigital #FaktaCheck #TipsAI",
+      "status": "ide"
+    },
+    {
+      "id": "15dc1b1ad7",
+      "title": "Git untuk Pemula: 5 Perintah Wajib",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Clone, add, commit, push, pull. Lima perintah Git yang cukup untuk mulai kerja tim.",
+      "hashtags": "#Git #GitHub #BelajarCoding #Developer",
+      "status": "ide"
+    },
+    {
+      "id": "656d562319",
+      "title": "Token & Context Window, Dijelaskan Simpel",
+      "date": "2026-11-07",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Kenapa AI \"lupa\" di tengah chat panjang? Kenali token dan context window.",
+      "hashtags": "#LLM #AI #Token #BelajarAI",
+      "status": "ide"
+    },
+    {
+      "id": "2fc95aa6e7",
+      "title": "Belajar Coding Pakai AI: Cara yang Benar",
+      "date": "2026-11-08",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "AI bisa jadi mentor atau jadi jalan pintas yang menjebak. Begini cara memakainya supaya benar-benar paham.",
+      "hashtags": "#BelajarCoding #AI #Developer #TipsBelajar",
+      "status": "ide"
+    },
+    {
+      "id": "71574c6883",
+      "title": "3 Kebiasaan Developer yang Jarang Dibahas",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Bukan soal bahasa pemrograman. Tiga kebiasaan kecil yang bikin kerja developer jauh lebih rapi.",
+      "hashtags": "#Developer #Programming #Produktivitas #TechCareer",
+      "status": "ide"
+    },
+    {
+      "id": "e8a3ff9316",
+      "title": "Password Aman: 5 Kesalahan yang Sering Dilakukan",
+      "date": "2026-11-08",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Password sama di mana-mana? Cek lima kesalahan umum dan cara memperbaikinya hari ini.",
+      "hashtags": "#CyberSecurity #Password #KeamananSiber #TipsAman",
+      "status": "ide"
+    },
+    {
+      "id": "8b62b4f651",
+      "title": "MCP Itu Apa? Colokan Universal untuk AI",
+      "date": "2026-11-09",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Model Context Protocol membuat AI bisa terhubung ke tools dan data dengan satu standar. Penjelasan singkat dan contohnya.",
+      "hashtags": "#MCP #AIAgent #AI #Teknologi",
+      "status": "ide"
+    },
+    {
+      "id": "1855277e61",
+      "title": "Open Source vs Closed Source AI: Pilih Mana?",
+      "date": "2026-11-09",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Model terbuka lebih fleksibel, model tertutup lebih praktis. Bandingkan kelebihan dan kekurangannya.",
+      "hashtags": "#OpenSource #LLM #AI #BelajarAI",
+      "status": "ide"
+    },
+    {
+      "id": "904e49213a",
+      "title": "Cloud vs On-Premise: Mana yang Cocok Buat Bisnismu?",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Biaya, kontrol, dan keamanan: tiga pertimbangan utama sebelum memilih cloud atau server sendiri.",
+      "hashtags": "#Cloud #Infrastruktur #IT #Teknologi",
+      "status": "ide"
+    },
+    {
+      "id": "6366ed518b",
+      "title": "Portofolio Developer yang Dilirik Recruiter",
+      "date": "2026-11-10",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Bukan banyaknya proyek, tapi cara menyajikannya. Lima elemen portofolio yang bikin recruiter berhenti scroll.",
+      "hashtags": "#Portofolio #Developer #KarirIT #TechCareer",
+      "status": "ide"
+    },
+    {
+      "id": "f6c58e2918",
+      "title": "AI Workflow Harian: Dari Ide sampai Selesai",
+      "date": "2026-11-10",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Riset, outline, draft, revisi. Contoh alur kerja harian yang dibantu AI tanpa kehilangan sentuhan sendiri.",
+      "hashtags": "#AI #Produktivitas #Workflow #TipsAI",
+      "status": "ide"
+    },
+    {
+      "id": "beb1b701ca",
+      "title": "Rekap: 5 Konsep AI yang Wajib Kamu Paham",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "LLM, prompt, token, RAG, agent. Rangkuman lima konsep inti dalam satu carousel untuk disimpan.",
+      "hashtags": "#AI #LLM #RAG #AIAgent #BelajarAI",
       "status": "ide"
     }
   ]
