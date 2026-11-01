@@ -1,0 +1,2273 @@
+{
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Bold Swiss, gaya order-app-developer tapi palet BIRU (tanpa hijau). Satu neo-grotesk (Helvetica Neue). Hook: HURUF BESAR 800, tracking -0.058em, lh ~0.86. Warna: putih, ink #0a0a0a, navy #0a1a3f, biru #2457ff, sky glow #3ad1ff, merah #fc1201 hanya untuk alert/peringatan, kuning tag kecil. Tanpa emoji; ikon = SVG garis. Tiap slide ada visual (dashboard, flow, chart, tangga) dan komposisi beda. Chrome: kiri-atas nama, kanan-atas n/11, kiri-bawah avatar+nama, kanan-bawah pill. Margin 56. Audiens non-teknis; bahasa santai, singkat.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -260,
+          "y": -300,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 165.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "IoT 101 — UNTUK SIAPA SAJA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 203.9,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 194.5,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "IoT ITU\nAPA SIH?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 565.7,
+          "w": 581.8,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 49.1,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "text": "Dan buat apa industri\nbutuh?"
+        },
+        {
+          "type": "html",
+          "x": 825.5,
+          "y": 565.7,
+          "w": 154.5,
+          "h": 154.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {},
+          "html": "<div style=\"width:170px;height:170px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:170px;height:170px;background:#2457ff;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:110px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>10 SLIDE</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 743.9,
+          "w": 880,
+          "h": 327.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:360px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"position:relative;width:968px;height:360px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\">\n<svg width=\"968\" height=\"360\" style=\"position:absolute;left:0;top:0\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3\" stroke-dasharray=\"3 9\" stroke-linecap=\"round\">\n<path d=\"M130 55 C 300 55, 330 180, 470 180\"/><path d=\"M130 180 L 470 180\"/><path d=\"M130 305 C 300 305, 330 180, 470 180\"/></svg>\n<div style=\"position:absolute;left:0;top:0;width:130px;height:110px;background:#fff;border:3px solid #0a0a0a;display:flex;align-items:center;justify-content:center;gap:12px\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><path d=\"M20 8a4 4 0 0 1 8 0v18a8 8 0 1 1-8 0z\"/><circle cx=\"24\" cy=\"34\" r=\"3\" fill=\"currentColor\"/><path d=\"M24 14v20\"/></svg></div>\n<div style=\"position:absolute;left:0;top:125px;width:130px;height:110px;background:#fff;border:3px solid #0a0a0a;display:flex;align-items:center;justify-content:center\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><path d=\"M24 5C24 5 10 21 10 30a14 14 0 0 0 28 0C38 21 24 5 24 5z\"/></svg></div>\n<div style=\"position:absolute;left:0;top:250px;width:130px;height:110px;background:#fff;border:3px solid #0a0a0a;display:flex;align-items:center;justify-content:center\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><path d=\"M27 4 10 27h12l-3 17 19-24H26z\"/></svg></div>\n<div style=\"position:absolute;left:470px;top:0;width:498px;height:360px;background:#0a1a3f;color:#fff;padding:28px;box-sizing:border-box\">\n <div style=\"display:flex;justify-content:space-between;font-weight:700;font-size:19px;letter-spacing:.04em\"><span>DASHBOARD</span><span style=\"color:#3ad1ff\">● LIVE</span></div>\n <div style=\"font-weight:800;font-size:128px;letter-spacing:-.06em;line-height:1;margin-top:18px\">28<span style=\"font-size:60px;color:#3ad1ff\">°C</span></div>\n <div style=\"font-weight:600;font-size:22px;opacity:.7;margin-top:2px\">Suhu gudang A · normal</div>\n <svg width=\"440\" height=\"90\" viewBox=\"0 0 440 90\" style=\"margin-top:20px\" fill=\"none\" stroke=\"#3ad1ff\" stroke-width=\"4\" stroke-linejoin=\"round\"><polyline points=\"0,60 40,50 80,58 120,40 160,48 200,30 240,44 280,36 320,50 360,28 400,38 440,24\"/></svg>\n</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1100.3,
+          "w": 727.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 27.3,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.025em",
+            "color": "#0a0a0a"
+          },
+          "text": "Bukan cuma “alat yang bisa terkoneksi internet.”"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "1/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Cover"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 560,
+          "y": -300,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "01 — APA ITU IoT?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 152.7,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "IoT =\nINTERNET\nOF THINGS"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 649.4,
+          "w": 818.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32.7,
+            "fontWeight": 500,
+            "lineHeight": 1.15,
+            "letterSpacing": "-0.025em",
+            "color": "#fff"
+          },
+          "text": "Teknologi yang bikin benda atau perangkat bisa terhubung, kirim data, dan terima perintah lewat internet."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 813,
+          "w": 880,
+          "h": 181.8,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:200px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:flex;gap:23px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"width:176px;height:200px;background:#fff;color:#0a0a0a;padding:18px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><svg width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><path d=\"M20 8a4 4 0 0 1 8 0v18a8 8 0 1 1-8 0z\"/><circle cx=\"24\" cy=\"34\" r=\"3\" fill=\"currentColor\"/><path d=\"M24 14v20\"/></svg><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Sensor<br>suhu</div></div><div style=\"width:176px;height:200px;background:#0a1a3f;color:#fff;padding:18px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><svg width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M24 5C24 5 10 21 10 30a14 14 0 0 0 28 0C38 21 24 5 24 5z\"/></svg><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Sensor<br>lembap</div></div><div style=\"width:176px;height:200px;background:#fff;color:#0a0a0a;padding:18px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><svg width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><path d=\"M27 4 10 27h12l-3 17 19-24H26z\"/></svg><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Meter<br>listrik</div></div><div style=\"width:176px;height:200px;background:#0a1a3f;color:#fff;padding:18px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><svg width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M24 44S10 29 10 19a14 14 0 0 1 28 0c0 10-14 25-14 25z\"/><circle cx=\"24\" cy=\"19\" r=\"5\"/></svg><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>GPS</div></div><div style=\"width:176px;height:200px;background:#fff;color:#0a0a0a;padding:18px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><svg width=\"56\" height=\"56\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><rect x=\"5\" y=\"14\" width=\"38\" height=\"20\" rx=\"10\"/><circle cx=\"33\" cy=\"24\" r=\"6\" fill=\"currentColor\"/></svg><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Relay<br>kontrol</div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1026.6,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38.2,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff"
+          },
+          "text": "Bukan cuma alat.\nAlat yang bisa “ngobrol” dengan sistem."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "2/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Definisi"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 674.8,
+          "w": 1080,
+          "h": 675.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {},
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "shape",
+          "x": 600,
+          "y": 700,
+          "w": 520,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(100px)",
+            "opacity": 0.7
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "02 — CONTOH GAMPANG"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 203.9,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136.4,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "SATU\nGUDANG."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 478.5,
+          "w": 118.2,
+          "h": 30.9,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:130px;height:34px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"background:#0a0a0a;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:18px;letter-spacing:.06em;height:34px;display:flex;align-items:center;justify-content:center\">TANPA IoT</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 522.1,
+          "w": 880,
+          "h": 118.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:130px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"position:relative;height:130px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"position:absolute;left:0px;top:0;width:206px;height:130px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>01</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Cek suhu</div></div><div style=\"position:absolute;left:212px;top:49px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:254px;top:0;width:206px;height:130px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>02</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Datang ke lokasi</div></div><div style=\"position:absolute;left:466px;top:49px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:508px;top:0;width:206px;height:130px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>03</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Lihat alat</div></div><div style=\"position:absolute;left:720px;top:49px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:762px;top:0;width:206px;height:130px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>04</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Catat manual</div></div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 714.8,
+          "w": 136.4,
+          "h": 30.9,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:150px;height:34px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"background:#f9d361;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:18px;letter-spacing:.06em;height:34px;display:flex;align-items:center;justify-content:center\">DENGAN IoT</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 760.3,
+          "w": 880,
+          "h": 154.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:170px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"position:relative;height:170px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"position:absolute;left:0px;top:0;width:206px;height:170px;background:#2457ff;color:#fff;border:3px solid #2457ff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>01</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Sensor baca suhu</div></div><div style=\"position:absolute;left:212px;top:69px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:254px;top:0;width:206px;height:170px;background:#2457ff;color:#fff;border:3px solid #2457ff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>02</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Data dikirim ke server</div></div><div style=\"position:absolute;left:466px;top:69px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:508px;top:0;width:206px;height:170px;background:#2457ff;color:#fff;border:3px solid #2457ff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>03</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Dashboard tampilkan kondisi</div></div><div style=\"position:absolute;left:720px;top:69px;width:32px;font-weight:800;font-size:34px;color:#3ad1ff;text-align:center;line-height:1\">→</div><div style=\"position:absolute;left:762px;top:0;width:206px;height:170px;background:#fc1201;color:#fff;border:3px solid #fc1201;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.55;letter-spacing:.02em'>04</div><div style='font-weight:700;font-size:24px;line-height:1.05;letter-spacing:-.03em'>Alert jika tak normal</div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 963,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 76.4,
+            "fontWeight": 800,
+            "lineHeight": 0.92,
+            "letterSpacing": "-0.05em",
+            "color": "#fff"
+          },
+          "text": "Lebih sedikit\npengecekan manual."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "3/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Contoh gudang"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 700,
+          "y": 150,
+          "w": 520,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.45
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "03 — KENAPA INDUSTRI BUTUH?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 123.6,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "BANYAK YANG\nHARUS\nDIPANTAU."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 567.5,
+          "w": 880,
+          "h": 436.4,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:480px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:grid;grid-template-columns:1fr 1fr;column-gap:28px;row-gap:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;grid-auto-rows:108px\"><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><circle cx=\"24\" cy=\"24\" r=\"16\" stroke-width=\"7\" stroke-dasharray=\"5.2 5.2\"/></svg>Mesin produksi</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M20 8a4 4 0 0 1 8 0v18a8 8 0 1 1-8 0z\"/><circle cx=\"24\" cy=\"34\" r=\"3\" fill=\"currentColor\"/><path d=\"M24 14v20\"/></svg>Suhu ruangan</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M24 5C24 5 10 21 10 30a14 14 0 0 0 28 0C38 21 24 5 24 5z\"/></svg>Kelembapan</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M27 4 10 27h12l-3 17 19-24H26z\"/></svg>Konsumsi listrik</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M4 18q5-6 10 0t10 0 10 0 10 0M4 30q5-6 10 0t10 0 10 0 10 0\"/></svg>Level air</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M6 15 24 6l18 9v20L24 44 6 35zM6 15l18 10 18-10M24 25v19\"/></svg>Kondisi gudang</div><div style=\"border-top:4px solid #0a0a0a;padding:14px 0 12px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.035em\"><svg width=\"46\" height=\"46\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><rect x=\"3\" y=\"12\" width=\"26\" height=\"20\" rx=\"2\"/><path d=\"M29 19h9l6 7v6H29z\"/><circle cx=\"13\" cy=\"35\" r=\"4\" fill=\"#fff\"/><circle cx=\"36\" cy=\"35\" r=\"4\" fill=\"#fff\"/></svg>Posisi kendaraan</div><div style=\"background:#2457ff;color:#fff;padding:12px 18px;display:flex;align-items:center;gap:14px;font-weight:800;font-size:26px;line-height:1;letter-spacing:-.03em\"><span style='font-size:62px;letter-spacing:-.06em'>24/7</span>terus-<br>menerus</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1040.3,
+          "w": 818.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30.9,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "text": "Kalau semua dicek manual, waktu dan tenaga banyak terbuang."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "4/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Kenapa industri butuh"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": 700,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.8
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 700,
+          "y": -250,
+          "w": 500,
+          "h": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "04 — DATA DIKIRIM BERKALA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 127.3,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "DATA MASUK\nTIAP DETIK."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 522.1,
+          "w": 420,
+          "h": 454.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:462px;height:500px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:462px;height:500px;background:#fff;color:#0a0a0a;box-sizing:border-box;border-top:12px solid #2457ff;padding:22px 26px;position:relative\">\n<div style=\"display:flex;justify-content:space-between;align-items:center\"><div style=\"font-weight:800;font-size:34px;letter-spacing:-.04em\">Mesin A</div><div style=\"background:#0a0a0a;color:#fff;font-weight:800;font-size:16px;letter-spacing:.06em;padding:6px 12px\">ON</div></div>\n<div style=\"font-weight:600;font-size:20px;opacity:.55;margin-top:22px\">SUHU</div>\n<div style=\"font-weight:800;font-size:124px;letter-spacing:-.06em;line-height:.95;color:#2457ff\">78<span style=\"font-size:52px\">°C</span></div>\n<svg width=\"270\" height=\"80\" viewBox=\"0 0 270 80\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"5\" stroke-linejoin=\"round\" style=\"margin-top:6px\"><polyline points=\"0,50 30,46 60,52 90,44 120,50 150,42 180,48 210,44 240,50 270,46\"/></svg>\n<div style=\"display:flex;justify-content:space-between;border-top:3px solid #0a0a0a;margin-top:18px;padding-top:14px;font-size:24px;font-weight:600\"><span style=\"opacity:.55\">Getaran</span><span style=\"font-weight:800;color:#2457ff\">Normal</span></div>\n<div style=\"display:flex;justify-content:space-between;border-top:1.5px solid #0002;margin-top:12px;padding-top:12px;font-size:24px;font-weight:600\"><span style=\"opacity:.55\">Status</span><span style=\"font-weight:800\">✓ AMAN</span></div>\n</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 560,
+          "y": 522.1,
+          "w": 420,
+          "h": 454.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:462px;height:500px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:462px;height:500px;background:#fff;color:#0a0a0a;box-sizing:border-box;border-top:12px solid #fc1201;padding:22px 26px;position:relative\">\n<div style=\"display:flex;justify-content:space-between;align-items:center\"><div style=\"font-weight:800;font-size:34px;letter-spacing:-.04em\">Mesin B</div><div style=\"background:#0a0a0a;color:#fff;font-weight:800;font-size:16px;letter-spacing:.06em;padding:6px 12px\">ON</div></div>\n<div style=\"font-weight:600;font-size:20px;opacity:.55;margin-top:22px\">SUHU</div>\n<div style=\"font-weight:800;font-size:124px;letter-spacing:-.06em;line-height:.95;color:#fc1201\">95<span style=\"font-size:52px\">°C</span></div>\n<svg width=\"270\" height=\"80\" viewBox=\"0 0 270 80\" fill=\"none\" stroke=\"#fc1201\" stroke-width=\"5\" stroke-linejoin=\"round\" style=\"margin-top:6px\"><polyline points=\"0,70 30,66 60,72 90,60 120,64 150,48 180,52 210,30 240,34 270,12\"/><circle cx=\"270\" cy=\"12\" r=\"8\" fill=\"#fc1201\"/></svg>\n<div style=\"display:flex;justify-content:space-between;border-top:3px solid #0a0a0a;margin-top:18px;padding-top:14px;font-size:24px;font-weight:600\"><span style=\"opacity:.55\">Getaran</span><span style=\"font-weight:800;color:#fc1201\">Tinggi</span></div>\n<div style=\"display:flex;justify-content:space-between;border-top:1.5px solid #0002;margin-top:12px;padding-top:12px;font-size:24px;font-weight:600\"><span style=\"opacity:.55\">Status</span><span style=\"font-weight:800\">⚠ PERIKSA</span></div>\n</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1022.1,
+          "w": 818.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32.7,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.03em",
+            "color": "#fff"
+          },
+          "text": "Semua tampil di satu dashboard monitoring."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "5/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Data dashboard"
+    },
+    {
+      "bg": "#eaf0ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 640,
+          "y": 420,
+          "w": 520,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.5
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "05 — BUKAN CUMA MONITORING"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 121.8,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "BISA JUGA\nMENGONTROL."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 494.8,
+          "w": 509.1,
+          "h": 509.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:560px;height:560px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"height:100px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;gap:18px;padding:0 22px\"><svg width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><rect x=\"12\" y=\"12\" width=\"24\" height=\"24\" rx=\"2\"/><path d=\"M18 5v7M24 5v7M30 5v7M18 36v7M24 36v7M30 36v7M5 18h7M5 24h7M5 30h7M36 18h7M36 24h7M36 30h7\"/></svg><div><div style='font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1'>Dashboard</div><div style='font-weight:500;font-size:20px;opacity:.65;margin-top:3px'>kirim perintah</div></div></div><div style=\"height:44px;display:flex;justify-content:center\"><svg width='24' height='44' viewBox='0 0 24 44' fill='none' stroke='#2457ff' stroke-width='4'><path d='M12 0v36M3 28l9 10 9-10'/></svg></div><div style=\"height:100px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;gap:18px;padding:0 22px\"><svg width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><rect x=\"12\" y=\"12\" width=\"24\" height=\"24\" rx=\"2\"/><path d=\"M18 5v7M24 5v7M30 5v7M18 36v7M24 36v7M30 36v7M5 18h7M5 24h7M5 30h7M36 18h7M36 24h7M36 30h7\"/></svg><div><div style='font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1'>ESP32 / Controller</div><div style='font-weight:500;font-size:20px;opacity:.65;margin-top:3px'>terima perintah</div></div></div><div style=\"height:44px;display:flex;justify-content:center\"><svg width='24' height='44' viewBox='0 0 24 44' fill='none' stroke='#2457ff' stroke-width='4'><path d='M12 0v36M3 28l9 10 9-10'/></svg></div><div style=\"height:100px;background:#fff;color:#0a0a0a;border:3px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;gap:18px;padding:0 22px\"><svg width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#0a0a0a\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#0a0a0a;flex:none\"><rect x=\"5\" y=\"14\" width=\"38\" height=\"20\" rx=\"10\"/><circle cx=\"33\" cy=\"24\" r=\"6\" fill=\"currentColor\"/></svg><div><div style='font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1'>Relay</div><div style='font-weight:500;font-size:20px;opacity:.65;margin-top:3px'>sakelar listrik</div></div></div><div style=\"height:44px;display:flex;justify-content:center\"><svg width='24' height='44' viewBox='0 0 24 44' fill='none' stroke='#2457ff' stroke-width='4'><path d='M12 0v36M3 28l9 10 9-10'/></svg></div><div style=\"height:100px;background:#2457ff;color:#fff;border:3px solid #2457ff;box-sizing:border-box;display:flex;align-items:center;gap:18px;padding:0 22px\"><svg width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M24 5C24 5 10 21 10 30a14 14 0 0 0 28 0C38 21 24 5 24 5z\"/></svg><div><div style='font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1'>Pompa menyala</div><div style='font-weight:500;font-size:20px;opacity:.65;margin-top:3px'>aksi terjadi</div></div></div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 680,
+          "y": 494.8,
+          "w": 300,
+          "h": 427.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:330px;height:470px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:330px;height:560px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\">\n<svg width=\"330\" height=\"330\" viewBox=\"0 0 330 330\" style=\"position:absolute;left:0;top:0\" fill=\"none\" stroke=\"#2457ff\">\n<circle cx=\"165\" cy=\"165\" r=\"160\" stroke-width=\"2\" opacity=\".35\"/><circle cx=\"165\" cy=\"165\" r=\"118\" stroke-width=\"3\" opacity=\".6\"/>\n<circle cx=\"165\" cy=\"165\" r=\"78\" fill=\"#2457ff\" stroke=\"none\"/><g transform=\"translate(125 125) scale(1.67)\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><path d=\"M24 5C24 5 10 21 10 30a14 14 0 0 0 28 0C38 21 24 5 24 5z\"/></g></svg>\n<div style=\"position:absolute;left:0;top:350px;background:#0a0a0a;color:#fff;font-weight:800;font-size:18px;letter-spacing:.06em;padding:8px 14px\">SEBELUM: CUMA TAHU</div>\n<div style=\"position:absolute;left:0;top:402px;background:#2457ff;color:#fff;font-weight:800;font-size:18px;letter-spacing:.06em;padding:8px 14px\">SEKARANG: BERTINDAK</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1031.2,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 34.5,
+            "fontWeight": 700,
+            "lineHeight": 1.08,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "text": "Bukan cuma “tahu apa yang terjadi”,\ntapi “melakukan sesuatu” sesuai kondisi."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "6/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Kontrol perangkat"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 650,
+          "y": -250,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.5
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "06 — DIPAKAI DI MANA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136.4,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "DIPAKAI\nDI MANA?"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 522.1,
+          "w": 880,
+          "h": 554.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:610px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:20px;grid-auto-rows:190px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"background:#2457ff;color:#fff;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #fff\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><circle cx=\"24\" cy=\"24\" r=\"8\"/><circle cx=\"24\" cy=\"24\" r=\"16\" stroke-width=\"7\" stroke-dasharray=\"5.2 5.2\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>01</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Manufacturing</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Monitoring mesin & produksi</div></div></div><div style=\"background:#eaf0ff;color:#0a0a0a;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #0a0a0a\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M9 39C8 19 21 7 41 7c1 21-11 33-32 32zM9 39 27 21\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>02</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Agrikultur</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Tanah, suhu & kelembapan</div></div></div><div style=\"background:#eaf0ff;color:#0a0a0a;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #0a0a0a\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M6 15 24 6l18 9v20L24 44 6 35zM6 15l18 10 18-10M24 25v19\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>03</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Warehouse</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Suhu & kondisi penyimpanan</div></div></div><div style=\"background:#eaf0ff;color:#0a0a0a;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #0a0a0a\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><path d=\"M27 4 10 27h12l-3 17 19-24H26z\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>04</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Energi</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Penggunaan listrik</div></div></div><div style=\"background:#eaf0ff;color:#0a0a0a;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #0a0a0a\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><rect x=\"3\" y=\"12\" width=\"26\" height=\"20\" rx=\"2\"/><path d=\"M29 19h9l6 7v6H29z\"/><circle cx=\"13\" cy=\"35\" r=\"4\" fill=\"#fff\"/><circle cx=\"36\" cy=\"35\" r=\"4\" fill=\"#fff\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>05</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Logistik</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Tracking kendaraan & aset</div></div></div><div style=\"background:#eaf0ff;color:#0a0a0a;padding:18px 20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;border-top:6px solid #0a0a0a\"><div style='display:flex;justify-content:space-between;align-items:flex-start'><svg width=\"58\" height=\"58\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#2457ff;flex:none\"><rect x=\"9\" y=\"5\" width=\"30\" height=\"39\"/><path d=\"M16 13h4M28 13h4M16 22h4M28 22h4M16 31h4M28 31h4M21 44v-6h6v6\"/></svg><span style='font-weight:800;font-size:20px;opacity:.5'>06</span></div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Building</div><div style='font-weight:500;font-size:22px;line-height:1.1;opacity:.75;margin-top:6px'>Listrik, air & perangkat</div></div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "7/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Penerapan"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": 900,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.8
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "07 — DATA JADI KEPUTUSAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 114.5,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "BUKAN CUMA\nKUMPUL DATA."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 449.4,
+          "w": 880,
+          "h": 363.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:400px;transform:scale(0.90909);transform-origin:0 0\"><svg width=\"968\" height=\"400\" viewBox=\"0 0 968 400\" style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\">\n<rect width=\"968\" height=\"400\" fill=\"#fff\"/>\n<g stroke=\"#0a1a3f\" stroke-opacity=\".12\" stroke-width=\"2\"><path d=\"M0 100H968M0 200H968M0 300H968\"/></g>\n<line x1=\"0\" y1=\"120\" x2=\"968\" y2=\"120\" stroke=\"#fc1201\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/>\n<text x=\"20\" y=\"106\" text-anchor=\"start\" font-size=\"22\" font-weight=\"800\" fill=\"#fc1201\" letter-spacing=\".5\">BATAS AMAN 85°C</text>\n<polyline points=\"20,330 130,316 240,322 350,296 460,282 570,236 680,176 790,112 900,64\" fill=\"none\" stroke=\"#2457ff\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<circle cx=\"770\" cy=\"120\" r=\"30\" fill=\"#fc1201\" opacity=\".18\"/><circle cx=\"770\" cy=\"120\" r=\"13\" fill=\"#fc1201\"/>\n<rect x=\"520\" y=\"30\" width=\"190\" height=\"46\" fill=\"#0a0a0a\"/><text x=\"615\" y=\"61\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#fff\">ALERT TERKIRIM</text>\n<text x=\"20\" y=\"378\" font-size=\"22\" font-weight=\"700\" fill=\"#0a0a0a\" opacity=\".55\">Suhu mesin · 24 jam terakhir</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 847.5,
+          "w": 880,
+          "h": 127.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:140px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:24px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"border-top:4px solid #fff;padding-top:12px;color:#fff\"><div style='font-weight:800;font-size:22px;color:#3ad1ff'>01</div><div style='font-weight:700;font-size:28px;line-height:1.05;letter-spacing:-.03em;margin-top:6px'>Sensor deteksi<br>suhu terus naik</div></div><div style=\"border-top:4px solid #fff;padding-top:12px;color:#fff\"><div style='font-weight:800;font-size:22px;color:#3ad1ff'>02</div><div style='font-weight:700;font-size:28px;line-height:1.05;letter-spacing:-.03em;margin-top:6px'>Sistem kirim<br>alert</div></div><div style=\"border-top:4px solid #fff;padding-top:12px;color:#fff\"><div style='font-weight:800;font-size:22px;color:#3ad1ff'>03</div><div style='font-weight:700;font-size:28px;line-height:1.05;letter-spacing:-.03em;margin-top:6px'>Tim cek<br>ke lokasi</div></div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1013,
+          "w": 880,
+          "h": 118.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:130px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff;font-weight:800;font-size:44px;line-height:1.05;letter-spacing:-.04em\">Rusak ditangani <span style='background:#f9d361;color:#0a0a0a;padding:0 10px'>sebelum</span> jadi masalah besar.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "8/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Data jadi keputusan"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "08 — JADI, APA MANFAATNYA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 145.5,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "6 MANFAAT\nNYATA."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 503.9,
+          "w": 880,
+          "h": 301.8,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:332px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:grid;grid-template-columns:1fr 1fr;column-gap:28px;row-gap:16px;grid-auto-rows:100px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Kurangi monitoring manual</div></div><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Keputusan lebih cepat</div></div><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Kondisi real-time</div></div><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Kurangi human error</div></div><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Operasional lebih efisien</div></div><div style=\"display:flex;align-items:center;gap:16px;border-top:4px solid #0a0a0a;padding-top:14px\"><div style='width:54px;height:54px;background:#2457ff;display:flex;align-items:center;justify-content:center;flex:none'><svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color:#fff;flex:none\"><path d=\"M8 25l10 10L40 12\" stroke-width=\"6\"/></svg></div><div style='font-weight:700;font-size:30px;line-height:1.05;letter-spacing:-.035em'>Kontrol dari jarak jauh</div></div></div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 867.5,
+          "w": 1080,
+          "h": 227.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 700,
+          "y": 870,
+          "w": 360,
+          "h": 360,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(90px)",
+            "opacity": 0.6
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 896.6,
+          "w": 136.4,
+          "h": 30.9,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:150px;height:34px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"background:#f9d361;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:18px;letter-spacing:.06em;height:34px;display:flex;align-items:center;justify-content:center\">CATATAN</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 943.9,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52.7,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.045em",
+            "color": "#fff"
+          },
+          "text": "IoT bukan berarti semua alat harus dibuat “smart”."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "9/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Manfaat"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -250,
+          "y": -250,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.45
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "09 — MULAI DARI KECIL"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136.4,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "NGGAK\nHARUS\nRUMIT."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 608.5,
+          "w": 5.5,
+          "h": 109.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:6px;height:120px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:6px;height:120px;background:#2457ff\"></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 125.5,
+          "y": 605.7,
+          "w": 545.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "text": "“Kami ingin tahu suhu gudang tanpa harus datang mengecek.”"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 649.4,
+          "w": 880,
+          "h": 445.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:968px;height:490px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"position:relative;width:968px;height:490px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"position:absolute;left:0px;top:380px;width:184px;height:110px;background:#b9ccff;color:#0a0a0a;padding:14px 16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.6'>01</div><div style='font-weight:800;font-size:25px;letter-spacing:-.04em'>Sensor</div></div><div style=\"position:absolute;left:196px;top:285px;width:184px;height:205px;background:#86a6ff;color:#0a0a0a;padding:14px 16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.6'>02</div><div style='font-weight:800;font-size:25px;letter-spacing:-.04em'>Internet</div></div><div style=\"position:absolute;left:392px;top:190px;width:184px;height:300px;background:#2457ff;color:#fff;padding:14px 16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.6'>03</div><div style='font-weight:800;font-size:25px;letter-spacing:-.04em'>Server</div></div><div style=\"position:absolute;left:588px;top:95px;width:184px;height:395px;background:#1537b8;color:#fff;padding:14px 16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.6'>04</div><div style='font-weight:800;font-size:25px;letter-spacing:-.04em'>Dashboard</div></div><div style=\"position:absolute;left:784px;top:0px;width:184px;height:490px;background:#0a1a3f;color:#fff;padding:14px 16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between\"><div style='font-weight:800;font-size:20px;opacity:.6'>05</div><div style='font-weight:800;font-size:25px;letter-spacing:-.04em'>Notifikasi</div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 744.8,
+          "w": 472.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32.7,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#2457ff"
+          },
+          "text": "Terbukti berguna?\nBaru dikembangkan."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "10/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Geser  →</div></div>"
+        }
+      ],
+      "name": "Mulai dari kecil"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 450,
+          "y": 750,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.45
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 176.6,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 21.8,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "10 — PENUTUP"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 222.1,
+          "w": 872.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 34.5,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#fff"
+          },
+          "text": "IoT bukan sekadar alat yang terkoneksi internet. Ini cara bikin perangkat menghasilkan data dan membantu manusia bertindak."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 394.8,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 25.5,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "text": "Jangan tanya:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 431.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 58.2,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.045em",
+            "color": "#fff",
+            "textDecoration": "line-through",
+            "textDecorationThickness": "5.5px",
+            "opacity": 0.6
+          },
+          "text": "“Bisa bikin alat apa?”"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 522.1,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 25.5,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "text": "Tapi tanya:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 558.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 125.5,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "MASALAH APA\nYANG INGIN\nKITA\nSELESAIKAN?"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1033,
+          "w": 545.5,
+          "h": 58.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:600px;height:64px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"display:inline-block;background:#f9d361;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:32px;letter-spacing:-.035em;padding:14px 20px\">Codemalaya — From Local to Global.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867.3,
+          "y": 113,
+          "w": 112.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "11/11"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182.1,
+          "w": 54.5,
+          "h": 54.5,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:60px;height:60px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"width:60px;height:60px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 28px 'Helvetica Neue',Arial,sans-serif\">C</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1185.7,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169.1,
+          "y": 1211.2,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787.3,
+          "y": 1187.5,
+          "w": 192.7,
+          "h": 47.3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:212px;height:52px;transform:scale(0.90909);transform-origin:0 0\"><div style=\"height:52px;border-radius:26px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:21px;color:#0a0a0a\">Simpan dulu  ▮</div></div>"
+        }
+      ],
+      "name": "Penutup"
+    }
+  ]
+}

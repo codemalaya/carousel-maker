@@ -1,0 +1,2265 @@
+{
+  "title": "Top 5 Tech Stack 2026",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "Ringkasan blog Webandcrafts \"Top 5 Tech Stacks: Choosing the Right One\" (2026). Gaya Bold Swiss biru seperti cara-ai-belajar. Satu neo-grotesk (Helvetica Neue). Hook HURUF BESAR 800, tracking -0.058em, lh ~0.86. Warna: putih, ink #0a0a0a, navy #0a1a3f, biru #2457ff, sky glow #3ad1ff, merah #fc1201 hanya alert, kuning tag kecil. Tanpa emoji. Tiap slide visual dan komposisi beda. Chrome: kiri-atas nama, kanan-atas n/10, kiri-bawah avatar+nama, kanan-bawah pill. Margin 100. Bahasa Indonesia santai. Sumber dikreditkan di slide terakhir.",
+  "format": "16:9",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1000,
+          "y": 500,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -380,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.3
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 140,
+          "w": 1300,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 185,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "TECH STACK\nYANG PAS\nUNTUK\nPROYEKMU?"
+        },
+        {
+          "type": "shape",
+          "x": 1420,
+          "y": 170,
+          "w": 400,
+          "h": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 1460,
+          "y": 520,
+          "w": 340,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 50,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "5 STACK\n7 FAKTOR\n1 KEPUTUSAN"
+        },
+        {
+          "type": "text",
+          "x": 1460,
+          "y": 200,
+          "w": 340,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 130,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.058em",
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "2026"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        },
+        {
+          "type": "shape",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "48px"
+          },
+          "step": 0,
+          "text": "Geser lanjut"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 600,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 140,
+          "w": 800,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 140,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "APA ITU\nTECH\nSTACK?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 600,
+          "w": 720,
+          "h": 280,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 32,
+            "fontWeight": 400,
+            "lineHeight": 1.35,
+            "color": "#cfe0ff"
+          },
+          "step": 0,
+          "text": "Kumpulan bahasa pemrograman, framework, database, server, dan tools yang bekerja bareng untuk membangun dan menjalankan sebuah aplikasi. Pilihannya memengaruhi kecepatan rilis, skala, keamanan, dan biaya."
+        },
+        {
+          "type": "html",
+          "x": 960,
+          "y": 130,
+          "w": 860,
+          "h": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;flex-direction:column;gap:18px;height:100%;font-family:Helvetica Neue,Helvetica,Arial,sans-serif'><div style='flex:1;background:#3ad1ff;color:#0a1a3f;border-radius:20px;padding:0 40px;display:flex;align-items:center;justify-content:space-between'><b style='font-size:48px;letter-spacing:-0.03em'>Frontend</b><span style='font-size:26px'>yang dilihat user</span></div><div style='flex:1;background:#2457ff;color:#fff;border-radius:20px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;margin-left:40px'><b style='font-size:48px;letter-spacing:-0.03em'>Backend</b><span style='font-size:26px'>logika dan API</span></div><div style='flex:1;background:#fff;color:#0a1a3f;border-radius:20px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;margin-left:80px'><b style='font-size:48px;letter-spacing:-0.03em'>Database</b><span style='font-size:26px'>simpan data</span></div><div style='flex:1;border:3px solid #3ad1ff;color:#fff;border-radius:20px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;margin-left:120px'><b style='font-size:48px;letter-spacing:-0.03em'>Platform + OS</b><span style='font-size:26px'>Linux, cloud</span></div><div style='flex:1;border:3px solid #fff;color:#fff;border-radius:20px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;margin-left:160px'><b style='font-size:48px;letter-spacing:-0.03em'>Dev tools</b><span style='font-size:26px'>Git, Docker</span></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        },
+        {
+          "type": "shape",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "48px"
+          },
+          "step": 0,
+          "text": "Dasar"
+        }
+      ],
+      "name": "Apa itu stack"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": 500,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 130,
+          "w": 500,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 36,
+            "fontWeight": 800,
+            "color": "#2457ff",
+            "letterSpacing": "-0.02em"
+          },
+          "step": 0,
+          "text": "1 · LEMP"
+        },
+        {
+          "type": "text",
+          "x": 90,
+          "y": 190,
+          "w": 1060,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 330,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "40,6%"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 620,
+          "w": 900,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 34,
+            "fontWeight": 500,
+            "lineHeight": 1.3,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "pangsa pasar stack web. LEMP unggul jauh dari stack Microsoft dan MERN/MEAN, dan jadi mesin WordPress, Drupal, Laravel, sampai Magento."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 840,
+          "w": 420,
+          "h": 56,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 8
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#f9d361"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 840,
+          "w": 420,
+          "h": 56,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "center",
+            "lineHeight": "56px"
+          },
+          "step": 0,
+          "text": "Semua open-source, hemat"
+        },
+        {
+          "type": "html",
+          "x": 1180,
+          "y": 130,
+          "w": 640,
+          "h": 770,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;flex-direction:column;gap:20px;height:100%;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#fff'><div style='flex:1;background:#0a1a3f;border-radius:20px;display:flex;align-items:center;padding:0 36px;gap:30px'><b style='font-size:120px;color:#3ad1ff;letter-spacing:-0.05em'>L</b><div><b style='font-size:38px'>Linux</b><div style='font-size:24px;color:#cfe0ff'>server stabil dan aman</div></div></div><div style='flex:1;background:#2457ff;border-radius:20px;display:flex;align-items:center;padding:0 36px;gap:30px'><b style='font-size:120px;letter-spacing:-0.05em'>E</b><div><b style='font-size:38px'>Nginx</b><div style='font-size:24px;color:#dbe6ff'>ribuan koneksi, ringan</div></div></div><div style='flex:1;background:#0a1a3f;border-radius:20px;display:flex;align-items:center;padding:0 36px;gap:30px'><b style='font-size:120px;color:#3ad1ff;letter-spacing:-0.05em'>M</b><div><b style='font-size:38px'>MySQL</b><div style='font-size:24px;color:#cfe0ff'>database relasional (SQL)</div></div></div><div style='flex:1;background:#2457ff;border-radius:20px;display:flex;align-items:center;padding:0 36px;gap:30px'><b style='font-size:120px;letter-spacing:-0.05em'>P</b><div><b style='font-size:38px'>PHP</b><div style='font-size:24px;color:#dbe6ff'>logika backend dinamis</div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        }
+      ],
+      "name": "LEMP"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1100,
+          "y": 100,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(100px)",
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 130,
+          "w": 600,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 36,
+            "fontWeight": 800,
+            "color": "#3ad1ff",
+            "letterSpacing": "-0.02em"
+          },
+          "step": 0,
+          "text": "2 · ASP.NET"
+        },
+        {
+          "type": "text",
+          "x": 90,
+          "y": 190,
+          "w": 900,
+          "h": 490,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 250,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "ASP.\nNET"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 680,
+          "w": 820,
+          "h": 180,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 32,
+            "fontWeight": 400,
+            "lineHeight": 1.35,
+            "color": "#d6dbe6"
+          },
+          "step": 0,
+          "text": "Framework server-side dari Microsoft di atas platform .NET. Versi modern, ASP.NET Core, open source, lintas platform, dan dioptimalkan untuk cloud."
+        },
+        {
+          "type": "shape",
+          "x": 1160,
+          "y": 150,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 1160,
+          "y": 330,
+          "w": 600,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 160,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "step": 0,
+          "text": "4,6 jt"
+        },
+        {
+          "type": "text",
+          "x": 1160,
+          "y": 530,
+          "w": 600,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 30,
+            "fontWeight": 500,
+            "color": "#dbe6ff",
+            "textAlign": "center"
+          },
+          "step": 0,
+          "text": "website live memakainya"
+        },
+        {
+          "type": "html",
+          "x": 960,
+          "y": 780,
+          "w": 860,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:26px;font-weight:700'><span style='border:3px solid #3ad1ff;color:#3ad1ff;border-radius:40px;padding:10px 26px'>Skala enterprise</span><span style='border:3px solid #fff;color:#fff;border-radius:40px;padding:10px 26px'>Azure + SQL Server</span><span style='background:#f9d361;color:#0a0a0a;border-radius:40px;padding:13px 26px'>Keamanan kuat</span></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        },
+        {
+          "type": "shape",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "48px"
+          },
+          "step": 0,
+          "text": "Untuk enterprise"
+        }
+      ],
+      "name": "ASP.NET"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 120,
+          "w": 800,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 28,
+            "fontWeight": 800,
+            "color": "#2457ff",
+            "letterSpacing": "0.02em"
+          },
+          "step": 0,
+          "text": "3 · JAVASCRIPT FULL-STACK"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 175,
+          "w": 1000,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 125,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "SATU BAHASA\nUJUNG KE UJUNG"
+        },
+        {
+          "type": "text",
+          "x": 1220,
+          "y": 195,
+          "w": 600,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 32,
+            "fontWeight": 500,
+            "lineHeight": 1.3,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ketiganya sama-sama pakai MongoDB, Express.js, dan Node.js. Bedanya cuma di frontend."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 540,
+          "h": 390,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 550,
+          "w": 460,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 110,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "MERN"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 680,
+          "w": 460,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 36,
+            "fontWeight": 800,
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "+ React"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 750,
+          "w": 460,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Paling populer. Cocok untuk SaaS, dashboard real-time, dan ekosistem startup."
+        },
+        {
+          "type": "shape",
+          "x": 690,
+          "y": 520,
+          "w": 540,
+          "h": 390,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 550,
+          "w": 460,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 110,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "MEAN"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 680,
+          "w": 460,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 36,
+            "fontWeight": 800,
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "+ Angular"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 750,
+          "w": 460,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Berbasis TypeScript dan terstruktur, pas untuk single-page app yang besar."
+        },
+        {
+          "type": "shape",
+          "x": 1280,
+          "y": 520,
+          "w": 540,
+          "h": 390,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 1320,
+          "y": 550,
+          "w": 460,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 110,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#0a1a3f",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "MEVN"
+        },
+        {
+          "type": "text",
+          "x": 1320,
+          "y": 680,
+          "w": 460,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 36,
+            "fontWeight": 800,
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "+ Vue.js"
+        },
+        {
+          "type": "text",
+          "x": 1320,
+          "y": 750,
+          "w": 460,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringan dan mudah dipelajari, ideal untuk MVP dan aplikasi skala kecil-menengah."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 988,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 996,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        }
+      ],
+      "name": "MERN MEAN MEVN"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": -300,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 130,
+          "w": 330,
+          "h": 56,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 8
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#f9d361"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 130,
+          "w": 330,
+          "h": 56,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 24,
+            "fontWeight": 800,
+            "color": "#0a0a0a",
+            "textAlign": "center",
+            "lineHeight": "56px"
+          },
+          "step": 0,
+          "text": "4 · PYTHON STACK"
+        },
+        {
+          "type": "text",
+          "x": 90,
+          "y": 210,
+          "w": 1000,
+          "h": 360,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 340,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "57,9%"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 600,
+          "w": 800,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 34,
+            "fontWeight": 500,
+            "lineHeight": 1.3,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "developer memakai Python (Stack Overflow 2025), naik 7 poin dari tahun sebelumnya."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 800,
+          "w": 900,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 26,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Pelengkap: PostgreSQL · Gunicorn/Uvicorn · Nginx"
+        },
+        {
+          "type": "shape",
+          "x": 1100,
+          "y": 130,
+          "w": 720,
+          "h": 350,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 160,
+          "w": 640,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 80,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Django"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 270,
+          "w": 640,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 28,
+            "lineHeight": 1.3,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Batteries-included: ORM, autentikasi, admin, dan fitur keamanan sudah bawaan. Dipakai sekitar 12,6% developer web."
+        },
+        {
+          "type": "shape",
+          "x": 1100,
+          "y": 520,
+          "w": 720,
+          "h": 350,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 550,
+          "w": 640,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 80,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#3ad1ff",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Flask"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 660,
+          "w": 640,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 28,
+            "lineHeight": 1.3,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringan dan modular, enak untuk API dan microservice. Dipakai sekitar 14,4% developer web."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        },
+        {
+          "type": "shape",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "48px"
+          },
+          "step": 0,
+          "text": "Data + web"
+        }
+      ],
+      "name": "Python"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 200,
+          "y": 300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 60,
+          "y": 90,
+          "w": 960,
+          "h": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 780,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "#4"
+        },
+        {
+          "type": "text",
+          "x": 1040,
+          "y": 130,
+          "w": 780,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 28,
+            "fontWeight": 800,
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "5 · JAVA + SPRING"
+        },
+        {
+          "type": "text",
+          "x": 1040,
+          "y": 185,
+          "w": 780,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 50,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.03em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Peringkat Java di indeks TIOBE 2026, rating 8,12%, setelah Python dan C."
+        },
+        {
+          "type": "shape",
+          "x": 1040,
+          "y": 440,
+          "w": 780,
+          "h": 4,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "html",
+          "x": 1040,
+          "y": 470,
+          "w": 780,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#0a1a3f;font-size:28px;line-height:1.3;display:flex;flex-direction:column;gap:22px'><div><b style='color:#2457ff'>Java + JVM</b> sebagai bahasa inti dan runtime.</div><div><b style='color:#2457ff'>Spring Framework</b> membawa keamanan, dependency injection, dan integrasi enterprise.</div><div><b style='color:#2457ff'>Spring Boot</b> mempercepat setup hingga microservice siap produksi.</div><div style='font-weight:700'>Andalan bank, fintech, dan backend ber-throughput tinggi.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        },
+        {
+          "type": "shape",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 1560,
+          "y": 966,
+          "w": 260,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "48px"
+          },
+          "step": 0,
+          "text": "Mission-critical"
+        }
+      ],
+      "name": "Java"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 500,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 130,
+          "w": 760,
+          "h": 380,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 125,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "7 FAKTOR\nMEMILIH\nSTACK"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "w": 700,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 30,
+            "lineHeight": 1.35,
+            "color": "#cfe0ff"
+          },
+          "step": 0,
+          "text": "Proyek kecil cukup Node + Express + MongoDB. Platform fintech lebih cocok Java + Spring Boot + PostgreSQL."
+        },
+        {
+          "type": "html",
+          "x": 900,
+          "y": 130,
+          "w": 920,
+          "h": 780,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,1fr);gap:18px;height:100%;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#fff'><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>01</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Ukuran dan kompleksitas proyek</div></div><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>02</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Kebutuhan skalabilitas</div></div><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>03</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Keahlian tim</div></div><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>04</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Time to market</div></div><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>05</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Keamanan (TLS, AES, OAuth 2.0)</div></div><div style='border:3px solid #3ad1ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;color:#3ad1ff;letter-spacing:-0.04em'>06</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Perawatan jangka panjang</div></div><div style='background:#2457ff;border-radius:18px;padding:22px 26px'><b style='font-size:44px;letter-spacing:-0.04em'>07</b><div style='font-size:27px;font-weight:700;margin-top:4px'>Biaya, hosting, dan lisensi</div></div><div style='background:#3ad1ff;color:#0a1a3f;border-radius:18px;padding:22px 26px;display:flex;align-items:flex-end'><b style='font-size:34px;line-height:1.1;letter-spacing:-0.03em'>Timbang semua, baru pilih.</b></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "8/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        }
+      ],
+      "name": "7 Faktor"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1000,
+          "y": -400,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 120,
+          "w": 1500,
+          "h": 330,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 170,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "TREN\nSTACK 2026"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 410,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 530,
+          "w": 800,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 110,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff",
+            "lineHeight": 1.1
+          },
+          "step": 0,
+          "text": "AI + ML"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 680,
+          "w": 800,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 30,
+            "lineHeight": 1.35,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Rekomendasi, deteksi anomali, dan analitik prediktif kini jadi bagian bawaan stack. Software makin pintar dan personal."
+        },
+        {
+          "type": "shape",
+          "x": 1020,
+          "y": 500,
+          "w": 800,
+          "h": 410,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 1060,
+          "y": 530,
+          "w": 720,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 100,
+            "fontWeight": 800,
+            "letterSpacing": "-0.058em",
+            "color": "#3ad1ff",
+            "lineHeight": 1.1
+          },
+          "step": 0,
+          "text": "USD 32,6 M"
+        },
+        {
+          "type": "text",
+          "x": 1060,
+          "y": 680,
+          "w": 720,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 30,
+            "lineHeight": 1.35,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Perkiraan pasar serverless 2026, tumbuh 22,94% per tahun. Developer fokus ke logika, bukan ke server."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "9/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 976,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a1a3f"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 984,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        }
+      ],
+      "name": "Tren 2026"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 900,
+          "y": 300,
+          "w": 1100,
+          "h": 1100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -300,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 140,
+          "w": 1700,
+          "h": 430,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PILIH YANG PAS,\nBUKAN YANG\nPALING RAMAI."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 640,
+          "w": 560,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderRadius": 35
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 560,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontSize": 26,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "70px"
+          },
+          "step": 0,
+          "text": "Simpan dan bagikan ke tim devmu"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 760,
+          "w": 1100,
+          "h": 3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 785,
+          "w": 300,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": 800,
+            "color": "#3ad1ff",
+            "letterSpacing": "0.1em"
+          },
+          "step": 0,
+          "text": "SUMBER"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 825,
+          "w": 1100,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "\"Top 5 Tech Stacks: Choosing the Right One\", I Anjali, Webandcrafts, April 2026. webandcrafts.com/blog/tech-stacks"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 56,
+          "w": 700,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Webandcrafts · Tech Stack"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 56,
+          "w": 200,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "10/10"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 966,
+          "w": 44,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 158,
+          "y": 974,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ringkasan blog"
+        }
+      ],
+      "name": "CTA + Sumber"
+    }
+  ]
+}

@@ -1,0 +1,2837 @@
+{
+  "title": "",
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Codemalaya edukasi: Roadmap dari ide ke aplikasi jadi. Gaya Bold Swiss biru, sama seperti iot-industri. Satu neo-grotesk (Helvetica Neue). Hook: HURUF BESAR 800, tracking -0.058em, lh ~0.86. Warna: putih, ink #0a0a0a, navy #0a1a3f, biru #2457ff, sky glow #3ad1ff, merah #fc1201 hanya untuk alert, kuning tag kecil. Tanpa emoji. Tiap slide ada visual dan komposisi beda. Chrome: kiri-atas nama, kanan-atas n/12, kiri-bawah avatar+nama, kanan-bawah pill. Margin 100. Bahasa Indonesia santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -260,
+          "y": -300,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "ROADMAP — UNTUK SIAPA SAJA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 160,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "DARI IDE\nKE APP\nJADI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Punya ide aplikasi itu baru langkah pertama. Terus setelah itu ngapain?"
+        },
+        {
+          "type": "html",
+          "x": 826,
+          "y": 640,
+          "w": 154,
+          "h": 154,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:154px;height:154px;background:#2457ff;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:100px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>11 SLIDE</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 830,
+          "w": 880,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:260px;display:flex;gap:8px;align-items:flex-end;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='width:80px;height:40px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#fff'>01</div><div style='width:80px;height:70px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#e9eeff'>02</div><div style='width:80px;height:100px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#fff'>03</div><div style='width:80px;height:135px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#e9eeff'>04</div><div style='width:80px;height:170px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#fff'>05</div><div style='width:80px;height:205px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#e9eeff'>06</div><div style='width:80px;height:225px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#fff'>07</div><div style='width:80px;height:240px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#e9eeff'>08</div><div style='width:80px;height:250px;border:3px solid #0a0a0a;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;background:#fff'>09</div><div style='width:80px;height:260px;background:#2457ff;box-sizing:border-box;padding:6px 8px;font-weight:800;font-size:15px;color:#fff'>10</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "IDE"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 1110,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "LIVE"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Cover"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 600,
+          "y": -250,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "01 — MASALAH"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "MULAI DARI\nMASALAH."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "“Admin masih mencatat transaksi di Excel dan sering kesulitan mencari data.”"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 590,
+          "w": 880,
+          "h": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:400px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='position:absolute;left:30px;top:40px;width:800px;transform:rotate(-2.5deg);background:#fff;border:3px solid #0a0a0a;display:grid;grid-template-columns:1fr 1fr 1fr'><div style='padding:12px 14px;background:#0a0a0a;color:#fff;font-weight:800;font-size:18px'>NAMA</div><div style='padding:12px 14px;background:#0a0a0a;color:#fff;font-weight:800;font-size:18px'>TOTAL</div><div style='padding:12px 14px;background:#0a0a0a;color:#fff;font-weight:800;font-size:18px'>STATUS</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Budi</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>150.000</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Lunas</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Sari</div><div style='padding:12px 14px;font-size:21px;font-weight:800;background:#fc1201;color:#fff'>#REF!</div><div style='padding:12px 14px;font-size:21px;font-weight:800;background:#fc1201;color:#fff'>???</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Andi</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>75.000</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Lunas</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>Rina</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>—</div><div style='padding:12px 14px;font-size:21px;font-weight:600;border-bottom:2px solid #ccd'>hilang?</div><div style='padding:12px 14px;font-size:21px;font-weight:600'>Dewi</div><div style='padding:12px 14px;font-size:21px;font-weight:600'>210.000</div><div style='padding:12px 14px;font-size:21px;font-weight:600'>Lunas</div></div><div style='position:absolute;right:0;top:0;transform:rotate(5deg);background:#f9d361;color:#0a0a0a;font-weight:800;font-size:24px;letter-spacing:.04em;padding:12px 18px'>DATA SULIT DICARI</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1040,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Jangan mulai dari fitur.\nMulai dari masalah."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Masalah"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 600,
+          "y": 700,
+          "w": 620,
+          "h": 620,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.7
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 500,
+          "y": -300,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.25
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "02 — SOLUSI"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "TENTUKAN\nSOLUSINYA."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "step": 0,
+          "text": "Aplikasi seperti apa yang bisa membantu?"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 560,
+          "w": 880,
+          "h": 380,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:380px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='position:absolute;left:0;top:0;width:290px;height:380px;border:3px solid #fff;box-sizing:border-box;padding:24px;color:#fff;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;letter-spacing:.06em;opacity:.7'>MASALAH</div><div style='font-weight:700;font-size:32px;line-height:1.1;letter-spacing:-.03em;text-decoration:line-through;text-decoration-thickness:3px'>Catat di Excel.<br>Cari data manual.<br>Laporan ribet.</div></div><div style='position:absolute;left:290px;top:160px;width:60px;text-align:center;font-weight:800;font-size:44px;color:#3ad1ff'>→</div><div style='position:absolute;left:350px;top:0;width:530px;height:380px;background:#2457ff;box-sizing:border-box;padding:28px;color:#fff'><div style='display:flex;justify-content:space-between;font-weight:800;font-size:17px;letter-spacing:.06em'><span>SOLUSI</span><span style='color:#f9d361'>CONTOH: APLIKASI TRANSAKSI</span></div><div style='display:flex;align-items:center;gap:16px;margin-top:30px;font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1.05'><span style='flex:none;width:42px;height:42px;background:#fff;color:#2457ff;display:flex;align-items:center;justify-content:center;font-size:26px'>✓</span>Data tersimpan otomatis</div><div style='display:flex;align-items:center;gap:16px;margin-top:30px;font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1.05'><span style='flex:none;width:42px;height:42px;background:#fff;color:#2457ff;display:flex;align-items:center;justify-content:center;font-size:26px'>✓</span>Riwayat mudah dicari</div><div style='display:flex;align-items:center;gap:16px;margin-top:30px;font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1.05'><span style='flex:none;width:42px;height:42px;background:#fff;color:#2457ff;display:flex;align-items:center;justify-content:center;font-size:26px'>✓</span>Laporan dibuat otomatis</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 68,
+            "fontWeight": 800,
+            "lineHeight": 0.95,
+            "letterSpacing": "-0.05em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Ide → konsep produk."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Solusi"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 550,
+          "y": -300,
+          "w": 760,
+          "h": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "03 — FITUR"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "TENTUKAN\nFITUR."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 462,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Breakdown kebutuhan. Fitur utama:"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 530,
+          "w": 880,
+          "h": 482,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:482px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='position:absolute;left:0;top:0;width:432px;height:150px;background:#2457ff;color:#fff;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>01</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Login</div><div style='font-weight:500;font-size:20px;opacity:.8;margin-top:4px'>Masuk dengan aman</div></div></div><div style='position:absolute;left:448px;top:0;width:432px;height:150px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>02</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Dashboard</div><div style='font-weight:500;font-size:20px;opacity:.75;margin-top:4px'>Ringkasan data</div></div></div><div style='position:absolute;left:0;top:166px;width:432px;height:150px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>03</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Data pelanggan</div><div style='font-weight:500;font-size:20px;opacity:.75;margin-top:4px'>Daftar & profil</div></div></div><div style='position:absolute;left:448px;top:166px;width:432px;height:150px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>04</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Transaksi</div><div style='font-weight:500;font-size:20px;opacity:.75;margin-top:4px'>Catat penjualan</div></div></div><div style='position:absolute;left:0;top:332px;width:432px;height:150px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>05</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Pembayaran</div><div style='font-weight:500;font-size:20px;opacity:.75;margin-top:4px'>Tagihan & lunas</div></div></div><div style='position:absolute;left:448px;top:332px;width:432px;height:150px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between'><div style='text-align:right;font-weight:800;font-size:18px;opacity:.55'>06</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em;line-height:1'>Laporan</div><div style='font-weight:500;font-size:20px;opacity:.75;margin-top:4px'>Rekap otomatis</div></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1050,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Nggak perlu langsung 100 fitur.\nPilih yang benar-benar dibutuhkan."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Fitur"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "04 — FLOW & UI"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "BUAT FLOW\n& UI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 450,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Sebelum coding, tentukan cara aplikasi dipakai."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 520,
+          "w": 400,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:100px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>01</div><div style='font-weight:800;font-size:34px;letter-spacing:-.045em;line-height:1'>Login</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 220,
+          "y": 635,
+          "w": 400,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:100px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>02</div><div style='font-weight:800;font-size:34px;letter-spacing:-.045em;line-height:1'>Dashboard</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 340,
+          "y": 750,
+          "w": 400,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:100px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>03</div><div style='font-weight:800;font-size:34px;letter-spacing:-.045em;line-height:1'>Buat Transaksi</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 460,
+          "y": 865,
+          "w": 400,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 9,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:100px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>04</div><div style='font-weight:800;font-size:34px;letter-spacing:-.045em;line-height:1'>Pembayaran</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 580,
+          "y": 980,
+          "w": 400,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:100px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>05</div><div style='font-weight:800;font-size:34px;letter-spacing:-.045em;line-height:1'>Transaksi Selesai</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1000,
+          "w": 440,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Lalu dibuat desain UI/UX — supaya developer dan client punya gambaran yang sama."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Flow & UI"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 700,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "05 — DEVELOPMENT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "NAH, BARU\nCODING."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:120px;background:#2457ff;color:#fff;box-sizing:border-box;padding:0 30px;display:flex;align-items:center;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:56px;letter-spacing:-.055em'>Frontend</div><div style='font-weight:600;font-size:24px;opacity:.85'>tampilan aplikasi</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 634,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:120px;background:#3ad1ff;color:#0a0a0a;box-sizing:border-box;padding:0 30px;display:flex;align-items:center;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:56px;letter-spacing:-.055em'>API</div><div style='font-weight:600;font-size:24px;opacity:.85'>komunikasi antar sistem</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 768,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:120px;background:#0a1a3f;color:#fff;box-sizing:border-box;padding:0 30px;display:flex;align-items:center;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:56px;letter-spacing:-.055em'>Backend</div><div style='font-weight:600;font-size:24px;opacity:.85'>logic & proses bisnis</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 902,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:120px;background:#0a0a0a;color:#fff;box-sizing:border-box;padding:0 30px;display:flex;align-items:center;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:56px;letter-spacing:-.055em'>Database</div><div style='font-weight:600;font-size:24px;opacity:.85'>penyimpanan data</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1062,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Fitur yang direncanakan jadi aplikasi nyata."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Development"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": -200,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 500,
+          "y": 800,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "06 — TESTING"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 112,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "BELUM TENTU\nSIAP DIPAKAI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 425,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "step": 0,
+          "text": "Aplikasi sudah jadi? Testing dulu:"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 490,
+          "w": 880,
+          "h": 490,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:490px;background:#fff;border-top:10px solid #2457ff;box-sizing:border-box;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='height:96px;display:flex;align-items:center;gap:20px;padding:0 28px;border-bottom:2px solid #e4e7ee;box-sizing:border-box'><span style='width:44px;height:44px;flex:none;background:#2457ff;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px'>✓</span><span style='flex:1;font-weight:800;font-size:36px;letter-spacing:-.045em'>Fitur berjalan?</span><span style='font-weight:800;font-size:20px;letter-spacing:.05em;color:#2457ff'>LOLOS</span></div><div style='height:96px;display:flex;align-items:center;gap:20px;padding:0 28px;border-bottom:2px solid #e4e7ee;box-sizing:border-box'><span style='width:44px;height:44px;flex:none;background:#2457ff;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px'>✓</span><span style='flex:1;font-weight:800;font-size:36px;letter-spacing:-.045em'>Data aman?</span><span style='font-weight:800;font-size:20px;letter-spacing:.05em;color:#2457ff'>LOLOS</span></div><div style='height:96px;display:flex;align-items:center;gap:20px;padding:0 28px;border-bottom:2px solid #e4e7ee;box-sizing:border-box'><span style='width:44px;height:44px;flex:none;background:#2457ff;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px'>✓</span><span style='flex:1;font-weight:800;font-size:36px;letter-spacing:-.045em'>Tampilan sesuai?</span><span style='font-weight:800;font-size:20px;letter-spacing:.05em;color:#2457ff'>LOLOS</span></div><div style='height:96px;display:flex;align-items:center;gap:20px;padding:0 28px;border-bottom:2px solid #e4e7ee;box-sizing:border-box'><span style='width:44px;height:44px;flex:none;background:#fc1201;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px'>!</span><span style='flex:1;font-weight:800;font-size:36px;letter-spacing:-.045em'>Ada bug?</span><span style='font-weight:800;font-size:20px;letter-spacing:.05em;color:#fc1201'>2 TEMUAN</span></div><div style='height:96px;display:flex;align-items:center;gap:20px;padding:0 28px;box-sizing:border-box'><span style='width:44px;height:44px;flex:none;background:#2457ff;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px'>✓</span><span style='flex:1;font-weight:800;font-size:36px;letter-spacing:-.045em'>Performanya?</span><span style='font-weight:800;font-size:20px;letter-spacing:.05em;color:#2457ff'>LOLOS</span></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1020,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Terlihat bagus belum tentu berjalan dengan baik."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Testing"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 450,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "07 — DEPLOY"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 215,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "DEPLOY."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 420,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Lolos testing? Aplikasi dihidupkan di environment sebenarnya."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 540,
+          "w": 880,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:250px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='position:absolute;left:0;top:0;width:290px;height:250px;border:3px dashed #0a0a0a;box-sizing:border-box;padding:22px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;letter-spacing:.06em;opacity:.6'>LOKAL</div><div style='font-weight:800;font-size:36px;letter-spacing:-.045em;line-height:1'>Komputer developer</div></div><div style='position:absolute;left:290px;top:100px;width:60px;text-align:center;font-weight:800;font-size:44px;color:#2457ff'>→</div><div style='position:absolute;left:350px;top:0;width:530px;height:250px;background:#2457ff;box-sizing:border-box;padding:24px;color:#fff'><div style='display:flex;justify-content:space-between;font-weight:800;font-size:18px;letter-spacing:.06em'><span>LIVE</span><span style='color:#3ad1ff'>● ONLINE</span></div><div style='display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;color:#0a0a0a'><span style='background:#fff;font-weight:800;font-size:26px;letter-spacing:-.04em;padding:10px 16px'>Server</span><span style='background:#fff;font-weight:800;font-size:26px;letter-spacing:-.04em;padding:10px 16px'>Database</span><span style='background:#fff;font-weight:800;font-size:26px;letter-spacing:-.04em;padding:10px 16px'>Domain</span><span style='background:#fff;font-weight:800;font-size:26px;letter-spacing:-.04em;padding:10px 16px'>Play Store</span><span style='background:#fff;font-weight:800;font-size:26px;letter-spacing:-.04em;padding:10px 16px'>App Store</span></div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 850,
+          "w": 880,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:52px;letter-spacing:-.05em;line-height:1;color:#0a0a0a\"><span style='opacity:.4'>Dulu cuma jalan di komputer developer,</span><br><span style='color:#2457ff'>sekarang bisa dipakai pengguna.</span></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "8/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Deploy"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 550,
+          "y": -300,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.3
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -100,
+          "y": 800,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.7
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "08 — LAUNCH & MONITORING"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 100,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "LIVE. TAPI\nBELUM SELESAI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 400,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "step": 0,
+          "text": "Sudah live, tapi kerjaan belum selesai. Perlu dipantau:"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 470,
+          "w": 280,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:280px;height:230px;background:#fff;border-top:10px solid #2457ff;box-sizing:border-box;padding:18px 22px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:700;font-size:17px;letter-spacing:.05em;opacity:.55'>PENGGUNAAN</div><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:1;margin-top:8px;color:#2457ff'>1,2K</div><div style='margin-top:8px;font-weight:700;font-size:20px'>naik hari ini</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 400,
+          "y": 470,
+          "w": 280,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:280px;height:230px;background:#fff;border-top:10px solid #fc1201;box-sizing:border-box;padding:18px 22px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:700;font-size:17px;letter-spacing:.05em;opacity:.55'>ERROR & BUG</div><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:1;margin-top:8px;color:#fc1201'>3</div><div style='margin-top:8px;font-weight:700;font-size:20px'>perlu dicek</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 700,
+          "y": 470,
+          "w": 280,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:280px;height:230px;background:#fff;border-top:10px solid #2457ff;box-sizing:border-box;padding:18px 22px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:700;font-size:17px;letter-spacing:.05em;opacity:.55'>PERFORMA</div><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:1;margin-top:8px;color:#2457ff'>98%</div><div style='margin-top:8px;font-weight:700;font-size:20px'>cepat</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 720,
+          "w": 430,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:430px;height:230px;background:#fff;border-top:10px solid #3ad1ff;box-sizing:border-box;padding:18px 22px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:700;font-size:17px;letter-spacing:.05em;opacity:.55'>KEAMANAN</div><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:1;margin-top:8px'>AMAN</div><div style='margin-top:8px;font-weight:700;font-size:20px'>✓ tidak ada ancaman</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 550,
+          "y": 720,
+          "w": 430,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:430px;height:230px;background:#fff;border-top:10px solid #f9d361;box-sizing:border-box;padding:18px 22px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:700;font-size:17px;letter-spacing:.05em;opacity:.55'>FEEDBACK PENGGUNA</div><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:1;margin-top:8px'>4,8<span style='font-size:36px;opacity:.5'>/5</span></div><div style='margin-top:8px;font-weight:700;font-size:20px'>dari 126 ulasan</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Dunia nyata kadang beda dari hasil testing."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "9/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Launch & Monitoring"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "09 — MAINTENANCE & DEVELOPMENT"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 215,
+          "w": 760,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-block;background:#fff;color:#0a0a0a;padding:22px 28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:40px;letter-spacing:-.04em;line-height:1.05;box-shadow:8px 8px 0 #0a0a0a\">“Kak, bisa ditambah fitur ini?”</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 385,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 200,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "ITU\nNORMAL."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 810,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:120px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='position:absolute;left:0;top:0;width:206px;height:120px;border:3px solid #fff;color:#fff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;opacity:.6'>01</div><div style='font-weight:800;font-size:28px;letter-spacing:-.045em;line-height:1'>Feedback</div></div><div style='position:absolute;left:208px;top:40px;width:18px;text-align:center;font-weight:800;font-size:30px;color:#3ad1ff'>→</div><div style='position:absolute;left:226px;top:0;width:206px;height:120px;border:3px solid #fff;color:#fff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;opacity:.6'>02</div><div style='font-weight:800;font-size:28px;letter-spacing:-.045em;line-height:1'>Evaluasi</div></div><div style='position:absolute;left:434px;top:40px;width:18px;text-align:center;font-weight:800;font-size:30px;color:#3ad1ff'>→</div><div style='position:absolute;left:452px;top:0;width:206px;height:120px;border:3px solid #fff;color:#fff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;opacity:.6'>03</div><div style='font-weight:800;font-size:28px;letter-spacing:-.045em;line-height:1'>Improvement</div></div><div style='position:absolute;left:660px;top:40px;width:18px;text-align:center;font-weight:800;font-size:30px;color:#3ad1ff'>→</div><div style='position:absolute;left:678px;top:0;width:202px;height:120px;background:#fff;color:#2457ff;box-sizing:border-box;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:18px;opacity:.6'>04</div><div style='font-weight:800;font-size:28px;letter-spacing:-.045em;line-height:1'>Update ↻</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 980,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.045em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Aplikasi bukan produk sekali jadi lalu ditinggal."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "10/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Maintenance"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "GAMBARAN BESARNYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "10 TAHAP,\n1 PRODUK."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 470,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:470px;display:flex;gap:8px;align-items:flex-end;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='width:80.8px;height:100px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>01</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Ide</div></div><div style='width:80.8px;height:137px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>02</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Masalah</div></div><div style='width:80.8px;height:174px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>03</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Solusi</div></div><div style='width:80.8px;height:211px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>04</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Fitur</div></div><div style='width:80.8px;height:248px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>05</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Flow & UI</div></div><div style='width:80.8px;height:285px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>06</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Coding</div></div><div style='width:80.8px;height:322px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>07</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Testing</div></div><div style='width:80.8px;height:359px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>08</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Deploy</div></div><div style='width:80.8px;height:396px;background:#e9eeff;border-top:4px solid #0a0a0a;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.55'>09</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Launch</div></div><div style='width:80.8px;height:433px;background:#2457ff;color:#fff;box-sizing:border-box;padding:8px 10px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-weight:800;font-size:17px;opacity:.7'>10</div><div style='writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:27px;letter-spacing:-.04em;white-space:nowrap'>Maintenance</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1030,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 56,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Ide  →  Maintenance"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "11/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Gambaran Besar"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 400,
+          "y": 700,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "11 — PENUTUP"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.045em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Punya ide aplikasi?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 275,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.7
+          },
+          "step": 0,
+          "text": "Jangan langsung mikirin:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 320,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 700,
+            "lineHeight": 1.3,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.6,
+            "textDecoration": "line-through"
+          },
+          "step": 0,
+          "text": "“Pakai React atau Flutter?”\n“Backend-nya apa?”\n“Servernya berapa?”"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "step": 0,
+          "text": "Mulai dari"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 535,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 128,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "MASALAH →\nSOLUSI →\nFITUR."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 905,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 30,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Sisanya bisa dibicarakan bersama developer."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 960,
+          "w": 520,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:60px;background:#f9d361;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:26px;letter-spacing:-.03em;display:flex;align-items:center;padding:0 20px\">Codemalaya — From Local to Global.</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1050,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#fff",
+            "opacity": 0.85
+          },
+          "step": 0,
+          "text": "Ide bagus bukan cuma dibuat, tapi dibuat dengan proses yang jelas."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "12/12"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Simpan dulu</div>"
+        }
+      ],
+      "name": "CTA"
+    }
+  ]
+}

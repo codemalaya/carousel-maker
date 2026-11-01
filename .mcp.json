@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "carousel-maker": {
+      "command": "npx",
+      "args": ["tsx", "src/mcp/server.ts"],
+      "env": { "CAROUSEL_PROJECT": "default" }
+    }
+  }
+}

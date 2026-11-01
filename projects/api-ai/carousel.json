@@ -1,0 +1,576 @@
+{
+  "title": "",
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Carousel 8 slide: API AI, cara aplikasi ngobrol dengan AI. Audiens: pemula/developer junior. Bahasa Indonesia sederhana. Margin 100px. Style bersih: kertas hangat, tinta hitam, aksen biru + oranye, tipografi besar, diagram sederhana. Tanpa gradien/glow/dekorasi.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "paper": "#F3EFE6",
+      "ink": "#121212",
+      "blue": "#2B50FF",
+      "orange": "#FF5B2E",
+      "mute": "#8A857A",
+      "card": "#E7E2D5"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "mono": "Menlo, 'SF Mono', Consolas, monospace",
+      "serif": "Georgia, 'Times New Roman', serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#121212",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;justify-content:space-between;font-family:Menlo,monospace;font-size:22px;letter-spacing:2px;color:#8A857A'><span>API AI — PANDUAN PEMULA</span><span>01/08</span></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 210,
+          "w": 880,
+          "h": 480,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:150px;line-height:.93;letter-spacing:-6px;color:#F3EFE6'>Aplikasimu<br>bisa <span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-3px;color:#FF5B2E'>ngobrol</span><br>dengan AI.</div>"
+        },
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 790,
+          "w": 1080,
+          "h": 3,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#F3EFE6"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 840,
+          "w": 880,
+          "h": 240,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Menlo,monospace;font-size:36px;line-height:1.35'><div style='font-size:20px;letter-spacing:2px;color:#8A857A;margin-bottom:6px'>KAMU</div><div style='color:#F3EFE6'>&gt; tolong buatkan 3 ide caption IG</div><div style='font-size:20px;letter-spacing:2px;color:#8A857A;margin:32px 0 6px'>AI</div><div style='color:#FF5B2E'>&lt; Siap! Ini 3 ide caption untukmu… <span style='display:inline-block;width:20px;height:36px;background:#FF5B2E;vertical-align:-5px'></span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1230,
+          "w": 880,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;align-items:center;gap:24px;font-family:Menlo,monospace;font-size:22px;letter-spacing:2px;color:#F3EFE6'><span>GESER</span><div style='flex:1;height:3px;background:#F3EFE6'></div><span>→</span></div>"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#F3EFE6",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#8A857A",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "02/08"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 160,
+          "w": 880,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:96px;line-height:1;letter-spacing:-4px;color:#121212'>API itu seperti<br><span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-2px;color:#2B50FF'>pelayan</span> restoran.</div>"
+        },
+        {
+          "type": "html",
+          "x": 0,
+          "y": 480,
+          "w": 1080,
+          "h": 870,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;flex-direction:column;height:870px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif'><div style='flex:1;background:#121212;color:#F3EFE6;display:flex;align-items:center;gap:36px;padding:0 100px'><div style='font-family:Menlo,monospace;font-size:28px;color:#8A857A;width:60px'>01</div><div><div style='font-size:64px;font-weight:800;letter-spacing:-2px'>Aplikasimu = pelanggan</div><div style='font-size:30px;color:#BDB8AC;margin-top:8px'>Yang pesan: “tolong ringkas teks ini”.</div></div></div><div style='flex:1;background:#2B50FF;color:#fff;display:flex;align-items:center;gap:36px;padding:0 100px'><div style='font-family:Menlo,monospace;font-size:28px;color:#B8C4FF;width:60px'>02</div><div><div style='font-size:64px;font-weight:800;letter-spacing:-2px'>API = pelayan</div><div style='font-size:30px;color:#DCE3FF;margin-top:8px'>Bawa pesanan, bawa balik hasilnya.</div></div></div><div style='flex:1;background:#FF5B2E;color:#121212;display:flex;align-items:center;gap:36px;padding:0 100px'><div style='font-family:Menlo,monospace;font-size:28px;width:60px'>03</div><div><div style='font-size:64px;font-weight:800;letter-spacing:-2px'>Model AI = dapur</div><div style='font-size:30px;margin-top:8px'>Yang masak jawabannya.</div></div></div></div>"
+        }
+      ],
+      "name": "Analogi"
+    },
+    {
+      "bg": "#2B50FF",
+      "elements": [
+        {
+          "type": "html",
+          "x": 0,
+          "y": 100,
+          "w": 1080,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='position:relative;width:1080px;height:560px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#fff'><div style='position:absolute;left:0;top:0;width:360px;height:560px;background:#F3EFE6;color:#121212;padding:44px 0 0 100px;box-sizing:border-box'><div style='font-family:Menlo,monospace;font-size:20px;letter-spacing:2px;color:#8A857A'>KAMU</div><div style='font-size:54px;font-weight:800;letter-spacing:-2px;margin-top:10px'>Aplikasi</div></div><div style='position:absolute;left:720px;top:0;width:360px;height:560px;background:#121212;color:#F3EFE6;padding:44px 100px 0 0;box-sizing:border-box;text-align:right'><div style='font-family:Menlo,monospace;font-size:20px;letter-spacing:2px;color:#8A857A'>PENYEDIA</div><div style='font-size:54px;font-weight:800;letter-spacing:-2px;margin-top:10px'>API AI</div></div><div style='position:absolute;left:400px;top:150px;width:280px'><div style='font-size:32px;font-weight:800'>Request</div><div style='font-size:26px;color:#DCE3FF'>pertanyaan kamu</div><svg width='280' height='40' viewBox='0 0 280 40' style='margin-top:14px'><path d='M0 20H262M244 4L266 20L244 36' stroke='#FF5B2E' stroke-width='8' fill='none'/></svg></div><div style='position:absolute;left:400px;top:340px;width:280px'><svg width='280' height='40' viewBox='0 0 280 40'><path d='M280 20H18M36 4L14 20L36 36' stroke='#fff' stroke-width='8' fill='none'/></svg><div style='font-size:32px;font-weight:800;margin-top:14px'>Response</div><div style='font-size:26px;color:#DCE3FF'>jawaban AI</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 740,
+          "w": 880,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:150px;line-height:.93;letter-spacing:-6px;color:#fff'>Satu tanya,<br>satu <span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-3px;color:#121212'>jawab.</span></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1090,
+          "w": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "lineHeight": 1.3,
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Semua lewat internet, pakai HTTP. Sama seperti buka website."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1230,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#B8C4FF",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "03/08"
+        }
+      ],
+      "name": "Request-Response"
+    },
+    {
+      "bg": "#F3EFE6",
+      "elements": [
+        {
+          "type": "html",
+          "x": 0,
+          "y": 0,
+          "w": 1080,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='width:1080px;height:700px;background:#121212;box-sizing:border-box;padding:170px 100px 0;font-family:Menlo,monospace;font-size:38px;line-height:1.65;color:#F3EFE6;white-space:pre'><span style='color:#8A857A'>{</span>\n  <span style='background:#2B50FF;padding:2px 10px'>&quot;model&quot;</span>: <span style='color:#FFB199'>&quot;nama-model&quot;</span>,\n  <span style='background:#FF5B2E;color:#121212;padding:2px 10px'>&quot;messages&quot;</span>: [\n    { <span style='color:#8A857A'>&quot;role&quot;</span>: <span style='color:#FFB199'>&quot;user&quot;</span>,\n      <span style='color:#8A857A'>&quot;content&quot;</span>: <span style='color:#FFB199'>&quot;Halo!&quot;</span> }\n  ],\n  <span style='background:#F3EFE6;color:#121212;padding:2px 10px'>&quot;max_tokens&quot;</span>: 200\n<span style='color:#8A857A'>}</span></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#8A857A",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "04/08"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 770,
+          "w": 880,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:104px;line-height:.98;letter-spacing:-4px;color:#121212'>Isi request<br>itu <span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-2px;color:#FF5B2E'>simpel.</span></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1020,
+          "w": 880,
+          "h": 240,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#121212;font-size:32px'><div style='display:flex;align-items:baseline;border-top:3px solid #121212;padding:18px 0'><span style='font-family:Menlo,monospace;font-weight:700;font-size:30px;color:#2B50FF;width:300px'>model</span><span>pilih “otak” AI</span></div><div style='display:flex;align-items:baseline;border-top:3px solid #121212;padding:18px 0'><span style='font-family:Menlo,monospace;font-weight:700;font-size:30px;color:#FF5B2E;width:300px'>messages</span><span>isi obrolan</span></div><div style='display:flex;align-items:baseline;border-top:3px solid #121212;padding:18px 0'><span style='font-family:Menlo,monospace;font-weight:700;font-size:30px;width:300px'>max_tokens</span><span>batas panjang jawaban</span></div></div>"
+        }
+      ],
+      "name": "Isi Request"
+    },
+    {
+      "bg": "#F3EFE6",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "w": 1080,
+          "h": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#FF5B2E"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#121212",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "05/08"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 700,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:120px;line-height:.93;letter-spacing:-5px;color:#121212'>Jaga <span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-3px;color:#F3EFE6'>API key</span><br>kamu.</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 370,
+          "w": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "step": 0,
+          "text": "Key = kunci akses + tagihan kamu. Kalau bocor, orang lain bisa pakai dan kamu yang bayar."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 530,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:Menlo,monospace;font-size:22px;font-weight:700;letter-spacing:2px;margin-bottom:12px'>✕ JANGAN</div><div style='display:flex;align-items:center;gap:20px'><div style='border:4px solid #121212;padding:14px 26px;font-size:32px;font-weight:800'>Aplikasi <span style='font-family:Menlo,monospace;font-size:22px;font-weight:400'>+ key di kode</span></div><svg width='80' height='30' viewBox='0 0 80 30'><path d='M0 15H70M56 3L72 15L56 27' stroke='#121212' stroke-width='6' fill='none'/></svg><div style='background:#121212;color:#F3EFE6;padding:18px 26px;font-size:32px;font-weight:800'>API AI</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 780,
+          "w": 880,
+          "h": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:Menlo,monospace;font-size:22px;font-weight:700;letter-spacing:2px;color:#2B50FF;margin-bottom:12px'>✓ LAKUKAN</div><div style='display:flex;align-items:center;gap:18px'><div style='border:4px solid #121212;padding:18px 26px;font-size:32px;font-weight:800'>Aplikasi</div><svg width='50' height='30' viewBox='0 0 50 30'><path d='M0 15H40M26 3L42 15L26 27' stroke='#121212' stroke-width='6' fill='none'/></svg><div style='background:#2B50FF;color:#fff;padding:12px 26px;font-size:32px;font-weight:800;line-height:1.1'>Server kamu<br><span style='font-family:Menlo,monospace;font-size:20px;font-weight:400;color:#DCE3FF'>key tersimpan</span></div><svg width='50' height='30' viewBox='0 0 50 30'><path d='M0 15H40M26 3L42 15L26 27' stroke='#121212' stroke-width='6' fill='none'/></svg><div style='background:#121212;color:#F3EFE6;padding:18px 26px;font-size:32px;font-weight:800'>API AI</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1060,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 48,
+            "fontWeight": 800,
+            "lineHeight": 1.1,
+            "letterSpacing": -1,
+            "color": "#121212"
+          },
+          "step": 0,
+          "text": "Simpan key di environment variable server, bukan di kode yang dibuka user."
+        }
+      ],
+      "name": "API Key"
+    },
+    {
+      "bg": "#121212",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:170px;line-height:.9;letter-spacing:-7px;color:#F3EFE6'>AI tidak<br><span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-4px;color:#FF5B2E'>ingat</span><br>obrolan.</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "lineHeight": 1.3,
+            "color": "#D6D1C5"
+          },
+          "step": 0,
+          "text": "Tiap request berdiri sendiri. Supaya nyambung, kirim ulang seluruh riwayat chat di setiap request."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 880,
+          "w": 880,
+          "h": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='display:flex;font-family:Menlo,monospace;font-size:30px;line-height:1.4;color:#F3EFE6'><div style='flex:1;border-top:3px solid #F3EFE6;padding-top:18px'><div style='font-size:20px;letter-spacing:2px;color:#8A857A;margin-bottom:14px'>REQUEST 1</div><div>user: Namaku Budi.</div></div><div style='flex:1;border-top:3px solid #FF5B2E;border-left:3px solid #121212;padding:18px 0 0 36px'><div style='font-size:20px;letter-spacing:2px;color:#8A857A;margin-bottom:14px'>REQUEST 2</div><div>user: Namaku Budi.</div><div style='color:#8A857A'>ai: Hai Budi!</div><div style='color:#FF5B2E;font-weight:700'>user: Siapa namaku?</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1290,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#8A857A",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "06/08"
+        }
+      ],
+      "name": "Memori"
+    },
+    {
+      "bg": "#F3EFE6",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#8A857A"
+          },
+          "step": 0,
+          "text": "07/08"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 180,
+          "w": 880,
+          "h": 480,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:Menlo,monospace;font-size:22px;letter-spacing:2px;color:#8A857A'>TANPA STREAMING</div><div style='position:relative;height:110px;margin-top:14px'><div style='position:absolute;left:0;right:0;top:106px;height:4px;background:#121212'></div><div style='position:absolute;left:0;top:30px;font-family:Georgia,serif;font-style:italic;font-size:40px;color:#8A857A'>user menunggu…</div><div style='position:absolute;right:0;top:0;width:110px;height:110px;background:#121212'></div></div><div style='font-family:Menlo,monospace;font-size:22px;letter-spacing:2px;color:#2B50FF;font-weight:700;margin-top:70px'>DENGAN STREAMING</div><div style='position:relative;height:150px;margin-top:14px'><div style='position:absolute;left:0;right:0;top:146px;height:4px;background:#121212'></div><div style='position:absolute;left:0;bottom:4px;display:flex;align-items:flex-end;gap:12px'><div style='width:110px;height:40px;background:#2B50FF'></div><div style='width:110px;height:70px;background:#2B50FF'></div><div style='width:110px;height:100px;background:#2B50FF'></div><div style='width:110px;height:125px;background:#2B50FF'></div><div style='width:110px;height:146px;background:#2B50FF'></div></div></div><div style='display:flex;justify-content:space-between;font-family:Menlo,monospace;font-size:22px;color:#8A857A;margin-top:14px'><span>0 detik</span><span>selesai</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 740,
+          "w": 880,
+          "h": 380,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:800;font-size:112px;line-height:.95;letter-spacing:-5px;color:#121212'>Biar terasa<br><span style='color:#2B50FF'>cepat:</span><br><span style='font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-3px'>streaming.</span></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1150,
+          "w": 780,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "step": 0,
+          "text": "Jawaban dikirim potongan demi potongan. User sudah bisa baca dari detik pertama."
+        }
+      ],
+      "name": "Streaming"
+    },
+    {
+      "bg": "#FF5B2E",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='position:relative;font-family:Georgia,serif;font-style:italic;font-size:150px;line-height:1;letter-spacing:-5px;color:#121212'>Ringkasnya<span style='position:absolute;right:0;top:0;font-family:Menlo,monospace;font-style:normal;font-size:22px;letter-spacing:2px'>08/08</span></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 360,
+          "w": 880,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='font-family:Helvetica Neue,Helvetica,Arial,sans-serif;color:#121212'><div style='display:flex;gap:36px;align-items:baseline;padding:26px 0;border-top:4px solid #121212'><span style='font-family:Menlo,monospace;font-size:28px;font-weight:700;width:60px'>01</span><span style='font-size:50px;font-weight:800;letter-spacing:-1px'>Kirim request lewat API</span></div><div style='display:flex;gap:36px;align-items:baseline;padding:26px 0;border-top:4px solid #121212'><span style='font-family:Menlo,monospace;font-size:28px;font-weight:700;width:60px'>02</span><span style='font-size:50px;font-weight:800;letter-spacing:-1px'>Isi: model + messages</span></div><div style='display:flex;gap:36px;align-items:baseline;padding:26px 0;border-top:4px solid #121212'><span style='font-family:Menlo,monospace;font-size:28px;font-weight:700;width:60px'>03</span><span style='font-size:50px;font-weight:800;letter-spacing:-1px'>Simpan key di server</span></div><div style='display:flex;gap:36px;align-items:baseline;padding:26px 0;border-top:4px solid #121212'><span style='font-family:Menlo,monospace;font-size:28px;font-weight:700;width:60px'>04</span><span style='font-size:50px;font-weight:800;letter-spacing:-1px'>Kirim riwayat + pakai streaming</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 0,
+          "y": 1030,
+          "w": 1080,
+          "h": 320,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "html": "<div style='width:1080px;height:320px;background:#121212;box-sizing:border-box;padding:0 100px;display:flex;flex-direction:column;justify-content:center;font-family:Helvetica Neue,Helvetica,Arial,sans-serif'><div style='font-size:60px;font-weight:800;line-height:1;letter-spacing:-2px;color:#F3EFE6'>Simpan &amp; kirim ke<br>temen <span style='font-family:Georgia,serif;font-style:italic;font-weight:400;color:#FF5B2E'>developer.</span></div><div style='font-family:Menlo,monospace;font-size:24px;color:#BDB8AC;margin-top:22px'>Mau bahas topik apa lagi? Komen ya.</div></div>"
+        }
+      ],
+      "name": "Rangkuman"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* shadcn neutral tokens: light = :root, dark = .dark */
+:root {
+  --radius: 0.5rem;
+  --background: oklch(0.985 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.955 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.955 0 0);
+  --muted-foreground: oklch(0.5 0 0);
+  --accent: oklch(0.94 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: oklch(0.6 0.18 255);
+  --brand: oklch(0.6 0.18 255);
+  --canvas: oklch(0.93 0 0);
+  --guide: oklch(0.62 0.26 345);
+}
+
+.dark {
+  --background: oklch(0.2 0 0);
+  --foreground: oklch(0.95 0 0);
+  --card: oklch(0.235 0 0);
+  --card-foreground: oklch(0.95 0 0);
+  --popover: oklch(0.26 0 0);
+  --popover-foreground: oklch(0.95 0 0);
+  --primary: oklch(0.93 0 0);
+  --primary-foreground: oklch(0.2 0 0);
+  --secondary: oklch(0.3 0 0);
+  --secondary-foreground: oklch(0.95 0 0);
+  --muted: oklch(0.3 0 0);
+  --muted-foreground: oklch(0.7 0 0);
+  --accent: oklch(0.32 0 0);
+  --accent-foreground: oklch(0.95 0 0);
+  --destructive: oklch(0.65 0.2 25);
+  --border: oklch(0.32 0 0);
+  --input: oklch(0.3 0 0);
+  --ring: oklch(0.65 0.17 255);
+  --brand: oklch(0.65 0.17 255);
+  --canvas: oklch(0.16 0 0);
+  --guide: oklch(0.72 0.22 345);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  body { @apply bg-background text-foreground; margin: 0; font: 13px system-ui, sans-serif; }
+}
+
+/* Editor layout + canvas. In a layer so shadcn utility classes still win. Never name a class like a Tailwind utility. */
+@layer components {
+  .app { display: grid; grid-template-columns: 280px 1fr 300px; grid-template-rows: 56px 1fr; height: 100vh; }
+  header { grid-column: 1/4; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: var(--card); border-bottom: 1px solid var(--border); overflow-x: auto; white-space: nowrap; }
+
+  .slides { background: var(--card); border-right: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .inspector { background: var(--card); border-left: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
+
+  main { position: relative; display: flex; min-width: 0; min-height: 0; }
+  .canvas-wrap { position: absolute; inset: 0; overflow: auto; background: var(--canvas); }
+  .canvas-wrap.pan, .canvas-wrap.pan * { cursor: grab !important; }
+  .canvas-wrap.pan:active, .canvas-wrap.pan:active * { cursor: grabbing !important; }
+  .canvas-inner { display: flex; box-sizing: border-box; min-width: 100%; min-height: 100%; width: max-content; padding: 24px 24px 88px; }
+  .canvas { margin: auto; flex: none; box-shadow: 0 8px 40px #0007; }
+  .overlay { position: absolute; inset: 0; }
+  .box { position: absolute; outline: 0 solid var(--brand); cursor: move; }
+  .box:hover { outline-width: var(--ow); outline-color: color-mix(in oklch, var(--brand) 55%, transparent); }
+  .box.on { outline-width: var(--ow); outline-color: var(--brand); }
+  .grip { position: absolute; background: #fff; border: 2px solid var(--brand); border-radius: 3px; cursor: nwse-resize; }
+}
+
+@theme inline { --color-brand: var(--brand); }
+
+@keyframes workspace-in { from { opacity: 0; } to { opacity: 1; } }
+.workspace-in { animation: workspace-in 180ms ease-out; }
+@media (prefers-reduced-motion: reduce) { .workspace-in { animation: none; } }

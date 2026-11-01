@@ -1,0 +1,1131 @@
+{
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "Ngoding Bareng Codemalaya Ep.01 - Kenalan sama React.js. Gaya Bold Swiss biru, sama seperti project roadmap. Satu neo-grotesk (Helvetica Neue). Hook: HURUF BESAR 800, tracking -0.058em, lh ~0.86. Warna: putih, ink #0a0a0a, navy #0a1a3f, biru #2457ff, sky glow #3ad1ff, kuning tag kecil. Tanpa emoji. Tiap slide visual dan komposisi beda. Chrome: kiri-atas nama, kanan-atas n/5, kiri-bawah avatar+nama, kanan-bawah pill. Margin 100. Bahasa Indonesia santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -260,
+          "y": -300,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "EPISODE 01 — NGODING BARENG"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 160,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "KENALAN\nSAMA\nREACT."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "text": "React itu apa? Kenapa banyak developer pakai React?"
+        },
+        {
+          "type": "html",
+          "x": 826,
+          "y": 640,
+          "w": 154,
+          "h": 154,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:154px;height:154px;background:#2457ff;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:100px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>4 SLIDE</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 840,
+          "w": 880,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"width:880px;height:250px;display:flex;gap:40px;align-items:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><svg viewBox='-100 -100 200 200' width='250' height='250' fill='none' stroke='#2457ff' stroke-width='6'><ellipse rx='88' ry='33'/><ellipse rx='88' ry='33' transform='rotate(60)'/><ellipse rx='88' ry='33' transform='rotate(120)'/><circle r='13' fill='#0a0a0a' stroke='none'/></svg><div style='display:flex;flex-direction:column;gap:8px'><div style='border:3px solid #0a0a0a;background:#fff;padding:8px 16px;font-weight:800;font-size:22px;width:300px;box-sizing:border-box'>&lt;Navbar /&gt;</div><div style='border:3px solid #0a0a0a;background:#e9eeff;padding:8px 16px;font-weight:800;font-size:22px;width:380px;box-sizing:border-box'>&lt;Card /&gt;</div><div style='border:3px solid #0a0a0a;background:#f9d361;padding:8px 16px;font-weight:800;font-size:22px;width:220px;box-sizing:border-box'>&lt;Button /&gt;</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "COMPONENT"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 1110,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff",
+            "textAlign": "right"
+          },
+          "text": "UI"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "1/5"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Cover"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 600,
+          "y": -300,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.3
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "01 — DEFINISI"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "REACT.JS\nITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "text": "Library JavaScript untuk membuat tampilan antarmuka (UI)."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 580,
+          "w": 880,
+          "h": 380,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"position:relative;width:880px;height:380px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:26px;letter-spacing:-.02em\"><div style='position:absolute;left:0;top:0;width:880px;height:80px;border:3px solid #0a0a0a;background:#2457ff;color:#fff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center'>&lt;Navbar /&gt;</div><div style='position:absolute;left:0;top:96px;width:260px;height:80px;border:3px solid #0a0a0a;background:#f9d361;box-sizing:border-box;padding:0 24px;display:flex;align-items:center'>&lt;Button /&gt;</div><div style='position:absolute;left:0;top:192px;width:560px;height:100px;border:3px solid #0a0a0a;background:#e9eeff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center'>&lt;Card /&gt;</div><div style='position:absolute;left:580px;top:96px;width:300px;height:196px;border:3px dashed #2457ff;color:#2457ff;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1'>REUSABLE</div><div style='position:absolute;left:0;top:308px;width:880px;height:72px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center'>&lt;Footer /&gt;</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 68,
+            "fontWeight": 800,
+            "lineHeight": 0.95,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "text": "Konsep utamanya:\nCOMPONENT."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "2/5"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "React itu apa"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 600,
+          "y": 700,
+          "w": 620,
+          "h": 620,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "filter": "blur(110px)",
+            "opacity": 0.7
+          },
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 500,
+          "y": -300,
+          "w": 600,
+          "h": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.25
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "02 — ALASAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "KENAPA\nPAKAI\nREACT?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 570,
+          "w": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.75
+          },
+          "text": "Bangun UI dari komponen-komponen kecil."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 300,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:26px;color:#fff;line-height:1;letter-spacing:-.02em;display:flex;flex-direction:column;gap:18px\"><div style='display:flex;gap:14px;align-items:center'><span style='background:#f9d361;color:#0a0a0a;padding:4px 8px;font-size:18px'>01</span>Foto</div><div style='display:flex;gap:14px;align-items:center'><span style='background:#f9d361;color:#0a0a0a;padding:4px 8px;font-size:18px'>02</span>Nama</div><div style='display:flex;gap:14px;align-items:center'><span style='background:#f9d361;color:#0a0a0a;padding:4px 8px;font-size:18px'>03</span>Harga</div><div style='display:flex;gap:14px;align-items:center'><span style='background:#f9d361;color:#0a0a0a;padding:4px 8px;font-size:18px'>04</span>Button</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 650,
+          "y": 665,
+          "w": 320,
+          "h": 340,
+          "rotate": 9,
+          "opacity": 0.35,
+          "z": 2,
+          "style": {},
+          "html": "<div style='width:320px;height:340px;background:#fff'></div>"
+        },
+        {
+          "type": "html",
+          "x": 600,
+          "y": 650,
+          "w": 320,
+          "h": 340,
+          "rotate": 4,
+          "opacity": 0.6,
+          "z": 3,
+          "style": {},
+          "html": "<div style='width:320px;height:340px;background:#fff'></div>"
+        },
+        {
+          "type": "html",
+          "x": 540,
+          "y": 640,
+          "w": 340,
+          "h": 360,
+          "rotate": -4,
+          "opacity": 1,
+          "z": 4,
+          "style": {},
+          "html": "<div style=\"width:340px;height:360px;background:#fff;padding:22px;box-sizing:border-box;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a;box-shadow:0 30px 60px rgba(0,0,0,.35)\"><div style='font-weight:800;font-size:16px;color:#2457ff;letter-spacing:.02em'>&lt;ProductCard /&gt;</div><div style='margin-top:12px;height:120px;background:#2457ff'></div><div style='margin-top:14px;font-weight:800;font-size:26px;letter-spacing:-.04em'>Nama produk</div><div style='margin-top:4px;font-weight:600;font-size:20px'>Rp 299.000</div><div style='margin-top:14px;height:46px;background:#0a0a0a;color:#fff;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center'>BELI</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 68,
+            "fontWeight": 800,
+            "lineHeight": 0.95,
+            "letterSpacing": "-0.05em",
+            "color": "#fff"
+          },
+          "text": "Tulis sekali.\nPakai berkali-kali."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "3/5"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a1a3f;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Kenapa React"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": 800,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#fff"
+          },
+          "text": "03 — CARA KERJA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 136,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "text": "CARA\nKERJANYA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 32,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#fff",
+            "opacity": 0.85
+          },
+          "text": "React pakai state untuk menyimpan data yang bisa berubah."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 570,
+          "w": 880,
+          "h": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"position:relative;width:880px;height:400px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:-.03em\"><div style='position:absolute;left:0;top:0;width:880px;height:150px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:0 40px;display:flex;align-items:center;justify-content:space-between'><div style='font-weight:800;font-size:38px'>Jumlah barang: 1</div><div style='width:84px;height:84px;background:#f9d361;font-weight:800;font-size:60px;display:flex;align-items:center;justify-content:center'>+</div></div><div style='position:absolute;left:100px;top:166px;font-weight:800;font-size:20px;color:#fff;letter-spacing:.04em;height:70px;display:flex;align-items:center;gap:14px'><span style='font-size:44px;line-height:1'>↓</span>KLIK +</div><div style='position:absolute;left:0;top:250px;width:880px;height:150px;background:#0a1a3f;color:#fff;box-sizing:border-box;padding:0 40px;display:flex;align-items:center;justify-content:space-between'><div style='font-weight:800;font-size:38px'>Jumlah barang: 2</div><div style='font-weight:800;font-size:96px;line-height:1;color:#3ad1ff'>2</div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 56,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.05em",
+            "color": "#fff"
+          },
+          "text": "Cuma bagian UI yang berubah\nyang diperbarui."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "text": "4/5"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#2457ff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "opacity": 0.65
+          },
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Cara kerja state"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 850,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.4
+          },
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "text": "04 — PENUTUP"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "text": "COCOK\nBUAT APA?"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 430,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "html": "<div style=\"position:relative;width:880px;height:430px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:38px;letter-spacing:-.04em;color:#0a0a0a;white-space:nowrap\"><div style='position:absolute;left:0;top:0;width:520px;height:76px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center;justify-content:space-between'>Website<span style='font-size:16px;letter-spacing:.04em'>01</span></div><div style='position:absolute;left:200px;top:88px;width:520px;height:76px;border:3px solid #0a0a0a;background:#e9eeff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center;justify-content:space-between'>Dashboard<span style='font-size:16px;letter-spacing:.04em'>02</span></div><div style='position:absolute;left:60px;top:176px;width:520px;height:76px;border:3px solid #0a0a0a;background:#f9d361;box-sizing:border-box;padding:0 24px;display:flex;align-items:center;justify-content:space-between'>E-commerce<span style='font-size:16px;letter-spacing:.04em'>03</span></div><div style='position:absolute;left:300px;top:264px;width:520px;height:76px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center;justify-content:space-between'>Web App<span style='font-size:16px;letter-spacing:.04em'>04</span></div><div style='position:absolute;left:120px;top:352px;width:520px;height:76px;border:3px solid #0a0a0a;background:#2457ff;color:#fff;box-sizing:border-box;padding:0 24px;display:flex;align-items:center;justify-content:space-between'>Admin Panel<span style='font-size:16px;letter-spacing:.04em'>05</span></div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 970,
+          "w": 880,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "kind": "rect",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 996,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#fff"
+          },
+          "text": "INTINYA"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 1034,
+          "w": 808,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "letterSpacing": "-0.045em",
+            "color": "#fff"
+          },
+          "text": "React bantu developer bangun UI yang terstruktur, reusable, dan interaktif."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "text": "5/5"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "text": "Ngoding Bareng · Episode 01"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "html": "<div style=\"height:47px;border-radius:24px;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#fff\">Follow  ↗</div>"
+        }
+      ],
+      "name": "Cocok buat apa"
+    }
+  ]
+}

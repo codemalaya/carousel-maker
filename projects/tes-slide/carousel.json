@@ -1,0 +1,1306 @@
+{
+  "title": "",
+  "guides": {
+    "x": [
+      100,
+      1820
+    ],
+    "y": [
+      100,
+      980
+    ]
+  },
+  "brief": "Presentasi 10 slide: apa itu AI Agent, beda dengan chatbot biasa (tools, keputusan, eksekusi task). Gaya Bold Swiss biru seperti project roadmap: satu neo-grotesk (Helvetica Neue), judul HURUF BESAR 800, tracking -0.058em, lh ~0.86. Warna: putih, ink #0a0a0a, navy #0a1a3f, biru #2457ff, sky glow #3ad1ff, merah #fc1201 hanya untuk alert, kuning tag kecil. Tanpa emoji. Tiap slide ada visual dan komposisi beda. Chrome: kiri-atas judul deck, kanan-atas n/10. Margin 100. Bahasa Indonesia santai.",
+  "format": "16:9",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1000,
+          "y": 500,
+          "w": 1100,
+          "h": 1100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -380,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PENGANTAR — UNTUK SIAPA SAJA"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 270,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT\nITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 760,
+          "w": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 46,
+            "fontWeight": 600,
+            "lineHeight": 1.08,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Bukan sekadar chatbot yang pintar ngobrol. Ia bisa bertindak."
+        },
+        {
+          "type": "html",
+          "x": 1000,
+          "y": 640,
+          "w": 820,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:820px;height:340px;display:flex;gap:10px;align-items:flex-end;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='width:120px;height:80px;border:4px solid #0a0a0a;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;background:#fff'>CHAT</div><div style='width:120px;height:130px;border:4px solid #0a0a0a;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;background:#e9eeff'>TOOLS</div><div style='width:120px;height:190px;border:4px solid #0a0a0a;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;background:#fff'>PLAN</div><div style='width:120px;height:250px;border:4px solid #0a0a0a;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;background:#e9eeff'>AKSI</div><div style='width:120px;height:310px;border:4px solid #0a0a0a;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;background:#fff'>CEK</div><div style='width:140px;height:340px;background:#2457ff;box-sizing:border-box;padding:10px 12px;font-weight:800;font-size:20px;color:#fff'>AGENT</div></div>"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1100,
+          "y": -400,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "01 — CHATBOT BIASA"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CUMA\nMENJAWAB."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.12,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kamu tanya, ia jawab dari pengetahuan yang dimilikinya. Selesai. Tidak membuka aplikasi, tidak mengecek data terbaru, tidak mengerjakan apa pun untukmu."
+        },
+        {
+          "type": "html",
+          "x": 1100,
+          "y": 150,
+          "w": 720,
+          "h": 780,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;height:100%;display:flex;flex-direction:column;gap:30px;justify-content:center\"><div style='align-self:flex-end;background:#0a0a0a;color:#fff;padding:30px 38px;font-size:36px;font-weight:700;max-width:480px;letter-spacing:-.02em'>Cuaca Jakarta besok?</div><div style='background:#fff;border:4px solid #0a0a0a;color:#0a0a0a;padding:30px 38px;font-size:36px;font-weight:700;max-width:560px;letter-spacing:-.02em'>Maaf, saya tidak punya akses data real-time.</div><div style='align-self:flex-end;background:#0a0a0a;color:#fff;padding:30px 38px;font-size:36px;font-weight:700;max-width:480px;letter-spacing:-.02em'>Ya sudah...</div><div style='align-self:flex-start;background:#f9d361;color:#0a0a0a;padding:12px 20px;font-size:22px;font-weight:800;letter-spacing:.04em'>TIDAK ADA AKSI</div></div>"
+        }
+      ],
+      "name": "Chatbot biasa"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1100,
+          "y": 500,
+          "w": 1100,
+          "h": 1100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "DEFINISI — AI AGENT"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 195,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "MODEL AI YANG\nBEKERJA SENDIRI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 520,
+          "w": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 40,
+            "fontWeight": 600,
+            "lineHeight": 1.08,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Diberi tujuan, lalu jalan sendiri sampai tuntas. Tiga kemampuan yang membedakannya:"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 680,
+          "w": 1720,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:1720px;height:300px;display:flex;gap:40px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='flex:1;background:#fff;padding:34px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#0a0a0a'><div style='font-size:28px;font-weight:700;color:#2457ff'>01</div><div style='font-size:64px;font-weight:800;letter-spacing:-.05em;line-height:.95'>PAKAI<br>TOOLS</div></div><div style='flex:1;background:#fff;padding:34px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#0a0a0a'><div style='font-size:28px;font-weight:700;color:#2457ff'>02</div><div style='font-size:64px;font-weight:800;letter-spacing:-.05em;line-height:.95'>AMBIL<br>KEPUTUSAN</div></div><div style='flex:1;background:#f9d361;padding:34px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#0a0a0a'><div style='font-size:28px;font-weight:700'>03</div><div style='font-size:64px;font-weight:800;letter-spacing:-.05em;line-height:.95'>JALANKAN<br>TASK</div></div></div>"
+        }
+      ],
+      "name": "Definisi Agent"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 500,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "shape",
+          "x": 1200,
+          "y": -500,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PERBANDINGAN"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 145,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "BEDANYA\nDI MANA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "rgba(255,255,255,0.7)"
+          },
+          "step": 0,
+          "text": "Chatbot ngobrol. Agent kerja. Bandingkan empat hal ini."
+        },
+        {
+          "type": "html",
+          "x": 860,
+          "y": 140,
+          "w": 960,
+          "h": 840,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:960px;height:840px;display:grid;grid-template-columns:140px 1fr 1fr;grid-template-rows:80px repeat(4,1fr);gap:16px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff\"><div></div><div style='font-size:34px;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;padding-left:6px'>CHATBOT</div><div style='font-size:34px;font-weight:800;letter-spacing:-.02em;color:#f9d361;display:flex;align-items:center;padding-left:6px'>AI AGENT</div><div style='font-size:20px;font-weight:700;letter-spacing:.08em;display:flex;align-items:center;color:#3ad1ff'>PERAN</div><div style='border:3px solid #fff;padding:22px;font-size:32px;font-weight:600;letter-spacing:-.02em;display:flex;align-items:center'>Teman ngobrol</div><div style='background:#2457ff;padding:22px;font-size:32px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center'>Asisten yang bekerja</div><div style='font-size:20px;font-weight:700;letter-spacing:.08em;display:flex;align-items:center;color:#3ad1ff'>AKSES</div><div style='border:3px solid #fff;padding:22px;font-size:32px;font-weight:600;letter-spacing:-.02em;display:flex;align-items:center'>Teks &amp; ingatan model</div><div style='background:#2457ff;padding:22px;font-size:32px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center'>Web, file, API, aplikasi</div><div style='font-size:20px;font-weight:700;letter-spacing:.08em;display:flex;align-items:center;color:#3ad1ff'>ALUR</div><div style='border:3px solid #fff;padding:22px;font-size:32px;font-weight:600;letter-spacing:-.02em;display:flex;align-items:center'>1 tanya, 1 jawab</div><div style='background:#2457ff;padding:22px;font-size:32px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center'>Rencana, aksi, cek, ulang</div><div style='font-size:20px;font-weight:700;letter-spacing:.08em;display:flex;align-items:center;color:#3ad1ff'>HASIL</div><div style='border:3px solid #fff;padding:22px;font-size:32px;font-weight:600;letter-spacing:-.02em;display:flex;align-items:center'>Saran atau teks</div><div style='background:#f9d361;color:#0a0a0a;padding:22px;font-size:32px;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center'>Pekerjaan selesai</div></div>"
+        }
+      ],
+      "name": "Perbandingan"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -400,
+          "y": 600,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "02 — KEMAMPUAN 1"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 230,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PAKAI\nTOOLS."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 720,
+          "w": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Tools = tangan dan mata si agent. Model memilih tool yang tepat, memanggilnya, lalu membaca hasilnya."
+        },
+        {
+          "type": "html",
+          "x": 1000,
+          "y": 130,
+          "w": 820,
+          "h": 850,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"position:relative;width:820px;height:850px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><svg width='820' height='850' style='position:absolute;left:0;top:0'><g stroke='#0a0a0a' stroke-width='4'><line x1='410' y1='425' x2='150' y2='105'/><line x1='410' y1='425' x2='670' y2='165'/><line x1='410' y1='425' x2='150' y2='425'/><line x1='410' y1='425' x2='670' y2='605'/><line x1='410' y1='425' x2='300' y2='785'/></g></svg><div style='position:absolute;left:300px;top:315px;width:220px;height:220px;background:#2457ff;color:#fff;padding:20px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:18px;font-weight:700;letter-spacing:.06em'>OTAK</div><div style='font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:.9'>AI<br>AGENT</div></div><div style='position:absolute;left:0;top:60px;width:300px;height:90px;background:#fff;border:4px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;padding:0 22px;font-size:32px;font-weight:800;letter-spacing:-.03em'>Cari di web</div><div style='position:absolute;left:520px;top:120px;width:300px;height:90px;background:#e9eeff;border:4px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;padding:0 22px;font-size:32px;font-weight:800;letter-spacing:-.03em'>Olah file</div><div style='position:absolute;left:0;top:380px;width:300px;height:90px;background:#f9d361;border:4px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;padding:0 22px;font-size:32px;font-weight:800;letter-spacing:-.03em'>Panggil API</div><div style='position:absolute;left:520px;top:560px;width:300px;height:90px;background:#fff;border:4px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;padding:0 22px;font-size:32px;font-weight:800;letter-spacing:-.03em'>Jalankan kode</div><div style='position:absolute;left:150px;top:740px;width:300px;height:90px;background:#e9eeff;border:4px solid #0a0a0a;box-sizing:border-box;display:flex;align-items:center;padding:0 22px;font-size:32px;font-weight:800;letter-spacing:-.03em'>Kirim email</div></div>"
+        }
+      ],
+      "name": "Tools"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 900,
+          "y": -500,
+          "w": 1100,
+          "h": 1100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "03 — KEMAMPUAN 2"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 195,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AMBIL KEPUTUSAN\nSENDIRI."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 540,
+          "w": 1720,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:1720px;height:260px;display:flex;align-items:stretch;gap:0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='flex:1;background:#fff;color:#0a0a0a;padding:30px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:24px;font-weight:700;color:#2457ff'>01</div><div style='font-size:60px;font-weight:800;letter-spacing:-.05em'>AMATI</div></div><div style='width:60px;display:flex;align-items:center;justify-content:center;color:#3ad1ff;font-size:56px;font-weight:800'>→</div><div style='flex:1;background:#2457ff;color:#fff;padding:30px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:24px;font-weight:700'>02</div><div style='font-size:60px;font-weight:800;letter-spacing:-.05em'>PIKIR</div></div><div style='width:60px;display:flex;align-items:center;justify-content:center;color:#3ad1ff;font-size:56px;font-weight:800'>→</div><div style='flex:1;background:#f9d361;color:#0a0a0a;padding:30px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:24px;font-weight:700'>03</div><div style='font-size:60px;font-weight:800;letter-spacing:-.05em'>BERTINDAK</div></div><div style='width:60px;display:flex;align-items:center;justify-content:center;color:#3ad1ff;font-size:56px;font-weight:800'>→</div><div style='flex:1;border:4px solid #fff;color:#fff;padding:26px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:24px;font-weight:700;color:#3ad1ff'>04</div><div style='font-size:60px;font-weight:800;letter-spacing:-.05em'>EVALUASI</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 830,
+          "w": 1720,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:1720px;height:150px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;display:flex;align-items:center;gap:30px\"><div style='background:#fc1201;color:#fff;padding:14px 22px;font-size:24px;font-weight:800;letter-spacing:.04em;white-space:nowrap'>HASIL MELESET?</div><div style='color:#fff;font-size:42px;font-weight:600;letter-spacing:-.03em;line-height:1.1'>Kembali ke langkah 02: ubah rencana, coba jalur lain, tanpa disuruh lagi.</div></div>"
+        }
+      ],
+      "name": "Keputusan"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -400,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "04 — KEMAMPUAN 3"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 210,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SAMPAI\nTUNTAS."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 720,
+          "w": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Satu tujuan besar dipecah jadi langkah kecil, dikerjakan berurutan."
+        },
+        {
+          "type": "html",
+          "x": 1000,
+          "y": 110,
+          "w": 820,
+          "h": 870,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:820px;height:870px;background:#0a1a3f;color:#fff;padding:48px 52px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-size:22px;font-weight:700;letter-spacing:.08em;color:#3ad1ff'>TUJUAN: BUAT LAPORAN PENJUALAN</div><div style='display:flex;align-items:center;gap:24px;font-size:38px;font-weight:700;letter-spacing:-.03em'><div style='width:48px;height:48px;background:#2457ff;display:flex;align-items:center;justify-content:center;font-size:30px'>✓</div>Ambil data dari spreadsheet</div><div style='display:flex;align-items:center;gap:24px;font-size:38px;font-weight:700;letter-spacing:-.03em'><div style='width:48px;height:48px;background:#2457ff;display:flex;align-items:center;justify-content:center;font-size:30px'>✓</div>Hitung total &amp; tren</div><div style='display:flex;align-items:center;gap:24px;font-size:38px;font-weight:700;letter-spacing:-.03em'><div style='width:48px;height:48px;background:#2457ff;display:flex;align-items:center;justify-content:center;font-size:30px'>✓</div>Buat grafik</div><div style='display:flex;align-items:center;gap:24px;font-size:38px;font-weight:700;letter-spacing:-.03em'><div style='width:48px;height:48px;background:#2457ff;display:flex;align-items:center;justify-content:center;font-size:30px'>✓</div>Tulis ringkasan</div><div style='display:flex;align-items:center;gap:24px;font-size:38px;font-weight:800;letter-spacing:-.03em;background:#f9d361;color:#0a0a0a;padding:20px 24px;margin:0 -24px'><div style='width:48px;height:48px;border:4px solid #0a0a0a;box-sizing:border-box'></div>Kirim ke tim lewat email</div></div>"
+        }
+      ],
+      "name": "Menjalankan task"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1000,
+          "y": -500,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "8/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CONTOH NYATA"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 195,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 96,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "“PESANKAN TIKET JAKARTA–BALI,\nJUMAT, DI BAWAH 1 JUTA.”"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 480,
+          "w": 620,
+          "h": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:620px;height:500px;border:4px solid #0a0a0a;background:#fff;box-sizing:border-box;padding:40px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='font-size:24px;font-weight:800;letter-spacing:.08em;color:#6b6b6b'>CHATBOT</div><div style='font-size:40px;font-weight:600;letter-spacing:-.03em;line-height:1.1'>“Kamu bisa cek Traveloka atau Tiket.com, lalu bandingkan harga dan pesan sendiri.”</div><div style='align-self:flex-start;background:#f9d361;padding:10px 18px;font-size:20px;font-weight:800;letter-spacing:.04em'>KAMU YANG KERJA</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 780,
+          "y": 480,
+          "w": 1040,
+          "h": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:1040px;height:500px;background:#2457ff;box-sizing:border-box;padding:40px 48px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff\"><div style='font-size:24px;font-weight:800;letter-spacing:.08em;color:#f9d361'>AI AGENT</div><div style='display:flex;align-items:stretch;gap:14px;height:230px'><div style='flex:1;background:#fff;color:#0a0a0a;padding:18px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:20px;font-weight:800;color:#2457ff'>01</div><div style='font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1'>Cari 12 penerbangan</div></div><div style='flex:1;background:#fff;color:#0a0a0a;padding:18px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:20px;font-weight:800;color:#2457ff'>02</div><div style='font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1'>Pilih Rp 870 ribu</div></div><div style='flex:1;background:#fff;color:#0a0a0a;padding:18px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:20px;font-weight:800;color:#2457ff'>03</div><div style='font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1'>Isi data penumpang</div></div><div style='flex:1;background:#fff;color:#0a0a0a;padding:18px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:20px;font-weight:800;color:#2457ff'>04</div><div style='font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1'>Bayar</div></div><div style='flex:1;background:#f9d361;color:#0a0a0a;padding:18px;display:flex;flex-direction:column;justify-content:space-between'><div style='font-size:20px;font-weight:800'>05</div><div style='font-size:30px;font-weight:800;letter-spacing:-.04em;line-height:1'>E-tiket ke emailmu</div></div></div><div style='font-size:36px;font-weight:700;letter-spacing:-.03em'>Kamu tinggal terima beres.</div></div>"
+        }
+      ],
+      "name": "Contoh nyata"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -400,
+          "y": 500,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(160px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#fc1201"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "9/10"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 165,
+          "w": 340,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-block;background:#fc1201;color:#fff;padding:12px 20px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:24px;font-weight:800;letter-spacing:.06em;white-space:nowrap\">RISIKO NYATA</div>"
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 290,
+            "fontWeight": 800,
+            "lineHeight": 0.84,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "HATI-\nHATI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 790,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 36,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "rgba(255,255,255,0.75)"
+          },
+          "step": 0,
+          "text": "Lebih bebas bertindak berarti risiko lebih besar. Agent bisa salah langkah, dan salahnya berdampak nyata."
+        },
+        {
+          "type": "html",
+          "x": 960,
+          "y": 150,
+          "w": 860,
+          "h": 830,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:860px;height:830px;display:flex;flex-direction:column;gap:20px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='flex:1;background:#2457ff;color:#fff;padding:0 44px;display:flex;align-items:center;gap:36px'><div style='font-size:110px;font-weight:800;letter-spacing:-.06em'>01</div><div style='font-size:42px;font-weight:700;letter-spacing:-.03em;line-height:1.05'><b style='font-weight:800'>Batasi akses.</b><br>Izin seperlunya saja.</div></div><div style='flex:1;background:#f9d361;color:#0a0a0a;padding:0 44px;display:flex;align-items:center;gap:36px'><div style='font-size:110px;font-weight:800;letter-spacing:-.06em'>02</div><div style='font-size:42px;font-weight:700;letter-spacing:-.03em;line-height:1.05'><b style='font-weight:800'>Minta persetujuan</b><br>untuk aksi penting: bayar, hapus.</div></div><div style='flex:1;background:#fff;color:#0a0a0a;padding:0 44px;display:flex;align-items:center;gap:36px'><div style='font-size:110px;font-weight:800;letter-spacing:-.06em'>03</div><div style='font-size:42px;font-weight:700;letter-spacing:-.03em;line-height:1.05'><b style='font-weight:800'>Tinjau hasilnya.</b><br>Manusia tetap pegang kendali.</div></div></div>"
+        }
+      ],
+      "name": "Catatan penting"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 900,
+          "y": 400,
+          "w": 1200,
+          "h": 1200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT ITU APA?"
+        },
+        {
+          "type": "text",
+          "x": 1620,
+          "y": 70,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "10/10"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 76,
+            "fontWeight": 800,
+            "letterSpacing": "-0.05em",
+            "color": "#0a1a3f"
+          },
+          "step": 0,
+          "text": "CHATBOT MENJAWAB."
+        },
+        {
+          "type": "text",
+          "x": 96,
+          "y": 270,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 210,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "AI AGENT\nMENGERJAKAN."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 740,
+          "w": 1000,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:flex;gap:16px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='background:#fff;color:#0a0a0a;padding:26px 34px;font-size:36px;font-weight:800;letter-spacing:-.03em'>TOOLS</div><div style='background:#fff;color:#0a0a0a;padding:26px 34px;font-size:36px;font-weight:800;letter-spacing:-.03em'>KEPUTUSAN</div><div style='background:#f9d361;color:#0a0a0a;padding:26px 34px;font-size:36px;font-weight:800;letter-spacing:-.03em'>EKSEKUSI</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 900,
+          "w": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Itu tiga kuncinya. Terima kasih!"
+        }
+      ],
+      "name": "Penutup"
+    }
+  ]
+}

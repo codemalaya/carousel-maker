@@ -1,0 +1,2351 @@
+{
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Carousel 10 slide: Prompt Engineering untuk Developer. Fokus: context, instruction, output format. Bahasa Indonesia sederhana. Margin 100px, bento grid, clean, tanpa gradient/emoji/dekorasi AI. Palet: krem, hitam, satu aksen oranye.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "bg": "#F2F0EB",
+      "ink": "#121212",
+      "accent": "#FF5A1F",
+      "pale": "#E3DFD5",
+      "white": "#FFFFFF"
+    },
+    "fonts": {
+      "sans": "Inter, 'Helvetica Neue', Arial, sans-serif",
+      "mono": "ui-monospace, 'SF Mono', Menlo, monospace"
+    },
+    "css": ""
+  },
+  "slides": [
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, 'SF Mono', Menlo, monospace",
+            "fontSize": 22,
+            "color": "#121212",
+            "letterSpacing": 2
+          },
+          "text": "PROMPT ENGINEERING / UNTUK DEVELOPER"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 160,
+          "w": 880,
+          "h": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 200,
+          "w": 800,
+          "h": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 100,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "color": "#F2F0EB",
+            "letterSpacing": -3
+          },
+          "text": "Prompt bagus bukan soal kata ajaib."
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 660,
+          "w": 600,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 30,
+            "lineHeight": 1.3,
+            "color": "#B9B4A8"
+          },
+          "text": "Yang menentukan: apa yang kamu kasih tahu ke model."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 820,
+          "w": 280,
+          "h": 430,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 850,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#121212"
+          },
+          "text": "01"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1090,
+          "w": 230,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Context"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1146,
+          "w": 220,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Apa yang model perlu tahu"
+        },
+        {
+          "type": "shape",
+          "x": 400,
+          "y": 820,
+          "w": 280,
+          "h": 430,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 430,
+          "y": 850,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#121212"
+          },
+          "text": "02"
+        },
+        {
+          "type": "text",
+          "x": 430,
+          "y": 1090,
+          "w": 240,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Instruction"
+        },
+        {
+          "type": "text",
+          "x": 430,
+          "y": 1146,
+          "w": 220,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Apa yang harus dikerjakan"
+        },
+        {
+          "type": "shape",
+          "x": 700,
+          "y": 820,
+          "w": 280,
+          "h": 430,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 850,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#121212"
+          },
+          "text": "03"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 1090,
+          "w": 230,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Format"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 1146,
+          "w": 220,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Bentuk hasil yang diminta"
+        },
+        {
+          "type": "html",
+          "x": 130,
+          "y": 910,
+          "w": 220,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='0' width='190' height='110' rx='16' fill='#121212' opacity='0.18'/><rect x='15' y='15' width='190' height='110' rx='16' fill='#121212' opacity='0.35'/><rect x='0' y='30' width='190' height='110' rx='16' fill='#121212'/><rect x='22' y='54' width='120' height='10' rx='5' fill='#F2F0EB'/><rect x='22' y='76' width='146' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/><rect x='22' y='98' width='84' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/><circle cx='160' cy='103' r='14' fill='#FF5A1F'/></svg>"
+        },
+        {
+          "type": "html",
+          "x": 430,
+          "y": 910,
+          "w": 220,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='220' height='150' rx='16' fill='#121212'/><circle cx='22' cy='22' r='6' fill='#FF5A1F'/><circle cx='42' cy='22' r='6' fill='#F2F0EB' opacity='0.4'/><circle cx='62' cy='22' r='6' fill='#F2F0EB' opacity='0.4'/><text x='22' y='74' font-family='ui-monospace,Menlo,monospace' font-size='24' font-weight='700' fill='#FF5A1F'>&gt;</text><text x='46' y='74' font-family='ui-monospace,Menlo,monospace' font-size='24' font-weight='700' fill='#F2F0EB'>refactor</text><rect x='22' y='96' width='150' height='10' rx='5' fill='#F2F0EB' opacity='0.35'/><rect x='22' y='116' width='96' height='10' rx='5' fill='#F2F0EB' opacity='0.35'/><rect x='126' y='112' width='14' height='20' fill='#FF5A1F'/></svg>"
+        },
+        {
+          "type": "html",
+          "x": 730,
+          "y": 910,
+          "w": 220,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='220' height='150' rx='16' fill='#F2F0EB'/><g font-family='ui-monospace,Menlo,monospace' font-size='20' font-weight='700'><text x='18' y='34' fill='#121212'>{</text><text x='38' y='62' fill='#FF5A1F'>\"ok\"</text><text x='84' y='62' fill='#121212'>: true,</text><text x='38' y='90' fill='#FF5A1F'>\"fix\"</text><text x='92' y='90' fill='#121212'>: [ ],</text><text x='38' y='118' fill='#FF5A1F'>\"n\"</text><text x='76' y='118' fill='#121212'>: 3</text><text x='18' y='142' fill='#121212'>}</text></g></svg>"
+        },
+        {
+          "type": "html",
+          "x": 720,
+          "y": 620,
+          "w": 220,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<svg width='220' height='140' viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='96' height='64' rx='14' fill='#F2F0EB' opacity='0.14'/><text x='48' y='40' text-anchor='middle' font-family='ui-monospace,Menlo,monospace' font-size='20' fill='#F2F0EB'>prompt</text><path d='M104 32h40m-12-12l12 12-12 12' stroke='#FF5A1F' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/><rect x='152' y='0' width='68' height='64' rx='14' fill='#FF5A1F'/><rect x='168' y='20' width='36' height='8' rx='4' fill='#121212'/><rect x='168' y='36' width='24' height='8' rx='4' fill='#121212'/><rect x='0' y='84' width='220' height='56' rx='14' fill='#F2F0EB' opacity='0.14'/><rect x='20' y='106' width='140' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/></svg>"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 80,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "color": "#121212",
+            "letterSpacing": -2.5
+          },
+          "text": "Model tidak bisa baca isi kepalamu."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 340,
+          "w": 540,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 135,
+          "y": 372,
+          "w": 400,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#121212"
+          },
+          "text": "YANG KAMU TULIS"
+        },
+        {
+          "type": "text",
+          "x": 135,
+          "y": 470,
+          "w": 480,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, 'SF Mono', Menlo, monospace",
+            "fontSize": 68,
+            "fontWeight": 700,
+            "color": "#121212",
+            "letterSpacing": -2
+          },
+          "text": "fix this bug"
+        },
+        {
+          "type": "shape",
+          "x": 660,
+          "y": 340,
+          "w": 320,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 690,
+          "y": 350,
+          "w": 260,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 190,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "color": "#121212",
+            "letterSpacing": -8
+          },
+          "text": "3"
+        },
+        {
+          "type": "text",
+          "x": 690,
+          "y": 540,
+          "w": 260,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1.2,
+            "color": "#121212"
+          },
+          "text": "kata. Itu semua yang model tahu."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 660,
+          "w": 880,
+          "h": 590,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 698,
+          "w": 600,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#B9B4A8"
+          },
+          "text": "YANG ADA DI KEPALAMU"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 760,
+          "w": 800,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 600,
+            "lineHeight": 1.4,
+            "color": "#F2F0EB",
+            "whiteSpace": "pre-line"
+          },
+          "text": "Next.js 14 dan TypeScript\nError cuma muncul di production\nTest checkout jadi merah\nAPI response tidak boleh berubah\nDeadline sore ini"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 1130,
+          "w": 800,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 800,
+            "color": "#FF5A1F",
+            "letterSpacing": -1
+          },
+          "text": "Semua itu tidak ikut terkirim."
+        }
+      ],
+      "name": "Masalah"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 76,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "color": "#121212",
+            "letterSpacing": -2.5
+          },
+          "text": "3 bahan prompt yang berguna."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 330,
+          "w": 420,
+          "h": 920,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 370,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#FF5A1F"
+          },
+          "text": "01"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 800,
+          "w": 340,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 68,
+            "fontWeight": 800,
+            "color": "#F2F0EB",
+            "letterSpacing": -2
+          },
+          "text": "Context"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 890,
+          "w": 340,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 32,
+            "lineHeight": 1.25,
+            "color": "#B9B4A8"
+          },
+          "text": "Model perlu tahu apa?"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 1070,
+          "w": 340,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "lineHeight": 1.5,
+            "color": "#F2F0EB",
+            "whiteSpace": "pre"
+          },
+          "text": "hasil = context\n      + instruction\n      + format"
+        },
+        {
+          "type": "shape",
+          "x": 540,
+          "y": 330,
+          "w": 440,
+          "h": 450,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 370,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#121212"
+          },
+          "text": "02"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 590,
+          "w": 380,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -2
+          },
+          "text": "Instruction"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 670,
+          "w": 360,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 32,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Model harus lakukan apa?"
+        },
+        {
+          "type": "shape",
+          "x": 540,
+          "y": 800,
+          "w": 440,
+          "h": 450,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 840,
+          "w": 200,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#FF5A1F"
+          },
+          "text": "03"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 1060,
+          "w": 380,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -2
+          },
+          "text": "Format"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 1140,
+          "w": 360,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 32,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Hasilnya berbentuk apa?"
+        }
+      ],
+      "name": "3 Bahan"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#FF5A1F",
+            "letterSpacing": 2
+          },
+          "text": "01 CONTEXT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "w": 880,
+          "h": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 76,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "letterSpacing": -2,
+            "color": "#121212"
+          },
+          "text": "Tulis yang tidak bisa ditebak model."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 370,
+          "w": 780,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 396,
+          "w": 80,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "1"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 470,
+          "w": 340,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Stack dan versi"
+        },
+        {
+          "type": "html",
+          "x": 500,
+          "y": 412,
+          "w": 350,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='display:flex;flex-wrap:wrap;gap:10px;font-family:ui-monospace,Menlo,monospace;font-size:24px;font-weight:600'><span style='background:#121212;color:#F2F0EB;padding:10px 16px;border-radius:12px'>Next.js 14</span><span style='background:#121212;color:#F2F0EB;padding:10px 16px;border-radius:12px'>React 18</span><span style='background:#FF5A1F;color:#121212;padding:10px 16px;border-radius:12px'>Prisma 5</span></div>"
+        },
+        {
+          "type": "shape",
+          "x": 160,
+          "y": 580,
+          "w": 780,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 196,
+          "y": 606,
+          "w": 80,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "2"
+        },
+        {
+          "type": "text",
+          "x": 196,
+          "y": 680,
+          "w": 340,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Kode terkait"
+        },
+        {
+          "type": "html",
+          "x": 560,
+          "y": 622,
+          "w": 340,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='background:#121212;border-radius:16px;padding:16px 20px;font-family:ui-monospace,Menlo,monospace;font-size:22px;line-height:1.5;color:#F2F0EB'><span style='color:#FF5A1F'>function</span> hitungTotal()<br><span style='color:#8a867c'>// bukan seluruh repo</span></div>"
+        },
+        {
+          "type": "shape",
+          "x": 220,
+          "y": 790,
+          "w": 760,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 256,
+          "y": 816,
+          "w": 80,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#121212"
+          },
+          "text": "3"
+        },
+        {
+          "type": "text",
+          "x": 256,
+          "y": 890,
+          "w": 300,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Error asli"
+        },
+        {
+          "type": "html",
+          "x": 560,
+          "y": 830,
+          "w": 390,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='background:#121212;border-radius:16px;padding:16px 20px;font-family:ui-monospace,Menlo,monospace;font-size:22px;line-height:1.5;color:#F2F0EB'>TypeError: x is undefined<br><span style='color:#FF5A1F'>paste utuh, no parafrase</span></div>"
+        },
+        {
+          "type": "shape",
+          "x": 280,
+          "y": 1000,
+          "w": 700,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 316,
+          "y": 1026,
+          "w": 80,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "4"
+        },
+        {
+          "type": "text",
+          "x": 316,
+          "y": 1100,
+          "w": 300,
+          "h": 60,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 800,
+            "color": "#F2F0EB",
+            "letterSpacing": -1
+          },
+          "text": "Batasan"
+        },
+        {
+          "type": "html",
+          "x": 620,
+          "y": 1034,
+          "w": 330,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='display:flex;flex-direction:column;gap:12px;font-family:ui-monospace,Menlo,monospace;font-size:24px;font-weight:600;color:#F2F0EB'><div><span style='color:#FF5A1F'>✕</span> ubah API</div><div><span style='color:#FF5A1F'>✕</span> library baru</div><div><span style='color:#FF5A1F'>✕</span> tulis ulang semua</div></div>"
+        }
+      ],
+      "name": "Context: 4 hal"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#121212",
+            "letterSpacing": 2
+          },
+          "text": "SEBELUM VS SESUDAH"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "w": 880,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 64,
+            "fontWeight": 800,
+            "letterSpacing": -2,
+            "color": "#121212"
+          },
+          "text": "Context ubah jawaban."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 290,
+          "w": 880,
+          "h": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='box-sizing:border-box;width:880px;height:210px;background:#E3DFD5;border-radius:28px;padding:30px 40px;font-family:Inter,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:ui-monospace,Menlo,monospace;font-size:20px;letter-spacing:2px;color:#6b675e'>TANPA CONTEXT</div><div style='font-family:ui-monospace,Menlo,monospace;font-size:38px;font-weight:700;margin-top:16px'>Kenapa query ini lambat?</div><div style='font-size:26px;margin-top:22px;color:#4a473f'>\"Tambah index, pakai cache.\" <b style='color:#121212'>Terlalu umum.</b></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 520,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='box-sizing:border-box;width:880px;height:520px;background:#121212;border-radius:28px;padding:30px 40px;color:#F2F0EB;font-family:ui-monospace,Menlo,monospace;font-size:28px;line-height:1.5'><div style='font-size:20px;letter-spacing:2px;color:#FF5A1F;font-weight:700;margin-bottom:18px'>DENGAN CONTEXT</div><div><span style='color:#FF5A1F'>Stack</span>  Postgres 15, Prisma 5</div><div><span style='color:#FF5A1F'>Tabel</span>  orders, 4 juta baris</div><div><span style='color:#FF5A1F'>Index</span>  hanya primary key</div><div><span style='color:#FF5A1F'>Query</span>  butuh 3 detik</div><div style='margin-top:14px;background:#262626;border-radius:16px;padding:16px 22px;font-size:25px;line-height:1.45'>findMany({ where: { userId },<br>&nbsp;&nbsp;orderBy: { createdAt: 'desc' } })</div><div style='margin-top:18px'>Kenapa lambat?</div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 884,
+          "y": 478,
+          "w": 64,
+          "h": 64,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "kind": "circle",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 884,
+          "y": 486,
+          "w": 64,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontFamily": "{mono}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#121212",
+            "textAlign": "center",
+            "lineHeight": 1.1
+          },
+          "text": "+"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1060,
+          "w": 880,
+          "h": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style='box-sizing:border-box;width:880px;height:190px;background:#FF5A1F;border-radius:28px;padding:30px 40px;font-family:Inter,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:ui-monospace,Menlo,monospace;font-size:20px;letter-spacing:2px;font-weight:700'>JAWABAN</div><div style='font-size:40px;font-weight:800;letter-spacing:-1px;margin-top:14px;line-height:1.1'>Buat index (userId, createdAt).</div><div style='font-size:24px;margin-top:10px'>Spesifik, bisa langsung dicoba.</div></div>"
+        }
+      ],
+      "name": "Sebelum vs sesudah"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 360,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 135,
+          "w": 500,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 24,
+            "letterSpacing": 2,
+            "fontWeight": 700,
+            "color": "#121212"
+          },
+          "text": "02 INSTRUCTION"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 195,
+          "w": 800,
+          "h": 240,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "color": "#121212",
+            "letterSpacing": -2
+          },
+          "text": "Bilang apa yang dikerjakan. Satu tugas, kata kerja jelas."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 480,
+          "w": 330,
+          "h": 243,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 505,
+          "w": 200,
+          "h": 28,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 20,
+            "letterSpacing": 2,
+            "color": "#6b675d"
+          },
+          "text": "SAMAR"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 570,
+          "w": 270,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.15,
+            "color": "#121212"
+          },
+          "text": "Perbaiki kode ini"
+        },
+        {
+          "type": "shape",
+          "x": 450,
+          "y": 480,
+          "w": 530,
+          "h": 243,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 485,
+          "y": 515,
+          "w": 460,
+          "h": 180,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 34,
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "color": "#F2F0EB"
+          },
+          "text": "Refactor fungsi ini jadi 2 fungsi kecil. Jangan ubah signature."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 743,
+          "w": 330,
+          "h": 243,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 768,
+          "w": 200,
+          "h": 28,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 20,
+            "letterSpacing": 2,
+            "color": "#6b675d"
+          },
+          "text": "SAMAR"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 833,
+          "w": 270,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.15,
+            "color": "#121212"
+          },
+          "text": "Bikin lebih bagus"
+        },
+        {
+          "type": "shape",
+          "x": 450,
+          "y": 743,
+          "w": 530,
+          "h": 243,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 485,
+          "y": 778,
+          "w": 460,
+          "h": 180,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 34,
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "color": "#F2F0EB"
+          },
+          "text": "Turunkan kompleksitas fungsi ini di bawah 10. Tanpa ganti logika."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1006,
+          "w": 330,
+          "h": 244,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1031,
+          "w": 200,
+          "h": 28,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 20,
+            "letterSpacing": 2,
+            "color": "#6b675d"
+          },
+          "text": "SAMAR"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1096,
+          "w": 270,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.15,
+            "color": "#121212"
+          },
+          "text": "Review kode ini"
+        },
+        {
+          "type": "shape",
+          "x": 450,
+          "y": 1006,
+          "w": 530,
+          "h": 244,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 485,
+          "y": 1041,
+          "w": 460,
+          "h": 180,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 34,
+            "fontWeight": 600,
+            "lineHeight": 1.25,
+            "color": "#F2F0EB"
+          },
+          "text": "Cari bug race condition saja. Abaikan soal gaya penulisan."
+        }
+      ],
+      "name": "Instruction"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 400,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 24,
+            "letterSpacing": 2,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "03 FORMAT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "w": 880,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 72,
+            "fontWeight": 800,
+            "lineHeight": 1.03,
+            "color": "#121212",
+            "letterSpacing": -2.5
+          },
+          "text": "Tentukan bentuk hasil sebelum model menjawab."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 400,
+          "w": 880,
+          "h": 580,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 440,
+          "w": 800,
+          "h": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, 'SF Mono', Menlo, monospace",
+            "fontSize": 30,
+            "lineHeight": 1.5,
+            "color": "#F2F0EB",
+            "whiteSpace": "pre"
+          },
+          "text": "Ekstrak data dari email ini.\nBalas JSON saja, tanpa teks lain:\n\n{\n  \"nama\": string,\n  \"tanggal\": \"YYYY-MM-DD\",\n  \"prioritas\": \"low\" | \"high\"\n}\n\nJika data tidak ada, isi null."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1000,
+          "w": 280,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1030,
+          "w": 220,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "JSON"
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1150,
+          "w": 220,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 26,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Untuk dipakai kode"
+        },
+        {
+          "type": "shape",
+          "x": 400,
+          "y": 1000,
+          "w": 280,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 430,
+          "y": 1030,
+          "w": 220,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Tabel"
+        },
+        {
+          "type": "text",
+          "x": 430,
+          "y": 1150,
+          "w": 220,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 26,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Untuk membandingkan"
+        },
+        {
+          "type": "shape",
+          "x": 700,
+          "y": 1000,
+          "w": 280,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 1030,
+          "w": 220,
+          "h": 50,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Diff"
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 1150,
+          "w": 220,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 26,
+            "lineHeight": 1.25,
+            "color": "#121212"
+          },
+          "text": "Untuk perubahan kode"
+        }
+      ],
+      "name": "Output Format"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 72,
+            "fontWeight": 800,
+            "color": "#121212",
+            "letterSpacing": -2.5
+          },
+          "text": "Gabungkan ketiganya."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 230,
+          "w": 880,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 265,
+          "w": 300,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "CONTEXT"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 325,
+          "w": 800,
+          "h": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 500,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "text": "Aku punya API Express + TypeScript. Endpoint POST /orders sering return 500 saat stok habis. Ini handler-nya: [kode]"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 590,
+          "w": 880,
+          "h": 270,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 625,
+          "w": 300,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "INSTRUCTION"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 685,
+          "w": 800,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 500,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "text": "Cari penyebab error 500 itu. Jangan tulis ulang seluruh handler, ubah seperlunya."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 880,
+          "w": 880,
+          "h": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 28
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 915,
+          "w": 300,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "fontWeight": 700,
+            "color": "#FF5A1F"
+          },
+          "text": "FORMAT"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 975,
+          "w": 800,
+          "h": 240,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 600,
+            "lineHeight": 1.35,
+            "color": "#F2F0EB",
+            "whiteSpace": "pre-line"
+          },
+          "text": "Balas 3 bagian:\n1. Penyebab (maks 2 kalimat)\n2. Diff kode\n3. Cara mengetesnya"
+        }
+      ],
+      "name": "Gabungan"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 96,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "color": "#121212",
+            "letterSpacing": -3.5,
+            "whiteSpace": "nowrap"
+          },
+          "text": "4 kesalahan umum."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 260,
+          "w": 540,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 295,
+          "w": 100,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#FF5A1F"
+          },
+          "text": "A"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 520,
+          "w": 460,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "color": "#F2F0EB",
+            "letterSpacing": -2
+          },
+          "text": "Context kosong"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 660,
+          "w": 460,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.3,
+            "color": "#B9B4A8"
+          },
+          "text": "Model menebak. Kamu dapat jawaban umum."
+        },
+        {
+          "type": "shape",
+          "x": 660,
+          "y": 260,
+          "w": 320,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#FF5A1F"
+        },
+        {
+          "type": "text",
+          "x": 695,
+          "y": 295,
+          "w": 100,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#121212"
+          },
+          "text": "B"
+        },
+        {
+          "type": "text",
+          "x": 695,
+          "y": 450,
+          "w": 255,
+          "h": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.08,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Banyak tugas sekaligus"
+        },
+        {
+          "type": "text",
+          "x": 695,
+          "y": 660,
+          "w": 255,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "text": "Pecah jadi beberapa prompt."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 800,
+          "w": 320,
+          "h": 450,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#E3DFD5"
+        },
+        {
+          "type": "text",
+          "x": 135,
+          "y": 835,
+          "w": 100,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#FF5A1F"
+          },
+          "text": "C"
+        },
+        {
+          "type": "text",
+          "x": 135,
+          "y": 950,
+          "w": 255,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.08,
+            "color": "#121212",
+            "letterSpacing": -1
+          },
+          "text": "Format tidak diminta"
+        },
+        {
+          "type": "text",
+          "x": 135,
+          "y": 1120,
+          "w": 255,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 26,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "text": "Dapat paragraf panjang."
+        },
+        {
+          "type": "shape",
+          "x": 440,
+          "y": 800,
+          "w": 540,
+          "h": 450,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 480,
+          "y": 835,
+          "w": 100,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, Menlo, monospace",
+            "fontSize": 26,
+            "color": "#FF5A1F"
+          },
+          "text": "D"
+        },
+        {
+          "type": "text",
+          "x": 480,
+          "y": 960,
+          "w": 460,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 800,
+            "lineHeight": 1.05,
+            "color": "#121212",
+            "letterSpacing": -2
+          },
+          "text": "Tidak dicek ulang"
+        },
+        {
+          "type": "text",
+          "x": 480,
+          "y": 1120,
+          "w": 460,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.3,
+            "color": "#121212"
+          },
+          "text": "Anggap hasilnya draft. Tes dan review dulu."
+        }
+      ],
+      "name": "Kesalahan"
+    },
+    {
+      "bg": "#F2F0EB",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "ui-monospace, 'SF Mono', Menlo, monospace",
+            "fontSize": 22,
+            "letterSpacing": 2,
+            "color": "#121212"
+          },
+          "text": "CHECKLIST / SEBELUM KIRIM"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "w": 880,
+          "h": 280,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "fontFamily": "Inter, 'Helvetica Neue', Arial, sans-serif",
+            "fontSize": 124,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": -4,
+            "color": "#121212",
+            "whiteSpace": "pre-line"
+          },
+          "text": "Cek dulu.\nBaru kirim."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "h": 4,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 474,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">01 CONTEXT</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Stack, versi, error, batasan sudah ada?</div></div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 624,
+          "w": 880,
+          "h": 2,
+          "rotate": 0,
+          "opacity": 0.25,
+          "z": 0,
+          "style": {},
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 626,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">02 INSTRUCTION</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Satu tugas, kata kerja jelas?</div></div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 776,
+          "w": 880,
+          "h": 2,
+          "rotate": 0,
+          "opacity": 0.25,
+          "z": 0,
+          "style": {},
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 778,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">03 FORMAT</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Bentuk hasil sudah diminta?</div></div></div>"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 928,
+          "w": 880,
+          "h": 4,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 990,
+          "w": 880,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {
+            "borderRadius": 32
+          },
+          "kind": "rect",
+          "fill": "#121212"
+        },
+        {
+          "type": "html",
+          "x": 140,
+          "y": 1020,
+          "w": 800,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "html": "<div style=\"display:flex;flex-direction:column;justify-content:center;height:200px;font-family:Inter,Arial,sans-serif;color:#F2F0EB\"><div style=\"font-weight:800;font-size:48px;line-height:1.1;letter-spacing:-1px\">Simpan carousel ini.</div><div style=\"font-weight:500;font-size:30px;line-height:1.35;margin-top:16px;opacity:.85\">Kirim ke temanmu yang masih nulis <span style=\"font-family:ui-monospace,Menlo,monospace;color:#FF5A1F;text-decoration:line-through;text-decoration-thickness:3px\">\"fix this bug\"</span></div></div>"
+        }
+      ],
+      "name": "Checklist CTA"
+    }
+  ]
+}
