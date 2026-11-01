@@ -131,15 +131,16 @@ Urutan kerja disarankan: Template, Font upload, Grafik dan tabel, Library aset, 
 - [ ] Batas diketahui: dua project dengan file berbeda tapi nama family sama bentrok di halaman yang menampilkan keduanya (thumbnail Home)
 
 ### Grafik dan tabel
-- [ ] Tipe elemen baru `chart` di schema: `kind` (bar|line|pie|donut), data (label + nilai, banyak seri), judul, warna dari `{tokens}`, legenda, label nilai
-- [ ] Tipe elemen baru `table`: baris/kolom, header, zebra, rata teks, warna dari token
-- [ ] Renderer menghasilkan SVG/HTML statis (tanpa library runtime) sehingga editor == PNG == PDF == HTML
-- [ ] Animasi: `anim`/`step` tetap jalan pada elemen baru (bar tumbuh sebagai opsi lanjutan)
-- [ ] Lint: overflow label, data kosong, nilai negatif untuk pie
-- [ ] Inspector: editor data (tabel kecil, tempel dari CSV/spreadsheet), pilihan jenis grafik, warna
-- [ ] Tool MCP: `set_slide`/`set_element` menerima `chart` dan `table`, deskripsi tool menjelaskan bentuk data
-- [ ] Prompt sistem agent: pakai `chart` untuk data angka, bukan SVG manual di `html`
-- [ ] Update CLAUDE.md dan README
+- [x] Tipe elemen baru `chart` di schema: `kind` (bar|line|pie|donut), data (label + nilai, banyak seri), judul, warna dari `{tokens}`, legenda, label nilai
+- [x] Tipe elemen baru `table`: baris/kolom, header, zebra, rata teks, warna dari token
+- [x] Renderer menghasilkan SVG/HTML statis (tanpa library runtime) sehingga editor == PNG == PDF == HTML
+- [x] Animasi: `anim`/`step` tetap jalan pada elemen baru (efek bar tumbuh belum ada)
+- [x] Lint: data kosong, panjang seri beda dari label, nilai negatif untuk pie, baris tabel tidak rata (label terlalu panjang dipotong dengan …, bukan dilaporkan)
+- [x] Inspector: editor data (tabel kecil, tempel dari CSV/spreadsheet), pilihan jenis grafik, warna
+- [x] Tool MCP: `set_slide`/`set_element` menerima `chart` dan `table`, deskripsi tool menjelaskan bentuk data
+- [x] Prompt sistem agent: pakai `chart` untuk data angka, bukan SVG manual di `html`
+- [x] Update CLAUDE.md dan README
+- [ ] Belum dicoba: agent sungguhan membuat grafik/tabel, export MP4/GIF dengan grafik, jenis grafik lain (hbar, area, stacked)
 
 ### Library aset (ikon, bentuk, foto stok)
 - [ ] Panel "Aset" di editor (di samping Toolbar tambah elemen): tab Ikon | Bentuk | Foto

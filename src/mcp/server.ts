@@ -270,7 +270,9 @@ server.registerTool(
       "Compose freely: every slide should have its own composition. " +
       "Give each slide a short `name` (e.g. \"Hook\", \"Tip 2\", \"CTA\"); it shows in the editor's slide list and preview. " +
       "For presentations, elements may have `anim` ({type: fade|up|down|left|right|zoom|pop, delay, duration in ms}) and `step` (0 = visible at once, 1.. = revealed one per click/arrow); slide may have `transition` (slide|fade|zoom). " +
-      "Animation only plays in the editor's Preview; PNG/PDF show the final state, so never rely on animation to convey meaning.",
+      "Animation only plays in the editor's Preview; PNG/PDF show the final state, so never rely on animation to convey meaning. " +
+      "Elements: text, image, shape, html, chart, table. For numbers use a `chart` element ({kind: bar|line|pie|donut, labels, series:[{name, values}], colors with {tokens}, unit, title; set w and h}) " +
+      "and for tabular text a `table` element ({rows: string[][], header, align, headerFill}), NOT hand-drawn SVG in `html`. Both render identically in the editor, PNG, PDF and HTML.",
     inputSchema: { index: idx, slide: Slide, project },
   },
   ({ index, slide, project: p }) =>
@@ -284,7 +286,7 @@ server.registerTool(
 server.registerTool(
   "set_element",
   {
-    description: "Replace one element in a slide, or append when elementIndex == elements.length.",
+    description: "Replace one element in a slide, or append when elementIndex == elements.length. Use type `chart` (bar|line|pie|donut from labels + series) or `table` (rows) for data, not raw SVG.",
     inputSchema: { slide: idx, elementIndex: idx, element: Element, project },
   },
   ({ slide, elementIndex, element, project: p }) =>

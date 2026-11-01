@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Code2, GripVertical, ImageIcon, Square, Type } from "lucide-react";
+import { BarChart3, Code2, GripVertical, ImageIcon, Square, Table2, Type } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Carousel } from "../../../core/schema";
 import { SortableItem, SortableList, followIndex } from "@/shared/Sortable";
@@ -7,12 +7,14 @@ import type { Editor } from "@/editor/useEditor";
 
 type El = Carousel["slides"][number]["elements"][number];
 
-const ICON = { text: Type, shape: Square, image: ImageIcon, html: Code2 } as const;
+const ICON = { text: Type, shape: Square, image: ImageIcon, html: Code2, chart: BarChart3, table: Table2 } as const;
 
 const label = (e: El) =>
   e.type === "text" ? e.text.replace(/\s+/g, " ").slice(0, 28) || "(kosong)"
   : e.type === "image" ? e.src.split("/").pop()!
   : e.type === "shape" ? e.kind
+  : e.type === "chart" ? `grafik ${e.kind}${e.title ? `: ${e.title}` : ""}`.slice(0, 28)
+  : e.type === "table" ? `tabel ${e.rows.length}×${Math.max(0, ...e.rows.map((r) => r.length))}`
   : "html";
 
 /** Frontmost layer on top (like design tools). Ids are array indices; later index = drawn on top. */

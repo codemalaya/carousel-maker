@@ -1,4 +1,4 @@
-import { Code2, ImagePlus, Loader2, Redo2, Sparkles, Square, Type, Undo2 } from "lucide-react";
+import { BarChart3, Code2, ImagePlus, Loader2, Redo2, Sparkles, Square, Table2, Type, Undo2 } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -28,7 +28,7 @@ type ToolbarProps = {
   onUndo: () => void;
   onRedo: () => void;
   hasSlide: boolean;
-  onAddElement: (type: "text" | "shape" | "html") => void;
+  onAddElement: (type: "text" | "shape" | "html" | "chart" | "table") => void;
   onPickImage: () => void;
   aiOpen: boolean;
   aiBusy: boolean;
@@ -55,6 +55,12 @@ export function Toolbar(p: ToolbarProps) {
       </Tool>
       <Tool label="Tambah bentuk" disabled={!p.hasSlide} onClick={() => p.onAddElement("shape")}>
         <Square />
+      </Tool>
+      <Tool label="Tambah grafik" disabled={!p.hasSlide} onClick={() => p.onAddElement("chart")}>
+        <BarChart3 />
+      </Tool>
+      <Tool label="Tambah tabel" disabled={!p.hasSlide} onClick={() => p.onAddElement("table")}>
+        <Table2 />
       </Tool>
       <Tool label="Tambah HTML / SVG" disabled={!p.hasSlide} onClick={() => p.onAddElement("html")}>
         <Code2 />

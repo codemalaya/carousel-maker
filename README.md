@@ -5,7 +5,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 ## Fitur
 
 - **Format**: 1:1, 4:5, 9:16 (social), 16:9 dan 4:3 (presentasi).
-- **Editor web**: text, image, shape, html/SVG; edit teks langsung, undo/redo, zoom/pan, ruler, guide, snapping, drag-drop slide dan layer, tema light/dark.
+- **Editor web**: text, image, shape, grafik (bar, line, pie, donut), tabel, html/SVG; edit teks langsung, undo/redo, zoom/pan, ruler, guide, snapping, drag-drop slide dan layer, tema light/dark.
 - **Animasi**: animasi per elemen, step klik, transisi slide (hanya di mode presentasi dan export animasi).
 - **Mode presentasi**: fullscreen, speaker notes, laser, blackout, timer.
 - **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber.

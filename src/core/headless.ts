@@ -8,6 +8,7 @@ import { join } from "node:path";
 import { IMAGE_TYPES, readAsset } from "./projects.ts";
 import { fontsDir, readFontFile } from "./fonts.ts";
 import { fontFaceCss } from "./fontUtil.ts";
+import { chartIssues, tableIssues } from "./charts.ts";
 
 const ASSET_HOST = "http://carousel.local";
 const OPTS: RenderOpts = { assetBase: `${ASSET_HOST}/assets`, fontUrl: (f) => `${ASSET_HOST}/fonts/${encodeURIComponent(f)}` };
@@ -111,6 +112,10 @@ export async function lint(c: Carousel, indices: number[], project?: string): Pr
         { W: width, H: height },
       );
       for (const f of found) issues.push({ slide: i, ...f });
+      c.slides[i].elements.forEach((e, idx) => {
+        const msgs = e.type === "chart" ? chartIssues(e) : e.type === "table" ? tableIssues(e) : [];
+        for (const message of msgs) issues.push({ slide: i, element: idx, kind: "data", message });
+      });
     }
     return issues;
   });

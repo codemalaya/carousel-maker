@@ -24,6 +24,8 @@ import { useEditorKeys } from "@/editor/useEditorKeys";
 const NEW: Record<string, () => unknown> = {
   text: () => ({ type: "text", text: "Teks baru", x: 100, y: 100, w: 700, style: { fontSize: 80, color: "#111", fontWeight: 700 } }),
   shape: () => ({ type: "shape", kind: "rect", x: 120, y: 120, w: 360, h: 360, fill: "#ff4d2e" }),
+  chart: () => ({ type: "chart", kind: "bar", x: 80, y: 120, w: 880, h: 560, title: "Judul grafik", labels: ["Q1", "Q2", "Q3", "Q4"], series: [{ name: "2025", values: [12, 19, 8, 24] }], style: { fontSize: 26, color: "#111" } }),
+  table: () => ({ type: "table", x: 80, y: 120, w: 880, rows: [["Paket", "Harga", "Fitur"], ["Basic", "Rp 99rb", "3 slide"], ["Pro", "Rp 199rb", "10 slide"]], style: { fontSize: 28, color: "#111" } }),
   html: () => ({ type: "html", x: 100, y: 100, w: 600, h: 240, html: "<div style='padding:24px;font:48px sans-serif'>HTML / SVG</div>" }),
 };
 

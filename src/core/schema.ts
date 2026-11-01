@@ -68,7 +68,46 @@ export const HtmlEl = z.object({
   html: z.string(),
 });
 
-export const Element = z.discriminatedUnion("type", [TextEl, ImageEl, ShapeEl, HtmlEl]);
+export const CHART_KINDS = ["bar", "line", "pie", "donut"] as const;
+
+/** Chart from data, rendered as static SVG (no runtime library, so editor == PNG == PDF == HTML). Size = w x h (default 800 x 500). */
+export const ChartEl = z.object({
+  type: z.literal("chart"),
+  ...Box,
+  kind: z.enum(CHART_KINDS).default("bar"),
+  title: z.string().max(120).optional(),
+  /** X axis categories (bar/line) or slice names (pie/donut) */
+  labels: z.array(z.string().max(60)).max(60).default([]),
+  /** bar/line: one entry per series (grouped bars / lines). pie/donut: only the first series is used. values[i] belongs to labels[i]. */
+  series: z.array(z.object({ name: z.string().max(60).default(""), values: z.array(z.number().finite()).max(60) })).max(8).default([]),
+  /** bar/line: one color per series; pie/donut: one per slice. `{token}` refs allowed. Missing ones fall back to a built-in palette. */
+  colors: z.array(z.string()).max(60).default([]),
+  /** Default: shown for several series and for pie/donut */
+  legend: z.boolean().optional(),
+  valueLabels: z.boolean().default(true),
+  /** Appended to values, e.g. "%" or " jt" */
+  unit: z.string().max(12).default(""),
+});
+export type ChartEl = z.infer<typeof ChartEl>;
+
+/** Table from rows of text. Font (size, family, color) comes from `style`; cells inherit it. */
+export const TableEl = z.object({
+  type: z.literal("table"),
+  ...Box,
+  rows: z.array(z.array(z.string().max(500)).max(12)).max(60).default([]),
+  /** First row is a header */
+  header: z.boolean().default(true),
+  /** Per column; missing = left */
+  align: z.array(z.enum(["left", "center", "right"])).max(12).default([]),
+  zebra: z.boolean().default(true),
+  headerFill: z.string().default("#111111"),
+  headerColor: z.string().default("#ffffff"),
+  stripeFill: z.string().default("rgba(0,0,0,0.05)"),
+  lineColor: z.string().default("rgba(0,0,0,0.15)"),
+});
+export type TableEl = z.infer<typeof TableEl>;
+
+export const Element = z.discriminatedUnion("type", [TextEl, ImageEl, ShapeEl, HtmlEl, ChartEl, TableEl]);
 export type Element = z.infer<typeof Element>;
 
 export const Slide = z.object({

@@ -1,3 +1,4 @@
+import { chartSvg, tableHtml } from "./charts.ts";
 import { fontFaceCss } from "./fontUtil.ts";
 import { FORMATS, type Carousel, type Element, type Slide } from "./schema.ts";
 
@@ -103,6 +104,10 @@ function renderElement(el: Element, c: Carousel, o: RenderOpts): string {
     }
     case "html":
       return `<div${id} style="${box(el, c, o)}">${el.html}</div>`;
+    case "chart":
+      return `<div${id} style="${box(el, c, o)}">${chartSvg(el, (s) => resolve(s, c))}</div>`;
+    case "table":
+      return `<div${id} style="${box(el, c, o)}">${tableHtml(el, (s) => resolve(s, c))}</div>`;
   }
 }
 

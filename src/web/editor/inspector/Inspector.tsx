@@ -9,6 +9,7 @@ import { LayersList } from "@/editor/inspector/LayersList";
 import type { Editor } from "@/editor/useEditor";
 import { ImageFields } from "@/editor/inspector/ImageFields";
 import { BrandRow } from "@/editor/inspector/BrandRow";
+import { ChartFields, TableFields } from "@/editor/inspector/ChartFields";
 import { FontRow } from "@/editor/inspector/FontRow";
 import { type El, num, type Focus, Field, NumField, OpacityField, AlignField, TextField, ColorField, OptionField, JsonBox, Section } from "@/editor/inspector/fields";
 
@@ -99,6 +100,30 @@ export function Inspector({ ed, project, cur, sel, setSel, footer }: {
                 <OptionField label="kind" value={el.kind} options={["rect", "circle", "line"]} onChange={(v) => patch({ kind: v })} />
                 <ColorField label="fill" value={el.fill} palette={palette} onChange={(v) => patch({ fill: v })} {...focus} />
               </Section>
+            )}
+            {el.type === "chart" && (
+              <>
+                <Section value="content" title="Grafik">
+                  <ChartFields el={el} patch={patch} focus={focus} />
+                </Section>
+                <Section value="type" title="Tipografi">
+                  <TextField label="size" value={style("fontSize")} placeholder="auto" onChange={(v) => setStyle("fontSize", v)} {...focus} />
+                  <TextField label="font" value={style("fontFamily")} placeholder="{sans}" onChange={(v) => setStyle("fontFamily", v)} {...focus} />
+                  <ColorField label="color" value={style("color")} palette={palette} onChange={(v) => setStyle("color", v)} {...focus} />
+                </Section>
+              </>
+            )}
+            {el.type === "table" && (
+              <>
+                <Section value="content" title="Tabel">
+                  <TableFields el={el} patch={patch} palette={palette} focus={focus} />
+                </Section>
+                <Section value="type" title="Tipografi">
+                  <TextField label="size" value={style("fontSize")} onChange={(v) => setStyle("fontSize", v)} {...focus} />
+                  <TextField label="font" value={style("fontFamily")} placeholder="{sans}" onChange={(v) => setStyle("fontFamily", v)} {...focus} />
+                  <ColorField label="color" value={style("color")} palette={palette} onChange={(v) => setStyle("color", v)} {...focus} />
+                </Section>
+              </>
             )}
             {el.type === "html" && (
               <Section value="content" title="HTML / SVG">
