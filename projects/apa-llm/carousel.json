@@ -18,7 +18,8 @@
     "fonts": {
       "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
     },
-    "css": ""
+    "css": "",
+    "fontFiles": []
   },
   "slides": [
     {
@@ -37,6 +38,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -53,6 +55,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -71,6 +74,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "AI — DASAR UNTUK PEMULA"
         },
         {
@@ -88,6 +92,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "LLM\nITU\nAPA?"
         },
         {
@@ -106,6 +111,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Kok ChatGPT bisa ngerti omongan kita? Kenalan sama Large Language Model."
         },
         {
@@ -118,6 +124,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:390px;height:130px;background:#2457ff;color:#fff;box-sizing:border-box;padding:20px 24px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:32px;letter-spacing:-.04em;line-height:1.05;display:flex;align-items:flex-end\">Jelasin LLM ke aku dong.</div>"
         },
         {
@@ -130,6 +137,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:640px;height:130px;background:#fff;border:3px solid #0a0a0a;box-sizing:border-box;padding:20px 28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='font-weight:800;font-size:18px;letter-spacing:.04em;color:#2457ff'>AI</div><div style='font-weight:700;font-size:34px;letter-spacing:-.04em;line-height:1.05;margin-top:10px'>Siap. Aku jelasin pelan-pelan<span style='display:inline-block;width:14px;height:32px;background:#2457ff;margin-left:6px;vertical-align:-4px'></span></div></div>"
         },
         {
@@ -142,6 +150,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:154px;height:154px;background:#0a0a0a;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:100px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>9 SLIDE</div></div>"
         },
         {
@@ -159,6 +168,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -178,6 +188,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "1/10"
         },
         {
@@ -190,6 +201,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -207,6 +219,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -225,6 +238,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -237,6 +251,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -258,6 +273,7 @@
             "filter": "blur(120px)",
             "opacity": 0.45
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -276,6 +292,7 @@
             "letterSpacing": "0.02em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "01 — ARTINYA"
         },
         {
@@ -293,6 +310,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "LARGE\nLANGUAGE\nMODEL."
         },
         {
@@ -305,6 +323,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:400px;height:130px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>LARGE</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Besar: miliaran parameter, data segunung.</div></div>"
         },
         {
@@ -317,6 +336,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:400px;height:130px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>LANGUAGE</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Bahasa: belajar dari teks manusia.</div></div>"
         },
         {
@@ -329,6 +349,7 @@
           "opacity": 1,
           "z": 8,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:400px;height:130px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>MODEL</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Model: rumus matematika hasil belajar.</div></div>"
         },
         {
@@ -346,6 +367,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -365,6 +387,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "2/10"
         },
         {
@@ -377,6 +400,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -394,6 +418,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -412,6 +437,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -424,6 +450,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -445,6 +472,7 @@
             "filter": "blur(120px)",
             "opacity": 0.4
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -463,6 +491,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "02 — INTINYA"
         },
         {
@@ -480,6 +509,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "CUMA\nTEBAK\nKATA."
         },
         {
@@ -498,6 +528,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "LLM nebak kata berikutnya yang paling mungkin, berulang-ulang."
         },
         {
@@ -510,6 +541,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:330px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='font-weight:800;font-size:40px;letter-spacing:-.045em;margin-bottom:22px'>Nasi goreng enak dimakan pakai <span style='background:#0a0a0a;color:#fff;padding:0 14px'>___</span></div><div style='display:flex;align-items:center;gap:14px;margin-bottom:10px'><div style='width:150px;font-weight:700;font-size:24px'>telur</div><div style='width:560px;height:42px;background:#2457ff'></div><div style='font-weight:800;font-size:24px'>62%</div></div><div style='display:flex;align-items:center;gap:14px;margin-bottom:10px'><div style='width:150px;font-weight:700;font-size:24px'>kerupuk</div><div style='width:250px;height:42px;background:#2457ff;opacity:.6'></div><div style='font-weight:800;font-size:24px'>28%</div></div><div style='display:flex;align-items:center;gap:14px;margin-bottom:10px'><div style='width:150px;font-weight:700;font-size:24px'>sendok</div><div style='width:70px;height:42px;background:#2457ff;opacity:.35'></div><div style='font-weight:800;font-size:24px'>7%</div></div><div style='display:flex;align-items:center;gap:14px'><div style='width:150px;font-weight:700;font-size:24px'>roket</div><div style='width:6px;height:42px;background:#fc1201'></div><div style='font-weight:800;font-size:24px'>0,01%</div></div></div>"
         },
         {
@@ -527,6 +559,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -546,6 +579,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "3/10"
         },
         {
@@ -558,6 +592,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -575,6 +610,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -593,6 +629,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -605,6 +642,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -626,6 +664,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -644,6 +683,7 @@
             "letterSpacing": "0.02em",
             "color": "#3ad1ff"
           },
+          "step": 0,
           "text": "03 — TOKEN"
         },
         {
@@ -661,6 +701,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "POTONG\nJADI\nTOKEN."
         },
         {
@@ -679,6 +720,7 @@
             "letterSpacing": "-0.035em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Teks dipecah jadi potongan kecil, tiap potongan dikasih nomor. Cuma angka yang dibaca model."
         },
         {
@@ -691,6 +733,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:270px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='display:flex;gap:10px;flex-wrap:wrap'><div style='background:#fff;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>Aku<div style='font-size:16px;opacity:.5;letter-spacing:0'>#4021</div></div><div style='background:#fff;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>suka<div style='font-size:16px;opacity:.5;letter-spacing:0'>#318</div></div><div style='background:#f9d361;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>ngo<div style='font-size:16px;opacity:.5;letter-spacing:0'>#9904</div></div><div style='background:#f9d361;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>pi<div style='font-size:16px;opacity:.5;letter-spacing:0'>#77</div></div><div style='background:#fff;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>di<div style='font-size:16px;opacity:.5;letter-spacing:0'>#12</div></div><div style='background:#fff;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>pagi<div style='font-size:16px;opacity:.5;letter-spacing:0'>#2650</div></div><div style='background:#2457ff;color:#fff;padding:12px 18px;font-weight:800;font-size:42px;letter-spacing:-.04em'>.<div style='font-size:16px;opacity:.7;letter-spacing:0'>#13</div></div></div><div style='margin-top:26px;font-weight:700;font-size:22px;color:#fff;opacity:.75'>Kata umum = 1 token. Kata langka dipecah lagi (ngo + pi).</div></div>"
         },
         {
@@ -708,6 +751,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -727,6 +771,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "4/10"
         },
         {
@@ -739,6 +784,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -756,6 +802,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -774,6 +821,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -786,6 +834,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -807,6 +856,7 @@
             "filter": "blur(120px)",
             "opacity": 0.5
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -825,6 +875,7 @@
             "letterSpacing": "0.02em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "04 — BELAJAR"
         },
         {
@@ -843,6 +894,7 @@
             "color": "#ffffff",
             "opacity": 0.18
           },
+          "step": 0,
           "text": "13T"
         },
         {
@@ -860,6 +912,7 @@
             "letterSpacing": "-0.05em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "BACA\nSEPERTI\nPERPUSTAKAAN\nRAKSASA."
         },
         {
@@ -878,6 +931,7 @@
             "letterSpacing": "-0.035em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Saat training, model baca triliunan token dan terus ditebak-koreksi sampai tebakannya makin jitu."
         },
         {
@@ -890,6 +944,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:170px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a;display:flex;flex-wrap:wrap;gap:10px;align-content:flex-start\"><div style='background:#fff;padding:14px 22px;font-weight:800;font-size:30px;letter-spacing:-.04em;transform:rotate(-2deg)'>Buku</div><div style='background:#fff;padding:14px 22px;font-weight:800;font-size:30px;letter-spacing:-.04em'>Wikipedia</div><div style='background:#f9d361;padding:14px 22px;font-weight:800;font-size:30px;letter-spacing:-.04em;transform:rotate(2deg)'>Artikel berita</div><div style='background:#fff;padding:14px 22px;font-weight:800;font-size:30px;letter-spacing:-.04em;transform:rotate(1deg)'>Kode program</div><div style='background:#0a0a0a;color:#fff;padding:14px 22px;font-weight:800;font-size:30px;letter-spacing:-.04em;transform:rotate(-1deg)'>Forum &amp; web</div></div>"
         },
         {
@@ -907,6 +962,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -926,6 +982,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "5/10"
         },
         {
@@ -938,6 +995,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -955,6 +1013,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -973,6 +1032,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -985,6 +1045,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1006,6 +1067,7 @@
             "filter": "blur(120px)",
             "opacity": 0.5
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1024,6 +1086,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "05 — KOK BISA NGERTI?"
         },
         {
@@ -1041,6 +1104,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "FOKUS KE\nKONTEKS."
         },
         {
@@ -1059,6 +1123,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Lewat mekanisme attention (arsitektur Transformer), model menimbang kata mana yang paling nyambung."
         },
         {
@@ -1071,6 +1136,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:420px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><svg width='880' height='420' style='position:absolute;left:0;top:0'><path d='M58 190 C58 60 514 60 514 190' stroke='#2457ff' stroke-width='6' fill='none'/><path d='M408 190 C408 130 514 130 514 190' stroke='#2457ff' stroke-width='3' fill='none' opacity='.5'/><path d='M670 190 C670 140 514 140 514 190' stroke='#2457ff' stroke-width='2' fill='none' opacity='.35'/></svg><div style='position:absolute;left:0;top:190px;display:flex;gap:10px;font-weight:800;font-size:40px;letter-spacing:-.04em'><div style='background:#fff;border:3px solid #0a0a0a;padding:10px 16px'>Dina</div><div style='background:#fff;border:3px solid #0a0a0a;padding:10px 16px'>beli</div><div style='background:#fff;border:3px solid #0a0a0a;padding:10px 16px'>apel</div><div style='background:#fff;border:3px solid #0a0a0a;padding:10px 16px'>lalu</div><div style='background:#2457ff;color:#fff;border:3px solid #2457ff;padding:10px 16px'>dia</div><div style='background:#fff;border:3px solid #0a0a0a;padding:10px 16px'>makan</div></div><div style='position:absolute;left:0;top:330px;width:560px;font-weight:700;font-size:28px;letter-spacing:-.03em;line-height:1.1'>\"dia\" nyambung paling kuat ke \"Dina\", bukan ke \"apel\".</div><div style='position:absolute;left:640px;top:345px;background:#f9d361;padding:10px 16px;font-weight:800;font-size:20px;letter-spacing:.03em;transform:rotate(-3deg)'>ATTENTION</div></div>"
         },
         {
@@ -1088,6 +1154,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1107,6 +1174,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "6/10"
         },
         {
@@ -1119,6 +1187,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1136,6 +1205,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1154,6 +1224,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1166,6 +1237,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1187,6 +1259,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -1205,6 +1278,7 @@
             "letterSpacing": "0.02em",
             "color": "#3ad1ff"
           },
+          "step": 0,
           "text": "06 — ALUR KERJA"
         },
         {
@@ -1222,6 +1296,7 @@
             "letterSpacing": "-0.055em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "DARI\nPROMPT\nKE JAWABAN."
         },
         {
@@ -1234,6 +1309,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:560px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a;display:flex;flex-direction:column;gap:12px\"><div style='display:flex;align-items:center;gap:0'><div style='width:100px;height:100px;background:#2457ff;color:#fff;font-weight:800;font-size:44px;display:flex;align-items:center;justify-content:center'>1</div><div style='flex:1;height:100px;background:#fff;padding:0 26px;display:flex;flex-direction:column;justify-content:center'><div style='font-weight:800;font-size:34px;letter-spacing:-.045em'>Prompt masuk</div><div style='font-weight:500;font-size:20px;opacity:.6'>Pertanyaan kamu diketik.</div></div></div><div style='display:flex;align-items:center;margin-left:50px'><div style='width:100px;height:100px;background:#2457ff;color:#fff;font-weight:800;font-size:44px;display:flex;align-items:center;justify-content:center'>2</div><div style='flex:1;height:100px;background:#fff;padding:0 26px;display:flex;flex-direction:column;justify-content:center'><div style='font-weight:800;font-size:34px;letter-spacing:-.045em'>Jadi token</div><div style='font-weight:500;font-size:20px;opacity:.6'>Dipecah dan diberi nomor.</div></div></div><div style='display:flex;align-items:center;margin-left:100px'><div style='width:100px;height:100px;background:#2457ff;color:#fff;font-weight:800;font-size:44px;display:flex;align-items:center;justify-content:center'>3</div><div style='flex:1;height:100px;background:#fff;padding:0 26px;display:flex;flex-direction:column;justify-content:center'><div style='font-weight:800;font-size:34px;letter-spacing:-.045em'>Model memproses</div><div style='font-weight:500;font-size:20px;opacity:.6'>Attention + hitung peluang.</div></div></div><div style='display:flex;align-items:center;margin-left:150px'><div style='width:100px;height:100px;background:#2457ff;color:#fff;font-weight:800;font-size:44px;display:flex;align-items:center;justify-content:center'>4</div><div style='flex:1;height:100px;background:#fff;padding:0 26px;display:flex;flex-direction:column;justify-content:center'><div style='font-weight:800;font-size:34px;letter-spacing:-.045em'>Token demi token</div><div style='font-weight:500;font-size:20px;opacity:.6'>Jawaban dirakit satu per satu.</div></div></div><div style='margin-left:200px;height:100px;background:#f9d361;display:flex;align-items:center;padding:0 26px;font-weight:800;font-size:34px;letter-spacing:-.045em'>Jawaban tampil</div></div>"
         },
         {
@@ -1251,6 +1327,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1270,6 +1347,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "7/10"
         },
         {
@@ -1282,6 +1360,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1299,6 +1378,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1317,6 +1397,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1329,6 +1410,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1350,6 +1432,7 @@
             "filter": "blur(120px)",
             "opacity": 0.5
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1368,6 +1451,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "07 — BATASAN"
         },
         {
@@ -1385,6 +1469,7 @@
             "letterSpacing": "-0.055em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "YANG\nSALAH\nBISA\nMEYAKINKAN."
         },
         {
@@ -1397,6 +1482,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:600px;height:210px;background:#fff;border:3px solid #0a0a0a;box-sizing:border-box;padding:22px 28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='font-weight:800;font-size:18px;letter-spacing:.04em;color:#2457ff'>AI</div><div style='font-weight:700;font-size:30px;letter-spacing:-.04em;line-height:1.1;margin-top:10px'>Candi Borobudur dibangun tahun <span style='background:#fc1201;color:#fff;padding:0 8px'>1850</span> oleh Raja Majapahit.</div></div>"
         },
         {
@@ -1409,6 +1495,7 @@
           "opacity": 1,
           "z": 8,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:300px;height:54px;background:#fc1201;color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:24px;letter-spacing:.04em\">HALUSINASI</div>"
         },
         {
@@ -1427,6 +1514,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Model memilih kata yang terdengar paling masuk akal, bukan yang pasti benar. Cek ulang fakta penting."
         },
         {
@@ -1444,6 +1532,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1463,6 +1552,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "8/10"
         },
         {
@@ -1475,6 +1565,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1492,6 +1583,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1510,6 +1602,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1522,6 +1615,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1543,6 +1637,7 @@
             "filter": "blur(120px)",
             "opacity": 0.45
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1561,6 +1656,7 @@
             "letterSpacing": "0.02em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "08 — PRAKTIK"
         },
         {
@@ -1578,6 +1674,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "TANYA\nYANG\nJELAS."
         },
         {
@@ -1590,6 +1687,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:450px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff\"><div style='display:flex;gap:30px;align-items:flex-start;border-top:3px solid #fff;padding:18px 0 26px'><div style='font-weight:800;font-size:90px;line-height:.8;letter-spacing:-.06em;width:130px'>01</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em'>Kasih konteks</div><div style='font-weight:500;font-size:24px;opacity:.85;margin-top:6px'>Siapa kamu, apa tujuannya.</div></div></div><div style='display:flex;gap:30px;align-items:flex-start;border-top:3px solid #fff;padding:18px 0 26px'><div style='font-weight:800;font-size:90px;line-height:.8;letter-spacing:-.06em;width:130px'>02</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em'>Sebut format jawaban</div><div style='font-weight:500;font-size:24px;opacity:.85;margin-top:6px'>Poin, tabel, atau paragraf pendek.</div></div></div><div style='display:flex;gap:30px;align-items:flex-start;border-top:3px solid #fff;padding:18px 0 0'><div style='font-weight:800;font-size:90px;line-height:.8;letter-spacing:-.06em;width:130px;color:#f9d361'>03</div><div><div style='font-weight:800;font-size:38px;letter-spacing:-.045em'>Cek &amp; perbaiki bareng</div><div style='font-weight:500;font-size:24px;opacity:.85;margin-top:6px'>Lanjutkan chat, jangan sekali tanya.</div></div></div></div>"
         },
         {
@@ -1607,6 +1705,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1626,6 +1725,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "9/10"
         },
         {
@@ -1638,6 +1738,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1655,6 +1756,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1673,6 +1775,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1685,6 +1788,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1706,6 +1810,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1722,6 +1827,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -1740,6 +1846,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "RANGKUMAN"
         },
         {
@@ -1757,6 +1864,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "PAHAMI\nDULU,\nBARU\nPAKAI."
         },
         {
@@ -1775,6 +1883,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "LLM = mesin peramal kata yang belajar dari teks sedunia. Pintar, tapi tetap perlu kamu kendalikan."
         },
         {
@@ -1787,6 +1896,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:520px;height:80px;background:#2457ff;color:#fff;display:flex;align-items:center;padding:0 28px;box-sizing:border-box;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:30px;letter-spacing:-.04em\">Follow @codemalaya</div>"
         },
         {
@@ -1799,6 +1909,7 @@
           "opacity": 1,
           "z": 7,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:260px;height:54px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:22px;letter-spacing:.04em\">SIMPAN POSTINGAN</div>"
         },
         {
@@ -1816,6 +1927,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1835,6 +1947,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "10/10"
         },
         {
@@ -1847,6 +1960,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1864,6 +1978,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1882,6 +1997,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         }
       ],

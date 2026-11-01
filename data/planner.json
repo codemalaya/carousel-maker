@@ -46,7 +46,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "7915d6343d",
@@ -58,7 +58,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "aa17b1cf88",
@@ -70,7 +70,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "bcc993f79a",
@@ -94,7 +94,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "b4c398bb9a",
@@ -106,7 +106,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "864be61506",
@@ -118,7 +118,7 @@
       "format": "4:5",
       "caption": "",
       "hashtags": "",
-      "status": "draft"
+      "status": "siap"
     },
     {
       "id": "c7619ae9d9",
@@ -143,6 +143,72 @@
       "caption": "",
       "hashtags": "",
       "status": "terbit"
+    },
+    {
+      "id": "2d2f340e8f",
+      "title": "AI Agent Itu Apa?",
+      "date": "2026-11-04",
+      "time": "09:00",
+      "platform": "instagram",
+      "project": "ai-agent-itu-apa",
+      "caption": "Chatbot biasa cuma jawab. AI Agent bisa pakai tools, ambil keputusan, dan jalankan task sendiri. Yuk bedain keduanya!",
+      "hashtags": "#AIAgent #AI #Chatbot #Teknologi #BelajarAI",
+      "status": "siap"
+    },
+    {
+      "id": "26a920e5fa",
+      "title": "Vector Database & Embedding, Buat Apa?",
+      "date": "2026-11-04",
+      "time": "13:00",
+      "platform": "instagram",
+      "project": "vector-database-embedding-buat",
+      "caption": "Embedding mengubah teks jadi angka yang bisa dibandingkan maknanya. Ini alasan vector database makin sering dipakai di aplikasi AI modern.",
+      "hashtags": "#VectorDatabase #Embedding #AI #MachineLearning #BelajarAI",
+      "status": "siap"
+    },
+    {
+      "id": "7ee92095fe",
+      "title": "Fine-Tuning vs RAG: Mending Mana?",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "platform": "instagram",
+      "project": "fine-tuning-vs-rag",
+      "caption": "Kapan model harus dilatih ulang, dan kapan cukup dikasih data lewat RAG? Kenali bedanya biar nggak salah pilih.",
+      "hashtags": "#FineTuning #RAG #LLM #AI #BelajarAI",
+      "status": "siap"
+    },
+    {
+      "id": "55ec847426",
+      "title": "5 Celah Kritis Windows DHCP: Sudah Patch Belum?",
+      "date": "2026-11-05",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Patch Tuesday Oktober 2026 memuat lima celah RCE kritis di Windows DHCP Server. Ini yang perlu dicek admin dan tim IT sekarang. Sumber: https://www.splashtop.com/de/es/blog/patch-tuesday-october-2026",
+      "hashtags": "#CyberSecurity #PatchTuesday #Windows #CVE #KeamananSiber",
+      "status": "ide"
+    },
+    {
+      "id": "50bd9f22ae",
+      "title": "AI untuk Pertahanan Siber: Kenapa Akses Dibatasi?",
+      "date": "2026-11-05",
+      "time": "13:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Laporan terbaru menyebut OpenAI membatasi akses GPT-5.5 Cyber meski sempat berjanji mendemokratisasi AI untuk pertahanan. Kenapa model keamanan sering dikunci? Sumber: https://buttondown.com/ai-digest-en/archive/openai-quietly-gates-gpt-55-cyber-after-pledging/",
+      "hashtags": "#AI #CyberSecurity #OpenAI #LLM #TeknologiAI",
+      "status": "ide"
+    },
+    {
+      "id": "1d07e0f5f3",
+      "title": "Event AI November: Ignite, SC26, re:Invent",
+      "date": "2026-11-05",
+      "time": "19:00",
+      "platform": "instagram",
+      "format": "4:5",
+      "caption": "Microsoft Ignite (17-20 Nov), SC26 (15-20 Nov), dan AWS re:Invent (30 Nov-4 Des) jadi panggung pengumuman AI berikutnya. Catat tanggalnya biar tidak ketinggalan. Sumber: https://hpcwire.com/aiwire/editorial-calendar",
+      "hashtags": "#AI #MicrosoftIgnite #reInvent #SC26 #TechEvent",
+      "status": "ide"
     }
   ]
 }

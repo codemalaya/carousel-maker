@@ -1,0 +1,1537 @@
+{
+  "title": "",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "Topik: AI Agent Itu Apa?\nCaption rencana:\nChatbot biasa cuma jawab. AI Agent bisa pakai tools, ambil keputusan, dan jalankan task sendiri. Yuk bedain keduanya!\nPlatform: Instagram",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -260,
+          "y": -300,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI — DASAR UNTUK PEMULA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 170,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AGENT\nITU\nAPA?"
+        },
+        {
+          "type": "html",
+          "x": 544,
+          "y": 421,
+          "w": 390,
+          "h": 130,
+          "rotate": 4,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:390px;height:130px;background:#2457ff;color:#fff;box-sizing:border-box;padding:20px 24px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:32px;letter-spacing:-.04em;line-height:1.05;display:flex;align-items:flex-end\">Beda sama chatbot, lho.</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 690,
+          "w": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Chatbot cuma jawab. AI Agent bisa pakai tools, ambil keputusan, dan kerja sendiri."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 900,
+          "w": 640,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:640px;height:130px;background:#fff;border:3px solid #0a0a0a;box-sizing:border-box;padding:20px 28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='font-weight:800;font-size:18px;letter-spacing:.04em;color:#2457ff'>AGENT</div><div style='font-weight:700;font-size:34px;letter-spacing:-.04em;line-height:1.05;margin-top:10px'>Oke. Aku kerjain sekarang<span style='display:inline-block;width:14px;height:32px;background:#2457ff;margin-left:6px;vertical-align:-4px'></span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 826,
+          "y": 880,
+          "w": 154,
+          "h": 154,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:154px;height:154px;background:#0a0a0a;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:100px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>6 SLIDE</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "01 — CHATBOT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CHATBOT\nCUMA\nJAWAB."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 660,
+          "w": 400,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:130px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>KAMU</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Kamu tanya, dia jawab.</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 220,
+          "y": 805,
+          "w": 400,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:130px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>TIDAK</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Tidak buka aplikasi atau cek hasil.</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 340,
+          "y": 950,
+          "w": 400,
+          "h": 130,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:400px;height:130px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:14px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>SELESAI</div><div style='font-weight:700;font-size:28px;letter-spacing:-.04em;line-height:1.05'>Berhenti di situ.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Chatbot"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "02 — AI AGENT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 140,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AGENT\nKERJAIN\nSENDIRI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 690,
+          "w": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kamu kasih tujuan. Dia pecah jadi langkah, lalu jalan satu per satu sampai beres."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 880,
+          "w": 240,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:240px;height:150px;background:#0a0a0a;color:#fff;box-sizing:border-box;padding:16px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.6'>1</div><div style='font-weight:800;font-size:38px;letter-spacing:-.04em'>TUJUAN</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 370,
+          "y": 880,
+          "w": 240,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:240px;height:150px;background:#2457ff;color:#fff;box-sizing:border-box;padding:16px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.6'>2</div><div style='font-weight:800;font-size:38px;letter-spacing:-.04em'>LANGKAH</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 640,
+          "y": 880,
+          "w": 240,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:240px;height:150px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:16px 20px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>3</div><div style='font-weight:800;font-size:38px;letter-spacing:-.04em'>HASIL</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 900,
+          "y": 930,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 70,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "✓"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Agent"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -340,
+          "w": 760,
+          "h": 760,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "03 — KEMAMPUAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 130,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "3 HAL\nBEDAIN\nAGENT."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 600,
+          "w": 780,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:780px;height:150px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:18px 28px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>1</div><div><div style='font-weight:800;font-size:44px;letter-spacing:-.04em;line-height:1'>PAKAI TOOLS</div><div style='font-weight:500;font-size:24px;letter-spacing:-.03em;margin-top:6px'>Browsing, kode, kalender, email.</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 170,
+          "y": 780,
+          "w": 780,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:780px;height:150px;background:#2457ff;color:#fff;box-sizing:border-box;padding:18px 28px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.6'>2</div><div><div style='font-weight:800;font-size:44px;letter-spacing:-.04em;line-height:1'>AMBIL KEPUTUSAN</div><div style='font-weight:500;font-size:24px;letter-spacing:-.03em;margin-top:6px'>Pilih langkah berikutnya sendiri.</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 960,
+          "w": 780,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:780px;height:150px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:18px 28px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;opacity:.5'>3</div><div><div style='font-weight:800;font-size:44px;letter-spacing:-.04em;line-height:1'>JALANKAN TASK</div><div style='font-weight:500;font-size:24px;letter-spacing:-.03em;margin-top:6px'>Dari awal sampai hasil jadi.</div></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "3 Kemampuan"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 420,
+          "y": 700,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "04 — ADU TUGAS"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 130,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "TUGAS\nSAMA."
+        },
+        {
+          "type": "html",
+          "x": 560,
+          "y": 240,
+          "w": 420,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:420px;height:110px;background:#f9d361;color:#0a0a0a;box-sizing:border-box;padding:16px 22px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.04em;line-height:1.1;display:flex;align-items:flex-end\">“Riset 3 kompetitor lalu rangkum.”</div>"
+        },
+        {
+          "type": "table",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 540,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 600,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "rows": [
+            [
+              "",
+              "Chatbot",
+              "AI Agent"
+            ],
+            [
+              "Hasil",
+              "Saran & teks",
+              "Rangkuman jadi"
+            ],
+            [
+              "Cari data",
+              "Kamu yang cari",
+              "Dia browsing sendiri"
+            ],
+            [
+              "Langkah",
+              "Satu jawaban",
+              "Banyak langkah"
+            ],
+            [
+              "Peran kamu",
+              "Eksekutor",
+              "Pemberi tujuan"
+            ]
+          ],
+          "header": true,
+          "align": [],
+          "zebra": false,
+          "headerFill": "#2457ff",
+          "headerColor": "#ffffff",
+          "stripeFill": "rgba(0,0,0,0.05)",
+          "lineColor": "#0a0a0a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1085,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Beda utamanya: siapa yang bekerja."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Perbandingan"
+    },
+    {
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "05 — CARA KERJA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "TERUS\nBERPUTAR."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 540,
+          "w": 340,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:340px;height:340px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 56px 'Helvetica Neue',Arial,sans-serif;letter-spacing:-.04em\">PIKIR</div>"
+        },
+        {
+          "type": "html",
+          "x": 640,
+          "y": 640,
+          "w": 340,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:340px;height:340px;border-radius:50%;background:#2457ff;color:#fff;display:flex;align-items:center;justify-content:center;font:800 56px 'Helvetica Neue',Arial,sans-serif;letter-spacing:-.04em\">AKSI</div>"
+        },
+        {
+          "type": "html",
+          "x": 330,
+          "y": 830,
+          "w": 340,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:340px;height:340px;border-radius:50%;background:#fff;border:3px solid #0a0a0a;box-sizing:border-box;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 56px 'Helvetica Neue',Arial,sans-serif;letter-spacing:-.04em\">CEK</div>"
+        },
+        {
+          "type": "text",
+          "x": 480,
+          "y": 560,
+          "w": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 34,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Ulangi sampai tujuan tercapai."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 787,
+          "y": 1188,
+          "w": 193,
+          "h": 47,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
+        }
+      ],
+      "name": "Siklus"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 867,
+          "y": 113,
+          "w": 113,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 167,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "06 — RANGKUMAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 204,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SEKARANG\nKAMU BISA\nBEDAIN."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "Chatbot menjawab.\nAgent mengerjakan."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 900,
+          "w": 680,
+          "h": 190,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 7,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:680px;height:190px;background:#fff;color:#0a0a0a;box-sizing:border-box;padding:22px 28px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='font-weight:800;font-size:18px;letter-spacing:.04em;color:#2457ff'>SIMPAN &amp; KIRIM</div><div style='font-weight:700;font-size:38px;letter-spacing:-.04em;line-height:1.05'>Kirim ke temanmu yang masih bingung.</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1182,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1186,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 1211,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "text",
+          "x": 680,
+          "y": 1198,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "Ikuti untuk tips AI lainnya"
+        }
+      ],
+      "name": "CTA"
+    }
+  ]
+}

@@ -18,7 +18,8 @@
     "fonts": {
       "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
     },
-    "css": ""
+    "css": "",
+    "fontFiles": []
   },
   "slides": [
     {

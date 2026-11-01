@@ -26,7 +26,8 @@
       "mono": "Menlo, 'SF Mono', Consolas, monospace",
       "serif": "Georgia, 'Times New Roman', serif"
     },
-    "css": ""
+    "css": "",
+    "fontFiles": []
   },
   "slides": [
     {
