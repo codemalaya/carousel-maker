@@ -215,7 +215,8 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
     try {
       const limit = z.coerce.number().int().min(1).max(120).parse(query.get("limit") ?? 60);
       const found = await searchIcons((query.get("q") ?? "").slice(0, 60), limit);
-      return json(res, await Promise.all(found.map(async (name) => ({ name, svg: await iconSvg(name) })))), true;
+      const hits = await Promise.all(found.map(async (name) => ({ name, svg: await iconSvg(name).catch(() => null) })));
+      return json(res, hits.filter((h) => h.svg)), true; // one broken icon must not fail the whole list
     } catch (e) {
       return json(res, { error: e instanceof Error ? e.message : String(e) }, 400), true;
     }
