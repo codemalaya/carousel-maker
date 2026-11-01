@@ -12,6 +12,8 @@ import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
 import { fetchSource, formatSource } from "../core/source";
 import { applyBrand, createBrand, listBrands, loadBrand } from "../core/brands";
+import { createTemplate, instantiateTemplate, listTemplates, loadTemplate } from "../core/templates";
+import { insertInstance } from "../core/templateUtil";
 import { createPlanItem, listPlan, updatePlanItem } from "../core/planner";
 
 const server = new McpServer({ name: "carousel-maker", version: "0.2.0" });
@@ -153,6 +155,54 @@ server.registerTool(
   async ({ brand, name, project: p }) => {
     await createBrand(brand, { name, fromProject: p ?? DEFAULT_PROJECT });
     return text(`saved brand "${brand}"`);
+  },
+);
+
+server.registerTool(
+  "list_templates",
+  { description: "List saved slide templates (id, name, format, tags). A template is one reusable slide with its images and the tokens it was designed with." },
+  async () => text(JSON.stringify(await listTemplates(), null, 2)),
+);
+
+server.registerTool(
+  "get_template",
+  {
+    description: "Return one slide template (slide JSON, tokens, format) so you can read its composition before using it.",
+    inputSchema: { template: z.string() },
+  },
+  async ({ template }) => text(JSON.stringify(await loadTemplate(template), null, 2)),
+);
+
+server.registerTool(
+  "apply_template",
+  {
+    description:
+      "Insert a template's slide into the project (images are copied to assets, tokens the project lacks are added; project tokens win). " +
+      "`at` = slide index to insert at (default: end). Returns the new slide index. A template is a starting point: afterwards use set_slide/set_element to replace its text and adapt the " +
+      "composition to the new content, do not leave placeholder text. If the template's format differs from the project's, positions may be off: check with render_slide.",
+    inputSchema: { template: z.string(), at: idx.optional(), project },
+  },
+  async ({ template, at, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const inst = await instantiateTemplate(template, pid);
+    const c = await loadProject(pid);
+    const i = insertInstance(c, inst, at);
+    await saveProject(pid, c);
+    return text(`inserted "${inst.name}" as slide ${i}${inst.mismatch ? ` (WARNING: template is ${inst.format}, project is ${c.format}; check layout with render_slide)` : ""}`);
+  },
+);
+
+server.registerTool(
+  "save_template",
+  {
+    description: "Save one slide of this project as a NEW template (copies the images it uses and the project's tokens). Never overwrites. Only when the user asks for it.",
+    inputSchema: { slide: idx, name: z.string().trim().min(1).max(80), tags: z.array(z.string()).max(8).optional(), project },
+  },
+  async ({ slide, name, tags, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const c = await loadProject(pid);
+    const { id } = await createTemplate({ name, tags, project: pid, slide: slideAt(c, slide), format: c.format, tokens: c.tokens });
+    return text(`saved template "${id}"`);
   },
 );
 

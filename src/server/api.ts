@@ -6,6 +6,10 @@ import {
 } from "../core/projects.ts";
 import { Brand, Carousel } from "../core/schema.ts";
 import { createPlanItem, emptyPlanTrash, listPlan, toIcs, listPlanTrash, markExported, purgePlanTrash, removePlanItem, restorePlanItem, updatePlanItem } from "../core/planner.ts";
+import {
+  createTemplate, emptyTemplateTrash, instantiateTemplate, listTemplateTrash, listTemplates, loadTemplate, purgeTemplateTrash, readTemplateAsset, readTrashTemplateAsset,
+  readTrashTemplateSpec, restoreTemplate, templateAsCarousel, trashTemplate, updateTemplate,
+} from "../core/templates.ts";
 import { applyBrand, createBrand, emptyBrandTrash, listBrandTrash, listBrands, purgeBrandTrash, restoreBrand, loadBrand, readBrandLogo, saveBrand, setBrandLogo, trashBrand } from "../core/brands.ts";
 
 const MAX_UPLOAD = 25 * 1024 * 1024;
@@ -63,6 +67,9 @@ async function exportProject(res: ServerResponse, id: string, q: URLSearchParams
 }
 
 /**
+ * /api/templates[/:id[/spec|assets/:file]]  GET list / template / one-slide carousel for thumbnails / image | POST {name, tags?, project, slide, format?, tokens?} save a slide as template | PATCH :id {name?, tags?} | DELETE :id (to templates/.trash)
+ * /api/projects/:id/templates/:tid        POST copy the template's images into the project, returns {slide, palette, fonts, css, mismatch} to insert
+ * /api/trash/template[/:name[/spec|assets/:file]]  list / restore / purge / empty / thumbnails of trashed templates
  * /api/trash/brand[/:name] , /api/trash/plan[/:id]   GET list | POST :key restore | DELETE :key purge | DELETE empty (brand kits / plan items)
  * /api/trash[/:name/spec|assets/:file]    GET list / trashed spec / trashed asset (thumbnails) | DELETE empty | POST /api/trash/:name restore | DELETE /api/trash/:name purge
  * /api/plan/ics                        GET iCalendar file of every slot that is not published yet
@@ -81,6 +88,22 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
   if (m[0] === "trash") {
     try {
       // brand kits and plan items have their own trash; project trash names always end in -<digits>, so these two words never collide
+      if (m[1] === "template") {
+        const key = m[2];
+        if (key && m[3] === "spec" && req.method === "GET") {
+          res.setHeader("content-type", "application/json");
+          return res.end(await readTrashTemplateSpec(key)), true;
+        }
+        if (key && m[3] === "assets" && m[4] && req.method === "GET") {
+          res.setHeader("content-type", IMAGE_TYPES[m[4].split(".").pop()!.toLowerCase()] ?? "application/octet-stream");
+          return res.end(await readTrashTemplateAsset(key, m[4])), true;
+        }
+        if (!key && req.method === "GET") return json(res, await listTemplateTrash()), true;
+        if (key && req.method === "POST") return json(res, { id: await restoreTemplate(key) }), true;
+        if (key && req.method === "DELETE") return await purgeTemplateTrash(key), json(res, { ok: true }), true;
+        if (!key && req.method === "DELETE") return json(res, { removed: await emptyTemplateTrash() }), true;
+        return json(res, { error: "bad request" }, 400), true;
+      }
       if (m[1] === "brand" || m[1] === "plan") {
         const brand = m[1] === "brand";
         const key = m[2];
@@ -169,6 +192,40 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       return json(res, { error: msg }, /not found|ENOENT/.test(msg) ? 404 : 400), true;
     }
   }
+  if (m[0] === "templates") {
+    try {
+      const [, tid, what, file] = m;
+      if (!tid && req.method === "GET") return json(res, await listTemplates()), true;
+      if (!tid && req.method === "POST") {
+        const o = z
+          .object({ name: z.string().trim().min(1).max(80), tags: z.array(z.string()).max(8).optional(), project: z.string(), slide: z.unknown(), format: Carousel.shape.format.optional(), tokens: z.unknown().optional() })
+          .parse(JSON.parse((await body(req, 10 * 1024 * 1024)).toString()));
+        const { id, template } = await createTemplate(o);
+        return json(res, { id, template }), true;
+      }
+      if (tid && !what && req.method === "GET") return json(res, await loadTemplate(tid)), true;
+      if (tid && !what && req.method === "PATCH") {
+        const patch = z.object({ name: z.string().trim().min(1).max(80).optional(), tags: z.array(z.string()).max(8).optional() }).parse(JSON.parse((await body(req)).toString()));
+        return json(res, await updateTemplate(tid, patch)), true;
+      }
+      if (tid && !what && req.method === "DELETE") return await trashTemplate(tid), json(res, { ok: true }), true;
+      if (tid && what === "spec" && req.method === "GET") {
+        res.setHeader("content-type", "application/json");
+        res.setHeader("cache-control", "no-cache");
+        return res.end(JSON.stringify(await templateAsCarousel(tid))), true;
+      }
+      if (tid && what === "assets" && file && req.method === "GET") {
+        const a = await readTemplateAsset(tid, file);
+        res.setHeader("content-type", a.type);
+        res.setHeader("cache-control", "no-cache");
+        return res.end(a.data), true;
+      }
+      return json(res, { error: "bad request" }, 400), true;
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      return json(res, { error: msg }, /not found|ENOENT/.test(msg) ? 404 : 400), true;
+    }
+  }
   if (m[0] !== "projects") return false;
   const [, id, sub, name] = m;
   try {
@@ -210,6 +267,10 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
       const { brand } = z.object({ brand: z.string() }).parse(JSON.parse((await body(req)).toString()));
       return json(res, await applyBrand(id, brand)), true;
+    } else if (sub === "templates" && name && req.method === "POST") {
+      // copies the template's images into the project and returns the slide to insert; the editor inserts it itself (keeps undo)
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      return json(res, await instantiateTemplate(name, id)), true;
     } else if (sub === "agent" && req.method === "POST") {
       if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
       const { prompt } = z.object({ prompt: z.string().trim().min(1).max(4000) }).parse(JSON.parse((await body(req)).toString()));

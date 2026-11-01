@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FORMATS } from "../../../core/schema";
 import { cn } from "@/lib/utils";
-import { api, type BrandTrashItem, type PlanTrashItem, type ProjectInfo, type TrashItem } from "@/shared/api";
+import { api, type BrandTrashItem, type PlanTrashItem, type TemplateTrashItem, type ProjectInfo, type TrashItem } from "@/shared/api";
 import { Swatches } from "@/pages/brands/Brands";
 import { PLATFORM_LABEL, STATUS_DOT, STATUS_LABEL } from "@/pages/planner/planMeta";
 import { useDialogs } from "@/app/dialogs";
@@ -41,13 +41,29 @@ const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 type Row =
   | { kind: "project"; key: string; deleted: number; it: TrashItem }
   | { kind: "brand"; key: string; deleted: number; it: BrandTrashItem }
-  | { kind: "plan"; key: string; deleted: number; it: PlanTrashItem };
+  | { kind: "plan"; key: string; deleted: number; it: PlanTrashItem }
+  | { kind: "template"; key: string; deleted: number; it: TemplateTrashItem };
 
-const KIND_LABEL = { project: "Project", brand: "Brand kit", plan: "Rencana" } as const;
-const KIND_DEL = { project: "project", brand: "brand kit", plan: "slot rencana" } as const;
+const KIND_LABEL = { project: "Project", brand: "Brand kit", plan: "Rencana", template: "Template" } as const;
+const KIND_DEL = { project: "project", brand: "brand kit", plan: "slot rencana", template: "template" } as const;
 
 function KindBadge({ kind }: { kind: Row["kind"] }) {
   return <span className="bg-background/90 text-foreground/80 absolute top-2 left-2 z-10 rounded-full border px-2 py-0.5 text-[10px] font-medium shadow-sm">{KIND_LABEL[kind]}</span>;
+}
+
+/** Template thumbnail: the one-slide spec and images are served from the trash folder. */
+function TemplateThumb({ it }: { it: TemplateTrashItem }) {
+  const key = encodeURIComponent(it.name);
+  const { box, doc, width } = useLazyDoc(`/api/trash/template/${key}/spec`, 0);
+  const fmt = FORMATS[it.format];
+  return (
+    <div className="relative">
+      <KindBadge kind="template" />
+      <div ref={box} className="bg-canvas w-full overflow-hidden opacity-80 grayscale-[0.4]" style={{ aspectRatio: `${fmt.width} / ${fmt.height}` }}>
+        {doc && width > 0 ? <SlideView doc={doc} project={it.id} index={0} scale={width / fmt.width} assetBase={`/api/trash/template/${key}/assets`} /> : <Skeleton className="size-full rounded-none" />}
+      </div>
+    </div>
+  );
 }
 
 function BrandThumb({ it }: { it: BrandTrashItem }) {
@@ -89,11 +105,12 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
 
   const load = useCallback(async () => {
     try {
-      const [projects, brands, plan] = await Promise.all([api.trash(), api.trashBrands(), api.trashPlan()]);
+      const [projects, brands, plan, templates] = await Promise.all([api.trash(), api.trashBrands(), api.trashPlan(), api.trashTemplates()]);
       const all: Row[] = [
         ...projects.map((it): Row => ({ kind: "project", key: `p:${it.name}`, deleted: it.deleted, it })),
         ...brands.map((it): Row => ({ kind: "brand", key: `b:${it.name}`, deleted: it.deleted, it })),
         ...plan.map((it): Row => ({ kind: "plan", key: `r:${it.id}`, deleted: it.deleted, it })),
+        ...templates.map((it): Row => ({ kind: "template", key: `t:${it.name}`, deleted: it.deleted, it })),
       ];
       setRows(all.sort((a, b) => b.deleted - a.deleted));
     } catch (e) {
@@ -123,6 +140,9 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
         const { id } = await api.restore(r.it.name);
         await onChanged();
         toast.success(id === r.it.id ? `"${id}" dipulihkan` : `Dipulihkan sebagai "${id}" ("${r.it.id}" sudah dipakai)`);
+      } else if (r.kind === "template") {
+        const { id } = await api.restoreTemplate(r.it.name);
+        toast.success(id === r.it.id ? `Template "${id}" dipulihkan` : `Template dipulihkan sebagai "${id}" ("${r.it.id}" sudah dipakai)`);
       } else if (r.kind === "brand") {
         const { id } = await api.restoreBrand(r.it.name);
         toast.success(id === r.it.id ? `Brand "${id}" dipulihkan` : `Brand dipulihkan sebagai "${id}" ("${r.it.id}" sudah dipakai)`);
@@ -135,12 +155,15 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
   const purge = async (r: Row) => {
     const description = r.kind === "project"
       ? `${r.it.slides} slide beserta asset dan referensinya akan hilang dari disk. Tidak bisa dibatalkan.`
+      : r.kind === "template"
+        ? "Slide template ini beserta gambarnya akan hilang dari disk. Project yang sudah memakainya tidak berubah. Tidak bisa dibatalkan."
       : r.kind === "brand"
         ? "Palette, font, logo, dan arahan gaya brand ini akan hilang dari disk. Project yang sudah memakainya tidak berubah. Tidak bisa dibatalkan."
         : "Slot rencana ini dihapus permanen. Project yang tertaut tidak ikut terhapus. Tidak bisa dibatalkan.";
     if (!(await confirm({ title: `Hapus permanen ${KIND_DEL[r.kind]} "${titleOf(r)}"?`, description, confirmText: "Hapus permanen", destructive: true }))) return;
     await run(r.key, async () => {
       if (r.kind === "project") await api.purge(r.it.name);
+      else if (r.kind === "template") await api.purgeTemplate(r.it.name);
       else if (r.kind === "brand") await api.purgeBrand(r.it.name);
       else await api.purgePlan(r.it.id);
       toast.success(`"${titleOf(r)}" dihapus permanen`);
@@ -150,7 +173,7 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
   const empty = async () => {
     if (!rows?.length) return;
     const n = (k: Row["kind"]) => rows.filter((r) => r.kind === k).length;
-    const parts = (["project", "brand", "plan"] as const).filter(n).map((k) => `${n(k)} ${KIND_DEL[k]}`);
+    const parts = (["project", "brand", "plan", "template"] as const).filter(n).map((k) => `${n(k)} ${KIND_DEL[k]}`);
     if (!(await confirm({
       title: `Kosongkan sampah (${rows.length} item)?`,
       description: `${parts.join(", ")} dihapus permanen dari disk. Tidak bisa dibatalkan.`,
@@ -158,8 +181,8 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
       destructive: true,
     }))) return;
     await run("*", async () => {
-      const [a, b, c] = await Promise.all([api.emptyTrash(), api.emptyBrandTrash(), api.emptyPlanTrash()]);
-      toast.success(`${a.removed + b.removed + c.removed} item dihapus permanen`);
+      const [a, b, c, d] = await Promise.all([api.emptyTrash(), api.emptyBrandTrash(), api.emptyPlanTrash(), api.emptyTemplateTrash()]);
+      toast.success(`${a.removed + b.removed + c.removed + d.removed} item dihapus permanen`);
     });
   };
 
@@ -177,7 +200,7 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
             <section>
               <p className="text-brand text-sm font-medium">Bisa dipulihkan kapan saja</p>
               <h1 className="mt-1 text-3xl font-semibold tracking-tight">Yang kamu hapus</h1>
-              <p className="text-muted-foreground mt-1 text-sm">Project, brand kit, dan rencana konten yang dihapus disimpan di sini. Pulihkan, atau hapus permanen.</p>
+              <p className="text-muted-foreground mt-1 text-sm">Project, brand kit, template, dan rencana konten yang dihapus disimpan di sini. Pulihkan, atau hapus permanen.</p>
             </section>
 
             <div className="flex flex-wrap items-center justify-between gap-3">
@@ -195,7 +218,7 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
               <div className="bg-muted/50 grid place-items-center gap-1 rounded-lg border border-dashed py-16 text-center">
                 <EmptyTrashArt className="mb-2 w-48" />
                 <p className="text-lg font-semibold">Sampah kosong</p>
-                <p className="text-muted-foreground max-w-xs text-sm">Project, brand kit, dan rencana yang kamu hapus akan muncul di sini, dan bisa dipulihkan kapan saja.</p>
+                <p className="text-muted-foreground max-w-xs text-sm">Project, brand kit, template, dan rencana yang kamu hapus akan muncul di sini, dan bisa dipulihkan kapan saja.</p>
               </div>
             ) : (
               <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] items-start gap-4">
@@ -203,6 +226,8 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
                   <div key={r.key} className="bg-card flex flex-col overflow-hidden rounded-lg border">
                     {r.kind === "project" ? (
                       <div className="relative"><KindBadge kind="project" /><TrashThumb it={r.it} /></div>
+                    ) : r.kind === "template" ? (
+                      <TemplateThumb it={r.it} />
                     ) : r.kind === "brand" ? (
                       <BrandThumb it={r.it} />
                     ) : (
@@ -243,7 +268,7 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
           <section className={panel}>
             <h3 className="flex items-center gap-2 text-sm font-medium"><Info className="text-muted-foreground size-4" /> Cara kerja</h3>
             <ul className="text-muted-foreground mt-3 flex list-disc flex-col gap-1.5 pl-4 text-xs leading-relaxed">
-              <li>Menghapus project, brand kit, atau slot rencana hanya memindahkannya ke sampah.</li>
+              <li>Menghapus project, brand kit, template, atau slot rencana hanya memindahkannya ke sampah.</li>
               <li>Memulihkan tidak pernah menimpa yang sudah ada. Namanya diberi akhiran -restored.</li>
               <li>Hapus permanen hanya bisa dari halaman ini, dan selalu meminta konfirmasi.</li>
             </ul>
@@ -254,6 +279,7 @@ export function Trash({ onChanged }: { onChanged: () => Promise<ProjectInfo[]> }
             <ul className="text-muted-foreground mt-3 flex flex-col gap-1.5 text-xs leading-relaxed">
               <li><span className="text-foreground font-medium">Project</span> · <code>projects/.trash</code></li>
               <li><span className="text-foreground font-medium">Brand kit</span> · <code>brands/.trash</code></li>
+              <li><span className="text-foreground font-medium">Template</span> · <code>templates/.trash</code></li>
               <li><span className="text-foreground font-medium">Rencana</span> · <code>planner.trash.json</code></li>
             </ul>
           </section>

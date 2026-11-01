@@ -1,11 +1,14 @@
 import { useCallback, useEffect, useState } from "react";
 
-import type { Brand, Carousel, PlanInput, PlanItem } from "../../core/schema";
+import type { Brand, Carousel, PlanInput, PlanItem, Slide, SlideTemplate } from "../../core/schema";
+import type { TemplateInstance } from "../../core/templateUtil";
 
 export type ProjectInfo = { id: string; title: string; slides: number; format: Carousel["format"]; updated: number };
 
 export type TrashItem = { name: string; id: string; title: string; format: Carousel["format"]; deleted: number; slides: number };
 
+export type TemplateInfo = { id: string; name: string; format: Carousel["format"]; tags: string[]; elements: number; updated: number };
+export type TemplateTrashItem = { name: string; id: string; title: string; format: Carousel["format"]; tags: string[]; deleted: number };
 export type BrandTrashItem = { name: string; id: string; title: string; colors: string[]; deleted: number };
 export type PlanTrashItem = PlanItem & { deleted: number };
 export type BrandInfo = { id: string; name: string; colors: string[]; logo?: string; updated: number };
@@ -39,6 +42,15 @@ export const api = {
   restorePlan: (id: string) => call<{ id: string }>(`/api/trash/plan/${enc(id)}`, { method: "POST" }),
   purgePlan: (id: string) => call(`/api/trash/plan/${enc(id)}`, { method: "DELETE" }),
   emptyPlanTrash: () => call<{ removed: number }>("/api/trash/plan", { method: "DELETE" }),
+  trashTemplates: () => call<TemplateTrashItem[]>("/api/trash/template"),
+  restoreTemplate: (name: string) => call<{ id: string }>(`/api/trash/template/${enc(name)}`, { method: "POST" }),
+  purgeTemplate: (name: string) => call(`/api/trash/template/${enc(name)}`, { method: "DELETE" }),
+  emptyTemplateTrash: () => call<{ removed: number }>("/api/trash/template", { method: "DELETE" }),
+  templates: () => call<TemplateInfo[]>("/api/templates"),
+  saveTemplate: (o: { name: string; tags: string[]; project: string; slide: Slide; format: Carousel["format"]; tokens: Carousel["tokens"] }) =>
+    call<{ id: string; template: SlideTemplate }>("/api/templates", send("POST", o)),
+  deleteTemplate: (id: string) => call(`/api/templates/${enc(id)}`, { method: "DELETE" }),
+  useTemplate: (project: string, template: string) => call<TemplateInstance>(`/api/projects/${enc(project)}/templates/${enc(template)}`, { method: "POST" }),
   remove: (id: string) => call(`/api/projects/${enc(id)}`, { method: "DELETE" }),
   assets: (id: string) => call<string[]>(`/api/projects/${enc(id)}/assets`),
   plan: () => call<PlanItem[]>("/api/plan"),

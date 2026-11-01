@@ -3,3 +3,5 @@ dist
 out
 projects/.trash
 projects/*/out
+templates/.trash
+brands/.trash

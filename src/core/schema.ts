@@ -104,6 +104,18 @@ export const Brand = z.object({
 });
 export type Brand = z.infer<typeof Brand>;
 
+/** Reusable slide (`templates/<id>/template.json` + `assets/`). Inserting COPIES the slide and its images into a project. */
+export const SlideTemplate = z.object({
+  name: z.string().trim().min(1).max(80),
+  /** Format the slide was designed for; inserting into another format works but warns (coordinates are absolute px) */
+  format: z.enum(["1:1", "4:5", "9:16", "16:9", "4:3"]).default("4:5"),
+  tags: z.array(z.string().trim().min(1).max(24)).max(8).default([]),
+  /** Tokens the slide was designed with: the gallery thumbnail renders with them, and inserting adds the ones the project lacks */
+  tokens: Tokens.default({ palette: {}, fonts: {}, css: "" }),
+  slide: Slide,
+});
+export type SlideTemplate = z.infer<typeof SlideTemplate>;
+
 /** Content planner (`data/planner.json`): what goes out when, on which platform. Local only, nothing is posted anywhere. */
 export const PLATFORMS = ["instagram", "linkedin", "tiktok", "facebook", "x", "threads", "youtube", "lainnya"] as const;
 export const PLAN_STATUS = ["ide", "draft", "siap", "terjadwal", "terbit"] as const;

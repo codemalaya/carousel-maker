@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef, useState } from "react";
-import { Copy, GalleryVertical, List, Plus, Trash2 } from "lucide-react";
+import { Copy, GalleryVertical, LayoutTemplate, List, Plus, Save, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
@@ -12,6 +12,7 @@ import { SlideView } from "@/shared/SlideView";
 import { SortableItem, SortableList, followIndex } from "@/shared/Sortable";
 import { NAME_MAX, autoTitle, slideTitle } from "@/shared/slideTitle";
 import type { Editor } from "@/editor/useEditor";
+import { SaveTemplateDialog, TemplateGallery } from "@/editor/panel/TemplateDialogs";
 
 type View = "thumbs" | "list";
 const VIEW_KEY = "carousel-slide-view";
@@ -35,6 +36,8 @@ export function SlidePanel({ ed, project, projects, onSwitch, onProjectAction, o
     localStorage.setItem(VIEW_KEY, v);
   };
 
+  const [gallery, setGallery] = useState(false);
+  const [saveTpl, setSaveTpl] = useState(false);
   const [editing, setEditing] = useState<number | null>(null); // list row being renamed
   const skipBlur = useRef(false); // Esc/Enter already settled it; don't commit again on blur
 
@@ -203,6 +206,12 @@ export function SlidePanel({ ed, project, projects, onSwitch, onProjectAction, o
         <Button variant="outline" size="sm" className="h-8 flex-1 gap-1" onClick={add}>
           <Plus className="size-4" /> Slide
         </Button>
+        <IconButton label="Dari template" onClick={() => setGallery(true)}>
+          <LayoutTemplate />
+        </IconButton>
+        <IconButton label="Simpan sebagai template" disabled={!n} onClick={() => setSaveTpl(true)}>
+          <Save />
+        </IconButton>
         <IconButton label="Salin slide" disabled={!n} onClick={duplicate}>
           <Copy />
         </IconButton>
@@ -210,6 +219,18 @@ export function SlidePanel({ ed, project, projects, onSwitch, onProjectAction, o
           <Trash2 />
         </IconButton>
       </div>
+      <TemplateGallery
+        open={gallery}
+        onOpenChange={setGallery}
+        ed={ed}
+        project={project}
+        cur={cur}
+        onInserted={(i) => {
+          setCur(i);
+          setSel(null);
+        }}
+      />
+      <SaveTemplateDialog open={saveTpl} onOpenChange={setSaveTpl} doc={doc} project={project} index={cur} />
     </nav>
   );
 }

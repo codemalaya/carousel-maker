@@ -101,3 +101,63 @@ src/web/
 - [x] Cari file mati / import tidak terpakai
 - [x] Update CLAUDE.md (path file yang berubah)
 - [x] Tes manual (otomatis, Playwright/Chromium): edit teks inline, zoom, drag slide, present, preview, export PNG. AI run belum dites
+
+## Fitur baru: rencana
+Urutan kerja disarankan: Template, Font upload, Grafik dan tabel, Library aset, Caption otomatis.
+
+### Template dan library slide
+- [x] Schema `SlideTemplate` di `src/core`: id, nama, format, tag, slide (elemen + background), thumbnail
+- [x] Storage `templates/<id>/template.json` + `assets/` (override env `CAROUSEL_TEMPLATES`), hapus = ke `templates/.trash`, tanpa hard delete
+- [x] Daftar trash gabungan (`Trash.tsx`, `/api/trash/template[/:id]`): list, restore (tidak menimpa), purge
+- [x] Simpan slide sebagai template: aset gambar ikut disalin, `{token}` tetap referensi (ikut brand project tujuan)
+- [x] Sisipkan template ke project: salin slide + aset, nama file aset bentrok diganti, format beda diberi peringatan
+- [x] API `/api/templates`, `POST /api/projects/:id/templates/:tid`
+- [x] UI: menu slide "Simpan sebagai template", tombol "Dari template" di `SlidePanel`, galeri dengan thumbnail (`SlideView`, lazy) + filter tag/format
+- [x] Tool MCP `list_templates`, `get_template`, `save_template`, `apply_template` (agent boleh memakai template sebagai titik awal, tetap diminta mengubah komposisi)
+- [x] Update CLAUDE.md dan README
+- [ ] Cek dengan agent sungguhan (`apply_template` lalu ganti teks), belum dicoba
+
+### Font upload
+- [ ] Storage font per project: `projects/<id>/assets/fonts/` (file `.woff2/.woff/.ttf/.otf`, batas ukuran)
+- [ ] `@font-face` dibuat dari file font yang ada, dipakai lewat token `fonts` (nama family)
+- [ ] Renderer: sertakan `@font-face` di editor, PNG, PDF, lint (tunggu `document.fonts.ready` sebelum ukur dan screenshot)
+- [ ] Ekspor HTML mandiri: font di-inline sebagai data URI; MP4/GIF menunggu font siap
+- [ ] Brand kit: font ikut tersimpan dan ikut tersalin saat apply (marked block seperti css/logo)
+- [ ] UI: Inspector > Tokens, tombol "Unggah font", daftar font, hapus
+- [ ] API upload (validasi tipe + ukuran) dan tool MCP `add_font`
+- [ ] Cek lisensi: catatan di UI bahwa pengguna bertanggung jawab atas lisensi font
+- [ ] Tes: teks tidak overflow di lint dengan font custom, editor == export
+
+### Grafik dan tabel
+- [ ] Tipe elemen baru `chart` di schema: `kind` (bar|line|pie|donut), data (label + nilai, banyak seri), judul, warna dari `{tokens}`, legenda, label nilai
+- [ ] Tipe elemen baru `table`: baris/kolom, header, zebra, rata teks, warna dari token
+- [ ] Renderer menghasilkan SVG/HTML statis (tanpa library runtime) sehingga editor == PNG == PDF == HTML
+- [ ] Animasi: `anim`/`step` tetap jalan pada elemen baru (bar tumbuh sebagai opsi lanjutan)
+- [ ] Lint: overflow label, data kosong, nilai negatif untuk pie
+- [ ] Inspector: editor data (tabel kecil, tempel dari CSV/spreadsheet), pilihan jenis grafik, warna
+- [ ] Tool MCP: `set_slide`/`set_element` menerima `chart` dan `table`, deskripsi tool menjelaskan bentuk data
+- [ ] Prompt sistem agent: pakai `chart` untuk data angka, bukan SVG manual di `html`
+- [ ] Update CLAUDE.md dan README
+
+### Library aset (ikon, bentuk, foto stok)
+- [ ] Panel "Aset" di editor (di samping Toolbar tambah elemen): tab Ikon | Bentuk | Foto
+- [ ] Ikon: set lokal (mis. lucide, sudah jadi dependency) dicari lewat nama, disisipkan sebagai elemen SVG yang bisa diwarnai dengan token
+- [ ] Bentuk: preset (panah, bintang, blob, garis, bubble) sebagai elemen `shape`/`html`
+- [ ] Foto stok: pencarian lewat API penyedia gratis (mis. Unsplash/Pexels); kunci API di env server, tidak pernah ke browser
+- [ ] Foto yang dipilih diunduh ke `assets/` project (bukan hotlink), simpan atribusi (fotografer + link) di metadata aset
+- [ ] Pengunduhan memakai aturan keamanan yang sama seperti `fetch_source` (host terbatas ke penyedia, batas ukuran, tipe gambar saja)
+- [ ] Tampilkan atribusi/lisensi di UI dan sertakan di kredit slide terakhir bila penyedia mensyaratkan
+- [ ] Tool MCP `search_stock`, `add_stock_asset`, `add_icon` (agent tidak mengunduh URL bebas)
+- [ ] Mode offline: tanpa kunci API, tab Foto disembunyikan, ikon dan bentuk tetap jalan
+- [ ] Update CLAUDE.md dan README
+
+### Caption dan hashtag otomatis
+- [ ] Fungsi di `agent.ts` (`runCaptionAgent`): baca isi slide + `brief` + brand, hasilkan caption dan hashtag untuk satu platform
+- [ ] Aturan per platform (Instagram, LinkedIn, TikTok, X): panjang, nada, jumlah hashtag
+- [ ] Endpoint streaming `POST /api/projects/:id/caption` (agent hanya diberi tool baca: `get_carousel`, `get_brand`; tanpa tool tulis slide)
+- [ ] Tombol "Buat caption" di dialog slot Planner (`ItemDialog.tsx`) untuk slot yang punya project; hasil mengisi caption + hashtag, bisa diedit sebelum simpan
+- [ ] Opsi dari editor: tombol di ExportBar yang menyalin caption ke clipboard
+- [ ] Varian: 2-3 pilihan caption (hook berbeda), pengguna memilih satu
+- [ ] Tool MCP: `set_plan_item` dipakai agent untuk mengisi caption slot yang sudah ada; tetap tidak bisa set `terbit`
+- [ ] Teks slide diperlakukan sebagai data, bukan instruksi (sama seperti `<sumber>`)
+- [ ] Update CLAUDE.md dan README
