@@ -57,7 +57,7 @@ function checkUrl(raw: string): URL {
 }
 
 /** `lookup` for http(s).request: resolves, then refuses if ANY returned address is not public. This is the address that gets connected to. */
-function safeLookup(hostname: string, options: { all?: boolean }, cb: (...a: any[]) => void) {
+export function safeLookup(hostname: string, options: { all?: boolean }, cb: (...a: any[]) => void) {
   dnsLookup(hostname, { all: true })
     .then((addrs) => {
       if (!addrs.length || addrs.some((a) => isPrivateAddress(a.address))) throw new Error(`${hostname} resolves to a private or local address`);

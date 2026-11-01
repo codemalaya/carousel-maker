@@ -143,16 +143,19 @@ Urutan kerja disarankan: Template, Font upload, Grafik dan tabel, Library aset, 
 - [ ] Belum dicoba: agent sungguhan membuat grafik/tabel, export MP4/GIF dengan grafik, jenis grafik lain (hbar, area, stacked)
 
 ### Library aset (ikon, bentuk, foto stok)
-- [ ] Panel "Aset" di editor (di samping Toolbar tambah elemen): tab Ikon | Bentuk | Foto
-- [ ] Ikon: set lokal (mis. lucide, sudah jadi dependency) dicari lewat nama, disisipkan sebagai elemen SVG yang bisa diwarnai dengan token
-- [ ] Bentuk: preset (panah, bintang, blob, garis, bubble) sebagai elemen `shape`/`html`
-- [ ] Foto stok: pencarian lewat API penyedia gratis (mis. Unsplash/Pexels); kunci API di env server, tidak pernah ke browser
-- [ ] Foto yang dipilih diunduh ke `assets/` project (bukan hotlink), simpan atribusi (fotografer + link) di metadata aset
-- [ ] Pengunduhan memakai aturan keamanan yang sama seperti `fetch_source` (host terbatas ke penyedia, batas ukuran, tipe gambar saja)
-- [ ] Tampilkan atribusi/lisensi di UI dan sertakan di kredit slide terakhir bila penyedia mensyaratkan
-- [ ] Tool MCP `search_stock`, `add_stock_asset`, `add_icon` (agent tidak mengunduh URL bebas)
-- [ ] Mode offline: tanpa kunci API, tab Foto disembunyikan, ikon dan bentuk tetap jalan
-- [ ] Update CLAUDE.md dan README
+- [x] Panel "Aset" di editor (di samping Toolbar tambah elemen): tab Ikon | Bentuk | Foto
+- [x] Ikon: set lokal (mis. lucide, sudah jadi dependency) dicari lewat nama, disisipkan sebagai elemen SVG yang bisa diwarnai dengan token
+- [x] Bentuk: preset (panah, bintang, blob, garis, bubble) sebagai elemen `shape`/`html`
+- [x] Foto stok: pencarian lewat API penyedia gratis (dipilih: Pexels); kunci API di env server, tidak pernah ke browser
+- [x] Foto yang dipilih diunduh ke `assets/` project (bukan hotlink), simpan atribusi (fotografer + link) di metadata aset
+- [x] Pengunduhan memakai aturan keamanan yang sama seperti `fetch_source` (host terbatas ke penyedia, batas ukuran, tipe gambar saja)
+- [x] Tampilkan atribusi/lisensi di UI dan sertakan di kredit slide terakhir bila penyedia mensyaratkan
+- [x] Tool MCP `search_stock`, `add_stock_asset`, `add_icon` (agent tidak mengunduh URL bebas)
+- [x] Mode offline: tanpa kunci API, tab Foto disembunyikan, ikon dan bentuk tetap jalan
+- [x] Update CLAUDE.md dan README
+- [ ] Belum dicoba dengan kunci Pexels asli (hanya transport tiruan + penolakan kunci palsu dari Pexels sungguhan), dan agent sungguhan
+- [ ] Kredit foto belum ikut saat template/brand menyalin gambar (hanya duplikat project yang menyalin `credits.json`)
+- [ ] Atribusi di slide terakhir masih manual (agent diminta, UI hanya menampilkan kredit di inspector)
 
 ### Caption dan hashtag otomatis
 - [ ] Fungsi di `agent.ts` (`runCaptionAgent`): baca isi slide + `brief` + brand, hasilkan caption dan hashtag untuk satu platform

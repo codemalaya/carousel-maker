@@ -31,7 +31,7 @@ const SYSTEM = (project: string, format: string, slides: number) =>
 
 /** Where this server keeps its data. The MCP process the agent starts does not inherit the environment, so these are passed on explicitly. */
 const dataEnv = () =>
-  Object.fromEntries(["CAROUSEL_HOME", "CAROUSEL_BRANDS", "CAROUSEL_TEMPLATES", "CAROUSEL_PLANNER"].flatMap((k) => (process.env[k] ? [[k, process.env[k]!]] : [])));
+  Object.fromEntries(["CAROUSEL_HOME", "CAROUSEL_BRANDS", "CAROUSEL_TEMPLATES", "CAROUSEL_PLANNER", "PEXELS_API_KEY"].flatMap((k) => (process.env[k] ? [[k, process.env[k]!]] : [])));
 
 const isoToday = () => {
   const d = new Date();

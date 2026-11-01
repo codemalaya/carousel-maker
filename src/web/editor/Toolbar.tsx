@@ -1,4 +1,4 @@
-import { BarChart3, Code2, ImagePlus, Loader2, Redo2, Sparkles, Square, Table2, Type, Undo2 } from "lucide-react";
+import { BarChart3, Code2, Shapes, ImagePlus, Loader2, Redo2, Sparkles, Square, Table2, Type, Undo2 } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -30,6 +30,7 @@ type ToolbarProps = {
   hasSlide: boolean;
   onAddElement: (type: "text" | "shape" | "html" | "chart" | "table") => void;
   onPickImage: () => void;
+  onOpenAssets: () => void;
   aiOpen: boolean;
   aiBusy: boolean;
   onToggleAi: () => void;
@@ -67,6 +68,9 @@ export function Toolbar(p: ToolbarProps) {
       </Tool>
       <Tool label="Upload gambar (atau drag ke kanvas)" disabled={!p.hasSlide} onClick={p.onPickImage}>
         <ImagePlus />
+      </Tool>
+      <Tool label="Library aset (ikon, bentuk, foto)" disabled={!p.hasSlide} onClick={p.onOpenAssets}>
+        <Shapes />
       </Tool>
       <Separator orientation="vertical" className="mx-1 h-5" />
       <Tool label={p.aiBusy ? "AI sedang bekerja…" : "Minta AI"} aria-pressed={p.aiOpen} className={p.aiOpen ? "bg-accent" : ""} onClick={p.onToggleAi}>

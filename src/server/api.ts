@@ -1,5 +1,7 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { z } from "zod";
+import { iconSvg, searchIcons } from "../core/icons.ts";
+import { downloadStock, readCredits, searchStock, stockEnabled } from "../core/stock.ts";
 import { fontsDir, listFonts, readFontFile, saveFont } from "../core/fonts.ts";
 import {
   IMAGE_TYPES, assetsDir, createProject, listFiles, listProjects, projectExists,
@@ -81,6 +83,9 @@ async function exportProject(res: ServerResponse, id: string, q: URLSearchParams
  * /api/projects                         GET list | POST {id, from?}
  * /api/projects/:id                     GET spec (raw text) | POST spec | PATCH {rename} | DELETE (to trash)
  * /api/projects/:id/agent               POST {prompt} -> ndjson stream (headless Claude Code on the carousel MCP)
+ * /api/icons?q=&limit=                  GET lucide icons matching q as [{name, svg}] (svg uses currentColor)
+ * /api/stock/status | /api/stock/search?q=&page=&orientation=   Pexels stock photos (key from env PEXELS_API_KEY on the server only)
+ * /api/projects/:id/stock                POST {photo: "<pexels id>"} download into assets (pexels-<id>.jpg) + credit | GET /api/projects/:id/credits
  * /api/projects/:id/fonts[/:name]        GET list/file | POST raw bytes (woff2|woff|ttf|otf, max 5 MB, magic bytes checked; never replaces a different file of the same name)
  * /api/projects/:id/assets[/:name]    GET list/file | POST raw bytes
  * /api/projects/:id/references[/:name]  GET list/file | POST raw bytes
@@ -204,6 +209,28 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       return json(res, { error: msg }, /not found|ENOENT/.test(msg) ? 404 : 400), true;
     }
   }
+  if (m[0] === "icons" && req.method === "GET") {
+    try {
+      const limit = z.coerce.number().int().min(1).max(120).parse(query.get("limit") ?? 60);
+      const found = await searchIcons((query.get("q") ?? "").slice(0, 60), limit);
+      return json(res, await Promise.all(found.map(async (name) => ({ name, svg: await iconSvg(name) })))), true;
+    } catch (e) {
+      return json(res, { error: e instanceof Error ? e.message : String(e) }, 400), true;
+    }
+  }
+  if (m[0] === "stock") {
+    try {
+      if (m[1] === "status" && req.method === "GET") return json(res, { enabled: stockEnabled(), provider: "Pexels" }), true;
+      if (m[1] === "search" && req.method === "GET") {
+        if (!stockEnabled()) return json(res, { error: "stock photos are off (no PEXELS_API_KEY on the server)" }, 400), true;
+        const orientation = z.enum(["landscape", "portrait", "square"]).optional().parse(query.get("orientation") ?? undefined);
+        return json(res, await searchStock(query.get("q") ?? "", { page: Number(query.get("page") ?? 1), orientation })), true;
+      }
+      return json(res, { error: "bad request" }, 400), true;
+    } catch (e) {
+      return json(res, { error: e instanceof Error ? e.message : String(e) }, 400), true;
+    }
+  }
   if (m[0] === "templates") {
     try {
       const [, tid, what, file] = m;
@@ -298,6 +325,13 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
     } else if (sub === "export" && req.method === "GET") {
       await exportProject(res, id, query);
       return true;
+    } else if (sub === "stock" && req.method === "POST") {
+      // {photo: "<pexels id>"}: downloads into the project's assets (never a URL from the client) and records the credit
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      const { photo } = z.object({ photo: z.string().regex(/^\d{1,12}$/) }).parse(JSON.parse((await body(req)).toString()));
+      return json(res, await downloadStock(id, photo)), true;
+    } else if (sub === "credits" && req.method === "GET") {
+      return json(res, await readCredits(id)), true;
     } else if (sub === "fonts") {
       if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
       if (!name && req.method === "GET") return json(res, await listFonts(id)), true;

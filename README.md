@@ -10,6 +10,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - **Mode presentasi**: fullscreen, speaker notes, laser, blackout, timer.
 - **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber.
 - **Template slide**: simpan slide bagus beserta gambarnya, sisipkan ke project lain dari galeri (filter format, tag, cari).
+- **Library aset**: ikon (Lucide), bentuk siap pakai, dan foto stok gratis (Pexels, perlu kunci API).
 - **Font sendiri**: unggah .woff2/.woff/.ttf/.otf; dipakai di editor dan semua export (PNG, PDF, HTML mandiri, MP4, GIF).
 - **Brand kit**: palette, font, css, brief, logo; diterapkan sebagai snapshot ke project.
 - **Planner konten**: kalender bulan/minggu, status slot, pengingat, export `.ics`. Tidak pernah posting otomatis.
@@ -22,6 +23,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - Chromium untuk Playwright (render PNG/PDF/video): `npx playwright install chromium`
 - `ffmpeg` di PATH (hanya untuk export MP4/GIF)
 - Claude Code CLI (hanya untuk fitur agent AI)
+- Opsional: kunci API gratis dari [pexels.com/api](https://www.pexels.com/api/) untuk foto stok. Taruh di `.env` (`PEXELS_API_KEY=...`) atau env shell sebelum `npm run dev`. Tanpa kunci, tab Foto tidak muncul; ikon dan bentuk tetap jalan.
 
 ## Mulai
 
@@ -58,7 +60,7 @@ Hasil export default ke `projects/<id>/out`.
 
 Konfigurasi ada di `.mcp.json` (env `CAROUSEL_PROJECT` = project default). Setiap tool menerima `project` opsional.
 
-Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`, `set_meta`, `set_slide`, `set_element`, `reorder_slides`, `add_asset`, `add_font`, `render_slide`, `lint`, `export`, `delete` (ke trash), `fetch_source`, `list_brands`, `get_brand`, `apply_brand`, `save_brand`, `list_templates`, `get_template`, `apply_template`, `save_template`, `list_plan`, `set_plan_item`.
+Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`, `set_meta`, `set_slide`, `set_element`, `reorder_slides`, `add_asset`, `add_font`, `search_icons`, `add_icon`, `search_stock`, `add_stock_asset`, `render_slide`, `lint`, `export`, `delete` (ke trash), `fetch_source`, `list_brands`, `get_brand`, `apply_brand`, `save_brand`, `list_templates`, `get_template`, `apply_template`, `save_template`, `list_plan`, `set_plan_item`.
 
 `fetch_source` mengambil halaman web sebagai teks tidak tepercaya, dengan pengaman: hanya http(s) port 80/443, tanpa alamat lokal/privat, batas 2 MB / 15 dtk / 5 redirect.
 

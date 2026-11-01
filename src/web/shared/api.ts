@@ -7,6 +7,10 @@ export type ProjectInfo = { id: string; title: string; slides: number; format: C
 
 export type TrashItem = { name: string; id: string; title: string; format: Carousel["format"]; deleted: number; slides: number };
 
+export type IconHit = { name: string; svg: string };
+export type StockPhoto = { id: string; width: number; height: number; thumb: string; alt: string; photographer: string; photographerUrl: string; pageUrl: string };
+export type Credit = { source: string; photographer: string; photographerUrl: string; url: string };
+
 export type TemplateInfo = { id: string; name: string; format: Carousel["format"]; tags: string[]; elements: number; updated: number };
 export type TemplateTrashItem = { name: string; id: string; title: string; format: Carousel["format"]; tags: string[]; deleted: number };
 export type BrandTrashItem = { name: string; id: string; title: string; colors: string[]; deleted: number };
@@ -52,6 +56,11 @@ export const api = {
   deleteTemplate: (id: string) => call(`/api/templates/${enc(id)}`, { method: "DELETE" }),
   useTemplate: (project: string, template: string) => call<TemplateInstance>(`/api/projects/${enc(project)}/templates/${enc(template)}`, { method: "POST" }),
   remove: (id: string) => call(`/api/projects/${enc(id)}`, { method: "DELETE" }),
+  icons: (q: string) => call<IconHit[]>(`/api/icons?q=${enc(q)}`),
+  stockStatus: () => call<{ enabled: boolean; provider: string }>("/api/stock/status"),
+  stockSearch: (q: string, page = 1) => call<{ photos: StockPhoto[]; page: number; hasMore: boolean }>(`/api/stock/search?q=${enc(q)}&page=${page}`),
+  addStock: (project: string, photo: string) => call<{ name: string; width: number; height: number; credit: Credit }>(`/api/projects/${enc(project)}/stock`, send("POST", { photo })),
+  credits: (project: string) => call<Record<string, Credit>>(`/api/projects/${enc(project)}/credits`),
   fonts: (id: string) => call<string[]>(`/api/projects/${enc(id)}/fonts`),
   assets: (id: string) => call<string[]>(`/api/projects/${enc(id)}/assets`),
   plan: () => call<PlanItem[]>("/api/plan"),

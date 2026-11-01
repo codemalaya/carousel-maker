@@ -127,6 +127,7 @@ export function Inspector({ ed, project, cur, sel, setSel, footer }: {
             )}
             {el.type === "html" && (
               <Section value="content" title="HTML / SVG">
+                <ColorField label="color" value={style("color")} palette={palette} onChange={(v) => setStyle("color", v)} {...focus} />
                 <Textarea className="min-h-28 font-mono text-xs whitespace-pre" rows={7} wrap="off" spellCheck={false} value={el.html} onFocus={focus.onFocus} onChange={(e) => patch({ html: e.target.value })} />
               </Section>
             )}

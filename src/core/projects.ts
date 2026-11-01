@@ -108,6 +108,7 @@ export async function createProject(id: string, from?: string, format?: Carousel
       const src = join(projectDir(from), sub);
       if (await exists(src)) await cp(src, join(projectDir(id), sub), { recursive: true });
     }
+    if (await exists(join(projectDir(from), "credits.json"))) await copyFile(join(projectDir(from), "credits.json"), join(projectDir(id), "credits.json")); // photo credits travel with the photos
     await saveProject(id, await loadProject(from));
   } else {
     await saveProject(id, Carousel.parse(format ? { format } : {}));

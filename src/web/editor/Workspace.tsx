@@ -13,6 +13,7 @@ import { Preview } from "@/editor/present/Preview";
 import { Present } from "@/editor/present/Present";
 import { AUTO_PUBLISH_KEY } from "@/pages/planner/planUtils";
 import { Toolbar } from "@/editor/Toolbar";
+import { AssetLibrary } from "@/editor/AssetLibrary";
 import { AgentBar, type EditorContext } from "@/editor/ai/AgentBar";
 import { slideTitle } from "@/shared/slideTitle";
 import { setViewing, useRunning, useRuns } from "@/editor/ai/agentRuns";
@@ -47,6 +48,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
   const [preview, setPreview] = useState(false);
   const [present, setPresent] = useState(false);
   const [aiOpen, setAiOpen] = useState(false);
+  const [assetsOpen, setAssetsOpen] = useState(false);
   const aiBusy = useRuns(project)[0]?.status === "running";
   const running = useRunning();
   const elsewhere = [...running].filter((id) => id !== project);
@@ -218,6 +220,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
         ) : (
           <p style={{ margin: "auto", opacity: 0.6 }}>Belum ada slide. Klik "+ Slide" di panel kiri.</p>
         )}
+        <AssetLibrary open={assetsOpen} onOpenChange={setAssetsOpen} ed={ed} project={project} cur={cur} onInserted={setSel} />
         <AgentBar project={project} flush={ed.flush} open={aiOpen} onOpenChange={setAiOpen} ctx={aiCtx} />
         <Toolbar
           canUndo={ed.canUndo}
@@ -230,6 +233,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
             setSel(nEls);
           }}
           onPickImage={() => fileInput.current?.click()}
+          onOpenAssets={() => setAssetsOpen(true)}
           aiOpen={aiOpen}
           aiBusy={aiBusy}
           onToggleAi={() => setAiOpen((o) => !o)}

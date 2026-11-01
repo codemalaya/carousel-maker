@@ -1,4 +1,4 @@
-import { defineConfig, type Plugin } from "vite";
+import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "node:path";
@@ -14,9 +14,15 @@ const api = (): Plugin => ({
   },
 });
 
-export default defineConfig({
+// server-side secrets (PEXELS_API_KEY) from .env; only process.env is filled, nothing is exposed to the browser bundle
+export default defineConfig(({ mode }) => {
+  for (const [k, v] of Object.entries(loadEnv(mode, import.meta.dirname, "PEXELS_"))) process.env[k] ??= v;
+  return config;
+});
+
+const config = {
   plugins: [react(), tailwindcss(), api()],
   resolve: { alias: { "@": resolve(import.meta.dirname, "src/web") } },
   root: "src/web",
   build: { outDir: resolve(import.meta.dirname, "dist"), emptyOutDir: true },
-});
+};

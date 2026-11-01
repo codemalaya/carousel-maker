@@ -5,3 +5,5 @@ projects/.trash
 projects/*/out
 templates/.trash
 brands/.trash
+.env
+.env.*

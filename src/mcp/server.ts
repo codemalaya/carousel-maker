@@ -12,6 +12,9 @@ import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
 import { fetchSource, formatSource } from "../core/source";
 import { applyBrand, createBrand, listBrands, loadBrand } from "../core/brands";
+import { iconSvg, searchIcons } from "../core/icons";
+import { svgElement, SHAPE_PRESETS } from "../core/shapePresets";
+import { downloadStock, readCredits, searchStock, stockEnabled } from "../core/stock";
 import { importFont } from "../core/fonts";
 import { createTemplate, instantiateTemplate, listTemplates, loadTemplate } from "../core/templates";
 import { insertInstance } from "../core/templateUtil";
@@ -72,7 +75,7 @@ server.registerTool(
     const c = await loadProject(pid);
     return text(
       JSON.stringify(
-        { ...c, _assets: await listFiles(assetsDir(pid)), _references: await listFiles(referencesDir(pid)) },
+        { ...c, _assets: await listFiles(assetsDir(pid)), _references: await listFiles(referencesDir(pid)), _credits: await readCredits(pid) },
         null,
         2,
       ),
@@ -114,6 +117,74 @@ server.registerTool(
   async ({ path, kind, project: p }) => {
     const name = await importAsset(p ?? DEFAULT_PROJECT, path, kind);
     return text(kind === "assets" ? `added; use src "assets/${name}"` : `added reference ${name}`);
+  },
+);
+
+server.registerTool(
+  "search_icons",
+  {
+    description: "Search the icon library (Lucide, ~1700 icons) by English keyword, e.g. \"arrow\", \"chart\", \"user\". Returns icon names for add_icon. Also lists the ready-made shape presets (use them as icon \"shape:<id>\").",
+    inputSchema: { query: z.string().max(60) },
+  },
+  async ({ query }) => text(JSON.stringify({ icons: await searchIcons(query, 40), shapes: SHAPE_PRESETS.map((s) => `shape:${s.id}`) })),
+);
+
+server.registerTool(
+  "add_icon",
+  {
+    description:
+      "Add an icon (Lucide name from search_icons) or a shape preset (\"shape:arrow\", \"shape:star\", \"shape:heart\", \"shape:blob\", \"shape:bubble\", \"shape:ring\", \"shape:wave\", \"shape:burst\") to a slide as an html/SVG element centered on (x, y). " +
+      "`color` may be a {token} (e.g. \"{brand}\"); `size` = longer side in slide px. Returns the new element index; adjust with set_element if needed.",
+    inputSchema: {
+      icon: z.string().max(60),
+      slide: idx,
+      x: z.number().describe("Center x in slide px"),
+      y: z.number().describe("Center y in slide px"),
+      size: z.number().min(16).max(2000).default(160),
+      color: z.string().optional(),
+      strokeWidth: z.number().min(0.5).max(6).default(2).describe("Line icons only"),
+      project,
+    },
+  },
+  async ({ icon, slide, x, y, size, color, strokeWidth, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const c = await loadProject(pid);
+    const s = slideAt(c, slide);
+    const preset = icon.startsWith("shape:") ? SHAPE_PRESETS.find((sp) => sp.id === icon.slice(6)) : undefined;
+    if (icon.startsWith("shape:") && !preset) throw new Error(`unknown shape "${icon}"`);
+    const svg = preset ? preset.svg : await iconSvg(icon, strokeWidth);
+    s.elements.push(Element.parse(svgElement(svg, { cx: x, cy: y, size, ratio: preset ? preset.w / preset.h : 1, color })));
+    await saveProject(pid, c);
+    return text(`added ${icon} as element ${s.elements.length - 1}`);
+  },
+);
+
+server.registerTool(
+  "search_stock",
+  {
+    description:
+      "Search free stock photos (Pexels) by keyword. Returns ids with size, description and photographer; pick one and call add_stock_asset. Only works when the server has PEXELS_API_KEY (otherwise it says so: then ask the user for images). " +
+      "Search in English for better results.",
+    inputSchema: { query: z.string().max(100), orientation: z.enum(["landscape", "portrait", "square"]).optional(), page: z.number().int().min(1).max(50).optional() },
+  },
+  async ({ query, orientation, page }) => {
+    if (!stockEnabled()) return text("stock photos are off (no PEXELS_API_KEY on the server). Ask the user for images or use shapes/icons.");
+    const r = await searchStock(query, { orientation, page });
+    return text(r.photos.map((p) => `id ${p.id} · ${p.width}x${p.height} · "${p.alt || "no description"}" · by ${p.photographer}`).join("\n") + (r.hasMore ? `\n(more on page ${r.page + 1})` : ""));
+  },
+);
+
+server.registerTool(
+  "add_stock_asset",
+  {
+    description:
+      "Download one stock photo (id from search_stock) into the project's assets, then use it as an image element with src \"assets/<name>\". " +
+      "Credit the photographer: put \"Foto: <photographer> / Pexels\" in small text on the last slide (get_carousel lists credits in _credits). Only photos the user's request needs; do not bulk-download.",
+    inputSchema: { photo: z.string().regex(/^\d{1,12}$/).describe("Pexels photo id"), project },
+  },
+  async ({ photo, project: p }) => {
+    const r = await downloadStock(p ?? DEFAULT_PROJECT, photo);
+    return text(`added; use src "assets/${r.name}" (${r.width}x${r.height}). Credit: Foto: ${r.credit.photographer} / Pexels`);
   },
 );
 
