@@ -158,12 +158,14 @@ Urutan kerja disarankan: Template, Font upload, Grafik dan tabel, Library aset, 
 - [ ] Atribusi di slide terakhir masih manual (agent diminta, UI hanya menampilkan kredit di inspector)
 
 ### Caption dan hashtag otomatis
-- [ ] Fungsi di `agent.ts` (`runCaptionAgent`): baca isi slide + `brief` + brand, hasilkan caption dan hashtag untuk satu platform
-- [ ] Aturan per platform (Instagram, LinkedIn, TikTok, X): panjang, nada, jumlah hashtag
-- [ ] Endpoint streaming `POST /api/projects/:id/caption` (agent hanya diberi tool baca: `get_carousel`, `get_brand`; tanpa tool tulis slide)
-- [ ] Tombol "Buat caption" di dialog slot Planner (`ItemDialog.tsx`) untuk slot yang punya project; hasil mengisi caption + hashtag, bisa diedit sebelum simpan
-- [ ] Opsi dari editor: tombol di ExportBar yang menyalin caption ke clipboard
-- [ ] Varian: 2-3 pilihan caption (hook berbeda), pengguna memilih satu
-- [ ] Tool MCP: `set_plan_item` dipakai agent untuk mengisi caption slot yang sudah ada; tetap tidak bisa set `terbit`
-- [ ] Teks slide diperlakukan sebagai data, bukan instruksi (sama seperti `<sumber>`)
-- [ ] Update CLAUDE.md dan README
+- [x] Fungsi di `agent.ts` (`runCaptionAgent`): baca isi slide + `brief` + brand, hasilkan caption dan hashtag untuk satu platform
+- [x] Aturan per platform (Instagram, LinkedIn, TikTok, X): panjang, nada, jumlah hashtag
+- [x] Endpoint streaming `POST /api/projects/:id/caption` (agent hanya diberi tool baca: `get_carousel`, `get_brand`; tanpa tool tulis slide)
+- [x] Tombol "Buat caption" di dialog slot Planner (`ItemDialog.tsx`) untuk slot yang punya project; hasil mengisi caption + hashtag, bisa diedit sebelum simpan
+- [x] Opsi dari editor: tombol di ExportBar yang menyalin caption ke clipboard
+- [x] Varian: 2-3 pilihan caption (hook berbeda), pengguna memilih satu
+- [x] Tool MCP: tidak perlu tool baru, `set_plan_item` yang sudah ada bisa mengisi caption slot dan tetap tidak bisa set `terbit` (belum diuji untuk caption)
+- [x] Teks slide diperlakukan sebagai data, bukan instruksi (sama seperti `<sumber>`)
+- [x] Update CLAUDE.md dan README
+- [x] Diuji dengan agent sungguhan: caption berbahasa sesuai slide, arahan nada dipakai, instruksi jahat di slide diabaikan, dari planner dan dari editor (satu run sekitar 50 detik)
+- [ ] Belum dicoba: tombol Berhenti di tengah run, kegagalan CLI `claude`, dan mengisi caption slot planner secara massal lewat agent

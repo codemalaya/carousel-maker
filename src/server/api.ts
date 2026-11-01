@@ -1,5 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { z } from "zod";
+import { CaptionRequest } from "../core/caption.ts";
 import { iconSvg, searchIcons } from "../core/icons.ts";
 import { downloadStock, readCredits, searchStock, stockEnabled } from "../core/stock.ts";
 import { fontsDir, listFonts, readFontFile, saveFont } from "../core/fonts.ts";
@@ -82,6 +83,7 @@ async function exportProject(res: ServerResponse, id: string, q: URLSearchParams
  * /api/projects/:id/brand               POST {brand} copy the brand's palette/fonts/css/brief/logo into the project
  * /api/projects                         GET list | POST {id, from?}
  * /api/projects/:id                     GET spec (raw text) | POST spec | PATCH {rename} | DELETE (to trash)
+ * /api/projects/:id/caption             POST {platform, variants 1-3, hint} -> ndjson stream; done.data = {variants:[{caption, hashtags}]} (read-only agent: get_carousel + get_brand only)
  * /api/projects/:id/agent               POST {prompt} -> ndjson stream (headless Claude Code on the carousel MCP)
  * /api/icons?q=&limit=                  GET lucide icons matching q as [{name, svg}] (svg uses currentColor)
  * /api/stock/status | /api/stock/search?q=&page=&orientation=   Pexels stock photos (key from env PEXELS_API_KEY on the server only)
@@ -316,6 +318,12 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       // copies the template's images into the project and returns the slide to insert; the editor inserts it itself (keeps undo)
       if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
       return json(res, await instantiateTemplate(name, id)), true;
+    } else if (sub === "caption" && req.method === "POST") {
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      const opts = CaptionRequest.parse(JSON.parse((await body(req)).toString()));
+      const { runCaptionAgent } = await import("./agent.ts");
+      await runCaptionAgent(req, res, id, opts);
+      return true;
     } else if (sub === "agent" && req.method === "POST") {
       if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
       const { prompt } = z.object({ prompt: z.string().trim().min(1).max(4000) }).parse(JSON.parse((await body(req)).toString()));

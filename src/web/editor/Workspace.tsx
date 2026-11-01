@@ -8,6 +8,7 @@ import { SlidePanel } from "@/editor/panel/SlidePanel";
 import { toast } from "sonner";
 import { useDialogs, validateProjectId } from "@/app/dialogs";
 import { ExportBar } from "@/editor/inspector/ExportBar";
+import { CaptionDialog } from "@/editor/inspector/CaptionDialog";
 import { Header } from "@/app/Header";
 import { Preview } from "@/editor/present/Preview";
 import { Present } from "@/editor/present/Present";
@@ -49,6 +50,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
   const [present, setPresent] = useState(false);
   const [aiOpen, setAiOpen] = useState(false);
   const [assetsOpen, setAssetsOpen] = useState(false);
+  const [captionOpen, setCaptionOpen] = useState(false);
   const aiBusy = useRuns(project)[0]?.status === "running";
   const running = useRunning();
   const elsewhere = [...running].filter((id) => id !== project);
@@ -247,9 +249,14 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
             scale={scale}
             onScale={setScale}
             onExport={(o) => doExport({ ...o, slide: o.format === "png" ? cur : undefined })}
+            onCaption={async () => {
+              await ed.flush(); // the agent reads the file on disk
+              setCaptionOpen(true);
+            }}
           />
         }
       />
+      <CaptionDialog open={captionOpen} onOpenChange={setCaptionOpen} project={project} />
       <Resizer side="left" offset={leftW} onResize={setLeftW} />
       <Resizer side="right" offset={rightW} onResize={setRightW} />
       {present && (

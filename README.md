@@ -10,6 +10,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - **Mode presentasi**: fullscreen, speaker notes, laser, blackout, timer.
 - **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber.
 - **Template slide**: simpan slide bagus beserta gambarnya, sisipkan ke project lain dari galeri (filter format, tag, cari).
+- **Caption otomatis**: AI menulis 1-3 varian caption + hashtag per platform dari slide (hanya membaca), dari editor atau dialog slot planner.
 - **Library aset**: ikon (Lucide), bentuk siap pakai, dan foto stok gratis (Pexels, perlu kunci API).
 - **Font sendiri**: unggah .woff2/.woff/.ttf/.otf; dipakai di editor dan semua export (PNG, PDF, HTML mandiri, MP4, GIF).
 - **Brand kit**: palette, font, css, brief, logo; diterapkan sebagai snapshot ke project.

@@ -13,6 +13,8 @@ import { slug, uniqueId } from "@/pages/home/AiCreate";
 import { api, useBrands, type ProjectInfo } from "@/shared/api";
 import { PLATFORM_LABEL, STATUS_DOT, STATUS_LABEL } from "@/pages/planner/planMeta";
 import { useDialogs } from "@/app/dialogs";
+import { CaptionGenerator } from "@/shared/CaptionGenerator";
+import { normalizeTags } from "../../../core/caption";
 import { type Status, type Platform, type Format, errMsg, NONE, FORMAT_IDS } from "@/pages/planner/planUtils";
 
 export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpenProject }: {
@@ -28,6 +30,7 @@ export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpen
   const { brands } = useBrands();
   const [f, setF] = useState(item);
   const [busy, setBusy] = useState(false);
+  const [capOpen, setCapOpen] = useState(false);
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((cur) => ({ ...cur, [k]: v }));
   const linked = projects.find((p) => p.id === f.project);
   const body = () => ({ ...f, project: f.project ?? "", brand: f.brand ?? "", format: f.format ?? "" });
@@ -167,7 +170,28 @@ export function ItemDialog({ item, projects, onClose, onSaved, onRemoved, onOpen
           )}
 
           <div className="grid gap-1.5">
-            <Label htmlFor="pl-cap">Caption</Label>
+            <div className="flex items-center justify-between">
+              <Label htmlFor="pl-cap">Caption</Label>
+              {f.project && linked && (
+                <Button type="button" variant="ghost" size="sm" className="h-7 gap-1.5 px-2 text-xs" aria-expanded={capOpen} onClick={() => setCapOpen((o) => !o)}>
+                  <Sparkles className="size-3.5" /> Buat caption dengan AI
+                </Button>
+              )}
+            </div>
+            {capOpen && f.project && (
+              <div className="bg-card rounded-lg border p-3">
+                <CaptionGenerator
+                  project={f.project}
+                  platform={f.platform}
+                  pickLabel="Pakai"
+                  onPick={(v) => {
+                    setF((cur) => ({ ...cur, caption: v.caption, hashtags: normalizeTags(v.hashtags).slice(0, 1000) }));
+                    setCapOpen(false);
+                    toast.success("Caption dan hashtag diisi. Periksa lalu simpan.");
+                  }}
+                />
+              </div>
+            )}
             <Textarea id="pl-cap" rows={4} maxLength={5000} value={f.caption} onChange={(e) => set("caption", e.target.value)} />
           </div>
           <div className="grid gap-1.5">
