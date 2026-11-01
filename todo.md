@@ -35,7 +35,7 @@
 - [x] Brand kit: tokens (palette, font, logo) dipakai lintas project (salinan/snapshot; belum dicoba dengan agent sungguhan)
 - [ ] OG image / thumbnail maker
 - [ ] Generator sertifikat massal dari CSV
-- [ ] Content planner + pengingat (rincian di bagian bawah)
+- [x] Content planner + pengingat (rincian di bagian bawah)
 
 ## Content planner + pengingat
 Posting otomatis ke platform sengaja tidak dikerjakan (butuh OAuth/token akun sosial + server yang selalu hidup).
