@@ -1,4 +1,5 @@
 {
+  "title": "",
   "guides": {
     "x": [
       100,
@@ -23,7 +24,8 @@
     "fonts": {
       "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
     },
-    "css": ""
+    "css": "",
+    "fontFiles": []
   },
   "slides": [
     {
@@ -42,6 +44,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -58,6 +61,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -76,6 +80,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "AI 101 — UNTUK PEMULA"
         },
         {
@@ -93,6 +98,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "AI\nBELAJAR\nDARI DATA."
         },
         {
@@ -111,6 +117,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Bukan sulap. Cuma data, matematika, dan jutaan kali coba-coba."
         },
         {
@@ -123,6 +130,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:154px;height:154px;background:#2457ff;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;line-height:1.15\"><div style='font-weight:800;font-size:100px;line-height:.85;letter-spacing:-.06em'>↗</div><div>GESER<br>8 SLIDE</div></div>"
         },
         {
@@ -135,6 +143,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<svg width='880' height='260' viewBox='0 0 880 260' xmlns='http://www.w3.org/2000/svg'><line x1='0' y1='259' x2='880' y2='259' stroke='#0a0a0a' stroke-width='3'/><g fill='#0a0a0a'><circle cx='40' cy='90' r='14'/><circle cx='110' cy='150' r='14'/><circle cx='70' cy='210' r='14'/><circle cx='170' cy='60' r='14'/><circle cx='200' cy='190' r='14'/><circle cx='280' cy='110' r='14'/><circle cx='320' cy='220' r='14'/><circle cx='260' cy='40' r='14'/></g><g fill='#2457ff'><circle cx='600' cy='60' r='14'/><circle cx='680' cy='130' r='14'/><circle cx='740' cy='50' r='14'/><circle cx='800' cy='180' r='14'/><circle cx='840' cy='90' r='14'/><circle cx='640' cy='210' r='14'/><circle cx='740' cy='225' r='14'/><circle cx='540' cy='140' r='14'/></g><path d='M450 0 L450 250' stroke='#fc1201' stroke-width='0'/><path d='M400 250 C 440 160, 470 100, 500 0' stroke='#0a0a0a' stroke-width='4' stroke-dasharray='12 10' fill='none'/></svg>"
         },
         {
@@ -152,6 +161,7 @@
             "letterSpacing": "0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "DATA"
         },
         {
@@ -171,6 +181,7 @@
             "color": "#2457ff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "POLA"
         },
         {
@@ -188,6 +199,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -207,6 +219,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "1/8"
         },
         {
@@ -219,6 +232,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -236,6 +250,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -254,6 +269,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -266,6 +282,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -287,6 +304,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -305,6 +323,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "01 — DATASET"
         },
         {
@@ -322,6 +341,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "DATA ITU\nBAHAN AJAR."
         },
         {
@@ -340,6 +360,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Dataset = kumpulan contoh. Tiap contoh punya input dan label (jawaban benar)."
         },
         {
@@ -352,6 +373,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:420px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='position:absolute;left:0;top:50px;width:250px;transform:rotate(-4deg);border:3px solid #0a0a0a;background:#fff'><div style='height:190px;background:#e9eeff;display:flex;align-items:center;justify-content:center;font-size:110px'><svg width='120' height='120' viewBox='0 0 120 120'><polygon points='15,50 30,10 50,40 70,40 90,10 105,50 105,100 15,100' fill='#0a0a0a'/><circle cx='42' cy='72' r='7' fill='#fff'/><circle cx='78' cy='72' r='7' fill='#fff'/></svg></div><div style='padding:12px 14px;font-weight:800;font-size:20px;letter-spacing:.04em;background:#0a0a0a;color:#fff'>LABEL: KUCING</div></div><div style='position:absolute;left:310px;top:0;width:250px;transform:rotate(2deg);border:3px solid #0a0a0a;background:#fff'><div style='height:190px;background:#e9eeff;display:flex;align-items:center;justify-content:center'><svg width='120' height='120' viewBox='0 0 120 120'><path d='M15 30 L35 20 L45 45 L75 45 L85 20 L105 30 L100 80 Q60 115 20 80 Z' fill='#2457ff'/><circle cx='45' cy='65' r='7' fill='#fff'/><circle cx='75' cy='65' r='7' fill='#fff'/></svg></div><div style='padding:12px 14px;font-weight:800;font-size:20px;letter-spacing:.04em;background:#0a0a0a;color:#fff'>LABEL: ANJING</div></div><div style='position:absolute;left:620px;top:60px;width:250px;transform:rotate(-2deg);border:3px solid #0a0a0a;background:#fff'><div style='height:190px;background:#e9eeff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:30px;letter-spacing:-.03em;padding:0 18px;text-align:center;line-height:1.05'>“Barangnya bagus, cepat sampai!”</div><div style='padding:12px 14px;font-weight:800;font-size:20px;letter-spacing:.04em;background:#0a0a0a;color:#fff'>LABEL: POSITIF</div></div><div style='position:absolute;left:560px;top:330px;transform:rotate(-3deg);background:#f9d361;color:#0a0a0a;font-weight:800;font-size:22px;letter-spacing:.04em;padding:10px 16px'>1 CONTOH = 1 PASANG</div></div>"
         },
         {
@@ -370,6 +392,7 @@
             "letterSpacing": "-0.045em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Data jelek, AI jelek.\nData bagus, AI makin pintar."
         },
         {
@@ -387,6 +410,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -406,6 +430,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "2/8"
         },
         {
@@ -418,6 +443,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -435,6 +461,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -453,6 +480,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -465,6 +493,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -486,6 +515,7 @@
             "filter": "blur(130px)",
             "opacity": 0.6
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -504,6 +534,7 @@
             "letterSpacing": "0.02em",
             "color": "#3ad1ff"
           },
+          "step": 0,
           "text": "02 — MODEL"
         },
         {
@@ -521,6 +552,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "MODEL\n= RUMUS\nRAKSASA."
         },
         {
@@ -539,6 +571,7 @@
             "letterSpacing": "-0.035em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Isinya jutaan sampai miliaran angka kecil bernama parameter. Angka inilah yang “dipelajari”."
         },
         {
@@ -551,6 +584,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:240px;display:flex;align-items:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff\"><div style='width:170px;border:3px solid #fff;padding:16px;font-weight:800;font-size:22px;line-height:1.1'>INPUT<div style='font-weight:500;font-size:18px;margin-top:8px;opacity:.8'>foto, teks, angka</div></div><div style='width:60px;height:3px;background:#fff'></div><div style='flex:1;height:240px;background:#2457ff;padding:20px 24px;box-sizing:border-box'><div style='font-weight:800;font-size:22px;letter-spacing:.04em'>MODEL</div><div style='margin-top:14px;display:flex;flex-direction:column;gap:12px'><div style='height:10px;background:#ffffff55;position:relative'><div style='position:absolute;left:62%;top:-7px;width:8px;height:24px;background:#fff'></div></div><div style='height:10px;background:#ffffff55;position:relative'><div style='position:absolute;left:25%;top:-7px;width:8px;height:24px;background:#fff'></div></div><div style='height:10px;background:#ffffff55;position:relative'><div style='position:absolute;left:80%;top:-7px;width:8px;height:24px;background:#fff'></div></div><div style='height:10px;background:#ffffff55;position:relative'><div style='position:absolute;left:44%;top:-7px;width:8px;height:24px;background:#fff'></div></div></div><div style='margin-top:16px;font-weight:600;font-size:17px;opacity:.9'>parameter = tombol yang diputar</div></div><div style='width:60px;height:3px;background:#fff'></div><div style='width:170px;background:#3ad1ff;color:#0a1a3f;padding:16px;box-sizing:border-box;height:128px;font-weight:800;font-size:22px;line-height:1.1'>OUTPUT<div style='font-weight:600;font-size:18px;margin-top:8px'>“Kucing 94%”</div></div></div>"
         },
         {
@@ -568,6 +602,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -587,6 +622,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "3/8"
         },
         {
@@ -599,6 +635,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -616,6 +653,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -634,6 +672,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -646,6 +685,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -667,6 +707,7 @@
             "filter": "blur(130px)",
             "opacity": 0.4
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -685,6 +726,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "03 — TRAINING"
         },
         {
@@ -702,6 +744,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "TEBAK.\nSALAH.\nKOREKSI."
         },
         {
@@ -720,6 +763,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Training = ulang tiga langkah ini jutaan kali sampai tebakan makin tepat."
         },
         {
@@ -732,6 +776,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:560px;position:relative;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='position:absolute;left:0;top:0;width:520px;border:3px solid #0a0a0a;background:#fff;padding:18px 22px;display:flex;gap:20px;align-items:center'><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:.85'>1</div><div><div style='font-weight:800;font-size:26px'>MODEL MENEBAK</div><div style='font-size:20px;font-weight:500;margin-top:4px'>Foto kucing → “anjing”</div></div></div><div style='position:absolute;left:180px;top:190px;width:520px;border:3px solid #0a0a0a;background:#fc1201;color:#fff;padding:18px 22px;display:flex;gap:20px;align-items:center'><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:.85'>2</div><div><div style='font-weight:800;font-size:26px'>HITUNG SALAHNYA</div><div style='font-size:20px;font-weight:500;margin-top:4px'>Bandingkan dengan label. Ini disebut loss.</div></div></div><div style='position:absolute;left:360px;top:380px;width:520px;background:#2457ff;color:#fff;padding:18px 22px;display:flex;gap:20px;align-items:center'><div style='font-weight:800;font-size:84px;letter-spacing:-.06em;line-height:.85'>3</div><div><div style='font-weight:800;font-size:26px'>PUTAR PARAMETER</div><div style='font-size:20px;font-weight:500;margin-top:4px'>Geser sedikit biar loss turun.</div></div></div><div style='position:absolute;left:0;top:420px;width:300px;font-weight:800;font-size:22px;letter-spacing:.04em;line-height:1.2'>ULANG<br>JUTAAN KALI ↻</div></div>"
         },
         {
@@ -751,6 +796,7 @@
             "color": "#0a0a0a",
             "opacity": 0.6
           },
+          "step": 0,
           "text": "METODENYA BERNAMA GRADIENT DESCENT"
         },
         {
@@ -768,6 +814,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -787,6 +834,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "4/8"
         },
         {
@@ -799,6 +847,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -816,6 +865,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -834,6 +884,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -846,6 +897,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -867,6 +919,7 @@
             "filter": "blur(120px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -885,6 +938,7 @@
             "letterSpacing": "0.02em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "04 — MENGENALI POLA"
         },
         {
@@ -897,6 +951,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<svg width='880' height='520' viewBox='0 0 880 520' xmlns='http://www.w3.org/2000/svg' font-family='Helvetica Neue,Helvetica,Arial,sans-serif'><rect x='0' y='0' width='880' height='520' fill='#0a1a3f'/><g stroke='#ffffff22' stroke-width='1'><path d='M0 130H880M0 260H880M0 390H880M220 0V520M440 0V520M660 0V520'/></g><g fill='#ffffff'><circle cx='110' cy='120' r='16'/><circle cx='200' cy='210' r='16'/><circle cx='90' cy='320' r='16'/><circle cx='260' cy='90' r='16'/><circle cx='300' cy='290' r='16'/><circle cx='170' cy='430' r='16'/><circle cx='370' cy='170' r='16'/><circle cx='330' cy='410' r='16'/><circle cx='430' cy='80' r='16'/></g><g fill='#3ad1ff'><circle cx='520' cy='440' r='16'/><circle cx='600' cy='330' r='16'/><circle cx='700' cy='420' r='16'/><circle cx='780' cy='300' r='16'/><circle cx='640' cy='200' r='16'/><circle cx='790' cy='120' r='16'/><circle cx='560' cy='250' r='16'/><circle cx='720' cy='60' r='16'/><circle cx='480' cy='340' r='16'/></g><path d='M360 520 L640 0' stroke='#f9d361' stroke-width='6' stroke-dasharray='16 12'/><g transform='translate(445 205)'><circle r='22' fill='none' stroke='#f9d361' stroke-width='5'/><circle r='7' fill='#f9d361'/></g><rect x='470' y='170' width='210' height='44' fill='#f9d361'/><text x='484' y='200' font-size='22' font-weight='800' fill='#0a0a0a' letter-spacing='1'>DATA BARU: ???</text><text x='24' y='490' font-size='18' font-weight='800' fill='#fff' letter-spacing='1.5'>KELOMPOK A</text><text x='856' y='40' font-size='18' font-weight='800' fill='#3ad1ff' letter-spacing='1.5' text-anchor='end'>KELOMPOK B</text></svg>"
         },
         {
@@ -914,6 +969,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "POLA,\nBUKAN\nHAFALAN."
         },
         {
@@ -932,6 +988,7 @@
             "letterSpacing": "-0.035em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Model menarik garis pemisah dari data lama. Data baru tinggal dilihat jatuh di sisi mana."
         },
         {
@@ -949,6 +1006,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -968,6 +1026,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "5/8"
         },
         {
@@ -980,6 +1039,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -997,6 +1057,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1015,6 +1076,7 @@
             "color": "#ffffff",
             "opacity": 0.75
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1027,6 +1089,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1048,6 +1111,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1066,6 +1130,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "05 — JEBAKAN OVERFITTING"
         },
         {
@@ -1083,6 +1148,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "HAFAL\nBUKAN\nPAHAM."
         },
         {
@@ -1101,6 +1167,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Jago di soal latihan, zonk di dunia nyata."
         },
         {
@@ -1113,6 +1180,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<svg width='880' height='400' viewBox='0 0 880 400' xmlns='http://www.w3.org/2000/svg' font-family='Helvetica Neue,Helvetica,Arial,sans-serif'><path d='M0 0V380H880' stroke='#0a0a0a' stroke-width='3' fill='none'/><path d='M10 40 C 120 200, 220 300, 330 330 S 600 355, 870 360' stroke='#2457ff' stroke-width='6' fill='none'/><path d='M10 50 C 120 220, 220 280, 330 260 S 520 190, 640 130 S 800 50, 870 20' stroke='#fc1201' stroke-width='6' fill='none'/><line x1='400' y1='0' x2='400' y2='380' stroke='#0a0a0a' stroke-width='2' stroke-dasharray='8 8'/><rect x='420' y='130' width='190' height='40' fill='#fc1201'/><text x='434' y='158' font-size='20' font-weight='800' fill='#fff' letter-spacing='1'>OVERFITTING</text><text x='20' y='372' font-size='16' font-weight='800' fill='#0a0a0a' letter-spacing='1.5'>WAKTU TRAINING</text><text x='14' y='24' font-size='16' font-weight='800' fill='#0a0a0a' letter-spacing='1.5'>ERROR</text><text x='870' y='345' font-size='18' font-weight='800' fill='#2457ff' text-anchor='end'>Data latihan</text><text x='870' y='12' font-size='18' font-weight='800' fill='#fc1201' text-anchor='end'>Data baru (tes)</text></svg>"
         },
         {
@@ -1131,6 +1199,7 @@
             "letterSpacing": "-0.035em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Model menghafal contoh, bukan paham polanya. Makanya selalu uji pakai data yang belum pernah dilihat."
         },
         {
@@ -1148,6 +1217,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1167,6 +1237,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "6/8"
         },
         {
@@ -1179,6 +1250,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1196,6 +1268,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1214,6 +1287,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1226,6 +1300,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1247,6 +1322,7 @@
             "filter": "blur(130px)",
             "opacity": 0.55
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -1265,6 +1341,7 @@
             "letterSpacing": "0.02em",
             "color": "#3ad1ff"
           },
+          "step": 0,
           "text": "06 — CARA BELAJAR"
         },
         {
@@ -1282,6 +1359,7 @@
             "letterSpacing": "-0.058em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "3 GAYA\nBELAJAR."
         },
         {
@@ -1294,6 +1372,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;height:680px;display:flex;flex-direction:column;gap:16px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style='flex:1;background:#fff;color:#0a0a0a;padding:26px 30px;display:flex;gap:28px;align-items:center'><div style='font-weight:800;font-size:110px;letter-spacing:-.06em;line-height:.85;color:#2457ff'>A</div><div><div style='font-weight:800;font-size:34px;letter-spacing:-.03em'>SUPERVISED</div><div style='font-weight:500;font-size:23px;line-height:1.15;margin-top:6px'>Belajar dari data berlabel. Contoh: filter spam, deteksi penyakit dari foto.</div></div></div><div style='flex:1;background:#2457ff;color:#fff;padding:26px 30px;display:flex;gap:28px;align-items:center;margin-left:70px'><div style='font-weight:800;font-size:110px;letter-spacing:-.06em;line-height:.85'>B</div><div><div style='font-weight:800;font-size:34px;letter-spacing:-.03em'>UNSUPERVISED</div><div style='font-weight:500;font-size:23px;line-height:1.15;margin-top:6px'>Tanpa label, cari kelompok sendiri. Contoh: segmentasi pelanggan.</div></div></div><div style='flex:1;background:#3ad1ff;color:#0a1a3f;padding:26px 30px;display:flex;gap:28px;align-items:center;margin-left:140px'><div style='font-weight:800;font-size:110px;letter-spacing:-.06em;line-height:.85'>C</div><div><div style='font-weight:800;font-size:34px;letter-spacing:-.03em'>REINFORCEMENT</div><div style='font-weight:500;font-size:23px;line-height:1.15;margin-top:6px'>Coba-coba, dapat hadiah atau hukuman. Contoh: AI main catur dan game.</div></div></div></div>"
         },
         {
@@ -1311,6 +1390,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1330,6 +1410,7 @@
             "color": "#ffffff",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "7/8"
         },
         {
@@ -1342,6 +1423,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#fff;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1359,6 +1441,7 @@
             "letterSpacing": "-0.04em",
             "color": "#ffffff"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1377,6 +1460,7 @@
             "color": "#ffffff",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1389,6 +1473,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Geser  →</div>"
         }
       ],
@@ -1410,6 +1495,7 @@
             "filter": "blur(130px)",
             "opacity": 0.5
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#3ad1ff"
         },
@@ -1426,6 +1512,7 @@
             "filter": "blur(120px)",
             "opacity": 0.35
           },
+          "step": 0,
           "kind": "circle",
           "fill": "#2457ff"
         },
@@ -1444,6 +1531,7 @@
             "letterSpacing": "0.02em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "07 — RANGKUMAN"
         },
         {
@@ -1461,6 +1549,7 @@
             "letterSpacing": "-0.058em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "DATA\n+ COBA\n= PINTAR."
         },
         {
@@ -1473,6 +1562,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:880px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='display:flex;gap:24px;align-items:baseline;border-top:3px solid #0a0a0a;padding:16px 0'><div style='font-weight:800;font-size:22px;color:#2457ff;width:50px'>01</div><div style='font-weight:800;font-size:34px;letter-spacing:-.035em;width:230px'>Dataset</div><div style='font-size:24px;font-weight:500'>contoh + label sebagai bahan ajar</div></div><div style='display:flex;gap:24px;align-items:baseline;border-top:3px solid #0a0a0a;padding:16px 0'><div style='font-weight:800;font-size:22px;color:#2457ff;width:50px'>02</div><div style='font-weight:800;font-size:34px;letter-spacing:-.035em;width:230px'>Model</div><div style='font-size:24px;font-weight:500'>rumus dengan jutaan parameter</div></div><div style='display:flex;gap:24px;align-items:baseline;border-top:3px solid #0a0a0a;padding:16px 0'><div style='font-weight:800;font-size:22px;color:#2457ff;width:50px'>03</div><div style='font-weight:800;font-size:34px;letter-spacing:-.035em;width:230px'>Training</div><div style='font-size:24px;font-weight:500'>tebak, hitung salah, koreksi</div></div><div style='display:flex;gap:24px;align-items:baseline;border-top:3px solid #0a0a0a;border-bottom:3px solid #0a0a0a;padding:16px 0'><div style='font-weight:800;font-size:22px;color:#2457ff;width:50px'>04</div><div style='font-weight:800;font-size:34px;letter-spacing:-.035em;width:230px'>Pola</div><div style='font-size:24px;font-weight:500'>generalisasi ke data baru</div></div></div>"
         },
         {
@@ -1485,6 +1575,7 @@
           "opacity": 1,
           "z": 6,
           "style": {},
+          "step": 0,
           "html": "<div style=\"display:inline-block;background:#f9d361;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;font-size:22px;letter-spacing:.04em;padding:14px 20px\">SIMPAN & BAGIKAN</div>"
         },
         {
@@ -1502,6 +1593,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1521,6 +1613,7 @@
             "color": "#0a0a0a",
             "textAlign": "right"
           },
+          "step": 0,
           "text": "8/8"
         },
         {
@@ -1533,6 +1626,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
         },
         {
@@ -1550,6 +1644,7 @@
             "letterSpacing": "-0.04em",
             "color": "#0a0a0a"
           },
+          "step": 0,
           "text": "Codemalaya"
         },
         {
@@ -1568,6 +1663,7 @@
             "color": "#0a0a0a",
             "opacity": 0.65
           },
+          "step": 0,
           "text": "From Local to Global"
         },
         {
@@ -1580,6 +1676,7 @@
           "opacity": 1,
           "z": 20,
           "style": {},
+          "step": 0,
           "html": "<div style=\"height:47px;border-radius:24px;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#fff\">Follow  ↗</div>"
         }
       ],

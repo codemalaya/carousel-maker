@@ -1,0 +1,3630 @@
+{
+  "title": "Jasa Apa Aja Bandung",
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Akun layanan \"Jasa Apa Aja Bandung\". Target: gen z, mahasiswa, pelajar, karyawan. 12 postingan, masing-masing 1 slide mandiri (satu jasa per slide). Gaya: bold, playful, kontras tinggi, bahasa santai. Tanpa klaim harga/nomor kontak.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#14121F",
+      "cream": "#FFF6E5",
+      "lime": "#C6F432",
+      "violet": "#6C4CFF",
+      "pink": "#FF5FA2",
+      "orange": "#FF8A3D",
+      "blush": "#FFD9E8"
+    },
+    "fonts": {
+      "head": "Space Grotesk, sans-serif",
+      "body": "DM Sans, sans-serif"
+    },
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap');",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "{lime}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 90,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 190,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.92
+          },
+          "step": 0,
+          "text": "LAPAR\nTAPI\nMAGER?"
+        },
+        {
+          "type": "shape",
+          "x": 620,
+          "y": 640,
+          "w": 350,
+          "h": 90,
+          "rotate": -4,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 658,
+          "w": 350,
+          "rotate": -4,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "JASTIP"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 770,
+          "w": 872,
+          "h": 320,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 800,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 56,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Titip apa aja, kami yang belanja."
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 950,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Makanan, kopi, belanja bulanan, titipan mall. Diantar ke kos atau kantor."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Jastip"
+    },
+    {
+      "bg": "{violet}",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 100,
+          "w": 340,
+          "h": 84,
+          "rotate": 3,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 42,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 123,
+          "w": 340,
+          "rotate": 3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "CV & PPT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 240,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 160,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "Lamaran\ndicuekin\nterus?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 760,
+          "w": 872,
+          "h": 290,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 794,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "CV rapi & ATS-friendly"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 880,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Buat lamaran kerja, magang, sampai slide sidang. Kirim bahan mentahnya, kami yang rapihin."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1196,
+          "w": 440,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Jasa Apa Aja Bandung"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 1190,
+          "w": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "right",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat kami →"
+        }
+      ],
+      "name": "CV & PPT"
+    },
+    {
+      "bg": "{cream}",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 100,
+          "w": 420,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "w": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 330,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "3"
+        },
+        {
+          "type": "text",
+          "x": 570,
+          "y": 170,
+          "w": 410,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 78,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "JAM\nLAGI\nDEADLINE"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 590,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 96,
+            "fontWeight": 700,
+            "color": "{violet}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Laporan belum diketik?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 830,
+          "w": 872,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 858,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "KETIK & RAPIHIN"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 930,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Laporan, makalah, berkas kerja. Format rapi, tinggal kumpul."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1166,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Ketik & Rapihin"
+    },
+    {
+      "bg": "{pink}",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 100,
+          "w": 300,
+          "h": 76,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 38
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 120,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "LES PRIVAT"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 230,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 190,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.9
+          },
+          "step": 0,
+          "text": "Remed\nlagi?\nNo way."
+        },
+        {
+          "type": "shape",
+          "x": 130,
+          "y": 800,
+          "w": 820,
+          "h": 260,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 166,
+          "y": 830,
+          "w": 750,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Mtk, Fisika, Inggris, Excel, coding dasar."
+        },
+        {
+          "type": "text",
+          "x": 166,
+          "y": 960,
+          "w": 750,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.25
+          },
+          "step": 0,
+          "text": "Belajar bareng tutor sabar, jadwal ngikut kamu."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{pink}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Les Privat"
+    },
+    {
+      "bg": "{ink}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 135,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "PRINTER\nKOSAN\nNGAMBEK?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 560,
+          "w": 260,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 584,
+          "w": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "PRINT"
+        },
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 560,
+          "w": 340,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{blush}"
+        },
+        {
+          "type": "text",
+          "x": 380,
+          "y": 584,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "FOTOKOPI"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 670,
+          "w": 520,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 694,
+          "w": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "JILID & LAMINATING"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 840,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 58,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "lineHeight": 1.08
+          },
+          "step": 0,
+          "text": "Kirim file dari HP, hasilnya diantar ke pintu."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 84,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat kami →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1210,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Jasa Apa Aja Bandung"
+        }
+      ],
+      "name": "Print & Fotokopi"
+    },
+    {
+      "bg": "{blush}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 150,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "KOS\nBERASA\nKAPAL\nPECAH?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 740,
+          "w": 250,
+          "h": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 816,
+          "w": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 42,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "100%\nBERSIH"
+        },
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 720,
+          "w": 592,
+          "h": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 412,
+          "y": 750,
+          "w": 530,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "BERSIH KOS"
+        },
+        {
+          "type": "text",
+          "x": 412,
+          "y": 830,
+          "w": 530,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Sapu, pel, kamar mandi, rapihin kasur. Pulang kuliah, udah wangi."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{blush}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Bersih Kos"
+    },
+    {
+      "bg": "{orange}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 125,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "FEED KAMU\nBUTUH\nGLOW UP."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 370,
+          "h": 380,
+          "rotate": -5,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 128,
+          "y": 552,
+          "w": 300,
+          "rotate": -5,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "POSTER"
+        },
+        {
+          "type": "shape",
+          "x": 370,
+          "y": 590,
+          "w": 370,
+          "h": 380,
+          "rotate": 4,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 622,
+          "w": 300,
+          "rotate": 4,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "FEED"
+        },
+        {
+          "type": "shape",
+          "x": 610,
+          "y": 520,
+          "w": 362,
+          "h": 380,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 636,
+          "y": 552,
+          "w": 310,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "LOGO\nUMKM"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1010,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.1
+          },
+          "step": 0,
+          "text": "Desain & edit: feed, poster, video pendek, logo usaha."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{orange}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Desain & Edit"
+    },
+    {
+      "bg": "{cream}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 135,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "KARDUS\nNUMPUK,\nTENAGA"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 540,
+          "w": 470,
+          "h": 170,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 574,
+          "w": 470,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 120,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "ABIS."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 800,
+          "w": 872,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 830,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "PINDAH KOS? KAMI ANGKUT."
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 905,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Kasur, lemari & kardus. Dalam kota Bandung."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Pindah Kos"
+    },
+    {
+      "bg": "{lime}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 120,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "ANTRE\nSEJAM\nCUMA BUAT\n1 TTD?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 640,
+          "w": 872,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 665,
+          "w": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 38,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Kirim dokumen"
+        },
+        {
+          "type": "shape",
+          "x": 880,
+          "y": 650,
+          "w": 70,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 662,
+          "w": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "✓"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 750,
+          "w": 872,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 775,
+          "w": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 38,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Ambil paket"
+        },
+        {
+          "type": "shape",
+          "x": 880,
+          "y": 760,
+          "w": 70,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 772,
+          "w": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "✓"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 860,
+          "w": 872,
+          "h": 90,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 885,
+          "w": 680,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 38,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Antre-in urusan receh"
+        },
+        {
+          "type": "shape",
+          "x": 880,
+          "y": 870,
+          "w": 70,
+          "h": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 882,
+          "w": 70,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "✓"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1000,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Kamu santai, kami yang antre."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Urus Berkas"
+    },
+    {
+      "bg": "{violet}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 135,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "DAGANGAN\nBAGUS,\nFOTONYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 170,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "BURIK?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 720,
+          "w": 420,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 128,
+          "y": 750,
+          "w": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "FOTO\nPRODUK"
+        },
+        {
+          "type": "text",
+          "x": 128,
+          "y": 870,
+          "w": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.25
+          },
+          "step": 0,
+          "text": "Terang, rapi, siap upload ke marketplace."
+        },
+        {
+          "type": "shape",
+          "x": 550,
+          "y": 720,
+          "w": 422,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 578,
+          "y": 750,
+          "w": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "RAMAH\nUMKM"
+        },
+        {
+          "type": "text",
+          "x": 578,
+          "y": 870,
+          "w": 370,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.25
+          },
+          "step": 0,
+          "text": "Usaha kecil juga bisa tampil kece. Tanya dulu aja."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1196,
+          "w": 440,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Jasa Apa Aja Bandung"
+        },
+        {
+          "type": "text",
+          "x": 580,
+          "y": 1190,
+          "w": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "right",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat kami →"
+        }
+      ],
+      "name": "Foto Produk"
+    },
+    {
+      "bg": "{cream}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 170,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "Cucian"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 270,
+          "w": 880,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 150,
+            "fontWeight": 700,
+            "color": "{violet}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "segunung."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 260,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 628,
+          "w": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "CUCI"
+        },
+        {
+          "type": "shape",
+          "x": 410,
+          "y": 520,
+          "w": 260,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 410,
+          "y": 628,
+          "w": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "KERING"
+        },
+        {
+          "type": "shape",
+          "x": 712,
+          "y": 520,
+          "w": 260,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 712,
+          "y": 628,
+          "w": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 42,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "SETRIKA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 860,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.1
+          },
+          "step": 0,
+          "text": "Cuci setrika kiloan, diantar balik ke kos. Kamu fokus kuliah & kerja."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Laundry"
+    },
+    {
+      "bg": "{ink}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 120,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "lineHeight": 0.98
+          },
+          "step": 0,
+          "text": "Charger\nketinggalan\ndi kos?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 520,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 100,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Kurir dadakan."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 700,
+          "w": 872,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #FFF6E5"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 732,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 58,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "ANTAR BARANG"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 818,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Charger, laptop, tugas, apa aja. Dari kos ke kampus, dari kantor ke rumah. Dalam kota Bandung."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Antar Barang"
+    },
+    {
+      "bg": "{violet}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 130,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "HP LEMOT\nLAPTOP\nNGE-HANG?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 60,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 150,
+          "y": 560,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "01  Install ulang Windows"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 670,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 60,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 150,
+          "y": 710,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "02  Ganti baterai & layar"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 820,
+          "w": 880,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 60,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 150,
+          "y": 860,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "03  Bersihin virus & lemot"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 990,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 34,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Dicek dulu, dibilangin masalahnya apa. Data aman."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Servis HP & Laptop"
+    },
+    {
+      "bg": "{pink}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 170,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.92
+          },
+          "step": 0,
+          "text": "PAKET\nANAK KOS"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 470,
+          "w": 880,
+          "h": 150,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 500,
+          "w": 800,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "CUCI SETRIKA"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 568,
+          "w": 800,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 28,
+            "fontWeight": 500,
+            "color": "{ink}"
+          },
+          "step": 0,
+          "text": "Kiloan, diantar balik ke kos."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 650,
+          "w": 880,
+          "h": 150,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 680,
+          "w": 800,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "BERSIH KOS"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 748,
+          "w": 800,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 28,
+            "fontWeight": 500,
+            "color": "{ink}"
+          },
+          "step": 0,
+          "text": "Sapu, pel, kamar mandi."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 830,
+          "w": 880,
+          "h": 150,
+          "rotate": -1,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 860,
+          "w": 800,
+          "rotate": -1,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "JASTIP MAKAN"
+        },
+        {
+          "type": "text",
+          "x": 140,
+          "y": 928,
+          "w": 800,
+          "rotate": -1,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 28,
+            "fontWeight": 500,
+            "color": "{cream}"
+          },
+          "step": 0,
+          "text": "Lapar tengah malam? Aman."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1030,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Ambil satu, atau kombo semuanya."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{pink}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Paket Anak Kos"
+    },
+    {
+      "bg": "{blush}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 170,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "Tugas\nnumpuk?"
+        },
+        {
+          "type": "table",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 360,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "border": "5px solid #14121F",
+            "borderRadius": 16
+          },
+          "step": 0,
+          "rows": [
+            [
+              "Jasa",
+              "Cocok buat"
+            ],
+            [
+              "Ketik & rapihin",
+              "Laporan, makalah"
+            ],
+            [
+              "Terjemah",
+              "Abstrak, jurnal"
+            ],
+            [
+              "Edit video",
+              "Tugas presentasi"
+            ]
+          ],
+          "header": true,
+          "align": [
+            "left",
+            "left"
+          ],
+          "zebra": true,
+          "headerFill": "{ink}",
+          "headerColor": "{lime}",
+          "stripeFill": "rgba(0,0,0,0.05)",
+          "lineColor": "#14121F"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 960,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 54,
+            "fontWeight": 700,
+            "color": "{violet}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Satu chat, semuanya beres."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1166,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Tugas Numpuk"
+    },
+    {
+      "bg": "{lime}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 150,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.92
+          },
+          "step": 0,
+          "text": "WISUDA\nCUMA\nSEKALI."
+        },
+        {
+          "type": "shape",
+          "x": 640,
+          "y": 420,
+          "w": 320,
+          "h": 320,
+          "rotate": 8,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 640,
+          "y": 528,
+          "w": 320,
+          "rotate": 8,
+          "opacity": 1,
+          "z": 4,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "FOTO &\nVIDEO"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 800,
+          "w": 872,
+          "h": 260,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 830,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 46,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "DOKUMENTASI ACARA"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 900,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Wisuda, ultah, acara komunitas. Hasil rapi, siap posting."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Foto Wisuda & Event"
+    },
+    {
+      "bg": "{cream}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 125,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.95
+          },
+          "step": 0,
+          "text": "LEMARI\nMASIH\nDALAM DUS?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 250,
+          "h": 90,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 544,
+          "w": 250,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 38,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "RAKIT"
+        },
+        {
+          "type": "shape",
+          "x": 370,
+          "y": 520,
+          "w": 300,
+          "h": 90,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 370,
+          "y": 544,
+          "w": 300,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "PASANG RAK"
+        },
+        {
+          "type": "shape",
+          "x": 690,
+          "y": 520,
+          "w": 290,
+          "h": 90,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 45,
+            "border": "5px solid #14121F",
+            "boxShadow": "6px 6px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 690,
+          "y": 544,
+          "w": 290,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 32,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "BOR DINDING"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 700,
+          "w": 872,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 734,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 58,
+            "fontWeight": 700,
+            "color": "{violet}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Kamu beli, kami yang pasang."
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 890,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Lemari, meja belajar, rak buku, gorden. Kos langsung rapi."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{orange}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Rakit & Pasang"
+    },
+    {
+      "bg": "{orange}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 190,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.9
+          },
+          "step": 0,
+          "text": "Rumah\nrewel?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 520,
+          "w": 430,
+          "h": 210,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 125,
+          "y": 590,
+          "w": 380,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "AC PANAS"
+        },
+        {
+          "type": "shape",
+          "x": 550,
+          "y": 520,
+          "w": 430,
+          "h": 210,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{pink}"
+        },
+        {
+          "type": "text",
+          "x": 575,
+          "y": 590,
+          "w": 380,
+          "rotate": 2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "KERAN BOCOR"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 760,
+          "w": 430,
+          "h": 210,
+          "rotate": 1,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 125,
+          "y": 830,
+          "w": 380,
+          "rotate": 1,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "LAMPU MATI"
+        },
+        {
+          "type": "shape",
+          "x": 550,
+          "y": 760,
+          "w": 430,
+          "h": 210,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 575,
+          "y": 830,
+          "w": 380,
+          "rotate": -2,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "textAlign": "center",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "CAT KELUPAS"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1020,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "Tukang datang, kamu santai."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{orange}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Rumah Rewel"
+    },
+    {
+      "bg": "{ink}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 120,
+            "fontWeight": 700,
+            "color": "{cream}",
+            "lineHeight": 0.98
+          },
+          "step": 0,
+          "text": "ABSTRAK\nIN ENGLISH,\nBINGUNG?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 110,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Serahin aja."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 700,
+          "w": 872,
+          "h": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #FFF6E5"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 732,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 1
+          },
+          "step": 0,
+          "text": "TERJEMAH & PROOFREAD"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 810,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "color": "{ink}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Indonesia ke Inggris dan sebaliknya: abstrak, jurnal, CV, caption. Bahasanya natural, bukan kaku."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Terjemah"
+    },
+    {
+      "bg": "{pink}",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "w": 880,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 150,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "lineHeight": 0.92
+          },
+          "step": 0,
+          "text": "ULTAH\nBESOK,\nBELUM\nSIAP?"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 700,
+          "w": 220,
+          "h": 84,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 42,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{lime}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 724,
+          "w": 220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "DEKOR"
+        },
+        {
+          "type": "shape",
+          "x": 340,
+          "y": 700,
+          "w": 320,
+          "h": 84,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 42,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{cream}"
+        },
+        {
+          "type": "text",
+          "x": 340,
+          "y": 724,
+          "w": 320,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "KUE & SNACK"
+        },
+        {
+          "type": "shape",
+          "x": 680,
+          "y": 700,
+          "w": 300,
+          "h": 84,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 42,
+            "border": "5px solid #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{orange}"
+        },
+        {
+          "type": "text",
+          "x": 680,
+          "y": 724,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 32,
+            "fontWeight": 700,
+            "color": "{ink}",
+            "textAlign": "center",
+            "lineHeight": 1,
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "FOTOGRAFER"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 830,
+          "w": 872,
+          "h": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24,
+            "border": "5px solid #14121F",
+            "boxShadow": "8px 8px 0 #14121F"
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{violet}"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 860,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "color": "{lime}",
+            "lineHeight": 1.05
+          },
+          "step": 0,
+          "text": "PESTA KECIL, BERES SEMUA."
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 935,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{body}",
+            "fontSize": 30,
+            "fontWeight": 500,
+            "color": "{cream}",
+            "lineHeight": 1.3
+          },
+          "step": 0,
+          "text": "Pilih yang kamu butuh, atau ambil satu paket komplit."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 1130,
+          "w": 880,
+          "h": 110,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "borderRadius": 24
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "{ink}"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1168,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "fontFamily": "{head}",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "{pink}",
+            "textAlign": "center",
+            "whiteSpace": "nowrap"
+          },
+          "step": 0,
+          "text": "Chat Jasa Apa Aja Bandung →"
+        }
+      ],
+      "name": "Ultah Dadakan"
+    }
+  ]
+}

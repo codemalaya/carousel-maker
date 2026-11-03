@@ -1,0 +1,1050 @@
+{
+  "title": "Coba Google Flow: Hasilnya Jujur (contoh)",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'katanya tinggal ketik, jadi video. Aku coba sendiri'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Warna paper, navy, ink, biru, kuning, merah. Tanpa emoji. Margin 100. Bahasa santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361",
+      "paper": "#f4f1ea"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 112,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "KATANYA\nTINGGAL KETIK,\nJADI VIDEO."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 540,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 112,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#3ad1ff"
+          },
+          "step": 0,
+          "text": "AKU COBA.\nJUJUR YA."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 830,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Aku coba sendiri, hasilnya apa adanya."
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#3ad1ff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PERCOBAAN 1"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 250,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;background:#0a0a0a;color:#ffffff;padding:30px 36px;box-sizing:border-box;font-family:Menlo,Consolas,monospace;font-size:32px;line-height:1.4\">&gt; kucing naik motor di jalanan Bandung</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 440,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "↓"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 680,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "HASILNYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 730,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 104,
+            "fontWeight": 800,
+            "lineHeight": 0.96,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kucingnya punya 5 kaki."
+        }
+      ],
+      "name": "Percobaan 1"
+    },
+    {
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "PERCOBAAN 2"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 250,
+          "w": 880,
+          "h": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;background:#0a0a0a;color:#ffffff;padding:30px 36px;box-sizing:border-box;font-family:Menlo,Consolas,monospace;font-size:32px;line-height:1.4\">&gt; tulisan WARUNG di spanduk</div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 470,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 48,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Di percobaanku, jadinya:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 160,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "WARRUNGG."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 830,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Tulisan di dalam video masih sering kacau."
+        }
+      ],
+      "name": "Percobaan 2"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 90,
+          "y": 170,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 470,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "7X"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 720,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 56,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "generate ulang buat dapat satu hasil yang layak dipakai."
+        }
+      ],
+      "name": "Sabar"
+    },
+    {
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 190,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "TAPI\nSATU\nHASIL."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 830,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kelihatan kayak iklan beneran. Aku sampai nonton ulang tiga kali."
+        }
+      ],
+      "name": "Tapi"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 120,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "KESIMPULAN\nJUJURKU."
+        },
+        {
+          "type": "table",
+          "x": 100,
+          "y": 520,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "rows": [
+            [
+              "Dipakai buat",
+              "Kata aku"
+            ],
+            [
+              "Cari ide visual",
+              "Bagus"
+            ],
+            [
+              "Hasil akhir langsung",
+              "Masih perlu diedit"
+            ],
+            [
+              "Kalau nggak sabar",
+              "Mending skip"
+            ]
+          ],
+          "header": true,
+          "align": [
+            "left",
+            "left"
+          ],
+          "zebra": true,
+          "headerFill": "#2457ff",
+          "headerColor": "#ffffff",
+          "stripeFill": "rgba(0,0,0,0.05)",
+          "lineColor": "rgba(0,0,0,0.15)"
+        }
+      ],
+      "name": "Kesimpulan"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "COBA GOOGLE FLOW"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "SIMPAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 100,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "MAU LIHAT\nHASIL\nMENTAHNYA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 600,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Komen \"mau\", nanti aku tunjukin semuanya."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1000,
+          "w": 420,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#f9d361;color:#0a0a0a;width:420px;height:120px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+        }
+      ],
+      "name": "Pertanyaan"
+    }
+  ]
+}

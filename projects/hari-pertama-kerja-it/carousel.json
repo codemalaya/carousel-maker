@@ -1,0 +1,1058 @@
+{
+ "title": "Hari Pertama Kerja di IT (contoh)",
+ "guides": {
+  "x": [],
+  "y": []
+ },
+ "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'hari pertama kerja di IT: yang nggak diajarin di kuliah'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Tanpa emoji. Margin 100. Bahasa santai.",
+ "format": "4:5",
+ "tokens": {
+  "palette": {
+   "ink": "#0a0a0a",
+   "navy": "#0a1a3f",
+   "blue": "#2457ff",
+   "sky": "#3ad1ff",
+   "red": "#fc1201",
+   "yellow": "#f9d361",
+   "paper": "#f4f1ea"
+  },
+  "fonts": {
+   "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  },
+  "css": "",
+  "fontFiles": []
+ },
+ "slides": [
+  {
+   "name": "Hook",
+   "bg": "#f4f1ea",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 640,
+     "y": 860,
+     "w": 560,
+     "h": 560,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "kind": "circle",
+     "fill": "#fc1201",
+     "style": {}
+    },
+    {
+     "type": "text",
+     "x": 790,
+     "y": 910,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "3",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 380,
+      "fontWeight": 800,
+      "lineHeight": 0.8,
+      "letterSpacing": "-0.058em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "1/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA\nKERJA DI IT:",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 108,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 404,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "YANG NGGAK\nDIAJARIN\nDI KULIAH.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 108,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 780,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Tiga hal yang bikin aku kaget.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 44,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.03em",
+      "color": "#0a0a0a"
+     },
+     "w": 640
+    }
+   ]
+  },
+  {
+   "name": "Poin 1",
+   "bg": "#0a0a0a",
+   "elements": [
+    {
+     "type": "text",
+     "x": 640,
+     "y": 60,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "text": "1",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 620,
+      "fontWeight": 800,
+      "lineHeight": 0.8,
+      "letterSpacing": "-0.058em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "2/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 230,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "AKSES\nITU PROSES.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 118,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 502,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Dua hari pertama cuma nunggu akun dan izin.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 50,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#ffffff"
+     },
+     "w": 780
+    }
+   ]
+  },
+  {
+   "name": "Poin 2",
+   "bg": "#f9d361",
+   "elements": [
+    {
+     "type": "text",
+     "x": 560,
+     "y": 700,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "text": "2",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 620,
+      "fontWeight": 800,
+      "lineHeight": 0.8,
+      "letterSpacing": "-0.058em",
+      "color": "#e8b92f"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "3/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 230,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "KODE LAMA\nITU NORMAL.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 118,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 502,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Yang pertama kubuka bukan fitur baru, tapi kode bertahun-tahun lalu.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 50,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#0a0a0a"
+     },
+     "w": 780
+    }
+   ]
+  },
+  {
+   "name": "Poin 3",
+   "bg": "#3ad1ff",
+   "elements": [
+    {
+     "type": "text",
+     "x": 640,
+     "y": 60,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "text": "3",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 620,
+      "fontWeight": 800,
+      "lineHeight": 0.8,
+      "letterSpacing": "-0.058em",
+      "color": "#2ab8e6"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "4/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 230,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "BERTANYA\nITU WAJIB.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 130,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 524,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Yang pura-pura ngerti justru paling lama beresnya.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 50,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#0a0a0a"
+     },
+     "w": 780
+    }
+   ]
+  },
+  {
+   "name": "Ekspektasi vs kenyataan",
+   "bg": "#f4f1ea",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 0,
+     "y": 640,
+     "w": 1080,
+     "h": 710,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 0,
+     "step": 0,
+     "kind": "rect",
+     "fill": "#0a1a3f",
+     "style": {}
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "5/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 190,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "BAYANGANKU",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 26,
+      "fontWeight": 800,
+      "lineHeight": 1,
+      "letterSpacing": "0.04em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 240,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Langsung bikin fitur keren.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 63,
+      "fontWeight": 800,
+      "lineHeight": 0.98,
+      "letterSpacing": "-0.045em",
+      "color": "#0a0a0a"
+     },
+     "w": 860
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 700,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "KENYATAANNYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 26,
+      "fontWeight": 800,
+      "lineHeight": 1,
+      "letterSpacing": "0.04em",
+      "color": "#f9d361"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 750,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Seminggu baca dokumentasi.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 66,
+      "fontWeight": 800,
+      "lineHeight": 0.98,
+      "letterSpacing": "-0.05em",
+      "color": "#ffffff"
+     },
+     "w": 860
+    }
+   ]
+  },
+  {
+   "name": "Belok",
+   "bg": "#2457ff",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 300,
+     "y": -300,
+     "w": 900,
+     "h": 900,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "kind": "circle",
+     "fill": "#3ad1ff",
+     "style": {
+      "filter": "blur(150px)",
+      "opacity": 0.5
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "6/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "TAPI...",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 230,
+      "fontWeight": 800,
+      "lineHeight": 0.86,
+      "letterSpacing": "-0.058em",
+      "color": "#f9d361"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 500,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Pas fitur pertama yang kutulis akhirnya dipakai orang, semua capeknya kebayar.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 50,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#ffffff"
+     },
+     "w": 820
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 930,
+     "w": 810,
+     "h": 120,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:810px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">Mulai dulu, ngerti belakangan.</div>"
+    }
+   ]
+  },
+  {
+   "name": "Pertanyaan",
+   "bg": "#0a0a0a",
+   "elements": [
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMA KERJA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "7/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "SIMPAN",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 230,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "HARI PERTAMAMU\nGIMANA?",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 93,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 560,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Apa yang bikin kamu kaget? Tulis di komentar.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 52,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#ffffff"
+     },
+     "w": 800
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 1000,
+     "w": 420,
+     "h": 120,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:420px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+    }
+   ]
+  }
+ ]
+}

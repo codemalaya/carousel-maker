@@ -114,7 +114,7 @@ function renderElement(el: Element, c: Carousel, o: RenderOpts): string {
 export function renderSlideBody(slide: Slide, c: Carousel, o: RenderOpts = {}): string {
   const { width, height } = FORMATS[c.format];
   const els = slide.elements.map((e) => renderElement(e, c, o)).join("\n");
-  return `<div class="slide" style="position:relative;overflow:hidden;color:#000;font:400 16px/normal system-ui,-apple-system,'Segoe UI',sans-serif;width:${width}px;height:${height}px;background:${resolve(slide.bg, c)}">${els}</div>`;
+  return `<div class="slide" style="position:relative;overflow:hidden;text-align:left;color:#000;font:400 16px/normal system-ui,-apple-system,'Segoe UI',sans-serif;width:${width}px;height:${height}px;background:${resolve(slide.bg, c)}">${els}</div>`;
 }
 
 /** Full standalone HTML doc for a single slide. Used by both web preview and Playwright. */

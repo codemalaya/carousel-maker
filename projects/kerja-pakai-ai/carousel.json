@@ -1,0 +1,1046 @@
+{
+  "title": "Kerja Pakai AI: Ekspektasi vs Kenyataan (contoh)",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'ternyata kerja pakai AI nggak sesimpel itu'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Warna paper, navy, ink, biru, kuning, merah. Tanpa emoji. Margin 100. Bahasa santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361",
+      "paper": "#f4f1ea"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 640,
+          "y": 800,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#f9d361"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 104,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "TERNYATA\nKERJA PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 104,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "NGGAK SESIMPEL\nITU."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kukira tinggal ketik, langsung beres. Ternyata kenyataannya begini."
+        },
+        {
+          "type": "text",
+          "x": 730,
+          "y": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 180,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "AI?"
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 110,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "DIA JAWAB\nDENGAN YAKIN."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 500,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;display:flex;flex-direction:column;gap:22px\"><div style='align-self:flex-end;background:#0a0a0a;color:#fff;padding:22px 30px;font-size:34px;font-weight:600;max-width:640px;line-height:1.2'>Fungsi buat kirim email di library apa ya?</div><div style='align-self:flex-start;background:#fff;border:3px solid #0a0a0a;color:#0a0a0a;padding:22px 30px;font-size:34px;font-weight:600;max-width:700px;line-height:1.25'>Tentu! Pakai <b>sendQuick()</b> dari library <b>mailkit-pro</b>.</div><div style='align-self:flex-start;background:#fc1201;color:#fff;padding:16px 26px;font-size:34px;font-weight:800;letter-spacing:-.02em'>Library-nya nggak pernah ada.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1090,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "Dan kamu baru sadar setelah dicoba."
+        }
+      ],
+      "name": "Yakin tapi salah"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 190,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PROMPT\nPANJANG."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 640,
+          "w": 880,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;height:200px;background:#fff;color:#0a0a0a;padding:26px 36px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center\"><div style='font-weight:800;font-size:96px;letter-spacing:-.05em;line-height:1'>10 MENIT</div><div style='font-weight:600;font-size:32px;margin-top:8px'>nulis prompt serapi mungkin</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 870,
+          "w": 880,
+          "h": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;height:200px;background:#fc1201;color:#fff;padding:26px 36px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center\"><div style='font-weight:800;font-size:96px;letter-spacing:-.05em;line-height:1'>10 DETIK</div><div style='font-weight:600;font-size:32px;margin-top:8px'>hasilnya tetap meleset</div></div>"
+        }
+      ],
+      "name": "Prompt panjang"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 170,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "COPY.\nPASTE."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 170,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "ERROR."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 830,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Baca ulang. Cari yang salah. Betulin sendiri."
+        }
+      ],
+      "name": "Copy paste error"
+    },
+    {
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "DULU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 84,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Nulis kode dari nol."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 260,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "↓"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "SEKARANG"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 930,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 64,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Baca dan benerin kode yang ditulis AI."
+        }
+      ],
+      "name": "Peran berubah"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 230,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "TAPI..."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 500,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Buat kerjaan yang bikin ngantuk (boilerplate, tes, regex), dia nyelametin berjam-jam."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 900,
+          "w": 880,
+          "h": 140,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;height:140px;background:#fff;color:#0a0a0a;padding:0 36px;box-sizing:border-box;display:flex;align-items:center;font-weight:800;font-size:40px;letter-spacing:-.03em\">AI itu asisten, bukan pengganti.</div>"
+        }
+      ],
+      "name": "Belok"
+    },
+    {
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SEMINGGU PAKAI AI"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "SIMPAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PAKAI AI\nBUAT APA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Beneran ngebantu, atau malah nambah kerjaan? Tulis di komentar."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1000,
+          "w": 420,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#0a0a0a;color:#f9d361;width:420px;height:120px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+        }
+      ],
+      "name": "Pertanyaan"
+    }
+  ]
+}

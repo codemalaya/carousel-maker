@@ -1,4 +1,5 @@
 {
+  "title": "",
   "guides": {
     "x": [
       100,
@@ -23,7 +24,8 @@
       "sans": "Inter, 'Helvetica Neue', Arial, sans-serif",
       "mono": "ui-monospace, 'SF Mono', Menlo, monospace"
     },
-    "css": ""
+    "css": "",
+    "fontFiles": []
   },
   "slides": [
     {
@@ -44,6 +46,7 @@
             "color": "#121212",
             "letterSpacing": 2
           },
+          "step": 0,
           "text": "PROMPT ENGINEERING / UNTUK DEVELOPER"
         },
         {
@@ -58,6 +61,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -78,6 +82,7 @@
             "color": "#F2F0EB",
             "letterSpacing": -3
           },
+          "step": 0,
           "text": "Prompt bagus bukan soal kata ajaib."
         },
         {
@@ -95,6 +100,7 @@
             "lineHeight": 1.3,
             "color": "#B9B4A8"
           },
+          "step": 0,
           "text": "Yang menentukan: apa yang kamu kasih tahu ke model."
         },
         {
@@ -109,6 +115,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -126,6 +133,7 @@
             "fontSize": 26,
             "color": "#121212"
           },
+          "step": 0,
           "text": "01"
         },
         {
@@ -144,6 +152,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Context"
         },
         {
@@ -161,6 +170,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Apa yang model perlu tahu"
         },
         {
@@ -175,6 +185,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -192,6 +203,7 @@
             "fontSize": 26,
             "color": "#121212"
           },
+          "step": 0,
           "text": "02"
         },
         {
@@ -210,6 +222,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Instruction"
         },
         {
@@ -227,6 +240,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Apa yang harus dikerjakan"
         },
         {
@@ -241,6 +255,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -258,6 +273,7 @@
             "fontSize": 26,
             "color": "#121212"
           },
+          "step": 0,
           "text": "03"
         },
         {
@@ -276,6 +292,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Format"
         },
         {
@@ -293,6 +310,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Bentuk hasil yang diminta"
         },
         {
@@ -305,6 +323,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='0' width='190' height='110' rx='16' fill='#121212' opacity='0.18'/><rect x='15' y='15' width='190' height='110' rx='16' fill='#121212' opacity='0.35'/><rect x='0' y='30' width='190' height='110' rx='16' fill='#121212'/><rect x='22' y='54' width='120' height='10' rx='5' fill='#F2F0EB'/><rect x='22' y='76' width='146' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/><rect x='22' y='98' width='84' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/><circle cx='160' cy='103' r='14' fill='#FF5A1F'/></svg>"
         },
         {
@@ -317,6 +336,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='220' height='150' rx='16' fill='#121212'/><circle cx='22' cy='22' r='6' fill='#FF5A1F'/><circle cx='42' cy='22' r='6' fill='#F2F0EB' opacity='0.4'/><circle cx='62' cy='22' r='6' fill='#F2F0EB' opacity='0.4'/><text x='22' y='74' font-family='ui-monospace,Menlo,monospace' font-size='24' font-weight='700' fill='#FF5A1F'>&gt;</text><text x='46' y='74' font-family='ui-monospace,Menlo,monospace' font-size='24' font-weight='700' fill='#F2F0EB'>refactor</text><rect x='22' y='96' width='150' height='10' rx='5' fill='#F2F0EB' opacity='0.35'/><rect x='22' y='116' width='96' height='10' rx='5' fill='#F2F0EB' opacity='0.35'/><rect x='126' y='112' width='14' height='20' fill='#FF5A1F'/></svg>"
         },
         {
@@ -329,6 +349,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='220' height='150' rx='16' fill='#F2F0EB'/><g font-family='ui-monospace,Menlo,monospace' font-size='20' font-weight='700'><text x='18' y='34' fill='#121212'>{</text><text x='38' y='62' fill='#FF5A1F'>\"ok\"</text><text x='84' y='62' fill='#121212'>: true,</text><text x='38' y='90' fill='#FF5A1F'>\"fix\"</text><text x='92' y='90' fill='#121212'>: [ ],</text><text x='38' y='118' fill='#FF5A1F'>\"n\"</text><text x='76' y='118' fill='#121212'>: 3</text><text x='18' y='142' fill='#121212'>}</text></g></svg>"
         },
         {
@@ -341,6 +362,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<svg width='220' height='140' viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='96' height='64' rx='14' fill='#F2F0EB' opacity='0.14'/><text x='48' y='40' text-anchor='middle' font-family='ui-monospace,Menlo,monospace' font-size='20' fill='#F2F0EB'>prompt</text><path d='M104 32h40m-12-12l12 12-12 12' stroke='#FF5A1F' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/><rect x='152' y='0' width='68' height='64' rx='14' fill='#FF5A1F'/><rect x='168' y='20' width='36' height='8' rx='4' fill='#121212'/><rect x='168' y='36' width='24' height='8' rx='4' fill='#121212'/><rect x='0' y='84' width='220' height='56' rx='14' fill='#F2F0EB' opacity='0.14'/><rect x='20' y='106' width='140' height='10' rx='5' fill='#F2F0EB' opacity='0.6'/></svg>"
         }
       ],
@@ -366,6 +388,7 @@
             "color": "#121212",
             "letterSpacing": -2.5
           },
+          "step": 0,
           "text": "Model tidak bisa baca isi kepalamu."
         },
         {
@@ -380,6 +403,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -398,6 +422,7 @@
             "letterSpacing": 2,
             "color": "#121212"
           },
+          "step": 0,
           "text": "YANG KAMU TULIS"
         },
         {
@@ -416,6 +441,7 @@
             "color": "#121212",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "fix this bug"
         },
         {
@@ -430,6 +456,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -450,6 +477,7 @@
             "color": "#121212",
             "letterSpacing": -8
           },
+          "step": 0,
           "text": "3"
         },
         {
@@ -468,6 +496,7 @@
             "lineHeight": 1.2,
             "color": "#121212"
           },
+          "step": 0,
           "text": "kata. Itu semua yang model tahu."
         },
         {
@@ -482,6 +511,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -500,6 +530,7 @@
             "letterSpacing": 2,
             "color": "#B9B4A8"
           },
+          "step": 0,
           "text": "YANG ADA DI KEPALAMU"
         },
         {
@@ -519,6 +550,7 @@
             "color": "#F2F0EB",
             "whiteSpace": "pre-line"
           },
+          "step": 0,
           "text": "Next.js 14 dan TypeScript\nError cuma muncul di production\nTest checkout jadi merah\nAPI response tidak boleh berubah\nDeadline sore ini"
         },
         {
@@ -537,6 +569,7 @@
             "color": "#FF5A1F",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Semua itu tidak ikut terkirim."
         }
       ],
@@ -562,6 +595,7 @@
             "color": "#121212",
             "letterSpacing": -2.5
           },
+          "step": 0,
           "text": "3 bahan prompt yang berguna."
         },
         {
@@ -576,6 +610,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -593,6 +628,7 @@
             "fontSize": 26,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "01"
         },
         {
@@ -611,6 +647,7 @@
             "color": "#F2F0EB",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Context"
         },
         {
@@ -628,6 +665,7 @@
             "lineHeight": 1.25,
             "color": "#B9B4A8"
           },
+          "step": 0,
           "text": "Model perlu tahu apa?"
         },
         {
@@ -646,6 +684,7 @@
             "color": "#F2F0EB",
             "whiteSpace": "pre"
           },
+          "step": 0,
           "text": "hasil = context\n      + instruction\n      + format"
         },
         {
@@ -660,6 +699,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -677,6 +717,7 @@
             "fontSize": 26,
             "color": "#121212"
           },
+          "step": 0,
           "text": "02"
         },
         {
@@ -695,6 +736,7 @@
             "color": "#121212",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Instruction"
         },
         {
@@ -712,6 +754,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Model harus lakukan apa?"
         },
         {
@@ -726,6 +769,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -743,6 +787,7 @@
             "fontSize": 26,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "03"
         },
         {
@@ -761,6 +806,7 @@
             "color": "#121212",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Format"
         },
         {
@@ -778,6 +824,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Hasilnya berbentuk apa?"
         }
       ],
@@ -802,6 +849,7 @@
             "color": "#FF5A1F",
             "letterSpacing": 2
           },
+          "step": 0,
           "text": "01 CONTEXT"
         },
         {
@@ -821,6 +869,7 @@
             "letterSpacing": -2,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Tulis yang tidak bisa ditebak model."
         },
         {
@@ -835,6 +884,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -853,6 +903,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "1"
         },
         {
@@ -871,6 +922,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Stack dan versi"
         },
         {
@@ -883,6 +935,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='display:flex;flex-wrap:wrap;gap:10px;font-family:ui-monospace,Menlo,monospace;font-size:24px;font-weight:600'><span style='background:#121212;color:#F2F0EB;padding:10px 16px;border-radius:12px'>Next.js 14</span><span style='background:#121212;color:#F2F0EB;padding:10px 16px;border-radius:12px'>React 18</span><span style='background:#FF5A1F;color:#121212;padding:10px 16px;border-radius:12px'>Prisma 5</span></div>"
         },
         {
@@ -897,6 +950,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -915,6 +969,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "2"
         },
         {
@@ -933,6 +988,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Kode terkait"
         },
         {
@@ -945,6 +1001,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='background:#121212;border-radius:16px;padding:16px 20px;font-family:ui-monospace,Menlo,monospace;font-size:22px;line-height:1.5;color:#F2F0EB'><span style='color:#FF5A1F'>function</span> hitungTotal()<br><span style='color:#8a867c'>// bukan seluruh repo</span></div>"
         },
         {
@@ -959,6 +1016,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -977,6 +1035,7 @@
             "fontWeight": 700,
             "color": "#121212"
           },
+          "step": 0,
           "text": "3"
         },
         {
@@ -995,6 +1054,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Error asli"
         },
         {
@@ -1007,6 +1067,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='background:#121212;border-radius:16px;padding:16px 20px;font-family:ui-monospace,Menlo,monospace;font-size:22px;line-height:1.5;color:#F2F0EB'>TypeError: x is undefined<br><span style='color:#FF5A1F'>paste utuh, no parafrase</span></div>"
         },
         {
@@ -1021,6 +1082,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1039,6 +1101,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "4"
         },
         {
@@ -1057,6 +1120,7 @@
             "color": "#F2F0EB",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Batasan"
         },
         {
@@ -1069,6 +1133,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='display:flex;flex-direction:column;gap:12px;font-family:ui-monospace,Menlo,monospace;font-size:24px;font-weight:600;color:#F2F0EB'><div><span style='color:#FF5A1F'>✕</span> ubah API</div><div><span style='color:#FF5A1F'>✕</span> library baru</div><div><span style='color:#FF5A1F'>✕</span> tulis ulang semua</div></div>"
         }
       ],
@@ -1093,6 +1158,7 @@
             "color": "#121212",
             "letterSpacing": 2
           },
+          "step": 0,
           "text": "SEBELUM VS SESUDAH"
         },
         {
@@ -1111,6 +1177,7 @@
             "letterSpacing": -2,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Context ubah jawaban."
         },
         {
@@ -1123,6 +1190,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='box-sizing:border-box;width:880px;height:210px;background:#E3DFD5;border-radius:28px;padding:30px 40px;font-family:Inter,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:ui-monospace,Menlo,monospace;font-size:20px;letter-spacing:2px;color:#6b675e'>TANPA CONTEXT</div><div style='font-family:ui-monospace,Menlo,monospace;font-size:38px;font-weight:700;margin-top:16px'>Kenapa query ini lambat?</div><div style='font-size:26px;margin-top:22px;color:#4a473f'>\"Tambah index, pakai cache.\" <b style='color:#121212'>Terlalu umum.</b></div></div>"
         },
         {
@@ -1135,6 +1203,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='box-sizing:border-box;width:880px;height:520px;background:#121212;border-radius:28px;padding:30px 40px;color:#F2F0EB;font-family:ui-monospace,Menlo,monospace;font-size:28px;line-height:1.5'><div style='font-size:20px;letter-spacing:2px;color:#FF5A1F;font-weight:700;margin-bottom:18px'>DENGAN CONTEXT</div><div><span style='color:#FF5A1F'>Stack</span>  Postgres 15, Prisma 5</div><div><span style='color:#FF5A1F'>Tabel</span>  orders, 4 juta baris</div><div><span style='color:#FF5A1F'>Index</span>  hanya primary key</div><div><span style='color:#FF5A1F'>Query</span>  butuh 3 detik</div><div style='margin-top:14px;background:#262626;border-radius:16px;padding:16px 22px;font-size:25px;line-height:1.45'>findMany({ where: { userId },<br>&nbsp;&nbsp;orderBy: { createdAt: 'desc' } })</div><div style='margin-top:18px'>Kenapa lambat?</div></div>"
         },
         {
@@ -1147,6 +1216,7 @@
           "opacity": 1,
           "z": 2,
           "style": {},
+          "step": 0,
           "kind": "circle",
           "fill": "#FF5A1F"
         },
@@ -1167,6 +1237,7 @@
             "textAlign": "center",
             "lineHeight": 1.1
           },
+          "step": 0,
           "text": "+"
         },
         {
@@ -1179,6 +1250,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style='box-sizing:border-box;width:880px;height:190px;background:#FF5A1F;border-radius:28px;padding:30px 40px;font-family:Inter,Helvetica,Arial,sans-serif;color:#121212'><div style='font-family:ui-monospace,Menlo,monospace;font-size:20px;letter-spacing:2px;font-weight:700'>JAWABAN</div><div style='font-size:40px;font-weight:800;letter-spacing:-1px;margin-top:14px;line-height:1.1'>Buat index (userId, createdAt).</div><div style='font-size:24px;margin-top:10px'>Spesifik, bisa langsung dicoba.</div></div>"
         }
       ],
@@ -1199,6 +1271,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -1218,6 +1291,7 @@
             "fontWeight": 700,
             "color": "#121212"
           },
+          "step": 0,
           "text": "02 INSTRUCTION"
         },
         {
@@ -1237,6 +1311,7 @@
             "color": "#121212",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Bilang apa yang dikerjakan. Satu tugas, kata kerja jelas."
         },
         {
@@ -1251,6 +1326,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -1269,6 +1345,7 @@
             "letterSpacing": 2,
             "color": "#6b675d"
           },
+          "step": 0,
           "text": "SAMAR"
         },
         {
@@ -1287,6 +1364,7 @@
             "lineHeight": 1.15,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Perbaiki kode ini"
         },
         {
@@ -1301,6 +1379,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1320,6 +1399,7 @@
             "lineHeight": 1.25,
             "color": "#F2F0EB"
           },
+          "step": 0,
           "text": "Refactor fungsi ini jadi 2 fungsi kecil. Jangan ubah signature."
         },
         {
@@ -1334,6 +1414,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -1352,6 +1433,7 @@
             "letterSpacing": 2,
             "color": "#6b675d"
           },
+          "step": 0,
           "text": "SAMAR"
         },
         {
@@ -1370,6 +1452,7 @@
             "lineHeight": 1.15,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Bikin lebih bagus"
         },
         {
@@ -1384,6 +1467,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1403,6 +1487,7 @@
             "lineHeight": 1.25,
             "color": "#F2F0EB"
           },
+          "step": 0,
           "text": "Turunkan kompleksitas fungsi ini di bawah 10. Tanpa ganti logika."
         },
         {
@@ -1417,6 +1502,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -1435,6 +1521,7 @@
             "letterSpacing": 2,
             "color": "#6b675d"
           },
+          "step": 0,
           "text": "SAMAR"
         },
         {
@@ -1453,6 +1540,7 @@
             "lineHeight": 1.15,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Review kode ini"
         },
         {
@@ -1467,6 +1555,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1486,6 +1575,7 @@
             "lineHeight": 1.25,
             "color": "#F2F0EB"
           },
+          "step": 0,
           "text": "Cari bug race condition saja. Abaikan soal gaya penulisan."
         }
       ],
@@ -1510,6 +1600,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "03 FORMAT"
         },
         {
@@ -1529,6 +1620,7 @@
             "color": "#121212",
             "letterSpacing": -2.5
           },
+          "step": 0,
           "text": "Tentukan bentuk hasil sebelum model menjawab."
         },
         {
@@ -1543,6 +1635,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1562,6 +1655,7 @@
             "color": "#F2F0EB",
             "whiteSpace": "pre"
           },
+          "step": 0,
           "text": "Ekstrak data dari email ini.\nBalas JSON saja, tanpa teks lain:\n\n{\n  \"nama\": string,\n  \"tanggal\": \"YYYY-MM-DD\",\n  \"prioritas\": \"low\" | \"high\"\n}\n\nJika data tidak ada, isi null."
         },
         {
@@ -1576,6 +1670,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -1595,6 +1690,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "JSON"
         },
         {
@@ -1612,6 +1708,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Untuk dipakai kode"
         },
         {
@@ -1626,6 +1723,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -1645,6 +1743,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Tabel"
         },
         {
@@ -1662,6 +1761,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Untuk membandingkan"
         },
         {
@@ -1676,6 +1776,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -1695,6 +1796,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Diff"
         },
         {
@@ -1712,6 +1814,7 @@
             "lineHeight": 1.25,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Untuk perubahan kode"
         }
       ],
@@ -1736,6 +1839,7 @@
             "color": "#121212",
             "letterSpacing": -2.5
           },
+          "step": 0,
           "text": "Gabungkan ketiganya."
         },
         {
@@ -1750,6 +1854,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -1769,6 +1874,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "CONTEXT"
         },
         {
@@ -1787,6 +1893,7 @@
             "lineHeight": 1.3,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Aku punya API Express + TypeScript. Endpoint POST /orders sering return 500 saat stok habis. Ini handler-nya: [kode]"
         },
         {
@@ -1801,6 +1908,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -1820,6 +1928,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "INSTRUCTION"
         },
         {
@@ -1838,6 +1947,7 @@
             "lineHeight": 1.3,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Cari penyebab error 500 itu. Jangan tulis ulang seluruh handler, ubah seperlunya."
         },
         {
@@ -1852,6 +1962,7 @@
           "style": {
             "borderRadius": 28
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1871,6 +1982,7 @@
             "fontWeight": 700,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "FORMAT"
         },
         {
@@ -1890,6 +2002,7 @@
             "color": "#F2F0EB",
             "whiteSpace": "pre-line"
           },
+          "step": 0,
           "text": "Balas 3 bagian:\n1. Penyebab (maks 2 kalimat)\n2. Diff kode\n3. Cara mengetesnya"
         }
       ],
@@ -1916,6 +2029,7 @@
             "letterSpacing": -3.5,
             "whiteSpace": "nowrap"
           },
+          "step": 0,
           "text": "4 kesalahan umum."
         },
         {
@@ -1930,6 +2044,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -1947,6 +2062,7 @@
             "fontSize": 26,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "A"
         },
         {
@@ -1966,6 +2082,7 @@
             "color": "#F2F0EB",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Context kosong"
         },
         {
@@ -1983,6 +2100,7 @@
             "lineHeight": 1.3,
             "color": "#B9B4A8"
           },
+          "step": 0,
           "text": "Model menebak. Kamu dapat jawaban umum."
         },
         {
@@ -1997,6 +2115,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FF5A1F"
         },
@@ -2014,6 +2133,7 @@
             "fontSize": 26,
             "color": "#121212"
           },
+          "step": 0,
           "text": "B"
         },
         {
@@ -2033,6 +2153,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Banyak tugas sekaligus"
         },
         {
@@ -2050,6 +2171,7 @@
             "lineHeight": 1.3,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Pecah jadi beberapa prompt."
         },
         {
@@ -2064,6 +2186,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#E3DFD5"
         },
@@ -2081,6 +2204,7 @@
             "fontSize": 26,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "C"
         },
         {
@@ -2100,6 +2224,7 @@
             "color": "#121212",
             "letterSpacing": -1
           },
+          "step": 0,
           "text": "Format tidak diminta"
         },
         {
@@ -2117,6 +2242,7 @@
             "lineHeight": 1.3,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Dapat paragraf panjang."
         },
         {
@@ -2131,6 +2257,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#FFFFFF"
         },
@@ -2148,6 +2275,7 @@
             "fontSize": 26,
             "color": "#FF5A1F"
           },
+          "step": 0,
           "text": "D"
         },
         {
@@ -2167,6 +2295,7 @@
             "color": "#121212",
             "letterSpacing": -2
           },
+          "step": 0,
           "text": "Tidak dicek ulang"
         },
         {
@@ -2184,6 +2313,7 @@
             "lineHeight": 1.3,
             "color": "#121212"
           },
+          "step": 0,
           "text": "Anggap hasilnya draft. Tes dan review dulu."
         }
       ],
@@ -2207,6 +2337,7 @@
             "letterSpacing": 2,
             "color": "#121212"
           },
+          "step": 0,
           "text": "CHECKLIST / SEBELUM KIRIM"
         },
         {
@@ -2227,6 +2358,7 @@
             "color": "#121212",
             "whiteSpace": "pre-line"
           },
+          "step": 0,
           "text": "Cek dulu.\nBaru kirim."
         },
         {
@@ -2239,6 +2371,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -2252,6 +2385,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">01 CONTEXT</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Stack, versi, error, batasan sudah ada?</div></div></div>"
         },
         {
@@ -2264,6 +2398,7 @@
           "opacity": 0.25,
           "z": 0,
           "style": {},
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -2277,6 +2412,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">02 INSTRUCTION</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Satu tugas, kata kerja jelas?</div></div></div>"
         },
         {
@@ -2289,6 +2425,7 @@
           "opacity": 0.25,
           "z": 0,
           "style": {},
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -2302,6 +2439,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style=\"display:flex;align-items:center;height:150px;gap:36px;font-family:Inter,Arial,sans-serif\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\"><rect width=\"80\" height=\"80\" rx=\"20\" fill=\"#FF5A1F\"/><path d=\"M22 41l12 12 24-26\" fill=\"none\" stroke=\"#121212\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><div><div style=\"font:600 22px ui-monospace,Menlo,monospace;letter-spacing:2px;color:#FF5A1F\">03 FORMAT</div><div style=\"font-weight:800;font-size:36px;line-height:1.2;color:#121212;margin-top:6px\">Bentuk hasil sudah diminta?</div></div></div>"
         },
         {
@@ -2314,6 +2452,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -2329,6 +2468,7 @@
           "style": {
             "borderRadius": 32
           },
+          "step": 0,
           "kind": "rect",
           "fill": "#121212"
         },
@@ -2342,6 +2482,7 @@
           "opacity": 1,
           "z": 0,
           "style": {},
+          "step": 0,
           "html": "<div style=\"display:flex;flex-direction:column;justify-content:center;height:200px;font-family:Inter,Arial,sans-serif;color:#F2F0EB\"><div style=\"font-weight:800;font-size:48px;line-height:1.1;letter-spacing:-1px\">Simpan carousel ini.</div><div style=\"font-weight:500;font-size:30px;line-height:1.35;margin-top:16px;opacity:.85\">Kirim ke temanmu yang masih nulis <span style=\"font-family:ui-monospace,Menlo,monospace;color:#FF5A1F;text-decoration:line-through;text-decoration-thickness:3px\">\"fix this bug\"</span></div></div>"
         }
       ],

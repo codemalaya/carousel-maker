@@ -1,0 +1,1056 @@
+{
+ "title": "Gemini vs ChatGPT: Seminggu Dua-duanya (contoh)",
+ "guides": {
+  "x": [],
+  "y": []
+ },
+ "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'gemini vs chatgpt, aku pakai dua-duanya seminggu'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Tanpa emoji. Margin 100. Bahasa santai.",
+ "format": "4:5",
+ "tokens": {
+  "palette": {
+   "ink": "#0a0a0a",
+   "navy": "#0a1a3f",
+   "blue": "#2457ff",
+   "sky": "#3ad1ff",
+   "red": "#fc1201",
+   "yellow": "#f9d361",
+   "paper": "#f4f1ea"
+  },
+  "fonts": {
+   "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  },
+  "css": "",
+  "fontFiles": []
+ },
+ "slides": [
+  {
+   "name": "Hook",
+   "bg": "#ffffff",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 640,
+     "y": 860,
+     "w": 560,
+     "h": 560,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "kind": "circle",
+     "fill": "#f9d361",
+     "style": {}
+    },
+    {
+     "type": "text",
+     "x": 790,
+     "y": 910,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "VS",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 380,
+      "fontWeight": 800,
+      "lineHeight": 0.8,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "1/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI\nVS CHATGPT.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 116,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 418,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "AKU PAKAI\nDUA-DUANYA\nSEMINGGU.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 116,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 792,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Hasilnya nggak seperti yang kubayangin.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 44,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.03em",
+      "color": "#0a0a0a"
+     },
+     "w": 640
+    }
+   ]
+  },
+  {
+   "name": "Dua kartu",
+   "bg": "#0a0a0a",
+   "elements": [
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "2/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "SAMA-SAMA\nBISA MELESET.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 100,
+      "fontWeight": 800,
+      "lineHeight": 0.86,
+      "letterSpacing": "-0.058em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 640,
+     "w": 880,
+     "h": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;height:200px;background:#ffffff;color:#0a0a0a;padding:26px 36px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center\"><div style='font-weight:800;font-size:90px;letter-spacing:-.05em;line-height:1'>GEMINI</div><div style='font-weight:600;font-size:32px;margin-top:8px'>kadang yakin, tapi keliru</div></div>"
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 870,
+     "w": 880,
+     "h": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:880px;height:200px;background:#fc1201;color:#ffffff;padding:26px 36px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center\"><div style='font-weight:800;font-size:90px;letter-spacing:-.05em;line-height:1'>CHATGPT</div><div style='font-weight:600;font-size:32px;margin-top:8px'>kadang yakin, tapi keliru</div></div>"
+    }
+   ]
+  },
+  {
+   "name": "Ekspektasi vs kenyataan",
+   "bg": "#f4f1ea",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 0,
+     "y": 640,
+     "w": 1080,
+     "h": 710,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 0,
+     "step": 0,
+     "kind": "rect",
+     "fill": "#2457ff",
+     "style": {}
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "3/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 190,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "AKU KIRA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 26,
+      "fontWeight": 800,
+      "lineHeight": 1,
+      "letterSpacing": "0.04em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 240,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Satu AI pasti lebih pintar dari yang lain.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 40,
+      "fontWeight": 800,
+      "lineHeight": 0.98,
+      "letterSpacing": "-0.045em",
+      "color": "#0a0a0a"
+     },
+     "w": 860
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 700,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "KENYATAANNYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 26,
+      "fontWeight": 800,
+      "lineHeight": 1,
+      "letterSpacing": "0.04em",
+      "color": "#f9d361"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 750,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Tergantung tugasnya.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 86,
+      "fontWeight": 800,
+      "lineHeight": 0.98,
+      "letterSpacing": "-0.05em",
+      "color": "#ffffff"
+     },
+     "w": 860
+    }
+   ]
+  },
+  {
+   "name": "Tabel",
+   "bg": "#ffffff",
+   "elements": [
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "4/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "PAKAI YANG\nMANA?",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 120,
+      "fontWeight": 800,
+      "lineHeight": 0.88,
+      "letterSpacing": "-0.058em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "table",
+     "x": 100,
+     "y": 520,
+     "w": 880,
+     "h": 560,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 38,
+      "fontWeight": 600,
+      "color": "#0a0a0a"
+     },
+     "rows": [
+      [
+       "Tugas",
+       "Pilihanku"
+      ],
+      [
+       "Cari info terbaru",
+       "Yang bisa browsing"
+      ],
+      [
+       "Nulis kode",
+       "Yang paling paham konteks"
+      ],
+      [
+       "Ide cepat",
+       "Yang duluan kebuka"
+      ]
+     ],
+     "header": true,
+     "align": [
+      "left",
+      "left"
+     ],
+     "headerFill": "#2457ff",
+     "headerColor": "#ffffff",
+     "zebra": true,
+     "lineColor": "rgba(0,0,0,0.15)",
+     "stripeFill": "rgba(0,0,0,0.05)"
+    }
+   ]
+  },
+  {
+   "name": "Angka",
+   "bg": "#0a1a3f",
+   "elements": [
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "5/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 210,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Yang paling sering kulakukan:",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 44,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.03em",
+      "color": "#ffffff"
+     },
+     "w": 800
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 400,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CEK ULANG",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 139,
+      "fontWeight": 800,
+      "lineHeight": 0.86,
+      "letterSpacing": "-0.058em",
+      "color": "#f9d361"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 760,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Dua-duanya tetap aku cek sendiri sebelum dipakai.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 52,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#ffffff"
+     },
+     "w": 800
+    }
+   ]
+  },
+  {
+   "name": "Belok",
+   "bg": "#f9d361",
+   "elements": [
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "6/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GESER →",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#0a0a0a",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 200,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "TAPI...",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 230,
+      "fontWeight": 800,
+      "lineHeight": 0.86,
+      "letterSpacing": "-0.058em",
+      "color": "#2457ff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 500,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Kalau dua-duanya dikasih pertanyaan yang sama dan jawabannya beda, itu petunjuk ada yang perlu dicek.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 50,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#0a0a0a"
+     },
+     "w": 820
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 930,
+     "w": 690,
+     "h": 120,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:690px;height:120px;background:#0a0a0a;color:#f9d361;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">Beda jawaban = tanda cek.</div>"
+    }
+   ]
+  },
+  {
+   "name": "Pertanyaan",
+   "bg": "#2457ff",
+   "elements": [
+    {
+     "type": "shape",
+     "x": 300,
+     "y": -300,
+     "w": 900,
+     "h": 900,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 1,
+     "step": 0,
+     "kind": "circle",
+     "fill": "#3ad1ff",
+     "style": {
+      "filter": "blur(150px)",
+      "opacity": 0.5
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "GEMINI VS CHATGPT",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 880,
+     "y": 100,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "7/7",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 100
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "CODEMALAYA",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 780,
+     "y": 1220,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "SIMPAN",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 22,
+      "fontWeight": 700,
+      "lineHeight": 1,
+      "letterSpacing": "0.02em",
+      "color": "#ffffff",
+      "textAlign": "right"
+     },
+     "w": 200
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 230,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "KAMU TIM\nYANG MANA?",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 120,
+      "fontWeight": 800,
+      "lineHeight": 0.9,
+      "letterSpacing": "-0.058em",
+      "color": "#ffffff"
+     }
+    },
+    {
+     "type": "text",
+     "x": 100,
+     "y": 560,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "text": "Gemini, ChatGPT, atau dua-duanya? Tulis di komentar.",
+     "style": {
+      "fontFamily": "{sans}",
+      "fontSize": 52,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.04em",
+      "color": "#ffffff"
+     },
+     "w": 800
+    },
+    {
+     "type": "html",
+     "x": 100,
+     "y": 1000,
+     "w": 420,
+     "h": 120,
+     "rotate": 0,
+     "opacity": 1,
+     "z": 6,
+     "step": 0,
+     "style": {},
+     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:420px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+    }
+   ]
+  }
+ ]
+}

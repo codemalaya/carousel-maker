@@ -1,0 +1,1080 @@
+{
+  "title": "Laptop Buat Ngoding: Mahal atau Pas? (contoh)",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'laptop buat ngoding: beli mahal atau beli pas'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Tanpa emoji. Margin 100. Bahasa santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361",
+      "paper": "#f4f1ea"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 640,
+          "y": 860,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 790,
+          "y": 910,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 380,
+            "fontWeight": 800,
+            "lineHeight": 0.8,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 93,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT\nNGODING:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 377,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 93,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "BELI MAHAL\nATAU BELI PAS?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 780,
+          "w": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Aku udah ngalamin dua-duanya."
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 640,
+          "w": 1080,
+          "h": 710,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "BAYANGANKU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 240,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 50,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Spek tertinggi, kerja makin cepat."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "KENYATAANNYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 750,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 59,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.05em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Yang kerasa cuma RAM dan SSD."
+        }
+      ],
+      "name": "Ekspektasi vs kenyataan"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 108,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "YANG KEPAKAI\nBENERAN."
+        },
+        {
+          "type": "table",
+          "x": 100,
+          "y": 520,
+          "w": 880,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "rows": [
+            [
+              "Bagian",
+              "Kepakai?"
+            ],
+            [
+              "RAM besar",
+              "Iya, tiap hari"
+            ],
+            [
+              "SSD cepat",
+              "Iya, tiap hari"
+            ],
+            [
+              "Kartu grafis mahal",
+              "Jarang banget"
+            ]
+          ],
+          "header": true,
+          "align": [
+            "left",
+            "left"
+          ],
+          "zebra": true,
+          "headerFill": "#0a0a0a",
+          "headerColor": "#ffffff",
+          "stripeFill": "rgba(0,0,0,0.05)",
+          "lineColor": "rgba(0,0,0,0.15)"
+        }
+      ],
+      "name": "Tabel"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Bagian yang paling jarang kusentuh:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 270,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "GPU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 760,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Padahal itu bagian yang paling mahal."
+        }
+      ],
+      "name": "Angka"
+    },
+    {
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "PENYESALAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 130,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "LAYAR\nKEKECILAN."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 523,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Leherku yang bayar mahal buat hemat sedikit."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1010,
+          "w": 520,
+          "h": 120,
+          "rotate": -5,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:520px;height:120px;background:#0a0a0a;color:#f9d361;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:40px;letter-spacing:-.03em\">NYESEL</div>"
+        }
+      ],
+      "name": "Stempel"
+    },
+    {
+      "bg": "#3ad1ff",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 230,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "TAPI..."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 500,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Laptop yang pas itu laptop yang nggak kepikiran lagi pas dipakai."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 930,
+          "w": 714,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:714px;height:120px;background:#0a0a0a;color:#3ad1ff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">Bukan yang paling kencang.</div>"
+        }
+      ],
+      "name": "Belok"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "LAPTOP BUAT NGODING"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "SIMPAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 120,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "LAPTOPMU\nSUDAH PAS?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Spek apa yang paling kepakai? Tulis di komentar."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1000,
+          "w": 420,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:420px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+        }
+      ],
+      "name": "Pertanyaan"
+    }
+  ]
+}

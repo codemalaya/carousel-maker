@@ -1,0 +1,1074 @@
+{
+  "title": "Software Engineer: Ekspektasi vs Kenyataan (contoh)",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'ternyata jadi software engineer itu nggak seseru yang dibayangin'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss seperti kenalan-react: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Warna navy, putih, kuning, biru, merah. Tanpa emoji. Margin 100. Bahasa santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361",
+      "paper": "#f4f1ea"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 700,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 110,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "TERNYATA\nJADI SOFTWARE\nENGINEER ITU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 540,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 110,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "NGGAK SESERU\nYANG\nDIBAYANGIN."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 950,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 40,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Dulu kukira kerjanya begini. Geser buat lihat kenyataannya."
+        }
+      ],
+      "name": "Hook"
+    },
+    {
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 640,
+          "w": 1080,
+          "h": 710,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "BAYANGANKU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 240,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 72,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Ngetik kode keren seharian. Langsung jalan."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "KENYATAANNYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 750,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 96,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.05em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "3 jam nyari satu\ntitik koma."
+        }
+      ],
+      "name": "Ekspektasi vs kenyataan"
+    },
+    {
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Dari 8 jam kerja, waktu ngoding beneran:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 360,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 250,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "±3 JAM"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Sisanya meeting, baca kode orang lain, dan balas chat."
+        }
+      ],
+      "name": "Waktu ngoding"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 190,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "2 JAM\nDEBUG."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 620,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.03em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "Penyebabnya:"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 280,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;background:#1b1b1b;color:#fff;padding:36px 40px;box-sizing:border-box;font-family:Menlo,Consolas,monospace;font-size:38px;line-height:1.6\"><div style='opacity:.5'>// 2 jam kemudian...</div><div>user.<span style='background:#fc1201;padding:0 6px'>Name</span></div><div style='color:#3ad1ff'>user.name</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1030,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 64,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.045em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Satu huruf besar."
+        }
+      ],
+      "name": "Bug"
+    },
+    {
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 130,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "“CUMA GESER\nDIKIT KOK.”"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 46,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Kalimat paling berbahaya di dunia kerja, biasanya muncul lima menit sebelum deadline."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 900,
+          "w": 600,
+          "h": 130,
+          "rotate": -4,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:600px;height:130px;background:#0a0a0a;color:#f9d361;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:38px;letter-spacing:-.03em\">GESER DIKIT = 14 FILE</div>"
+        }
+      ],
+      "name": "Klien"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -200,
+          "y": 800,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 230,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "TAPI..."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 520,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Pas satu bug akhirnya beres dan semuanya jalan, rasanya nggak ada yang ngalahin."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 860,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 800,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "Itu yang bikin aku masih bertahan."
+        }
+      ],
+      "name": "Belok"
+    },
+    {
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CERITA SEORANG ENGINEER"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "SIMPAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 124,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "BAYANGANMU\nDULU APA?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 620,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.035em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Kenyataan kerjamu sekarang beda nggak? Tulis di komentar."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1000,
+          "w": 420,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#f9d361;color:#0a0a0a;width:420px;height:120px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+        }
+      ],
+      "name": "Pertanyaan"
+    }
+  ]
+}
