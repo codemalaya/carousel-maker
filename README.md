@@ -38,6 +38,20 @@ Buka URL yang ditampilkan Vite. Tanpa `?p=` tampil Home; `?p=<id>` membuka proje
 
 Editor, export, dan CLI jalan tanpa AI. Untuk fitur AI (kotak prompt di Home, tombol Minta AI, Ide AI di planner, caption), pasang satu CLI agent dan jalankan dengan `AGENT_PROVIDER`; langkahnya ada di [Agent AI](#agent-ai).
 
+## Jalankan dengan klik
+
+Folder [start/](start/) berisi peluncur untuk tiap agent AI. Klik dua kali, tanpa terminal:
+
+| | Mac | Windows |
+|---|---|---|
+| Claude | `mulai-claude.command` | `mulai-claude.bat` |
+| Codex | `mulai-codex.command` | `mulai-codex.bat` |
+| Gemini | `mulai-gemini.command` | `mulai-gemini.bat` |
+
+Tiap peluncur memasang dependensi di run pertama (`npm install` + Chromium), mengeset `AGENT_PROVIDER`, menjalankan `npm run dev`, dan membuka browser. Gemini menanyakan `GEMINI_API_KEY` kalau belum diset. Syarat: Node.js 20+ dan CLI agent yang dipilih. Di Mac, kalau macOS menolak ("tidak dapat diverifikasi"), klik kanan file lalu Open sekali. Kalau file kehilangan izin eksekusi (mis. dari ZIP), jalankan `chmod +x start/*.command`.
+
+Peluncur Windows belum dicoba; export dan editor seharusnya jalan, tapi spawn CLI agent di Windows (`npx`, shim `.cmd`) belum diuji.
+
 ## Agent AI
 
 Fitur AI menjalankan CLI agent tanpa antarmuka (headless) yang terhubung ke server MCP carousel. Pilih lewat env `AGENT_PROVIDER`; default `claude`.
