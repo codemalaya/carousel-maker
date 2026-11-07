@@ -8,7 +8,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - **Editor web**: text, image, shape, grafik (bar, line, pie, donut), tabel, html/SVG; edit teks langsung, undo/redo, zoom/pan, ruler, guide, snapping, drag-drop slide dan layer, tema light/dark.
 - **Animasi**: animasi per elemen, step klik, transisi slide (hanya di mode presentasi dan export animasi).
 - **Mode presentasi**: fullscreen, speaker notes, laser, blackout, timer.
-- **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber.
+- **Agent AI**: buat atau ubah carousel dari prompt, artikel (URL), atau teks sumber. Pilih Claude, Codex, atau Gemini ([setup](#agent-ai)).
 - **Template slide**: simpan slide bagus beserta gambarnya, sisipkan ke project lain dari galeri (filter format, tag, cari).
 - **Caption otomatis**: AI menulis 1-3 varian caption + hashtag per platform dari slide (hanya membaca), dari editor atau dialog slot planner.
 - **Library aset**: ikon (Lucide), bentuk siap pakai, dan foto stok gratis (Pexels, perlu kunci API).
@@ -36,6 +36,8 @@ npm run dev
 
 Buka URL yang ditampilkan Vite. Tanpa `?p=` tampil Home; `?p=<id>` membuka project.
 
+Editor, export, dan CLI jalan tanpa AI. Untuk fitur AI (kotak prompt di Home, tombol Minta AI, Ide AI di planner, caption), pasang satu CLI agent dan jalankan dengan `AGENT_PROVIDER`; langkahnya ada di [Agent AI](#agent-ai).
+
 ## Agent AI
 
 Fitur AI menjalankan CLI agent tanpa antarmuka (headless) yang terhubung ke server MCP carousel. Pilih lewat env `AGENT_PROVIDER`; default `claude`.
@@ -51,12 +53,31 @@ AGENT_PROVIDER=codex npm run dev
 GEMINI_API_KEY=... GEMINI_MODEL=gemini-3.8-flash AGENT_PROVIDER=gemini npm run dev
 ```
 
+Cek dulu di terminal, di luar editor, sebelum dipakai:
+
+```bash
+claude -p "balas: ok"
+codex exec --skip-git-repo-check "balas: ok"
+gemini -p "balas: ok"
+```
+
+Tiap run AI menjalankan CLI itu di folder project ini dan memuat server MCP carousel (`src/mcp/server.ts`). Satu run membuka satu proses `npx tsx`, jadi `npx` dan `tsx` harus bisa jalan. Env yang diteruskan ke MCP: `CAROUSEL_HOME`, `CAROUSEL_BRANDS`, `CAROUSEL_TEMPLATES`, `CAROUSEL_PLANNER`, `PEXELS_API_KEY`.
+
+Kalau gagal:
+
+| Pesan di UI | Penyebab |
+|---|---|
+| "... tidak ketemu. Install atau set env ..." | CLI tidak ada di PATH; pasang, atau set `CLAUDE_BIN` / `CODEX_BIN` / `GEMINI_BIN` ke path lengkapnya |
+| "approval ... never" / tool MCP ditolak | Provider Codex di versi lama; update (`brew upgrade codex`) |
+| 503 "high demand" / "no longer available" | Dari sisi Google; ulangi, atau ganti `GEMINI_MODEL` |
+| "migrate to Antigravity" | Login Google pribadi ditutup; pakai `GEMINI_API_KEY` |
+
 Catatan:
 - Env diset di shell (`.env` hanya dibaca untuk `PEXELS_*`); nama dan versi model Gemini sering berubah, cek `/model` di `gemini` kalau ditolak.
 - Login Google pribadi di Gemini CLI sudah ditutup Google (pesan "migrate to Antigravity"); pakai API key.
 - Gemini CLI butuh sekitar 12 detik untuk start, jadi tiap run terasa lebih lambat. Run pertama juga mengecek versinya.
 - macOS bisa memblokir binary Codex ("Apple could not verify..."). Binary-nya bertanda tangan OpenAI; hapus karantina dengan `xattr -dr com.apple.quarantine /usr/local/Caskroom/codex/<versi>`.
-- Pembatasan tool (agent caption hanya boleh membaca) dipaksa tiap provider dengan caranya sendiri. Adapter Gemini belum teruji penuh; Claude dan Codex sudah dicoba.
+- Pembatasan tool (agent caption hanya boleh membaca) dipaksa tiap provider dengan caranya sendiri. Claude paling teruji. Codex sudah dicoba untuk panggilan tool MCP, belum untuk semua alur. Adapter Gemini belum teruji sampai selesai.
 
 ## Script
 
@@ -82,6 +103,8 @@ Hasil export default ke `projects/<id>/out`.
 ## MCP
 
 Konfigurasi ada di `.mcp.json` (env `CAROUSEL_PROJECT` = project default). Setiap tool menerima `project` opsional.
+
+Klien MCP lain (Claude Code, Codex, Gemini CLI, Cursor) bisa memakai server yang sama tanpa editor: arahkan ke `npx tsx src/mcp/server.ts` dengan folder ini sebagai working directory, mis. untuk Codex `codex mcp add carousel-maker -- npx tsx src/mcp/server.ts`.
 
 Tool utama: `list_projects`, `create_project`, `get_carousel`, `get_references`, `set_meta`, `set_slide`, `set_element`, `reorder_slides`, `add_asset`, `add_font`, `search_icons`, `add_icon`, `search_stock`, `add_stock_asset`, `render_slide`, `lint`, `export`, `delete` (ke trash), `fetch_source`, `list_brands`, `get_brand`, `apply_brand`, `save_brand`, `list_templates`, `get_template`, `apply_template`, `save_template`, `list_plan`, `set_plan_item`.
 
