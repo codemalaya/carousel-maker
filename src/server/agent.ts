@@ -1,5 +1,5 @@
 import { spawn, spawnSync } from "node:child_process";
-import { mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { mkdirSync, mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import type { IncomingMessage, ServerResponse } from "node:http";
@@ -45,7 +45,7 @@ type Provider = {
   find(): string | null;
   args(run: Run, mcp: McpServer): string[];
   /** per-run extras: env for the child (e.g. a generated settings file) and a cleanup when it exits */
-  prepare?(run: Run, mcp: McpServer): { env: Record<string, string>; cleanup(): void };
+  prepare?(run: Run, mcp: McpServer): { env: Record<string, string>; cwd?: string; cleanup(): void };
   /** `st` is scratch state that lives for one run (providers that stream text in deltas collect it there) */
   parse(line: string, st: { text: string }): AgentEvent[];
 };
@@ -117,9 +117,12 @@ const codex: Provider = {
 const findGemini = () => [process.env.GEMINI_BIN, "gemini"].filter((b): b is string => !!b).find(works) ?? null;
 
 /**
- * UNTESTED (no gemini on the dev machine). Gemini CLI has no --mcp-config flag, so each run writes a settings file and points
- * GEMINI_CLI_SYSTEM_SETTINGS_PATH at it (highest priority, does not touch ~/.gemini). `includeTools` is the allowlist; without
- * --yolo, built-in tools that need approval (write_file, shell) are refused in headless mode, `trust` only covers our MCP server.
+ * Gemini CLI has no --mcp-config flag. A system settings file (GEMINI_CLI_SYSTEM_SETTINGS_PATH) is refused unless its folder is
+ * owned by root, so that does not work. Instead each run gets its own empty working directory with a workspace
+ * `.gemini/settings.json`, and GEMINI_CLI_TRUST_WORKSPACE=true lets headless mode read it (verified: `gemini mcp list` shows the
+ * server Connected). Side effect we want: the agent's built-in file tools only see that empty folder, not the repo.
+ * `includeTools` is the allowlist; without --yolo, built-in tools that need approval are refused in headless mode and `trust`
+ * only covers our MCP server. Run flow is verified up to the MCP connection; full edits are not yet.
  */
 const gemini: Provider = {
   name: "gemini",
@@ -127,13 +130,13 @@ const gemini: Provider = {
   find: findGemini,
   prepare(run, mcp) {
     const dir = mkdtempSync(join(tmpdir(), "carousel-gemini-"));
-    const file = join(dir, "settings.json");
+    mkdirSync(join(dir, ".gemini"));
     const only = run.tools.filter((t) => t.startsWith("mcp__carousel-maker__") && !t.endsWith("*")).map(toolName);
     const all = run.tools.includes("mcp__carousel-maker__*");
-    writeFileSync(file, JSON.stringify({
+    writeFileSync(join(dir, ".gemini", "settings.json"), JSON.stringify({
       mcpServers: { "carousel-maker": { ...mcp, cwd: ROOT, trust: true, ...(all ? {} : { includeTools: only }) } },
     }));
-    return { env: { GEMINI_CLI_SYSTEM_SETTINGS_PATH: file }, cleanup: () => rmSync(dir, { recursive: true, force: true }) };
+    return { env: { GEMINI_CLI_TRUST_WORKSPACE: "true" }, cwd: dir, cleanup: () => rmSync(dir, { recursive: true, force: true }) };
   },
   // no system-prompt flag (GEMINI_SYSTEM_MD would replace Gemini's whole prompt): the system text rides in front of the request
   args: (run) => [...(process.env.GEMINI_MODEL ? ["-m", process.env.GEMINI_MODEL] : []), "--output-format", "stream-json", "--prompt", `${run.system}\n\n--- REQUEST ---\n${run.prompt}`],
@@ -141,6 +144,7 @@ const gemini: Provider = {
     let ev: any;
     try { ev = JSON.parse(line); } catch { return []; }
     if (ev.type === "message" && ev.role === "assistant") { st.text += String(ev.content ?? ""); return []; }
+    if (ev.type === "tool_result" && ev.status === "error") return [{ t: "text", text: `⚠ tool gagal: ${String(ev.error?.message ?? ev.output ?? "").slice(0, 200)}` }];
     if (ev.type === "tool_use") return [{ t: "status", tool: String(ev.tool_name ?? ev.name ?? "").replace(/^mcp_carousel-maker_|^carousel-maker__/, "") }];
     if (ev.type === "result") {
       return ev.status && ev.status !== "success"
@@ -229,7 +233,7 @@ function stream(res: ServerResponse, p: Provider, bin: string, run: Run) {
   const emit = (o: object) => res.write(JSON.stringify(o) + "\n");
   const mcp: McpServer = { command: "npx", args: ["tsx", "src/mcp/server.ts"], env: { ...dataEnv(), ...run.env } };
   const prep = p.prepare?.(run, mcp);
-  const child = spawn(bin, p.args(run, mcp), { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, ...prep?.env } });
+  const child = spawn(bin, p.args(run, mcp), { cwd: prep?.cwd ?? ROOT, stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, ...prep?.env } });
   child.on("close", () => prep?.cleanup());
   const st = { text: "" };
 
