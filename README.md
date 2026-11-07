@@ -1,6 +1,6 @@
 # carousel-maker
 
-Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai editor web, export PNG/PDF/HTML/MP4/GIF, dan agent AI (Claude lewat MCP).
+Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai editor web, export PNG/PDF/HTML/MP4/GIF, dan agent AI (Claude, Codex, atau Gemini lewat MCP).
 
 ## Fitur
 
@@ -23,7 +23,7 @@ Editor carousel lokal. Satu carousel = satu file JSON; satu renderer dipakai edi
 - Node.js 20+
 - Chromium untuk Playwright (render PNG/PDF/video): `npx playwright install chromium`
 - `ffmpeg` di PATH (hanya untuk export MP4/GIF)
-- Claude Code CLI (hanya untuk fitur agent AI)
+- Salah satu CLI agent (hanya untuk fitur AI), lihat [Agent AI](#agent-ai)
 - Opsional: kunci API gratis dari [pexels.com/api](https://www.pexels.com/api/) untuk foto stok. Taruh di `.env` (`PEXELS_API_KEY=...`) atau env shell sebelum `npm run dev`. Tanpa kunci, tab Foto tidak muncul; ikon dan bentuk tetap jalan.
 
 ## Mulai
@@ -35,6 +35,28 @@ npm run dev
 ```
 
 Buka URL yang ditampilkan Vite. Tanpa `?p=` tampil Home; `?p=<id>` membuka project.
+
+## Agent AI
+
+Fitur AI menjalankan CLI agent tanpa antarmuka (headless) yang terhubung ke server MCP carousel. Pilih lewat env `AGENT_PROVIDER`; default `claude`.
+
+| Provider | Pasang | Login | Env opsional |
+|---|---|---|---|
+| `claude` | [Claude Code](https://claude.com/claude-code) | `claude` (sekali) | `CLAUDE_BIN` |
+| `codex` | `brew install codex` atau `npm i -g @openai/codex` | `codex login` atau `OPENAI_API_KEY` | `CODEX_BIN` |
+| `gemini` | `brew install gemini-cli` atau `npm i -g @google/gemini-cli` | `GEMINI_API_KEY` dari [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | `GEMINI_BIN`, `GEMINI_MODEL` |
+
+```bash
+AGENT_PROVIDER=codex npm run dev
+GEMINI_API_KEY=... GEMINI_MODEL=gemini-3.8-flash AGENT_PROVIDER=gemini npm run dev
+```
+
+Catatan:
+- Env bisa ditaruh di shell atau di `.env`; nama dan versi model Gemini sering berubah, cek `/model` di `gemini` kalau ditolak.
+- Login Google pribadi di Gemini CLI sudah ditutup Google (pesan "migrate to Antigravity"); pakai API key.
+- Gemini CLI butuh sekitar 12 detik untuk start, jadi tiap run terasa lebih lambat. Run pertama juga mengecek versinya.
+- macOS bisa memblokir binary Codex ("Apple could not verify..."). Binary-nya bertanda tangan OpenAI; hapus karantina dengan `xattr -dr com.apple.quarantine /usr/local/Caskroom/codex/<versi>`.
+- Pembatasan tool (agent caption hanya boleh membaca) dipaksa tiap provider dengan caranya sendiri. Adapter Gemini belum teruji penuh; Claude dan Codex sudah dicoba.
 
 ## Script
 

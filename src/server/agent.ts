@@ -1,6 +1,6 @@
 import { spawn, spawnSync } from "node:child_process";
-import { readdirSync } from "node:fs";
-import { homedir } from "node:os";
+import { mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { loadProject } from "../core/projects.ts";
@@ -8,7 +8,14 @@ import { PLATFORM_RULES, parseVariants, type CaptionRequest } from "../core/capt
 
 const ROOT = join(import.meta.dirname, "../..");
 
-const works = (bin: string) => spawnSync(bin, ["--version"], { timeout: 5000 }).status === 0;
+/** Gemini CLI needs ~12 s for `--version` on a cold start, so the probe is generous and cached (a miss is retried next time). */
+const found = new Map<string, boolean>();
+const works = (bin: string) => {
+  if (found.get(bin)) return true;
+  const ok = spawnSync(bin, ["--version"], { timeout: 45000 }).status === 0;
+  if (ok) found.set(bin, true);
+  return ok;
+};
 
 /** CLAUDE_BIN, else `claude` on PATH, else the binary bundled with the VS Code extension. */
 function findClaude(): string | null {
@@ -21,6 +28,132 @@ function findClaude(): string | null {
   } catch {}
   return cands.find(works) ?? null;
 }
+
+const findCodex = () => [process.env.CODEX_BIN, "codex"].filter((b): b is string => !!b).find(works) ?? null;
+
+type McpServer = { command: string; args: string[]; env: Record<string, string> };
+type AgentEvent = { t: "status"; tool: string } | { t: "text"; text: string } | { t: "result"; text: string } | { t: "fail"; message: string };
+
+/**
+ * One headless CLI agent. Pick with env AGENT_PROVIDER=claude|codex|gemini (default claude).
+ * Every provider must (1) load the carousel MCP server, (2) allow ONLY `run.tools` (the caption agent is read-only by this),
+ * (3) turn its stdout lines into AgentEvents.
+ */
+type Provider = {
+  name: string;
+  missing: string;
+  find(): string | null;
+  args(run: Run, mcp: McpServer): string[];
+  /** per-run extras: env for the child (e.g. a generated settings file) and a cleanup when it exits */
+  prepare?(run: Run, mcp: McpServer): { env: Record<string, string>; cleanup(): void };
+  /** `st` is scratch state that lives for one run (providers that stream text in deltas collect it there) */
+  parse(line: string, st: { text: string }): AgentEvent[];
+};
+
+const toolName = (t: string) => t.replace(/^mcp__carousel-maker__/, "");
+const mcpTool = (t: string) => `mcp__carousel-maker__${t}`;
+
+const claude: Provider = {
+  name: "claude",
+  missing: "Claude Code tidak ketemu. Install atau set env CLAUDE_BIN.",
+  find: findClaude,
+  args: (run, mcp) => [
+    "-p", run.prompt,
+    "--output-format", "stream-json", "--verbose",
+    "--mcp-config", JSON.stringify({ mcpServers: { "carousel-maker": mcp } }), "--strict-mcp-config",
+    "--allowedTools", ...run.tools,
+    "--permission-mode", "dontAsk",
+    "--append-system-prompt", run.system,
+    "--no-session-persistence",
+  ],
+  parse(line) {
+    let ev: any;
+    try { ev = JSON.parse(line); } catch { return []; }
+    if (ev.type === "assistant") {
+      return (ev.message?.content ?? []).flatMap((b: any): AgentEvent[] =>
+        b.type === "tool_use" ? [{ t: "status", tool: toolName(String(b.name)) }]
+        : b.type === "text" && b.text?.trim() ? [{ t: "text", text: b.text }] : []);
+    }
+    if (ev.type === "result") return [ev.is_error ? { t: "fail", message: String(ev.result ?? "gagal") } : { t: "result", text: String(ev.result ?? "") }];
+    return [];
+  },
+};
+
+/** UNTESTED against a real install (no codex on the dev machine): flags follow `codex exec --help` of the 0.x CLI, adjust here if they drift. */
+const codexToml = (v: unknown) => JSON.stringify(v);
+const codex: Provider = {
+  name: "codex",
+  missing: "Codex CLI tidak ketemu. Install atau set env CODEX_BIN.",
+  find: findCodex,
+  args: (run, mcp) => {
+    const mcpTools = run.tools.filter((t) => t.startsWith("mcp__carousel-maker__") && !t.endsWith("*")).map(toolName);
+    const all = run.tools.includes("mcp__carousel-maker__*");
+    return [
+      "exec", "--json", "--skip-git-repo-check",
+      "-s", "workspace-write", "-c", 'approval_policy="never"',
+      "-c", `mcp_servers.carousel-maker.command=${codexToml(mcp.command)}`,
+      "-c", `mcp_servers.carousel-maker.args=${codexToml(mcp.args)}`,
+      "-c", `mcp_servers.carousel-maker.env=${"{" + Object.entries(mcp.env).map(([k, v]) => `${k}=${codexToml(v)}`).join(", ") + "}"}`,
+      // headless exec cannot answer MCP approval prompts (approval_policy never = tool call refused), so pre-approve OUR server only
+      "-c", 'mcp_servers.carousel-maker.default_tools_approval_mode="approve"',
+      // allowlist: Codex has no per-run --allowedTools, so the MCP server's own enabled_tools is the restriction
+      ...(all ? [] : ["-c", `mcp_servers.carousel-maker.enabled_tools=${codexToml(mcpTools)}`]),
+      ...(run.tools.includes("WebSearch") ? ["-c", "web_search=\"live\""] : []),
+      // no --append-system-prompt equivalent: the system text rides in front of the user's request
+      `${run.system}\n\n--- REQUEST ---\n${run.prompt}`,
+    ];
+  },
+  parse(line) {
+    let ev: any;
+    try { ev = JSON.parse(line); } catch { return []; }
+    const it = ev.item;
+    if (ev.type === "item.started" && it?.type === "mcp_tool_call") return [{ t: "status", tool: String(it.tool) }];
+    if (ev.type === "item.completed" && it?.type === "agent_message" && it.text?.trim()) return [{ t: "text", text: it.text }];
+    if (ev.type === "turn.failed" || ev.type === "error") return [{ t: "fail", message: String(ev.error?.message ?? ev.message ?? "gagal") }];
+    return [];
+  },
+};
+
+const findGemini = () => [process.env.GEMINI_BIN, "gemini"].filter((b): b is string => !!b).find(works) ?? null;
+
+/**
+ * UNTESTED (no gemini on the dev machine). Gemini CLI has no --mcp-config flag, so each run writes a settings file and points
+ * GEMINI_CLI_SYSTEM_SETTINGS_PATH at it (highest priority, does not touch ~/.gemini). `includeTools` is the allowlist; without
+ * --yolo, built-in tools that need approval (write_file, shell) are refused in headless mode, `trust` only covers our MCP server.
+ */
+const gemini: Provider = {
+  name: "gemini",
+  missing: "Gemini CLI tidak ketemu. Install (npm i -g @google/gemini-cli) atau set env GEMINI_BIN.",
+  find: findGemini,
+  prepare(run, mcp) {
+    const dir = mkdtempSync(join(tmpdir(), "carousel-gemini-"));
+    const file = join(dir, "settings.json");
+    const only = run.tools.filter((t) => t.startsWith("mcp__carousel-maker__") && !t.endsWith("*")).map(toolName);
+    const all = run.tools.includes("mcp__carousel-maker__*");
+    writeFileSync(file, JSON.stringify({
+      mcpServers: { "carousel-maker": { ...mcp, cwd: ROOT, trust: true, ...(all ? {} : { includeTools: only }) } },
+    }));
+    return { env: { GEMINI_CLI_SYSTEM_SETTINGS_PATH: file }, cleanup: () => rmSync(dir, { recursive: true, force: true }) };
+  },
+  // no system-prompt flag (GEMINI_SYSTEM_MD would replace Gemini's whole prompt): the system text rides in front of the request
+  args: (run) => [...(process.env.GEMINI_MODEL ? ["-m", process.env.GEMINI_MODEL] : []), "--output-format", "stream-json", "--prompt", `${run.system}\n\n--- REQUEST ---\n${run.prompt}`],
+  parse(line, st) {
+    let ev: any;
+    try { ev = JSON.parse(line); } catch { return []; }
+    if (ev.type === "message" && ev.role === "assistant") { st.text += String(ev.content ?? ""); return []; }
+    if (ev.type === "tool_use") return [{ t: "status", tool: String(ev.tool_name ?? ev.name ?? "").replace(/^mcp_carousel-maker_|^carousel-maker__/, "") }];
+    if (ev.type === "result") {
+      return ev.status && ev.status !== "success"
+        ? [{ t: "fail", message: String(ev.error?.message ?? ev.status) }]
+        : [{ t: "result", text: st.text }];
+    }
+    if (ev.type === "error") return [{ t: "fail", message: String(ev.message ?? "gagal") }];
+    return [];
+  },
+};
+
+const PROVIDERS: Record<string, Provider> = { claude, codex, gemini };
+const provider = (): Provider => PROVIDERS[(process.env.AGENT_PROVIDER ?? "claude").toLowerCase()] ?? claude;
 
 /** The planner's "Buat carousel" writes this block into the brief: the user already decided topic, platform and angle, so there is nothing to ask. */
 const PLAN_NOTE =
@@ -91,91 +224,74 @@ type Run = {
   transform?: (reply: string) => unknown;
 };
 
-/** Spawns headless Claude Code on the carousel MCP and streams ndjson {t:"status"|"text"|"done"|"error"} to `res`. Client disconnect kills it. */
-function stream(res: ServerResponse, bin: string, run: Run) {
+/** Spawns the headless CLI agent (see `Provider`) on the carousel MCP and streams ndjson {t:"status"|"text"|"done"|"error"} to `res`. Client disconnect kills it. */
+function stream(res: ServerResponse, p: Provider, bin: string, run: Run) {
   const emit = (o: object) => res.write(JSON.stringify(o) + "\n");
-  const mcp = JSON.stringify({
-    mcpServers: {
-      "carousel-maker": {
-        command: "npx",
-        args: ["tsx", "src/mcp/server.ts"],
-        env: { ...dataEnv(), ...run.env },
-      },
-    },
-  });
-  const child = spawn(
-    bin,
-    [
-      "-p", run.prompt,
-      "--output-format", "stream-json", "--verbose",
-      "--mcp-config", mcp, "--strict-mcp-config",
-      "--allowedTools", ...run.tools,
-      "--permission-mode", "dontAsk",
-      "--append-system-prompt", run.system,
-      "--no-session-persistence",
-    ],
-    { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"] },
-  );
+  const mcp: McpServer = { command: "npx", args: ["tsx", "src/mcp/server.ts"], env: { ...dataEnv(), ...run.env } };
+  const prep = p.prepare?.(run, mcp);
+  const child = spawn(bin, p.args(run, mcp), { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, ...prep?.env } });
+  child.on("close", () => prep?.cleanup());
+  const st = { text: "" };
 
   res.on("close", () => child.kill());
   let buf = "";
   let err = "";
   let finished = false;
+  let lastText = "";
+  const done = (text: string) => {
+    finished = true;
+    try {
+      emit({ t: "done", text, ...(run.transform ? { data: run.transform(text) } : {}) });
+    } catch (e) {
+      emit({ t: "error", message: e instanceof Error ? e.message : String(e) });
+    }
+  };
   child.stderr.on("data", (d) => { err += d; });
   child.stdout.on("data", (d) => {
     buf += d;
     const lines = buf.split("\n");
     buf = lines.pop()!;
     for (const line of lines) {
-      let ev: any;
-      try { ev = JSON.parse(line); } catch { continue; }
-      if (ev.type === "assistant") {
-        for (const b of ev.message?.content ?? []) {
-          if (b.type === "tool_use") emit({ t: "status", tool: String(b.name).replace(/^mcp__carousel-maker__/, "") });
-          if (b.type === "text" && b.text?.trim()) emit({ t: "text", text: b.text });
-        }
-      } else if (ev.type === "result") {
-        finished = true;
-        if (ev.is_error) emit({ t: "error", message: String(ev.result ?? "gagal") });
-        else {
-          const text = String(ev.result ?? "");
-          try {
-            emit({ t: "done", text, ...(run.transform ? { data: run.transform(text) } : {}) });
-          } catch (e) {
-            emit({ t: "error", message: e instanceof Error ? e.message : String(e) });
-          }
-        }
+      for (const ev of p.parse(line, st)) {
+        if (ev.t === "status") emit({ t: "status", tool: ev.tool });
+        else if (ev.t === "text") { lastText = ev.text; emit({ t: "text", text: ev.text }); }
+        else if (ev.t === "result") done(ev.text);
+        else { finished = true; emit({ t: "error", message: ev.message }); }
       }
     }
   });
   child.on("error", (e) => { emit({ t: "error", message: e.message }); res.end(); });
   child.on("close", (code) => {
-    if (!finished) emit({ t: "error", message: err.trim().split("\n").pop() || `exit ${code}` });
+    // providers without an explicit result event (codex): a clean exit means the last message is the answer
+    if (!finished && code === 0 && lastText) done(lastText);
+    else if (!finished) emit({ t: "error", message: err.trim().split("\n").pop() || `exit ${code}` });
     res.end();
   });
 }
 
-function begin(res: ServerResponse): string | null {
-  const bin = findClaude();
+function begin(res: ServerResponse): { p: Provider; bin: string } | null {
+  const p = provider();
+  const bin = p.find();
   res.setHeader("content-type", "application/x-ndjson");
   res.setHeader("cache-control", "no-cache");
   if (!bin) {
-    res.write(JSON.stringify({ t: "error", message: "Claude Code tidak ketemu. Install atau set env CLAUDE_BIN." }) + "\n");
+    res.write(JSON.stringify({ t: "error", message: p.missing }) + "\n");
     res.end();
+    return null;
   }
-  return bin;
+  return { p, bin };
 }
 
 /** POST {prompt} -> ndjson stream. Edits one project through the full carousel toolset. */
 export async function runAgent(_req: IncomingMessage, res: ServerResponse, project: string, prompt: string) {
-  const bin = begin(res);
-  if (!bin) return;
+  const agent = begin(res);
+  if (!agent) return;
   const spec = await loadProject(project).catch(() => null);
   if (!spec) {
     res.write(JSON.stringify({ t: "error", message: `project "${project}" tidak ditemukan` }) + "\n");
     return res.end();
   }
-  stream(res, bin, {
+  stream(res, agent.p, agent.bin, {
     prompt,
     system: SYSTEM(project, spec.format, spec.slides.length, spec.brief),
     tools: ["mcp__carousel-maker__*", "Read"],
@@ -185,9 +301,9 @@ export async function runAgent(_req: IncomingMessage, res: ServerResponse, proje
 
 /** POST {prompt} -> ndjson stream. Fills the content calendar with ideas; only the planner tools, source fetching, WebSearch (for recent/trending topics) and listing projects/brands are allowed, no slide tools and no WebFetch. */
 export async function runPlanAgent(_req: IncomingMessage, res: ServerResponse, prompt: string) {
-  const bin = begin(res);
-  if (!bin) return;
-  stream(res, bin, {
+  const agent = begin(res);
+  if (!agent) return;
+  stream(res, agent.p, agent.bin, {
     prompt,
     system: SYSTEM_PLAN(isoToday()),
     tools: [...["list_plan", "set_plan_item", "fetch_source", "list_projects", "list_brands"].map((t) => `mcp__carousel-maker__${t}`), "WebSearch"],
@@ -196,17 +312,17 @@ export async function runPlanAgent(_req: IncomingMessage, res: ServerResponse, p
 
 /** POST {platform, variants, hint} -> ndjson stream; `done.data` = {variants:[{caption, hashtags}]}. Read-only agent: it can only read the carousel and its brand. */
 export async function runCaptionAgent(_req: IncomingMessage, res: ServerResponse, project: string, req: CaptionRequest) {
-  const bin = begin(res);
-  if (!bin) return;
+  const agent = begin(res);
+  if (!agent) return;
   const spec = await loadProject(project).catch(() => null);
   if (!spec || !spec.slides.length) {
     res.write(JSON.stringify({ t: "error", message: spec ? "project belum punya slide" : `project "${project}" tidak ditemukan` }) + "\n");
     return res.end();
   }
-  stream(res, bin, {
+  stream(res, agent.p, agent.bin, {
     prompt: `Tulis ${req.variants} varian caption untuk ${req.platform} dari carousel "${project}".${req.hint ? ` Arahan dari pengguna: ${req.hint}` : ""}`,
     system: SYSTEM_CAPTION(project, req.platform, req.variants),
-    tools: ["get_carousel", "get_brand"].map((t) => `mcp__carousel-maker__${t}`),
+    tools: ["get_carousel", "get_brand"].map(mcpTool),
     env: { CAROUSEL_PROJECT: project },
     transform: (text) => ({ variants: parseVariants(text) }),
   });
