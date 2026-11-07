@@ -7,3 +7,4 @@ templates/.trash
 brands/.trash
 .env
 .env.*
+start/.gemini-model

@@ -48,7 +48,7 @@ Folder [start/](start/) berisi peluncur untuk tiap agent AI. Klik dua kali, tanp
 | Codex | `mulai-codex.command` | `mulai-codex.bat` |
 | Gemini | `mulai-gemini.command` | `mulai-gemini.bat` |
 
-Tiap peluncur memasang dependensi di run pertama (`npm install` + Chromium), mengeset `AGENT_PROVIDER`, menjalankan `npm run dev`, dan membuka browser. Gemini menanyakan `GEMINI_API_KEY` kalau belum diset. Syarat: Node.js 20+ dan CLI agent yang dipilih. Di Mac, kalau macOS menolak ("tidak dapat diverifikasi"), klik kanan file lalu Open sekali. Kalau file kehilangan izin eksekusi (mis. dari ZIP), jalankan `chmod +x start/*.command`.
+Tiap peluncur memasang dependensi di run pertama (`npm install` + Chromium), mengeset `AGENT_PROVIDER`, menjalankan `npm run dev`, dan membuka browser. Gemini menanyakan `GEMINI_API_KEY` kalau belum diset, lalu menampilkan menu pilihan model (pilihan terakhir diingat di `start/.gemini-model`); menu dilewati kalau `GEMINI_MODEL` sudah diset. Syarat: Node.js 20+ dan CLI agent yang dipilih. Di Mac, kalau macOS menolak ("tidak dapat diverifikasi"), klik kanan file lalu Open sekali. Kalau file kehilangan izin eksekusi (mis. dari ZIP), jalankan `chmod +x start/*.command`.
 
 Peluncur Windows belum dicoba; export dan editor seharusnya jalan, tapi spawn CLI agent di Windows (`npx`, shim `.cmd`) belum diuji.
 
