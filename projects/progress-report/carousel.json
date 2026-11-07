@@ -1,0 +1,1914 @@
+{
+  "title": "",
+  "guides": {
+    "x": [
+      100,
+      1820
+    ],
+    "y": [
+      80,
+      980
+    ]
+  },
+  "brief": "",
+  "format": "16:9",
+  "tokens": {
+    "palette": {},
+    "fonts": {},
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1000,
+          "y": 500,
+          "w": 1100,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#a8e63a"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -380,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffd60a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 298,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PROGRESS REPORT — TIM IT"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 339,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 122,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "DARI DATA\nBERSERAKAN\nJADI JAWABAN."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 685,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 46,
+            "fontWeight": 800,
+            "lineHeight": 1.02,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Capaian, progres, dan rencana\nberikutnya dari tim IT."
+        },
+        {
+          "type": "html",
+          "x": 1080,
+          "y": 230,
+          "w": 740,
+          "h": 40,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"text-align:right\"><span style=\"display:inline-block;background:#f9d361;color:#0a0a0a;font:800 18px 'Helvetica Neue',Arial,sans-serif;letter-spacing:.06em;padding:9px 14px\">PT. ANWAR GROUP INDONESIA</span></div>"
+        },
+        {
+          "type": "html",
+          "x": 1080,
+          "y": 300,
+          "w": 130,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:130px;height:420px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"height:120px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px\">PDF</div><div style=\"height:120px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px\">XLS</div><div style=\"height:120px;border:3px solid #0a0a0a;background:#fff;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px\">DOC</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 1210,
+          "y": 300,
+          "w": 260,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<svg width=\"260\" height=\"420\" viewBox=\"0 0 260 420\" fill=\"none\" stroke=\"#1f9d4d\" stroke-width=\"3\" stroke-dasharray=\"6 7\"><path d=\"M0 60C100 60 140 210 260 210\"/><path d=\"M0 210H260\"/><path d=\"M0 360C100 360 140 210 260 210\"/></svg>"
+        },
+        {
+          "type": "html",
+          "x": 1470,
+          "y": 300,
+          "w": 350,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:350px;height:420px;background:#0b2e1a;box-sizing:border-box;padding:24px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#fff\"><div style=\"display:flex;justify-content:space-between;font-weight:800;font-size:18px;letter-spacing:.03em\"><span>LAPORAN TIM IT</span><span style=\"color:#ffd60a\">● NOV 2026</span></div><div style=\"margin-top:30px;font-weight:800;font-size:64px;letter-spacing:-.05em;line-height:1\">87%<div style=\"font-weight:500;font-size:18px;letter-spacing:0;opacity:.8;margin-top:6px\">target tercapai</div></div><div style=\"margin-top:30px;display:flex;align-items:flex-end;gap:14px;height:130px\"><div style=\"flex:1;height:45%;background:#a8e63a\"></div><div style=\"flex:1;height:62%;background:#a8e63a\"></div><div style=\"flex:1;height:78%;background:#a8e63a\"></div><div style=\"flex:1;height:100%;background:#ffd60a\"></div></div></div>"
+        },
+        {
+          "type": "text",
+          "x": 1080,
+          "y": 770,
+          "w": 740,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Dokumen tersebar dirangkum\njadi satu laporan jelas."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 925,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 930,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 955,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 15.5,
+            "fontWeight": 400,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        },
+        {
+          "type": "html",
+          "x": 1480,
+          "y": 932,
+          "w": 340,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:48px;border-radius:24px;background:#fff;box-shadow:0 2px 14px #0002;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600;font-size:19px;color:#0a0a0a\">Periode: November 2026</div>"
+        }
+      ],
+      "name": "Cover"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 600,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#a8e63a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#1f9d4d"
+          },
+          "step": 0,
+          "text": "01 — SELESAI & DIPAKAI"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 128,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SUDAH\nDIKERJAKAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 650,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Tiga pekerjaan yang sudah jadi dan sudah dipakai sehari-hari."
+        },
+        {
+          "type": "html",
+          "x": 900,
+          "y": 200,
+          "w": 920,
+          "h": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:920px;display:flex;flex-direction:column;gap:18px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style=\"display:flex;align-items:center;gap:26px;border:3px solid #0a0a0a;background:#fff;padding:24px 30px\"><div style=\"width:56px;height:56px;flex:none;background:#1f9d4d;color:#fff;font-size:34px;font-weight:800;display:flex;align-items:center;justify-content:center\">✓</div><div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em\">ERP v1</div><div style=\"font-size:22px;opacity:.7;margin-top:4px\">Sistem pertama, sudah dipakai untuk operasional harian.</div></div></div><div style=\"border:3px solid #0a0a0a;background:#ffd60a;padding:24px 30px\"><div style=\"display:flex;align-items:center;gap:26px\"><div style=\"width:56px;height:56px;flex:none;background:#0a0a0a;color:#ffd60a;font-size:34px;font-weight:800;display:flex;align-items:center;justify-content:center\">✓</div><div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em\">ERP v2 — satu aplikasi terpadu</div><div style=\"font-size:22px;margin-top:4px\">3 Sep – 31 Okt 2026 (± 2 bulan), dipakai lintas perusahaan grup.</div></div></div><div style=\"display:flex;flex-wrap:wrap;gap:8px;margin-top:18px\"><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Pembelian</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Produksi</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Penjualan</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Persediaan</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Keuangan</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Kepegawaian</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Sustainability</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">Proyek</span><span style=\"background:#0a0a0a;color:#fff;font-size:18px;font-weight:700;padding:6px 12px\">System</span></div><div style=\"font-size:20px;font-weight:600;margin-top:14px\">Dashboard Direktur · laporan Excel &amp; PDF · hak akses per peran · backup</div></div><div style=\"display:flex;align-items:center;gap:26px;border:3px solid #0a0a0a;background:#fff;padding:24px 30px\"><div style=\"width:56px;height:56px;flex:none;background:#1f9d4d;color:#fff;font-size:34px;font-weight:800;display:flex;align-items:center;justify-content:center\">✓</div><div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em\">Integrasi absensi IoT</div><div style=\"font-size:22px;opacity:.7;margin-top:4px\">Mesin sidik jari terhubung langsung ke ERP lewat API, data absen masuk otomatis.</div></div></div></div>"
+        }
+      ],
+      "name": "Sudah Dikerjakan"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1200,
+          "y": -400,
+          "w": 1000,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.4
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#1f9d4d"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 150,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "3 SEPTEMBER – 31 OKTOBER 2026"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 195,
+          "w": 1720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 96,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "PER TAHAP, 10 LANGKAH."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 340,
+          "w": 1720,
+          "h": 580,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:1720px;height:580px;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:1fr 1fr;gap:20px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif\"><div style=\"background:#ffffff14;border:2px solid #ffffff44;color:#fff;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#a8e63a\">01 · 3–7 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Fondasi</div><div style=\"font-size:20px;line-height:1.3\">Hak akses, data induk, data terpisah per perusahaan.</div></div><div style=\"background:#ffffff14;border:2px solid #ffffff44;color:#fff;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#a8e63a\">02 · 3–7 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Alur inti</div><div style=\"font-size:20px;line-height:1.3\">Pembelian, produksi, penjualan, stok, keuangan.</div></div><div style=\"background:#a8e63a;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em\">03 · 7–13 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Pegawai</div><div style=\"font-size:20px;line-height:1.3\">Absensi sidik jari, cuti, kasbon, gaji.</div></div><div style=\"background:#ffd60a;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em\">04 · 10–14 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Laporan</div><div style=\"font-size:20px;line-height:1.3\">Dashboard, grafik, unduh Excel dan PDF.</div></div><div style=\"background:#fff;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#1f9d4d\">05 · 10 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Sustainability</div><div style=\"font-size:20px;line-height:1.3\">Limbah, BBM, listrik, dampak otomatis.</div></div><div style=\"background:#fff;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#1f9d4d\">06 · 12–13 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Panduan</div><div style=\"font-size:20px;line-height:1.3\">Buku panduan semua modul, ada gambar dan video.</div></div><div style=\"background:#ffffff14;border:2px solid #ffffff44;color:#fff;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#a8e63a\">07 · 16–22 SEP</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Antar PT</div><div style=\"font-size:20px;line-height:1.3\">Bayar lintas perusahaan, proyek, API mitra.</div></div><div style=\"background:#ffffff14;border:2px solid #ffffff44;color:#fff;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em;color:#a8e63a\">08 · 24 SEP–17 OKT</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Penyempurnaan</div><div style=\"font-size:20px;line-height:1.3\">Dashboard baru, modul System, aset tetap.</div></div><div style=\"background:#ffd60a;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em\">09 · 22–23 OKT</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Dashboard Direktur</div><div style=\"font-size:20px;line-height:1.3\">Satu layar kas, hutang, laba rugi, mode TV.</div></div><div style=\"background:#a8e63a;color:#0a0a0a;padding:22px;box-sizing:border-box\"><div style=\"font-size:15px;font-weight:800;letter-spacing:.06em\">10 · 31 OKT</div><div style=\"font-size:30px;font-weight:800;letter-spacing:-.045em;margin:4px 0 8px\">Revisi & Keuangan</div><div style=\"font-size:20px;line-height:1.3\">Sustainability 2.0, laporan omset, tutup buku.</div></div></div>"
+        }
+      ],
+      "name": "Detail: Per Tahap"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": -350,
+          "y": 550,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffd60a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#ffd60a"
+          },
+          "step": 0,
+          "text": "02 — BERJALAN"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 128,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "SEDANG\nDIKERJAKAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 650,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "Perkembangan terkini dan pekerjaan yang masih tersisa."
+        },
+        {
+          "type": "html",
+          "x": 900,
+          "y": 180,
+          "w": 920,
+          "h": 740,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:920px;display:flex;flex-direction:column;gap:16px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style=\"background:#fff;padding:22px 30px\"><div style=\"display:flex;justify-content:space-between;align-items:baseline\"><div style=\"font-size:32px;font-weight:800;letter-spacing:-.04em\">Maintenance &amp; fitur</div><div style=\"font-size:26px;font-weight:800;letter-spacing:-.03em;color:#1f9d4d\">BERJALAN</div></div><div style=\"font-size:21px;margin-top:12px\"><b>Fokus:</b> memperbaiki bug dan mengembangkan fitur yang sedang berjalan</div></div><div style=\"background:#a8e63a;padding:22px 30px;margin-left:30px\"><div style=\"display:flex;justify-content:space-between;align-items:baseline\"><div style=\"font-size:32px;font-weight:800;letter-spacing:-.04em\">Aplikasi timbangan</div><div style=\"font-size:48px;font-weight:800;letter-spacing:-.05em\">80%</div></div><div style=\"height:12px;background:#0a0a0a33;margin-top:6px\"><div style=\"width:80%;height:100%;background:#0a0a0a\"></div></div><div style=\"font-size:21px;margin-top:12px\"><b>Tersisa:</b> konfigurasi timbangan, webcam, dan konverter RS232 ke USB</div></div><div style=\"background:#ffd60a;padding:22px 30px\"><div style=\"display:flex;justify-content:space-between;align-items:baseline\"><div style=\"font-size:32px;font-weight:800;letter-spacing:-.04em\">Web &amp; aplikasi mobile lapak</div><div style=\"font-size:48px;font-weight:800;letter-spacing:-.05em\">95%</div></div><div style=\"height:12px;background:#0a0a0a33;margin-top:6px\"><div style=\"width:95%;height:100%;background:#0a0a0a\"></div></div><div style=\"font-size:21px;margin-top:12px\"><b>Tersisa:</b> perhitungan tonase, penentuan nama aplikasi, dan rilis</div></div><div style=\"background:#fff;padding:22px 30px;margin-left:30px\"><div style=\"display:flex;justify-content:space-between;align-items:baseline\"><div style=\"font-size:32px;font-weight:800;letter-spacing:-.04em\">Aplikasi tim marketing</div><div style=\"font-size:48px;font-weight:800;letter-spacing:-.05em\">60%</div></div><div style=\"height:12px;background:#0a0a0a22;margin-top:6px\"><div style=\"width:60%;height:100%;background:#1f9d4d\"></div></div><div style=\"font-size:21px;margin-top:12px\"><b>Tujuan:</b> mempermudah pendataan survei lapangan dan meningkatkan akurasinya</div></div></div>"
+        }
+      ],
+      "name": "Sedang Dikerjakan"
+    },
+    {
+      "bg": "#ffd60a",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/9"
+        },
+        {
+          "type": "text",
+          "x": 1000,
+          "y": 250,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "02 — SEDANG DIRENCANAKAN"
+        },
+        {
+          "type": "text",
+          "x": 890,
+          "y": 306,
+          "w": 930,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 150,
+            "fontWeight": 900,
+            "lineHeight": 0.78,
+            "letterSpacing": "-0.07em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "PLAN\nBERIKUTNYA"
+        },
+        {
+          "type": "shape",
+          "x": 114,
+          "y": 280,
+          "w": 0,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 2,
+          "style": {
+            "borderLeft": "4px dashed #0a0a0a",
+            "width": 0
+          },
+          "step": 0,
+          "kind": "line",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 256,
+          "w": 30,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 416,
+          "w": 30,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "border": "5px solid #0a0a0a"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 586,
+          "w": 30,
+          "h": 30,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 3,
+          "style": {
+            "border": "5px dashed #0a0a0a"
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 252,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "01"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 282,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Pisah sistem keuangan"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 336,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.3,
+            "color": "#3a3200"
+          },
+          "step": 0,
+          "text": "Masalah: kas, hutang, dan piutang masih tercampur, laporan sulit diaudit."
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 432,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "02"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 462,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Task management karyawan"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 516,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.3,
+            "color": "#3a3200"
+          },
+          "step": 0,
+          "text": "Masalah: tugas lewat chat, tidak ada yang tahu siapa pegang apa dan kapan selesai."
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 602,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "03"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 632,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Asisten AI internal"
+        },
+        {
+          "type": "text",
+          "x": 160,
+          "y": 686,
+          "w": 720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "lineHeight": 1.3,
+            "color": "#3a3200"
+          },
+          "step": 0,
+          "text": "Masalah: cari data harus buka banyak laporan satu per satu."
+        }
+      ],
+      "name": "Plan"
+    },
+    {
+      "bg": "#0b2e1b",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "lineHeight": 1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 170,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "-0.02em",
+            "color": "#ffd60a"
+          },
+          "step": 0,
+          "text": "03 — PELUANG"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "w": 1700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 110,
+            "fontWeight": 900,
+            "lineHeight": 1,
+            "letterSpacing": "-0.07em",
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "YANG BISA DIKERJAKAN."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 350,
+          "w": 1500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 34,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Setiap ide harus menunjuk ke masalah yang jelas."
+        },
+        {
+          "type": "table",
+          "x": 100,
+          "y": 430,
+          "w": 1720,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "rows": [
+            [
+              "Ide",
+              "Masalah yang diselesaikan",
+              "Dampak",
+              "Effort"
+            ],
+            [
+              "Approval digital",
+              "Persetujuan lewat kertas atau chat, sulit dilacak",
+              "Tinggi",
+              "Kecil"
+            ],
+            [
+              "Notifikasi WhatsApp otomatis",
+              "Info order, tagihan, jatuh tempo dikabari manual",
+              "Tinggi",
+              "Kecil"
+            ],
+            [
+              "Portal mitra & pelanggan",
+              "Cek order dan tagihan harus tanya admin",
+              "Sedang",
+              "Sedang"
+            ],
+            [
+              "Stok & pengambilan limbah",
+              "Stok kertas bekas dan jadwal armada dicatat manual",
+              "Sedang",
+              "Sedang"
+            ],
+            [
+              "Scan nota otomatis (OCR)",
+              "Nota dan invoice diketik ulang satu per satu",
+              "Tinggi",
+              "Sedang"
+            ],
+            [
+              "Arsip dokumen & kontrak",
+              "File tercecer di banyak tempat",
+              "Sedang",
+              "Kecil"
+            ],
+            [
+              "Tiket helpdesk IT",
+              "Keluhan sistem lewat chat, sulit dilacak dan diprioritaskan",
+              "Sedang",
+              "Kecil"
+            ]
+          ],
+          "header": true,
+          "align": [
+            "left",
+            "left",
+            "center",
+            "center"
+          ],
+          "zebra": true,
+          "headerFill": "#a8e63a",
+          "headerColor": "#0a0a0a",
+          "stripeFill": "rgba(255,255,255,0.06)",
+          "lineColor": "rgba(255,255,255,0.18)"
+        }
+      ],
+      "name": "Peluang"
+    },
+    {
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1250,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#1f9d4d"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#fff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/9"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 26,
+            "fontWeight": 700,
+            "letterSpacing": "0.02em",
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "AWAL MULA"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 120,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#fff"
+          },
+          "step": 0,
+          "text": "SISTEM IT\nTIDAK DIMULAI\nDARI KODE."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "Ia dimulai dari satu masalah nyata yang terus berulang dan mengganggu orang."
+        },
+        {
+          "type": "html",
+          "x": 1100,
+          "y": 200,
+          "w": 720,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:720px;display:flex;flex-direction:column;gap:18px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style=\"background:#fff;padding:20px 32px;transform:rotate(-1.5deg)\"><div style=\"font-size:16px;font-weight:800;letter-spacing:.06em;color:#1f9d4d\">MASALAH 01</div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:6px\">Data tersebar di banyak file</div></div><div style=\"background:#ffd60a;padding:20px 32px;margin-left:50px;transform:rotate(1deg)\"><div style=\"font-size:16px;font-weight:800;letter-spacing:.06em\">MASALAH 02</div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:6px\">Laporan disusun manual tiap bulan</div></div><div style=\"background:#a8e63a;padding:20px 32px;transform:rotate(-0.8deg)\"><div style=\"font-size:16px;font-weight:800;letter-spacing:.06em\">MASALAH 03</div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:6px\">Stok di gudang beda dengan di sistem</div></div><div style=\"background:#fff;padding:20px 32px;margin-left:30px;transform:rotate(1.2deg)\"><div style=\"font-size:16px;font-weight:800;letter-spacing:.06em;color:#1f9d4d\">MASALAH 04</div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:6px\">Approval nyangkut di chat pribadi</div></div><div style=\"background:#ffd60a;padding:20px 32px;transform:rotate(-1deg)\"><div style=\"font-size:16px;font-weight:800;letter-spacing:.06em\">MASALAH 05</div><div style=\"font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:6px\">Satu orang resign, semua ilmu ikut hilang</div></div></div>"
+        }
+      ],
+      "name": "Masalah"
+    },
+    {
+      "bg": "#a8e63a",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 1250,
+          "y": -420,
+          "w": 1000,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffd60a"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": 700,
+          "w": 800,
+          "h": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(140px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "textAlign": "right",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "8/9"
+        },
+        {
+          "type": "text",
+          "x": 94,
+          "y": 160,
+          "w": 1500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 104,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.05em",
+            "color": "#0a0a0a",
+            "whiteSpace": "pre-line"
+          },
+          "step": 0,
+          "text": "KODE ADALAH ALAT,\nBUKAN TUJUAN."
+        },
+        {
+          "type": "shape",
+          "x": 100,
+          "y": 470,
+          "w": 412,
+          "h": 470,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "borderRadius": 36,
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "shape",
+          "x": 536,
+          "y": 470,
+          "w": 412,
+          "h": 470,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "borderRadius": 36,
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "shape",
+          "x": 972,
+          "y": 470,
+          "w": 412,
+          "h": 470,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "borderRadius": 36,
+            "opacity": 0.6
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "shape",
+          "x": 1408,
+          "y": 470,
+          "w": 412,
+          "h": 470,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {
+            "borderRadius": 36
+          },
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "letterSpacing": "-0.06em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "01"
+        },
+        {
+          "type": "text",
+          "x": 572,
+          "y": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "letterSpacing": "-0.06em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "02"
+        },
+        {
+          "type": "text",
+          "x": 1008,
+          "y": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "letterSpacing": "-0.06em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "03"
+        },
+        {
+          "type": "text",
+          "x": 1444,
+          "y": 500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 150,
+            "fontWeight": 800,
+            "letterSpacing": "-0.06em",
+            "lineHeight": 1,
+            "color": "#ffd60a"
+          },
+          "step": 0,
+          "text": "04"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 720,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 800,
+            "letterSpacing": "-0.04em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "MASALAH"
+        },
+        {
+          "type": "text",
+          "x": 572,
+          "y": 720,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 800,
+            "letterSpacing": "-0.04em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PAHAMI"
+        },
+        {
+          "type": "text",
+          "x": 1008,
+          "y": 720,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 800,
+            "letterSpacing": "-0.04em",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "SOLUSI"
+        },
+        {
+          "type": "text",
+          "x": 1444,
+          "y": 720,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 800,
+            "letterSpacing": "-0.04em",
+            "lineHeight": 1,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "SISTEM"
+        },
+        {
+          "type": "text",
+          "x": 136,
+          "y": 790,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.35,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Ada yang sakit, lambat, atau berulang."
+        },
+        {
+          "type": "text",
+          "x": 572,
+          "y": 790,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.35,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Siapa yang kena dampak dan seberapa besar."
+        },
+        {
+          "type": "text",
+          "x": 1008,
+          "y": 790,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.35,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Cara paling sederhana yang cukup menyelesaikan."
+        },
+        {
+          "type": "text",
+          "x": 1444,
+          "y": 790,
+          "w": 340,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 10,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "lineHeight": 1.35,
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Baru di sini aplikasi dan kode dibuat."
+        },
+        {
+          "type": "shape",
+          "x": 500,
+          "y": 520,
+          "w": 48,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 15,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "shape",
+          "x": 936,
+          "y": 520,
+          "w": 48,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 15,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "shape",
+          "x": 1372,
+          "y": 520,
+          "w": 48,
+          "h": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 15,
+          "style": {},
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffd60a"
+        },
+        {
+          "type": "text",
+          "x": 500,
+          "y": 527,
+          "w": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 16,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 700,
+            "textAlign": "center",
+            "lineHeight": 1,
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "→"
+        },
+        {
+          "type": "text",
+          "x": 936,
+          "y": 527,
+          "w": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 16,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 700,
+            "textAlign": "center",
+            "lineHeight": 1,
+            "color": "#a8e63a"
+          },
+          "step": 0,
+          "text": "→"
+        },
+        {
+          "type": "text",
+          "x": 1372,
+          "y": 527,
+          "w": 48,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 16,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 700,
+            "textAlign": "center",
+            "lineHeight": 1,
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "→"
+        }
+      ],
+      "name": "Alur Masalah ke Sistem"
+    },
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 900,
+          "y": 300,
+          "w": 1100,
+          "h": 1000,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(130px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#a8e63a"
+        },
+        {
+          "type": "shape",
+          "x": -300,
+          "y": -380,
+          "w": 700,
+          "h": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.45
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#ffd60a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 1520,
+          "y": 80,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "9/9"
+        },
+        {
+          "type": "text",
+          "x": 95,
+          "y": 260,
+          "w": 1500,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 128,
+            "fontWeight": 800,
+            "lineHeight": 0.88,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "MASALAH APA YANG\nPALING MENGGANGGU\nKAMU HARI INI?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 700,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Ceritakan ke tim IT. Dari situ sistem berikutnya lahir."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 800,
+          "w": 520,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"height:80px;background:#0a0a0a;color:#a8e63a;display:flex;align-items:center;justify-content:center;font:800 30px 'Helvetica Neue',Arial,sans-serif;letter-spacing:-.03em\">Hubungi: 085318227724</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 925,
+          "w": 55,
+          "h": 55,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:55px;height:55px;border-radius:50%;background:#0a0a0a;color:#fff;display:flex;align-items:center;justify-content:center;font:800 26px 'Helvetica Neue',Arial,sans-serif\">C</div>"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 930,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Codemalaya"
+        },
+        {
+          "type": "text",
+          "x": 169,
+          "y": 955,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 20,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 15.5,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a",
+            "opacity": 0.65
+          },
+          "step": 0,
+          "text": "From Local to Global"
+        }
+      ],
+      "name": "Penutup"
+    }
+  ]
+}

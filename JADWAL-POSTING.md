@@ -2,7 +2,9 @@
 
 Pola: **carousel (4:5) tiap hari, video (9:16) tiap 3 hari** (5, 8, 11, 14, 17, 20, 23, 26, 29 Nov). Di hari video ada dua posting: carousel **12:00** dan video **19:00** (jarak 7 jam). Di hari tanpa video, carousel jam **19:00**. Sumber: planner (`data/planner.json`). Naskah, adegan Remotion, dan voice-over video V1-V9 ada di [VIDEO-BRIEF.md](VIDEO-BRIEF.md).
 
-Status isi: carousel 5-17 Nov dan video V1-V9 sudah ada naskahnya (contoh karangan). **Carousel 18-30 Nov baru berupa ide** (judul, caption, tagar); slidenya belum dibuat.
+**Jasa Apa Aja Bandung (10 Nov)** adalah titipan untuk akun lain, bukan konten akunmu, jadi tidak masuk hitungan harian dan tidak menggeser carousel akunmu.
+
+Status isi: carousel 5-16 Nov dan video V1-V9 sudah ada (contoh karangan). **Carousel 17-30 Nov baru berupa ide** (judul, caption, tagar); slidenya belum dibuat.
 
 | No | Tanggal | Hari | Jam | Jenis | Judul | Perlu diisi/diganti dulu | Views |
 |---|---|---|---|---|---|---|---|
@@ -14,34 +16,35 @@ Status isi: carousel 5-17 Nov dan video V1-V9 sudah ada naskahnya (contoh karang
 | 6 | 8 Nov | Minggu | 12:00 | Carousel 4:5 | Setup Meja Developer: Kepakai vs Cuma Pajangan | Foto slide 1 sudah ada; ganti item slide 2-5 dengan barang aslimu dan cek slide 6 | |
 | 7 | 8 Nov | Minggu | 19:00 | Video 9:16 | Yang Orang Bilang Pas Tahu Aku Kerja di IT | Cerita karangan di VIDEO-BRIEF.md (V2) diganti kejadian nyata, rekam suara | |
 | 8 | 9 Nov | Senin | 19:00 | Carousel 4:5 | 5 Hal yang Aku Nyesel Baru Tahu Setelah Jadi Developer | Ganti lima penyesalan dengan yang pribadi | |
-| 9 | 10 Nov | Selasa | 19:00 | Carousel 4:5 | Jasa Apa Aja Bandung | Cek isi 20 slide (terlalu panjang untuk photo post?) | |
-| 10 | 11 Nov | Rabu | 12:00 | Carousel 4:5 | Pertama Kali Pasang Jaringan Sendiri: Nggak Semudah Itu | Ganti kejadian (4 jam, port salah) dengan pengalamanmu | |
-| 11 | 11 Nov | Rabu | 19:00 | Video 9:16 | Rutinitas Pagi Developer Sebelum Ngoding | Cerita karangan di VIDEO-BRIEF.md (V3) diganti kejadian nyata, rekam suara | |
-| 12 | 12 Nov | Kamis | 19:00 | Carousel 4:5 | Gemini vs ChatGPT: Dua-duanya Aku Pakai | Hanya kalau memang memakai keduanya; ganti tabel pilihan dengan versimu | |
-| 13 | 13 Nov | Jumat | 19:00 | Carousel 4:5 | Hari Pertama Kerja di IT: Yang Nggak Diajarin di Kuliah | Ganti tiga poin dengan pengalaman hari pertamamu | |
-| 14 | 14 Nov | Sabtu | 12:00 | Carousel 4:5 | Laptop Buat Ngoding: Beli Mahal atau Beli Pas? | Ganti dengan laptop dan penyesalanmu (tabel, layar kekecilan) | |
-| 15 | 14 Nov | Sabtu | 19:00 | Video 9:16 | Aku Minta AI Bikinin Website, Ini yang Terjadi | Cerita karangan di VIDEO-BRIEF.md (V4) diganti kejadian nyata, rekam suara | |
-| 16 | 15 Nov | Minggu | 19:00 | Carousel 4:5 | Belajar Coding Pakai AI: Cepat atau Cuma Terasa Paham? | Ganti dengan pengalaman belajarmu | |
-| 17 | 16 Nov | Senin | 19:00 | Carousel 4:5 | Kukira Nyambungin AI ke Aplikasi Tinggal Satu Baris | Ganti kejadian karangan (error 401, 30 menit) dengan pengalamanmu | |
-| 18 | 17 Nov | Selasa | 12:00 | Carousel 4:5 | Kata Kunci Udah Benar, Filenya Tetap Nggak Ketemu | Ganti dengan pengalaman nyata | |
-| 19 | 17 Nov | Selasa | 19:00 | Video 9:16 | Error Paling Absurd yang Pernah Kutemui | Cerita karangan di VIDEO-BRIEF.md (V5) diganti kejadian nyata, rekam suara | |
-| 20 | 18 Nov | Rabu | 19:00 | Carousel 4:5 (ide) | Tools yang Kupakai Tiap Hari, dan yang Cuma Hiasan | Slide belum dibuat | |
-| 21 | 19 Nov | Kamis | 19:00 | Carousel 4:5 (ide) | Hal Kecil di Kode yang Bikin Kolega Kesel | Slide belum dibuat | |
-| 22 | 20 Nov | Jumat | 12:00 | Carousel 4:5 (ide) | Sehari Ngoding Tanpa Googling, Bisa Nggak? | Slide belum dibuat | |
-| 23 | 20 Nov | Jumat | 19:00 | Video 9:16 | Gaji Pertama Developer: Habis ke Mana? | Cerita karangan di VIDEO-BRIEF.md (V6) diganti kejadian nyata, rekam suara | |
-| 24 | 21 Nov | Sabtu | 19:00 | Carousel 4:5 (ide) | Tanda Kamu Sudah Bukan Pemula di Coding | Slide belum dibuat | |
-| 25 | 22 Nov | Minggu | 19:00 | Carousel 4:5 (ide) | Meeting yang Seharusnya Cuma Chat | Slide belum dibuat | |
-| 26 | 23 Nov | Senin | 12:00 | Carousel 4:5 (ide) | Skill Non-Coding yang Ternyata Penting Buat Developer | Slide belum dibuat | |
-| 27 | 23 Nov | Senin | 19:00 | Video 9:16 | Kalian Nanya: Gimana Mulai Belajar Coding? | Cerita karangan di VIDEO-BRIEF.md (V7) diganti kejadian nyata, rekam suara | |
-| 28 | 24 Nov | Selasa | 19:00 | Carousel 4:5 (ide) | Kenapa Dokumentasi Selalu Ditunda | Slide belum dibuat | |
-| 29 | 25 Nov | Rabu | 19:00 | Carousel 4:5 (ide) | AI Nulis Kode Lebih Cepat. Terus Aku Ngapain? | Slide belum dibuat | |
-| 30 | 26 Nov | Kamis | 12:00 | Carousel 4:5 (ide) | Tanda Aku Mulai Capek Ngoding dan Apa yang Kulakukan | Slide belum dibuat | |
-| 31 | 26 Nov | Kamis | 19:00 | Video 9:16 | Aku Review Kode Buatanku dari Setahun Lalu | Cerita karangan di VIDEO-BRIEF.md (V8) diganti kode lamamu yang asli, rekam suara | |
-| 32 | 27 Nov | Jumat | 19:00 | Carousel 4:5 (ide) | Tools Gratis Buat Pemula yang Beneran Kepakai | Slide belum dibuat | |
-| 33 | 28 Nov | Sabtu | 19:00 | Carousel 4:5 (ide) | Tiga Perintah Git yang Nyelametin Aku | Slide belum dibuat | |
-| 34 | 29 Nov | Minggu | 12:00 | Carousel 4:5 (ide) | Portofolio Pertama: Yang Disesali dan yang Dipertahankan | Slide belum dibuat | |
-| 35 | 29 Nov | Minggu | 19:00 | Video 9:16 | Kalian Nanya Lagi: Jawab Komentar Part 2 | Cerita karangan di VIDEO-BRIEF.md (V9) diganti komentar nyata, rekam suara | |
-| 36 | 30 Nov | Senin | 19:00 | Carousel 4:5 (ide) | Rekap November: Yang Berhasil dan yang Gagal | Slide belum dibuat | |
+| 9 | 10 Nov | Selasa | 12:00 | Carousel (akun lain) | [Akun lain] Jasa Apa Aja Bandung | Untuk akun lain (nitip): jam dan format ikut akun itu, tidak dihitung konten akunmu | |
+| 10 | 10 Nov | Selasa | 19:00 | Carousel 4:5 | Pertama Kali Pasang Jaringan Sendiri: Nggak Semudah Itu | Ganti kejadian (4 jam, port salah) dengan pengalamanmu | |
+| 11 | 11 Nov | Rabu | 12:00 | Carousel 4:5 | Gemini vs ChatGPT: Dua-duanya Aku Pakai | Hanya kalau memang memakai keduanya; ganti tabel pilihan dengan versimu | |
+| 12 | 11 Nov | Rabu | 19:00 | Video 9:16 | Rutinitas Pagi Developer Sebelum Ngoding | Cerita karangan di VIDEO-BRIEF.md (V3) diganti kejadian nyata, rekam suara | |
+| 13 | 12 Nov | Kamis | 19:00 | Carousel 4:5 | Hari Pertama Kerja di IT: Yang Nggak Diajarin di Kuliah | Ganti tiga poin dengan pengalaman hari pertamamu | |
+| 14 | 13 Nov | Jumat | 19:00 | Carousel 4:5 | Laptop Buat Ngoding: Beli Mahal atau Beli Pas? | Ganti dengan laptop dan penyesalanmu (tabel, layar kekecilan) | |
+| 15 | 14 Nov | Sabtu | 12:00 | Carousel 4:5 | Belajar Coding Pakai AI: Cepat atau Cuma Terasa Paham? | Ganti dengan pengalaman belajarmu | |
+| 16 | 14 Nov | Sabtu | 19:00 | Video 9:16 | Aku Minta AI Bikinin Website, Ini yang Terjadi | Cerita karangan di VIDEO-BRIEF.md (V4) diganti kejadian nyata, rekam suara | |
+| 17 | 15 Nov | Minggu | 19:00 | Carousel 4:5 | Kukira Nyambungin AI ke Aplikasi Tinggal Satu Baris | Ganti kejadian karangan (error 401, 30 menit) dengan pengalamanmu | |
+| 18 | 16 Nov | Senin | 19:00 | Carousel 4:5 | Kata Kunci Udah Benar, Filenya Tetap Nggak Ketemu | Ganti dengan pengalaman nyata | |
+| 19 | 17 Nov | Selasa | 12:00 | Carousel 4:5 (ide) | Bahasa Pemrograman Pertama: Pilih yang Mana? | Slide belum dibuat | |
+| 20 | 17 Nov | Selasa | 19:00 | Video 9:16 | Error Paling Absurd yang Pernah Kutemui | Cerita karangan di VIDEO-BRIEF.md (V5) diganti kejadian nyata, rekam suara | |
+| 21 | 18 Nov | Rabu | 19:00 | Carousel 4:5 (ide) | Tools yang Kupakai Tiap Hari, dan yang Cuma Hiasan | Slide belum dibuat | |
+| 22 | 19 Nov | Kamis | 19:00 | Carousel 4:5 (ide) | Hal Kecil di Kode yang Bikin Kolega Kesel | Slide belum dibuat | |
+| 23 | 20 Nov | Jumat | 12:00 | Carousel 4:5 (ide) | Sehari Ngoding Tanpa Googling, Bisa Nggak? | Slide belum dibuat | |
+| 24 | 20 Nov | Jumat | 19:00 | Video 9:16 | Gaji Pertama Developer: Habis ke Mana? | Cerita karangan di VIDEO-BRIEF.md (V6) diganti kejadian nyata, rekam suara | |
+| 25 | 21 Nov | Sabtu | 19:00 | Carousel 4:5 (ide) | Tanda Kamu Sudah Bukan Pemula di Coding | Slide belum dibuat | |
+| 26 | 22 Nov | Minggu | 19:00 | Carousel 4:5 (ide) | Meeting yang Seharusnya Cuma Chat | Slide belum dibuat | |
+| 27 | 23 Nov | Senin | 12:00 | Carousel 4:5 (ide) | Skill Non-Coding yang Ternyata Penting Buat Developer | Slide belum dibuat | |
+| 28 | 23 Nov | Senin | 19:00 | Video 9:16 | Kalian Nanya: Gimana Mulai Belajar Coding? | Cerita karangan di VIDEO-BRIEF.md (V7) diganti kejadian nyata, rekam suara | |
+| 29 | 24 Nov | Selasa | 19:00 | Carousel 4:5 (ide) | Kenapa Dokumentasi Selalu Ditunda | Slide belum dibuat | |
+| 30 | 25 Nov | Rabu | 19:00 | Carousel 4:5 (ide) | AI Nulis Kode Lebih Cepat. Terus Aku Ngapain? | Slide belum dibuat | |
+| 31 | 26 Nov | Kamis | 12:00 | Carousel 4:5 (ide) | Tanda Aku Mulai Capek Ngoding dan Apa yang Kulakukan | Slide belum dibuat | |
+| 32 | 26 Nov | Kamis | 19:00 | Video 9:16 | Aku Review Kode Buatanku dari Setahun Lalu | Cerita karangan di VIDEO-BRIEF.md (V8) diganti kejadian nyata, rekam suara | |
+| 33 | 27 Nov | Jumat | 19:00 | Carousel 4:5 (ide) | Tools Gratis Buat Pemula yang Beneran Kepakai | Slide belum dibuat | |
+| 34 | 28 Nov | Sabtu | 19:00 | Carousel 4:5 (ide) | Tiga Perintah Git yang Nyelametin Aku | Slide belum dibuat | |
+| 35 | 29 Nov | Minggu | 12:00 | Carousel 4:5 (ide) | Portofolio Pertama: Yang Disesali dan yang Dipertahankan | Slide belum dibuat | |
+| 36 | 29 Nov | Minggu | 19:00 | Video 9:16 | Kalian Nanya Lagi: Jawab Komentar Part 2 | Cerita karangan di VIDEO-BRIEF.md (V9) diganti kejadian nyata, rekam suara | |
+| 37 | 30 Nov | Senin | 19:00 | Carousel 4:5 (ide) | Rekap November: Yang Berhasil dan yang Gagal | Slide belum dibuat | |
 
 ## Sebelum dijadwalkan
 - Semua isi slide dan naskah video masih **contoh karangan**. Ganti dengan pengalaman nyata sebelum diposting.
@@ -102,17 +105,17 @@ Lima hal yang aku nyesel baru tahu setelah jadi developer. Kamu nyesel baru tahu
 
 #developer #programmer #kerjait #belajarcoding
 
-**10 Nov (Selasa) 19:00 — Jasa Apa Aja Bandung**
-
-Lapar tapi mager? Tugas numpuk? Cucian segunung? Satu chat, semuanya beres. Jasa apa yang paling kamu butuhin? Tulis di komentar.
-
-#bandung #anakkos #mahasiswa #jastip #jasabandung
-
-**11 Nov (Rabu) 12:00 — Pertama Kali Pasang Jaringan Sendiri: Nggak Semudah Itu**
+**10 Nov (Selasa) 19:00 — Pertama Kali Pasang Jaringan Sendiri: Nggak Semudah Itu**
 
 Kukira tinggal colok kabel, ternyata nggak semudah itu. Pernah kena masalah sepele yang bikin pusing? Ceritain di komentar.
 
 #rtrwnet #jaringan #itsupport #teknisi
+
+**11 Nov (Rabu) 12:00 — Gemini vs ChatGPT: Dua-duanya Aku Pakai**
+
+Gemini atau ChatGPT? Dua-duanya bisa meleset, jadi tetap dicek. Kamu tim yang mana? Tulis di komentar.
+
+#gemini #chatgpt #googleai #ai
 
 **11 Nov (Rabu) 19:00 — Rutinitas Pagi Developer Sebelum Ngoding**
 
@@ -120,23 +123,23 @@ Pagi developer versi aku, bukan versi estetik. Pagimu gimana? Tulis di komentar.
 
 #developer #rutinitaspagi #programmer #kerjait
 
-**12 Nov (Kamis) 19:00 — Gemini vs ChatGPT: Dua-duanya Aku Pakai**
-
-Gemini atau ChatGPT? Dua-duanya bisa meleset, jadi tetap dicek. Kamu tim yang mana? Tulis di komentar.
-
-#gemini #chatgpt #googleai #ai
-
-**13 Nov (Jumat) 19:00 — Hari Pertama Kerja di IT: Yang Nggak Diajarin di Kuliah**
+**12 Nov (Kamis) 19:00 — Hari Pertama Kerja di IT: Yang Nggak Diajarin di Kuliah**
 
 Hari pertama kerja di IT ternyata beda dari bayangan. Apa yang bikin kamu kaget? Tulis di komentar.
 
 #kerjait #developer #freshgraduate #karir
 
-**14 Nov (Sabtu) 12:00 — Laptop Buat Ngoding: Beli Mahal atau Beli Pas?**
+**13 Nov (Jumat) 19:00 — Laptop Buat Ngoding: Beli Mahal atau Beli Pas?**
 
 Laptop buat ngoding: beli yang paling mahal atau yang pas? Spek apa yang paling kepakai buatmu? Tulis di komentar.
 
 #laptop #gamingpc #developer #setup
+
+**14 Nov (Sabtu) 12:00 — Belajar Coding Pakai AI: Cepat atau Cuma Terasa Paham?**
+
+Belajar coding pakai AI: bikin cepat atau cuma terasa paham? Kamu belajar pakai AI juga? Tulis di komentar.
+
+#belajarcoding #ai #programmer #developer
 
 **14 Nov (Sabtu) 19:00 — Aku Minta AI Bikinin Website, Ini yang Terjadi**
 
@@ -144,23 +147,23 @@ Aku cuma ngetik satu kalimat ke AI buat bikin website. Ini hasil aslinya, termas
 
 #ai #chatgpt #googleai #developer #websiteai
 
-**15 Nov (Minggu) 19:00 — Belajar Coding Pakai AI: Cepat atau Cuma Terasa Paham?**
-
-Belajar coding pakai AI: bikin cepat atau cuma terasa paham? Kamu belajar pakai AI juga? Tulis di komentar.
-
-#belajarcoding #ai #programmer #developer
-
-**16 Nov (Senin) 19:00 — Kukira Nyambungin AI ke Aplikasi Tinggal Satu Baris**
+**15 Nov (Minggu) 19:00 — Kukira Nyambungin AI ke Aplikasi Tinggal Satu Baris**
 
 Kukira nyambungin AI ke aplikasi tinggal satu baris. Ternyata ada yang namanya API. Error apa yang kamu temui waktu pertama kali pakai API? Tulis di komentar.
 
 #api #ai #developer #belajarcoding
 
-**17 Nov (Selasa) 12:00 — Kata Kunci Udah Benar, Filenya Tetap Nggak Ketemu**
+**16 Nov (Senin) 19:00 — Kata Kunci Udah Benar, Filenya Tetap Nggak Ketemu**
 
 Kata kunci udah benar, tapi filenya tetap nggak ketemu. Ternyata komputer bisa nyari lewat makna, bukan cuma kata. Pernah nyari sesuatu tapi nggak ketemu? Tulis di komentar.
 
 #embedding #vectordatabase #ai #developer
+
+**17 Nov (Selasa) 12:00 — Bahasa Pemrograman Pertama: Pilih yang Mana?**
+
+Bahasa pemrograman pertama itu bikin bingung. Kamu dulu mulai dari yang mana, dan nyesel nggak? Tulis di komentar.
+
+#belajarcoding #programmer #developer #bahasapemrograman
 
 **17 Nov (Selasa) 19:00 — Error Paling Absurd yang Pernah Kutemui**
 

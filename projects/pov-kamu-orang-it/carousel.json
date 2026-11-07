@@ -1,0 +1,184 @@
+{
+  "title": "POV: Kamu Orang IT di Kantor",
+  "guides": {
+    "x": [],
+    "y": []
+  },
+  "brief": "[rencana konten]\nJudul / ide: POV: Kamu Orang IT di Kantor\nPlatform: TikTok (format 9:16)\nDraft caption (arah cerita dan sudut pandang; jangan disalin mentah ke slide):\nPOV kamu orang IT di kantor: semua orang butuh bantuan di jam yang sama. Kalimat apa yang paling sering kamu dengar? Tulis di komentar.\nHashtag: #kerjait #itsupport #developer #povkantor\n[/rencana konten]",
+  "format": "4:5",
+  "tokens": {
+    "palette": {},
+    "fonts": {},
+    "css": "",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#ffffff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 380,
+          "y": 760,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.55
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "shape",
+          "x": -260,
+          "y": -300,
+          "w": 560,
+          "h": 560,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(120px)",
+            "opacity": 0.35
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#2457ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA — CERITA KANTOR"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 100,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#2457ff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "POV"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 180,
+          "w": 880,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 160,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "KAMU\nORANG\nIT."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 640,
+          "w": 600,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 38,
+            "fontWeight": 600,
+            "lineHeight": 1.05,
+            "letterSpacing": "-0.035em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Di kantor. Hari ini baru dimulai."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 790,
+          "w": 880,
+          "h": 330,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:330px;display:flex;flex-direction:column;gap:16px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#0a0a0a\"><div style='border:3px solid #0a0a0a;background:#fff;padding:18px 24px;font-weight:800;font-size:30px;letter-spacing:-.02em;width:620px;box-sizing:border-box'><span style='color:#2457ff'>09.00</span>&nbsp; “Mas, wifi-nya mati.”</div><div style='border:3px solid #0a0a0a;background:#e9eeff;padding:18px 24px;font-weight:800;font-size:30px;letter-spacing:-.02em;width:700px;box-sizing:border-box;margin-left:100px'><span style='color:#2457ff'>11.00</span>&nbsp; “Mas, lupa password.”</div><div style='border:3px solid #0a0a0a;background:#f9d361;padding:18px 24px;font-weight:800;font-size:30px;letter-spacing:-.02em;width:880px;box-sizing:border-box'><span style='color:#fc1201'>17.00</span>&nbsp; Servernya error. Dicari: kamu.</div></div>"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1210,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "@CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 680,
+          "y": 1210,
+          "w": 300,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "TULIS DI KOMENTAR ↗"
+        }
+      ],
+      "name": "Thumbnail"
+    }
+  ]
+}

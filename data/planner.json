@@ -39,7 +39,7 @@
     {
       "id": "61ff6e5331",
       "title": "Kukira Nyambungin AI ke Aplikasi Tinggal Satu Baris",
-      "date": "2026-11-16",
+      "date": "2026-11-15",
       "time": "19:00",
       "platform": "tiktok",
       "project": "api-ai",
@@ -158,8 +158,8 @@
     {
       "id": "26a920e5fa",
       "title": "Kata Kunci Udah Benar, Filenya Tetap Nggak Ketemu",
-      "date": "2026-11-17",
-      "time": "12:00",
+      "date": "2026-11-16",
+      "time": "19:00",
       "platform": "tiktok",
       "project": "vector-database-embedding-buat",
       "caption": "Kata kunci udah benar, tapi filenya tetap nggak ketemu. Ternyata komputer bisa nyari lewat makna, bukan cuma kata. Pernah nyari sesuatu tapi nggak ketemu? Tulis di komentar.",
@@ -179,9 +179,9 @@
     },
     {
       "id": "a669fc31fe",
-      "title": "Jasa Apa Aja Bandung",
+      "title": "[Akun lain] Jasa Apa Aja Bandung",
       "date": "2026-11-10",
-      "time": "19:00",
+      "time": "12:00",
       "platform": "tiktok",
       "project": "jasa-apaaja",
       "format": "4:5",
@@ -199,7 +199,7 @@
       "format": "4:5",
       "caption": "Ternyata jadi software engineer itu nggak seseru yang dibayangin. Bayanganmu dulu apa? Tulis di komentar.",
       "hashtags": "#softwareengineer #programmer #developer #kerjait",
-      "status": "draft"
+      "status": "terbit"
     },
     {
       "id": "5b6a022110",
@@ -211,7 +211,7 @@
       "format": "4:5",
       "caption": "Kukira kerja pakai AI tinggal ketik, langsung beres. Ternyata ada yang tetap harus dicek sendiri. Kamu pakai AI buat apa? Tulis di komentar.",
       "hashtags": "#googleai #gemini #ai #produktivitas",
-      "status": "draft"
+      "status": "terbit"
     },
     {
       "id": "35df991755",
@@ -223,7 +223,7 @@
       "format": "4:5",
       "caption": "Katanya tinggal ketik, jadi video. Aku coba sendiri dan hasilnya apa adanya. Mau lihat hasil mentahnya? Komen \"mau\".",
       "hashtags": "#googleflow #googleai #ai #videoai",
-      "status": "draft"
+      "status": "terbit"
     },
     {
       "id": "602a9bfce0",
@@ -252,8 +252,8 @@
     {
       "id": "cc712a03dc",
       "title": "Pertama Kali Pasang Jaringan Sendiri: Nggak Semudah Itu",
-      "date": "2026-11-11",
-      "time": "12:00",
+      "date": "2026-11-10",
+      "time": "19:00",
       "platform": "tiktok",
       "project": "pasang-jaringan-sendiri",
       "format": "4:5",
@@ -264,8 +264,8 @@
     {
       "id": "5c40720d20",
       "title": "Gemini vs ChatGPT: Dua-duanya Aku Pakai",
-      "date": "2026-11-12",
-      "time": "19:00",
+      "date": "2026-11-11",
+      "time": "12:00",
       "platform": "tiktok",
       "project": "gemini-vs-chatgpt",
       "format": "4:5",
@@ -276,7 +276,7 @@
     {
       "id": "229073653d",
       "title": "Hari Pertama Kerja di IT: Yang Nggak Diajarin di Kuliah",
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "time": "19:00",
       "platform": "tiktok",
       "project": "hari-pertama-kerja-it",
@@ -288,8 +288,8 @@
     {
       "id": "d18100ffc6",
       "title": "Laptop Buat Ngoding: Beli Mahal atau Beli Pas?",
-      "date": "2026-11-14",
-      "time": "12:00",
+      "date": "2026-11-13",
+      "time": "19:00",
       "platform": "tiktok",
       "project": "laptop-buat-ngoding",
       "format": "4:5",
@@ -300,8 +300,8 @@
     {
       "id": "4d46cd3927",
       "title": "Belajar Coding Pakai AI: Cepat atau Cuma Terasa Paham?",
-      "date": "2026-11-15",
-      "time": "19:00",
+      "date": "2026-11-14",
+      "time": "12:00",
       "platform": "tiktok",
       "project": "belajar-coding-pakai-ai",
       "format": "4:5",
@@ -315,10 +315,11 @@
       "date": "2026-11-05",
       "time": "19:00",
       "platform": "tiktok",
+      "project": "pov-kamu-orang-it",
       "format": "9:16",
       "caption": "POV kamu orang IT di kantor: semua orang butuh bantuan di jam yang sama. Kalimat apa yang paling sering kamu dengar? Tulis di komentar.",
       "hashtags": "#kerjait #itsupport #developer #povkantor",
-      "status": "ide"
+      "status": "terbit"
     },
     {
       "id": "38bc2ff745",
@@ -326,32 +327,11 @@
       "date": "2026-11-08",
       "time": "19:00",
       "platform": "tiktok",
+      "project": "yang-orang-bilang-pas",
       "format": "9:16",
       "caption": "Pas orang tahu aku kerja di IT, ini yang mereka bilang. Kamu dengar apa? Tulis di komentar.",
       "hashtags": "#kerjait #developer #programmer #relatable",
-      "status": "ide"
-    },
-    {
-      "id": "5be7f87622",
-      "title": "Rutinitas Pagi Developer Sebelum Ngoding",
-      "date": "2026-11-11",
-      "time": "19:00",
-      "platform": "tiktok",
-      "format": "9:16",
-      "caption": "Pagi developer versi aku, bukan versi estetik. Pagimu gimana? Tulis di komentar.",
-      "hashtags": "#developer #rutinitaspagi #programmer #kerjait",
-      "status": "ide"
-    },
-    {
-      "id": "db84f59c6e",
-      "title": "Aku Minta AI Bikinin Website, Ini yang Terjadi",
-      "date": "2026-11-14",
-      "time": "19:00",
-      "platform": "tiktok",
-      "format": "9:16",
-      "caption": "Aku cuma ngetik satu kalimat ke AI buat bikin website. Ini hasil aslinya, termasuk yang rusak. Kamu pernah coba?",
-      "hashtags": "#ai #chatgpt #googleai #developer #websiteai",
-      "status": "ide"
+      "status": "draft"
     },
     {
       "id": "cfb8681580",
@@ -365,20 +345,9 @@
       "status": "ide"
     },
     {
-      "id": "fe48fe51bd",
-      "title": "Gaji Pertama Developer: Habis ke Mana?",
-      "date": "2026-11-20",
-      "time": "19:00",
-      "platform": "tiktok",
-      "format": "9:16",
-      "caption": "Aku kira gaji pertama bakal sisa banyak. Ternyata begini. Gaji pertamamu habis buat apa?",
-      "hashtags": "#gajipertama #developer #freshgraduate #kerjait",
-      "status": "ide"
-    },
-    {
       "id": "2f15ab6152",
       "title": "Kalian Nanya: Gimana Mulai Belajar Coding?",
-      "date": "2026-11-23",
+      "date": "2026-11-21",
       "time": "19:00",
       "platform": "tiktok",
       "format": "9:16",
@@ -409,20 +378,9 @@
       "status": "ide"
     },
     {
-      "id": "1ff1e48307",
-      "title": "Sehari Ngoding Tanpa Googling, Bisa Nggak?",
-      "date": "2026-11-20",
-      "time": "12:00",
-      "platform": "tiktok",
-      "format": "4:5",
-      "caption": "Sehari ngoding tanpa googling, bisa nggak? Menurutmu bisa atau nggak? Tulis di komentar.",
-      "hashtags": "#developer #programmer #googling #relatable",
-      "status": "ide"
-    },
-    {
       "id": "bd98722ce0",
       "title": "Tanda Kamu Sudah Bukan Pemula di Coding",
-      "date": "2026-11-21",
+      "date": "2026-11-20",
       "time": "19:00",
       "platform": "tiktok",
       "format": "4:5",
@@ -508,17 +466,6 @@
       "status": "ide"
     },
     {
-      "id": "eccdb4c8e5",
-      "title": "Portofolio Pertama: Yang Disesali dan yang Dipertahankan",
-      "date": "2026-11-29",
-      "time": "12:00",
-      "platform": "tiktok",
-      "format": "4:5",
-      "caption": "Portofolio pertama itu penuh pelajaran. Apa yang kamu sesali dari portofoliomu? Tulis di komentar.",
-      "hashtags": "#portofolio #developer #karirit #freshgraduate",
-      "status": "ide"
-    },
-    {
       "id": "377e73f2ee",
       "title": "Rekap November: Yang Berhasil dan yang Gagal",
       "date": "2026-11-30",
@@ -530,25 +477,467 @@
       "status": "ide"
     },
     {
-      "id": "224ea65f81",
-      "title": "Aku Review Kode Buatanku dari Setahun Lalu",
-      "date": "2026-11-26",
-      "time": "19:00",
+      "id": "46fd9c02c8",
+      "title": "Bahasa Pemrograman Pertama: Pilih yang Mana?",
+      "date": "2026-12-01",
+      "time": "12:00",
       "platform": "tiktok",
-      "format": "9:16",
-      "caption": "Aku buka kode buatanku setahun lalu. Reaksinya? Kamu pernah malu lihat kode lamamu? Tulis di komentar.",
-      "hashtags": "#developer #programmer #codereview #relatable",
+      "format": "4:5",
+      "caption": "Bahasa pemrograman pertama itu bikin bingung. Kamu dulu mulai dari yang mana, dan nyesel nggak? Tulis di komentar.",
+      "hashtags": "#belajarcoding #programmer #developer #bahasapemrograman",
       "status": "ide"
     },
     {
-      "id": "42524c8848",
-      "title": "Kalian Nanya Lagi: Jawab Komentar Part 2",
+      "id": "f92a11f205",
+      "title": "[Video] Perjalanan Satu Klik: Dari Tombol ke Server",
+      "date": "2026-12-04",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Satu klik, satu surat kecil berangkat naik kereta data. Ikuti rutenya: browser, DNS, server, lalu pulang bawa halaman. Visual alur request tanpa istilah ribet.",
+      "hashtags": "#http #webdev #belajarcoding #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "b974d1ebe2",
+      "title": "[Video] Paket Data Kecil yang Mencari Jalan Pulang",
+      "date": "2026-12-07",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Pesan dipecah jadi paket-paket mungil, lewat jalur berbeda, lalu disusun ulang di tujuan. Begini cara TCP memastikan tidak ada yang hilang, dalam animasi.",
+      "hashtags": "#jaringan #tcpip #networking #belajarit #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "13e0d3daae",
+      "title": "[Video] Buku Telepon Raksasa Bernama DNS",
+      "date": "2026-12-13",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Kamu ketik nama, komputer butuh angka. DNS adalah petugas yang membuka buku telepon dunia untuk menerjemahkannya. Visualisasi tiga langkahnya.",
+      "hashtags": "#dns #internet #networking #belajarcoding #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "840fe3889e",
+      "title": "[Video] Password Masuk Mesin Penghancur, Keluar Sandi Acak",
+      "date": "2026-12-10",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Password tidak disimpan apa adanya. Ia dicincang oleh hash, hasilnya tidak bisa dikembalikan. Lihat kenapa database bocor belum tentu berarti password terbaca.",
+      "hashtags": "#hashing #keamanan #cybersecurity #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "c444540fc7",
+      "title": "[Video] Dua Kurir, Satu Loker: Saat Data Berebut",
+      "date": "2026-12-02",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Dua proses menulis ke data yang sama di waktu yang sama. Siapa yang menang? Race condition digambarkan lewat dua kurir dan satu loker.",
+      "hashtags": "#racecondition #concurrency #programming #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "08aabc98c3",
+      "title": "[Video] Antrean Kasir yang Menyelamatkan Server",
+      "date": "2026-12-20",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Seribu pesanan datang bersamaan, kasir hanya satu. Message queue membuat semuanya antre rapi, bukan tumbang. Dijelaskan lewat toko visual.",
+      "hashtags": "#queue #backend #systemdesign #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "af961cfad6",
+      "title": "[Video] Cache: Anak Rajin yang Hafal Jawaban Ujian",
+      "date": "2026-12-19",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Pertanyaan yang sama ditanya berulang, jawabannya dicatat di kertas kecil di meja. Itulah cache: lebih cepat karena tidak perlu buka lemari arsip lagi.",
+      "hashtags": "#cache #performance #backend #webdev #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "6ee064b079",
+      "title": "[Video] Gerbang Tol Pintar: Load Balancer Bagi Beban",
+      "date": "2026-12-16",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Ribuan mobil, banyak gerbang tol. Load balancer mengarahkan tiap mobil ke gerbang yang paling lengang. Visual alurnya dalam satu menit.",
+      "hashtags": "#loadbalancer #devops #systemdesign #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "f9843057c2",
+      "title": "[Video] Git Branch: Dunia Paralel untuk Kodemu",
+      "date": "2026-12-21",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Satu garis waktu terbelah jadi dua, masing-masing bebas berubah, lalu bertemu lagi lewat merge. Konsep branch digambarkan seperti multiverse.",
+      "hashtags": "#git #versioncontrol #belajarcoding #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "66a0c6fd09",
+      "title": "[Video] Gembok Terbuka untuk Semua, Kunci Cuma Satu Orang",
+      "date": "2026-12-23",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Siapa pun boleh mengunci kotak, hanya pemilik kunci pribadi yang bisa membukanya. Begini enkripsi public key bekerja, versi visual.",
+      "hashtags": "#enkripsi #https #cybersecurity #belajarit #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "fb8371aad8",
+      "title": "[Video] Kalimatmu Dipotong Dulu Sebelum AI Membacanya",
+      "date": "2026-12-25",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "AI tidak membaca kata, ia membaca potongan bernama token. Lihat satu kalimat dicincang jadi kepingan dan diubah jadi angka.",
+      "hashtags": "#ai #llm #token #belajarai #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "099db868ed",
+      "title": "[Video] Rumah Susun Bernama Container",
+      "date": "2026-12-27",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Satu gedung, banyak unit mandiri, tiap unit bawa isinya sendiri. Docker container dijelaskan lewat rumah susun supaya \"jalan di laptopku\" tidak jadi alasan.",
+      "hashtags": "#docker #container #devops #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "34b33a65ed",
+      "title": "[Video] Simulasi: Server Mati Jam 3 Pagi, Backup Siap?",
+      "date": "2026-12-29",
+      "time": "09:00",
+      "platform": "instagram",
+      "format": "9:16",
+      "caption": "Skenario rekaan: server tiba-tiba padam. Dua jalur terbuka, satu punya backup 3-2-1, satu tidak. Bandingkan hasilnya langkah demi langkah.",
+      "hashtags": "#backup #devops #infrastruktur #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "bd50f8e723",
+      "title": "[Carousel] 5 Kebiasaan Kecil Developer Berdampak Besar",
+      "date": "2026-12-01",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Bukan skill baru, tapi kebiasaan kecil yang bikin kerjaan rapi dan minim drama. Lima yang paling terasa efeknya. Simpan buat dicoba minggu ini.",
+      "hashtags": "#developer #produktivitas #programmer #belajarcoding #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "c84438a549",
+      "title": "[Carousel] Cara Baca Error Message Tanpa Panik",
       "date": "2026-11-29",
       "time": "19:00",
-      "platform": "tiktok",
-      "format": "9:16",
-      "caption": "Kalian nanya lagi, aku jawab. Ada pertanyaan lain? Tulis di komentar.",
-      "hashtags": "#tanyajawab #developer #programmer #belajarcoding",
+      "platform": "instagram",
+      "caption": "Error merah di layar bukan musuh, itu petunjuk. Begini cara membaca stack trace dari bawah ke atas dan menemukan baris yang bermasalah.",
+      "hashtags": "#debugging #errormessage #belajarcoding #programmer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "cf7ac644bd",
+      "title": "[Carousel] Checklist Sebelum Push ke Production",
+      "date": "2026-12-02",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Sebelum tekan deploy, cek dulu daftar singkat ini: test, env, log, backup, rollback. Satu menit cek bisa hemat semalam begadang.",
+      "hashtags": "#deployment #devops #developer #bestpractice #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "0de4c375f1",
+      "title": "[Carousel] 7 Shortcut VS Code yang Jarang Diketahui",
+      "date": "2026-12-04",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Tujuh shortcut VS Code yang bikin tanganmu lebih jarang menyentuh mouse. Simpan dan coba satu per hari.",
+      "hashtags": "#vscode #shortcut #produktivitas #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "f3251d87b6",
+      "title": "[Carousel] Kodemu Jalan di Laptop, Gagal di Server",
+      "date": "2026-12-03",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Penyebab klasik \"di laptopku jalan kok\": versi, environment, path, dan konfigurasi. Cek empat hal ini dulu sebelum menyalahkan server.",
+      "hashtags": "#deployment #troubleshooting #developer #webdev #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "7d50271bbb",
+      "title": "[Carousel] Roadmap Belajar Web Dev untuk Pemula",
+      "date": "2026-12-05",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Urutan belajar web dev yang masuk akal: HTML, CSS, JavaScript, lalu framework. Tanpa loncat-loncat, tanpa kewalahan.",
+      "hashtags": "#webdev #roadmap #belajarcoding #pemula #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "79275f4030",
+      "title": "[Carousel] 5 Tanda Kode Perlu Direfactor",
+      "date": "2026-12-06",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Fungsi kepanjangan, nama membingungkan, copy-paste di mana-mana. Lima tanda kodemu sudah minta dirapikan.",
+      "hashtags": "#refactoring #cleancode #programmer #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "940b79aac7",
+      "title": "[Carousel] Panduan Nama Variabel yang Enak Dibaca",
+      "date": "2026-12-07",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Nama variabel `data2` dan `temp` bikin kamu sendiri bingung bulan depan. Contoh nama buruk vs nama jelas, sebelum dan sesudah.",
+      "hashtags": "#cleancode #naming #programmer #belajarcoding #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "ae7f32d23e",
+      "title": "[Carousel] Cara Nanya di Forum Biar Cepat Dijawab",
+      "date": "2026-12-08",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Pertanyaan yang jelas lebih cepat dijawab. Formatnya: tujuan, yang sudah dicoba, error lengkap, dan contoh minimal.",
+      "hashtags": "#belajarcoding #komunitas #programmer #tips #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "70f8942971",
+      "title": "[Carousel] 4 Kesalahan Umum Saat Bikin REST API",
+      "date": "2026-12-10",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Nama endpoint asal-asalan, status code seragam, tanpa validasi, tanpa versi. Empat kesalahan REST API yang sering terjadi dan cara memperbaikinya.",
+      "hashtags": "#restapi #backend #webdev #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "d9884f0e2f",
+      "title": "[Carousel] SQL vs NoSQL: Pilih yang Mana?",
+      "date": "2026-12-09",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Bukan soal mana yang lebih keren, tapi mana yang cocok untuk datamu. Perbandingan singkat dan kapan memilih masing-masing.",
+      "hashtags": "#database #sql #nosql #backend #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "c1f83a2601",
+      "title": "[Carousel] README yang Bikin Orang Mau Pakai Proyekmu",
+      "date": "2026-12-12",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "README adalah pintu depan repo. Struktur yang membuat orang paham dalam 30 detik: apa ini, cara install, contoh pakai.",
+      "hashtags": "#github #opensource #dokumentasi #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "aacb2a50b7",
+      "title": "[Carousel] Pomodoro untuk Developer: Cocok Nggak?",
+      "date": "2026-12-13",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Fokus 25 menit terdengar manis, tapi bagaimana kalau lagi di tengah debugging? Kapan teknik ini membantu dan kapan perlu disesuaikan.",
+      "hashtags": "#produktivitas #fokus #developer #kerjait #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "87a8d7f7ce",
+      "title": "[Carousel] 6 Pola Password yang Harus Ditinggalkan",
+      "date": "2026-12-14",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Tanggal lahir, nama + 123, satu password untuk semua akun. Enam pola password lemah dan penggantinya yang lebih aman.",
+      "hashtags": "#password #keamanan #cybersecurity #belajarit #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "b16b853a5a",
+      "title": "[Carousel] Apa Itu API? Dijelaskan Pakai Restoran",
+      "date": "2026-12-15",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Kamu pelanggan, dapur adalah server, pelayan adalah API. Penjelasan paling ringan untuk yang baru dengar istilah ini.",
+      "hashtags": "#api #pemula #belajarcoding #webdev #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "8a60ed5996",
+      "title": "[Carousel] Debug Sistematis dalam 5 Langkah",
+      "date": "2026-12-16",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Reproduksi, persempit, hipotesis, uji, perbaiki. Lima langkah debugging supaya tidak menebak-nebak sambil begadang.",
+      "hashtags": "#debugging #programmer #belajarcoding #tips #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "1927b37019",
+      "title": "[Carousel] 5 Perintah Terminal untuk Pemula",
+      "date": "2026-12-17",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "cd, ls, mkdir, cp, grep. Lima perintah dasar terminal yang langsung terasa gunanya. Simpan sebagai cheat sheet.",
+      "hashtags": "#terminal #linux #cli #belajarcoding #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "76d8ca69b9",
+      "title": "[Carousel] Kapan Sebenarnya Perlu Pakai TypeScript?",
+      "date": "2026-12-11",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "TypeScript tidak selalu jawaban. Situasi di mana ia sangat menolong, dan situasi di mana JavaScript biasa sudah cukup.",
+      "hashtags": "#typescript #javascript #webdev #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "b61599dba8",
+      "title": "[Carousel] Rahasia Jangan Di-commit: Pakai Env Variable",
+      "date": "2026-12-19",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "API key yang nyangkut di repo publik itu lebih sering terjadi dari yang dikira. Cara memakai environment variable dan .gitignore dengan benar.",
+      "hashtags": "#keamanan #git #envvariable #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "ec0e78f9f7",
+      "title": "[Carousel] Jebakan Belajar Coding Sendirian",
+      "date": "2026-12-18",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Tutorial hell, lompat-lompat bahasa, tidak pernah bikin proyek. Jebakan umum belajar sendiri dan cara keluar darinya.",
+      "hashtags": "#belajarcoding #pemula #tutorialhell #programmer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "0ec13e704c",
+      "title": "[Carousel] Code Review yang Baik: Apa Saja yang Dicek",
+      "date": "2026-12-21",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Review bukan cari-cari salah orang. Daftar yang layak dicek: logika, nama, test, keamanan, dan cara menyampaikan komentar dengan sopan.",
+      "hashtags": "#codereview #teamwork #developer #bestpractice #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "401c5dd435",
+      "title": "[Carousel] 5 Prompt AI yang Membantu Ngoding",
+      "date": "2026-12-22",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "AI paling berguna kalau diberi konteks jelas. Lima pola prompt untuk menjelaskan error, review kode, dan bikin test, tanpa menyerahkan semua ke mesin.",
+      "hashtags": "#ai #prompt #developer #produktivitas #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "450eebb000",
+      "title": "[Carousel] Status Code HTTP yang Paling Sering Muncul",
+      "date": "2026-12-23",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "200, 301, 400, 401, 403, 404, 500. Arti masing-masing dalam satu kalimat dan apa yang biasanya harus dicek.",
+      "hashtags": "#http #webdev #backend #belajarcoding #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "cfecb84c85",
+      "title": "[Carousel] Portofolio Developer yang Dilirik HR",
+      "date": "2026-12-24",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Tiga proyek yang dikerjakan tuntas lebih meyakinkan daripada sepuluh yang setengah jadi. Apa yang sebaiknya ada di portofolio.",
+      "hashtags": "#portofolio #karirit #developer #freshgraduate #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "18b383a0a2",
+      "title": "[Carousel] Kenapa Test Menyelamatkan Weekend-mu",
+      "date": "2026-12-25",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Test otomatis terasa buang waktu sampai ada bug jam 11 malam di hari Jumat. Alasan singkat mulai menulis test dari yang paling sederhana.",
+      "hashtags": "#testing #unittest #developer #bestpractice #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "42bef1c748",
+      "title": "[Carousel] Tips Wawancara Kerja Developer Junior",
+      "date": "2026-12-26",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Pertanyaan yang hampir selalu muncul dan cara menjawabnya dengan jujur dan terstruktur. Simpan sebelum wawancara berikutnya.",
+      "hashtags": "#wawancara #karirit #developer #juniordev #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "06a8be6735",
+      "title": "[Carousel] 5 Fitur DevTools Browser yang Wajib Dicoba",
+      "date": "2026-12-27",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Network, Elements, Console, Performance, Application. Lima tab DevTools dan satu trik yang berguna dari masing-masing.",
+      "hashtags": "#devtools #chrome #webdev #frontend #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "e3898f6b31",
+      "title": "[Carousel] Big O Notation Tanpa Rumus Rumit",
+      "date": "2026-12-28",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "O(1), O(n), O(n^2) dijelaskan lewat contoh sehari-hari: mencari nama di daftar. Cukup paham intinya untuk menilai kode yang lambat.",
+      "hashtags": "#bigo #algoritma #belajarcoding #computerscience #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "c640c85f8f",
+      "title": "[Carousel] 3 Cara Aman Menyimpan Rahasia di Proyek",
+      "date": "2026-12-29",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "File .env, secret manager, dan rotasi key berkala. Tiga lapis sederhana supaya kunci rahasia tidak bocor ke tempat yang salah.",
+      "hashtags": "#keamanan #secrets #devops #developer #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "ac7ac8ded5",
+      "title": "[Carousel] Kebiasaan Developer Sebelum Libur Akhir Tahun",
+      "date": "2026-12-30",
+      "time": "09:00",
+      "platform": "instagram",
+      "caption": "Sebelum cuti: rapikan branch, tulis catatan serah terima, cek monitoring. Libur jadi tenang, tidak ditelepon soal hal sepele.",
+      "hashtags": "#kerjait #developer #akhirtahun #produktivitas #codemalaya",
+      "status": "ide"
+    },
+    {
+      "id": "e176f3156a",
+      "title": "[Carousel] Resolusi Coding 2027 yang Realistis",
+      "date": "2026-12-31",
+      "time": "19:00",
+      "platform": "instagram",
+      "caption": "Bukan \"belajar semua bahasa\", tapi target kecil yang bisa dijalankan: satu proyek, satu kebiasaan, satu skill baru. Apa resolusimu? Tulis di komentar.",
+      "hashtags": "#resolusi2027 #developer #belajarcoding #programmer #codemalaya",
       "status": "ide"
     }
   ]

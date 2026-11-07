@@ -1,0 +1,744 @@
+{
+  "title": "Thumbnail V11-V20 (TikTok 4:5)",
+  "guides": {
+    "x": [
+      100,
+      980
+    ],
+    "y": [
+      100,
+      1250
+    ]
+  },
+  "brief": "Thumbnail 4:5 untuk 10 video cerita Tedi batch 2 (V11 sampai V20), lanjutan project thumbnail-video-cerita. Gaya sama: flat, bg krem #fff3e2, border ink #2a1740 + hard offset shadow tanpa blur, DM Sans 800, kata kunci judul #e8431f, ilustrasi flat stroke ink. Kerangka tetap: chip kategori kiri atas, judul besar, kartu ilustrasi, chip konsep, footer Codemalaya. Tanpa angka di kanan atas. Margin 100px di semua sisi.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "bg": "#fff3e2",
+      "ink": "#2a1740",
+      "hl": "#e8431f",
+      "coral": "#ff4d6d",
+      "mint": "#12b5a6",
+      "sun": "#ffc83d",
+      "violet": "#6a4cff"
+    },
+    "fonts": {
+      "sans": "'DM Sans', sans-serif",
+      "mono": "Menlo, monospace"
+    },
+    "css": "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700;800&display=swap');",
+    "fontFiles": []
+  },
+  "slides": [
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">PERFORMA & INFRA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:137px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Kasir</div><div><span style=\"color:#e8431f\">Menunggu</span></div><div>Mesin Kartu</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"68\" y=\"318\" width=\"520\" height=\"110\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"60\" y=\"310\" width=\"520\" height=\"110\" rx=\"14\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"208\" cy=\"198\" r=\"62\" fill=\"#2a1740\"/><circle cx=\"200\" cy=\"190\" r=\"62\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M138,183.8 Q138,121.8 200,121.8 Q262,121.8 262,183.8 Q231.0,155.9 200,159.0 Q169.0,155.9 138,183.8 Z\" fill=\"#2a1740\"/><circle cx=\"178.3\" cy=\"190\" r=\"6.2\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"221.7\" cy=\"190\" r=\"6.2\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M181.4,213.56 Q200,215.56 218.6,213.56\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"130\" y=\"250\" width=\"140\" height=\"70\" rx=\"20\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"368\" y=\"208\" width=\"130\" height=\"110\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"360\" y=\"200\" width=\"130\" height=\"110\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"378\" y=\"216\" width=\"94\" height=\"46\" rx=\"8\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"425\" cy=\"239\" r=\"14\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-dasharray=\"14 10\"/><text x=\"425\" y=\"175\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"34\" fill=\"#2a1740\">10 detik</text><circle cx=\"698\" cy=\"308\" r=\"38\" fill=\"#2a1740\"/><circle cx=\"690\" cy=\"300\" r=\"38\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M652,296.2 Q652,258.2 690,258.2 Q728,258.2 728,296.2 Q709.0,279.1 690,281.0 Q671.0,279.1 652,296.2 Z\" fill=\"#2a1740\"/><circle cx=\"676.7\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"703.3\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M678.6,314.44 Q690,309.6 701.4,314.44\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"654\" y=\"340\" width=\"72\" height=\"60\" rx=\"14\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"778\" cy=\"308\" r=\"38\" fill=\"#2a1740\"/><circle cx=\"770\" cy=\"300\" r=\"38\" fill=\"#d9a27a\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M732,296.2 Q732,258.2 770,258.2 Q808,258.2 808,296.2 Q789.0,279.1 770,281.0 Q751.0,279.1 732,296.2 Z\" fill=\"#2a1740\"/><circle cx=\"756.7\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"783.3\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M758.6,314.44 Q770,309.6 781.4,314.44\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"734\" y=\"340\" width=\"72\" height=\"60\" rx=\"14\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"858\" cy=\"308\" r=\"38\" fill=\"#2a1740\"/><circle cx=\"850\" cy=\"300\" r=\"38\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M812,296.2 Q812,258.2 850,258.2 Q888,258.2 888,296.2 Q869.0,279.1 850,281.0 Q831.0,279.1 812,296.2 Z\" fill=\"#2a1740\"/><circle cx=\"836.7\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"863.3\" cy=\"300\" r=\"3.8000000000000003\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M838.6,314.44 Q850,309.6 861.4,314.44\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"814\" y=\"340\" width=\"72\" height=\"60\" rx=\"14\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#ff4d6d;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">sync vs async</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V11 Kasir"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">DATABASE & DATA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:153px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Janji Jam</div><div>Tiga di</div><div><span style=\"color:#e8431f\">Dua Kota</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><circle cx=\"238\" cy=\"252\" r=\"130\" fill=\"#2a1740\"/><circle cx=\"230\" cy=\"244\" r=\"130\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"230\" cy=\"244\" r=\"112\" fill=\"none\" stroke=\"#ff4d6d\" stroke-width=\"6\" opacity=\"0.5\"/><line x1=\"230.0\" y1=\"128.0\" x2=\"230.0\" y2=\"140.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"288.0\" y1=\"143.5410531610051\" x2=\"282.0\" y2=\"153.93335800641836\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"330.45894683899485\" y1=\"186.0\" x2=\"320.0666419935816\" y2=\"192.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"346.0\" y1=\"244.0\" x2=\"334.0\" y2=\"244.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"330.4589468389949\" y1=\"302.0\" x2=\"320.06664199358164\" y2=\"296.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"288.0\" y1=\"344.4589468389949\" x2=\"282.0\" y2=\"334.06664199358164\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"230.0\" y1=\"360.0\" x2=\"230.0\" y2=\"348.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"172.0\" y1=\"344.45894683899485\" x2=\"178.0\" y2=\"334.0666419935816\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"129.54105316100515\" y1=\"302.00000000000006\" x2=\"139.93335800641842\" y2=\"296.00000000000006\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"244.00000000000003\" x2=\"126.0\" y2=\"244.00000000000003\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"129.54105316100512\" y1=\"186.0\" x2=\"139.9333580064184\" y2=\"192.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"171.99999999999994\" y1=\"143.54105316100515\" x2=\"177.99999999999994\" y2=\"153.93335800641842\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"230\" y1=\"244\" x2=\"295.0\" y2=\"244.0\" stroke=\"#2a1740\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"230\" y1=\"244\" x2=\"230.0\" y2=\"146.5\" stroke=\"#2a1740\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"230\" cy=\"244\" r=\"9\" fill=\"#2a1740\"/><circle cx=\"666\" cy=\"252\" r=\"130\" fill=\"#2a1740\"/><circle cx=\"658\" cy=\"244\" r=\"130\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"658\" cy=\"244\" r=\"112\" fill=\"none\" stroke=\"#12b5a6\" stroke-width=\"6\" opacity=\"0.5\"/><line x1=\"658.0\" y1=\"128.0\" x2=\"658.0\" y2=\"140.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"716.0\" y1=\"143.5410531610051\" x2=\"710.0\" y2=\"153.93335800641836\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"758.4589468389948\" y1=\"186.0\" x2=\"748.0666419935816\" y2=\"192.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"774.0\" y1=\"244.0\" x2=\"762.0\" y2=\"244.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"758.458946838995\" y1=\"302.0\" x2=\"748.0666419935817\" y2=\"296.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"716.0\" y1=\"344.4589468389949\" x2=\"710.0\" y2=\"334.06664199358164\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"658.0\" y1=\"360.0\" x2=\"658.0\" y2=\"348.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"600.0\" y1=\"344.45894683899485\" x2=\"606.0\" y2=\"334.0666419935816\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"557.5410531610052\" y1=\"302.00000000000006\" x2=\"567.9333580064184\" y2=\"296.00000000000006\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"542.0\" y1=\"244.00000000000003\" x2=\"554.0\" y2=\"244.00000000000003\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"557.5410531610052\" y1=\"186.0\" x2=\"567.9333580064184\" y2=\"192.0\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"600.0\" y1=\"143.54105316100515\" x2=\"606.0\" y2=\"153.93335800641842\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"658\" y1=\"244\" x2=\"723.0\" y2=\"244.0\" stroke=\"#2a1740\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"658\" y1=\"244\" x2=\"658.0\" y2=\"146.5\" stroke=\"#2a1740\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"658\" cy=\"244\" r=\"9\" fill=\"#2a1740\"/><text x=\"230\" y=\"430\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"40\" fill=\"#2a1740\">WIB</text><text x=\"658\" y=\"430\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"40\" fill=\"#2a1740\">WITA</text><text x=\"444\" y=\"270\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"110\" fill=\"#e8431f\">≠</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#12b5a6;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">time zone</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V12 Janji Jam"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">DATABASE & DATA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:125px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Satu Barang,</div><div><span style=\"color:#e8431f\">Satu Kali</span></div><div>Jalan</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"58\" y=\"238\" width=\"170\" height=\"180\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"50\" y=\"230\" width=\"170\" height=\"180\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><polygon points=\"40,235 135,150 230,235\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"110\" y=\"320\" width=\"50\" height=\"90\" rx=\"6\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"668\" y=\"238\" width=\"190\" height=\"180\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"660\" y=\"230\" width=\"190\" height=\"180\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"650\" y=\"190\" width=\"210\" height=\"50\" rx=\"10\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"665\" y1=\"192\" x2=\"665\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"705\" y1=\"192\" x2=\"705\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"745\" y1=\"192\" x2=\"745\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"785\" y1=\"192\" x2=\"785\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"825\" y1=\"192\" x2=\"825\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"275\" x2=\"630\" y2=\"275\" stroke=\"#2a1740\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-dasharray=\"4 14\"/><polygon points=\"630,275 604,261 604,289\" fill=\"#2a1740\"/><polygon points=\"250,275 276,261 276,289\" fill=\"#2a1740\"/><line x1=\"250\" y1=\"335\" x2=\"630\" y2=\"335\" stroke=\"#2a1740\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-dasharray=\"4 14\"/><polygon points=\"630,335 604,321 604,349\" fill=\"#2a1740\"/><polygon points=\"250,335 276,321 276,349\" fill=\"#2a1740\"/><line x1=\"250\" y1=\"395\" x2=\"630\" y2=\"395\" stroke=\"#2a1740\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-dasharray=\"4 14\"/><polygon points=\"630,395 604,381 604,409\" fill=\"#2a1740\"/><polygon points=\"250,395 276,381 276,409\" fill=\"#2a1740\"/><text x=\"440\" y=\"150\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"70\" fill=\"#e8431f\">×20</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#6a4cff;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">N+1 query</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V13 Satu Barang,"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">PERFORMA & INFRA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:125px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Menu Setebal</div><div><span style=\"color:#e8431f\">Kamus</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"268\" y=\"78\" width=\"380\" height=\"350\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"260\" y=\"70\" width=\"380\" height=\"350\" rx=\"14\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"300\" y1=\"70\" x2=\"300\" y2=\"420\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"644\" y1=\"110\" x2=\"644\" y2=\"380\" stroke=\"#2a1740\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"648\" y1=\"110\" x2=\"648\" y2=\"380\" stroke=\"#2a1740\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"652\" y1=\"110\" x2=\"652\" y2=\"380\" stroke=\"#2a1740\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"656\" y1=\"110\" x2=\"656\" y2=\"380\" stroke=\"#2a1740\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"660\" y1=\"110\" x2=\"660\" y2=\"380\" stroke=\"#2a1740\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"470\" y=\"210\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"86\" fill=\"#ffffff\">MENU</text><text x=\"470\" y=\"300\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"54\" fill=\"#ffffff\">500 hal</text><rect x=\"698\" y=\"158\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#2a1740\"/><rect x=\"690\" y=\"150\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"765\" cy=\"215\" r=\"34\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"720\" y1=\"290\" x2=\"810\" y2=\"290\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"720\" y1=\"315\" x2=\"790\" y2=\"315\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linecap=\"round\"/></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#ffc83d;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#2a1740\">pagination</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V14 Menu Setebal"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">DATABASE & DATA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:153px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Dua Siswa</div><div><span style=\"color:#e8431f\">Namanya</span></div><div>Sama</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><circle cx=\"238\" cy=\"178\" r=\"78\" fill=\"#2a1740\"/><circle cx=\"230\" cy=\"170\" r=\"78\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M152,162.2 Q152,84.19999999999999 230,84.19999999999999 Q308,84.19999999999999 308,162.2 Q269.0,127.1 230,131.0 Q191.0,127.1 152,162.2 Z\" fill=\"#2a1740\"/><circle cx=\"202.7\" cy=\"170\" r=\"7.800000000000001\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"257.3\" cy=\"170\" r=\"7.800000000000001\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M206.6,199.64 Q230,215.67999999999998 253.4,199.64\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"668\" cy=\"178\" r=\"78\" fill=\"#2a1740\"/><circle cx=\"660\" cy=\"170\" r=\"78\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M582,162.2 Q582,84.19999999999999 660,84.19999999999999 Q738,84.19999999999999 738,162.2 Q699.0,127.1 660,131.0 Q621.0,127.1 582,162.2 Z\" fill=\"#2a1740\"/><circle cx=\"632.7\" cy=\"170\" r=\"7.800000000000001\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"687.3\" cy=\"170\" r=\"7.800000000000001\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M636.6,199.64 Q660,215.67999999999998 683.4,199.64\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"148\" y=\"293\" width=\"180\" height=\"64\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"140\" y=\"285\" width=\"180\" height=\"64\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"230\" y=\"330\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"42\" fill=\"#2a1740\">Budi</text><rect x=\"578\" y=\"293\" width=\"180\" height=\"64\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"570\" y=\"285\" width=\"180\" height=\"64\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"660\" y=\"330\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"42\" fill=\"#2a1740\">Budi</text><text x=\"444\" y=\"215\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"100\" fill=\"#e8431f\">=</text><rect x=\"166\" y=\"391\" width=\"140\" height=\"58\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"160\" y=\"385\" width=\"140\" height=\"58\" rx=\"14\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"230\" y=\"428\" text-anchor=\"middle\" font-family=\"Menlo, monospace\" font-weight=\"800\" font-size=\"36\" fill=\"#ffffff\">001</text><rect x=\"596\" y=\"391\" width=\"140\" height=\"58\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"590\" y=\"385\" width=\"140\" height=\"58\" rx=\"14\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"660\" y=\"428\" text-anchor=\"middle\" font-family=\"Menlo, monospace\" font-weight=\"800\" font-size=\"36\" fill=\"#ffffff\">002</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#ff4d6d;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">primary key</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V15 Dua Siswa"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">KEAMANAN & AKSES</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:137px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Satpam</div><div><span style=\"color:#e8431f\">Cuma di</span></div><div>Pintu Depan</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"188\" y=\"98\" width=\"520\" height=\"340\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"180\" y=\"90\" width=\"520\" height=\"340\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"250\" y=\"230\" width=\"110\" height=\"200\" rx=\"10\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"305\" y=\"215\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"28\" fill=\"#2a1740\">DEPAN</text><circle cx=\"340\" cy=\"340\" r=\"10\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"540\" y=\"230\" width=\"110\" height=\"200\" rx=\"10\" fill=\"#ffe3a8\" stroke=\"#2a1740\" stroke-width=\"6\"/><polygon points=\"540,230 600,250 600,430 540,430\" fill=\"#2a1740\"/><text x=\"595\" y=\"215\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"24\" fill=\"#2a1740\">BELAKANG</text><circle cx=\"118\" cy=\"338\" r=\"36\" fill=\"#2a1740\"/><circle cx=\"110\" cy=\"330\" r=\"36\" fill=\"#f2c6a0\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M74,326.4 Q74,290.4 110,290.4 Q146,290.4 146,326.4 Q128.0,310.2 110,312.0 Q92.0,310.2 74,326.4 Z\" fill=\"#2a1740\"/><circle cx=\"97.4\" cy=\"330\" r=\"3.6\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"122.6\" cy=\"330\" r=\"3.6\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M99.2,343.68 Q110,347.84000000000003 120.8,343.68\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"370\" width=\"68\" height=\"64\" rx=\"12\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M72,300 Q110,262 148,300 Z\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"5\"/><circle cx=\"798\" cy=\"338\" r=\"36\" fill=\"#2a1740\"/><circle cx=\"790\" cy=\"330\" r=\"36\" fill=\"#d9a27a\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M754,326.4 Q754,290.4 790,290.4 Q826,290.4 826,326.4 Q808.0,310.2 790,312.0 Q772.0,310.2 754,326.4 Z\" fill=\"#2a1740\"/><circle cx=\"777.4\" cy=\"330\" r=\"3.6\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"802.6\" cy=\"330\" r=\"3.6\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M779.2,343.68 Q790,342.44 800.8,343.68\" fill=\"none\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"756\" y=\"370\" width=\"68\" height=\"64\" rx=\"12\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"770\" y1=\"300\" x2=\"690\" y2=\"300\" stroke=\"#2a1740\" stroke-width=\"8\" stroke-linecap=\"round\"/><polygon points=\"690,300 713,288 713,312\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linejoin=\"round\"/></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#12b5a6;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">validasi server</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V16 Satpam"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">KEAMANAN & AKSES</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:137px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Nama Jadi</div><div><span style=\"color:#e8431f\">Perintah</span></div><div>di Formulir</div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"78\" y=\"58\" width=\"440\" height=\"390\" rx=\"24\" fill=\"#2a1740\"/><rect x=\"70\" y=\"50\" width=\"440\" height=\"390\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"290\" y=\"110\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"36\" fill=\"#2a1740\">NAMA</text><rect x=\"110\" y=\"140\" width=\"360\" height=\"84\" rx=\"14\" fill=\"#fff3e2\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"290\" y=\"194\" text-anchor=\"middle\" font-family=\"Menlo, monospace\" font-weight=\"800\" font-size=\"34\" fill=\"#e8431f\">hapus semua</text><rect x=\"110\" y=\"260\" width=\"360\" height=\"50\" rx=\"10\" fill=\"#e9ddc8\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"110\" y=\"340\" width=\"200\" height=\"50\" rx=\"12\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"530\" y1=\"245\" x2=\"640\" y2=\"245\" stroke=\"#2a1740\" stroke-width=\"10\" stroke-linecap=\"round\"/><polygon points=\"640,245 617,257 617,233\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linejoin=\"round\"/><ellipse cx=\"760\" cy=\"150\" rx=\"90\" ry=\"32\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"670\" y=\"150\" width=\"180\" height=\"170\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><ellipse cx=\"760\" cy=\"320\" rx=\"90\" ry=\"32\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><ellipse cx=\"760\" cy=\"150\" rx=\"90\" ry=\"32\" fill=\"#8b78ff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"760\" y=\"255\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"48\" fill=\"#ffffff\">DB</text><text x=\"760\" y=\"400\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"70\" fill=\"#e8431f\">✗</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#6a4cff;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">SQL injection</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V17 Nama Jadi"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">KEAMANAN & AKSES</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:150px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Gelang</div><div>Konser</div><div><span style=\"color:#e8431f\">Difotokopi</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"68\" y=\"138\" width=\"330\" height=\"120\" rx=\"28\" fill=\"#2a1740\"/><rect x=\"60\" y=\"130\" width=\"330\" height=\"120\" rx=\"28\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"120\" y1=\"130\" x2=\"120\" y2=\"250\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"130\" x2=\"330\" y2=\"250\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"225\" y=\"208\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"50\" fill=\"#ffffff\">TIKET</text><rect x=\"508\" y=\"138\" width=\"330\" height=\"120\" rx=\"28\" fill=\"#2a1740\"/><rect x=\"500\" y=\"130\" width=\"330\" height=\"120\" rx=\"28\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"560\" y1=\"130\" x2=\"560\" y2=\"250\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"770\" y1=\"130\" x2=\"770\" y2=\"250\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"665\" y=\"208\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"50\" fill=\"#ffffff\">TIKET</text><text x=\"444\" y=\"225\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"100\" fill=\"#e8431f\">=</text><text x=\"225\" y=\"330\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"44\" fill=\"#2a1740\">asli</text><text x=\"665\" y=\"330\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"44\" fill=\"#2a1740\">salinan</text><text x=\"444\" y=\"430\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"34\" fill=\"#2a1740\">2 orang masuk</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#ffc83d;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#2a1740\">session token</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V18 Gelang"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">AI</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:137px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Murid yang</div><div>Hafal</div><div><span style=\"color:#e8431f\">Contoh Soal</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"78\" y=\"98\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#2a1740\"/><rect x=\"70\" y=\"90\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"235\" y=\"200\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"46\" fill=\"#2a1740\">7 × 8 = 56</text><circle cx=\"333\" cy=\"293\" r=\"34\" fill=\"#2a1740\"/><circle cx=\"325\" cy=\"285\" r=\"34\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><path d=\"M308,285 L322,299 L346,270\" fill=\"none\" stroke=\"#fff\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"498\" y=\"98\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#2a1740\"/><rect x=\"490\" y=\"90\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"655\" y=\"200\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"46\" fill=\"#2a1740\">7 × 9 = ?</text><circle cx=\"753\" cy=\"293\" r=\"34\" fill=\"#2a1740\"/><circle cx=\"745\" cy=\"285\" r=\"34\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"731\" y1=\"271\" x2=\"759\" y2=\"299\" stroke=\"#2a1740\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"759\" y1=\"271\" x2=\"731\" y2=\"299\" stroke=\"#2a1740\" stroke-width=\"8\" stroke-linecap=\"round\"/><text x=\"235\" y=\"400\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"40\" fill=\"#2a1740\">hafal ✓</text><text x=\"655\" y=\"400\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"40\" fill=\"#2a1740\">gagal ✗</text></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#ff4d6d;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">overfitting</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V19 Murid yang"
+    },
+    {
+      "bg": "#fff3e2",
+      "elements": [
+        {
+          "type": "html",
+          "x": 100,
+          "y": 100,
+          "w": 600,
+          "h": 80,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:64px;padding:0 26px;border-radius:32px;background:#fff;border:4px solid #2a1740;box-shadow:6px 6px 0 #2a1740;font-family:'DM Sans', sans-serif;font-weight:800;font-size:28px;letter-spacing:0.04em;color:#2a1740\">PERFORMA & INFRA</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 195,
+          "w": 880,
+          "h": 520,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:880px;height:460px;display:flex;flex-direction:column;justify-content:flex-end;font-family:'DM Sans', sans-serif;font-weight:800;font-size:153px;line-height:0.98;letter-spacing:-0.035em;color:#2a1740\"><div>Renovasi</div><div>Toko Saat</div><div><span style=\"color:#e8431f\">Jam Ramai</span></div></div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 700,
+          "w": 880,
+          "h": 420,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"width:868px;height:400px;background:#fff;border:6px solid #2a1740;border-radius:44px;box-shadow:12px 12px 0 #2a1740;overflow:hidden\"><svg width=\"856\" height=\"388\" viewBox=\"0 0 888 488\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block\"><rect x=\"58\" y=\"238\" width=\"250\" height=\"190\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"50\" y=\"230\" width=\"250\" height=\"190\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"40\" y=\"170\" width=\"270\" height=\"70\" rx=\"12\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"58\" y1=\"172\" x2=\"58\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"103\" y1=\"172\" x2=\"103\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"172\" x2=\"148\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"193\" y1=\"172\" x2=\"193\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"238\" y1=\"172\" x2=\"238\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"283\" y1=\"172\" x2=\"283\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"310\" width=\"70\" height=\"110\" rx=\"8\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"175\" y=\"150\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"44\" fill=\"#2a1740\">v1</text><rect x=\"598\" y=\"238\" width=\"250\" height=\"190\" rx=\"14\" fill=\"#2a1740\"/><rect x=\"590\" y=\"230\" width=\"250\" height=\"190\" rx=\"14\" fill=\"#ffffff\" stroke=\"#2a1740\" stroke-width=\"6\"/><rect x=\"580\" y=\"170\" width=\"270\" height=\"70\" rx=\"12\" fill=\"#12b5a6\" stroke=\"#2a1740\" stroke-width=\"6\"/><line x1=\"598\" y1=\"172\" x2=\"598\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"643\" y1=\"172\" x2=\"643\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"688\" y1=\"172\" x2=\"688\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"733\" y1=\"172\" x2=\"733\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"778\" y1=\"172\" x2=\"778\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"823\" y1=\"172\" x2=\"823\" y2=\"236\" stroke=\"#2a1740\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"680\" y=\"310\" width=\"70\" height=\"110\" rx=\"8\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><text x=\"715\" y=\"150\" text-anchor=\"middle\" font-family=\"'DM Sans', sans-serif\" font-weight=\"800\" font-size=\"44\" fill=\"#2a1740\">v2</text><line x1=\"320\" y1=\"330\" x2=\"570\" y2=\"330\" stroke=\"#2a1740\" stroke-width=\"10\" stroke-linecap=\"round\"/><polygon points=\"570,330 547,342 547,318\" fill=\"#2a1740\" stroke=\"#2a1740\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"350\" cy=\"390\" r=\"16\" fill=\"#ffc83d\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"420\" cy=\"390\" r=\"16\" fill=\"#6a4cff\" stroke=\"#2a1740\" stroke-width=\"6\"/><circle cx=\"490\" cy=\"390\" r=\"16\" fill=\"#ff4d6d\" stroke=\"#2a1740\" stroke-width=\"6\"/></svg></div>"
+        },
+        {
+          "type": "html",
+          "x": 120,
+          "y": 1060,
+          "w": 760,
+          "h": 110,
+          "rotate": -3,
+          "opacity": 1,
+          "z": 8,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"display:inline-flex;align-items:center;height:92px;padding:0 40px;border-radius:46px;background:#12b5a6;border:5px solid #2a1740;box-shadow:8px 8px 0 #2a1740;font-family:Menlo,monospace;font-weight:800;font-size:42px;color:#ffffff\">zero downtime</div>"
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1206,
+          "w": 880,
+          "h": 44,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 5,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'DM Sans', sans-serif;font-weight:700;font-size:32px;color:#2a1740;opacity:0.7\">Codemalaya</div>"
+        }
+      ],
+      "name": "V20 Renovasi"
+    }
+  ]
+}

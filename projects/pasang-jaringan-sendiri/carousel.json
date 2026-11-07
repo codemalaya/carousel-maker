@@ -1,1040 +1,1040 @@
 {
- "title": "Pasang Jaringan Sendiri: Nggak Semudah Itu (contoh)",
- "guides": {
-  "x": [],
-  "y": []
- },
- "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'pertama kali pasang jaringan sendiri, nggak semudah itu'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Tanpa emoji. Margin 100. Bahasa santai.",
- "format": "4:5",
- "tokens": {
-  "palette": {
-   "ink": "#0a0a0a",
-   "navy": "#0a1a3f",
-   "blue": "#2457ff",
-   "sky": "#3ad1ff",
-   "red": "#fc1201",
-   "yellow": "#f9d361",
-   "paper": "#f4f1ea"
+  "title": "Pasang Jaringan Sendiri: Nggak Semudah Itu (contoh)",
+  "guides": {
+    "x": [],
+    "y": []
   },
-  "fonts": {
-   "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  "brief": "[gaya: cerita]\nCONTOH KARANGAN untuk tes gaya (bentuk B: opini relatable, ekspektasi vs kenyataan). Ganti dengan pengalaman asli sebelum diposting. Hook: 'pertama kali pasang jaringan sendiri, nggak semudah itu'. Tiap slide satu kenyataan konkret, lalu belok ke sisi baiknya, tutup dengan pertanyaan. Gaya Bold Swiss: satu neo-grotesk, HURUF BESAR 800, tracking -0.058em. Tanpa emoji. Margin 100. Bahasa santai.",
+  "format": "4:5",
+  "tokens": {
+    "palette": {
+      "ink": "#0a0a0a",
+      "navy": "#0a1a3f",
+      "blue": "#2457ff",
+      "sky": "#3ad1ff",
+      "red": "#fc1201",
+      "yellow": "#f9d361",
+      "paper": "#f4f1ea"
+    },
+    "fonts": {
+      "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "css": "",
+    "fontFiles": []
   },
-  "css": "",
-  "fontFiles": []
- },
- "slides": [
-  {
-   "name": "Hook",
-   "bg": "#0a1a3f",
-   "elements": [
+  "slides": [
     {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "1/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 86,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PERTAMA KALI\nPASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 364,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 86,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "SENDIRI: NGGAK\nSEMUDAH ITU."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 780,
+          "w": 640,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Kukira tinggal colok kabel. Ternyata begini."
+        }
+      ],
+      "name": "Hook"
     },
     {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "1/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 100
+      "bg": "#f4f1ea",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 0,
+          "y": 640,
+          "w": 1080,
+          "h": 710,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 0,
+          "style": {},
+          "step": 0,
+          "kind": "rect",
+          "fill": "#0a0a0a"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "2/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 190,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#2457ff"
+          },
+          "step": 0,
+          "text": "BAYANGANKU"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 240,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 59,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.045em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Colok kabel, langsung online."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 700,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 26,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "KENYATAANNYA"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 750,
+          "w": 860,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 57,
+            "fontWeight": 800,
+            "lineHeight": 0.98,
+            "letterSpacing": "-0.05em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Dua perangkat rebutan satu IP."
+        }
+      ],
+      "name": "Ekspektasi vs kenyataan"
     },
     {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
+      "bg": "#0a1a3f",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "3/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 210,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 44,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.03em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Waktu yang kupakai buat satu hal sepele:"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 400,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 251,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "4 JAM"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 760,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "nyari kenapa satu komputer nggak bisa konek. Ternyata kabelnya belum masuk sampai bunyi klik."
+        }
+      ],
+      "name": "Angka"
     },
     {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "4/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 118,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "RESET.\nCEK."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 432,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 118,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "RESET LAGI."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 583,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ulang-ulang sampai sadar yang salah bukan alatnya."
+        }
+      ],
+      "name": "Tiga kata"
     },
     {
-     "type": "text",
-     "x": 100,
-     "y": 200,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PERTAMA KALI\nPASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 86,
-      "fontWeight": 800,
-      "lineHeight": 0.9,
-      "letterSpacing": "-0.058em",
-      "color": "#ffffff"
-     }
+      "bg": "#f9d361",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "5/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#0a0a0a",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 28,
+            "fontWeight": 800,
+            "lineHeight": 1,
+            "letterSpacing": "0.04em",
+            "color": "#fc1201"
+          },
+          "step": 0,
+          "text": "KESALAHAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 250,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 118,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "KABEL\nDI PORT\nYANG SALAH."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 604,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#0a0a0a"
+          },
+          "step": 0,
+          "text": "Dicolok ke port uplink, bukan port LAN."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1010,
+          "w": 520,
+          "h": 120,
+          "rotate": -5,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:520px;height:120px;background:#0a0a0a;color:#f9d361;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:40px;letter-spacing:-.03em\">KETEMU</div>"
+        }
+      ],
+      "name": "Stempel"
     },
     {
-     "type": "text",
-     "x": 100,
-     "y": 364,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "SENDIRI: NGGAK\nSEMUDAH ITU.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 86,
-      "fontWeight": 800,
-      "lineHeight": 0.9,
-      "letterSpacing": "-0.058em",
-      "color": "#f9d361"
-     }
+      "bg": "#2457ff",
+      "elements": [
+        {
+          "type": "shape",
+          "x": 300,
+          "y": -300,
+          "w": 900,
+          "h": 900,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 1,
+          "style": {
+            "filter": "blur(150px)",
+            "opacity": 0.5
+          },
+          "step": 0,
+          "kind": "circle",
+          "fill": "#3ad1ff"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "6/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "GESER →"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 230,
+            "fontWeight": 800,
+            "lineHeight": 0.86,
+            "letterSpacing": "-0.058em",
+            "color": "#f9d361"
+          },
+          "step": 0,
+          "text": "TAPI..."
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 500,
+          "w": 820,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 50,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Pas semua lampu hijau dan semua perangkat online, puasnya nggak ketulungan."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 930,
+          "w": 666,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:666px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">Jaringan itu soal sabar.</div>"
+        }
+      ],
+      "name": "Belok"
     },
     {
-     "type": "text",
-     "x": 100,
-     "y": 780,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Kukira tinggal colok kabel. Ternyata begini.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 44,
-      "fontWeight": 600,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.03em",
-      "color": "#ffffff"
-     },
-     "w": 640
+      "bg": "#0a0a0a",
+      "elements": [
+        {
+          "type": "text",
+          "x": 100,
+          "y": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PASANG JARINGAN"
+        },
+        {
+          "type": "text",
+          "x": 880,
+          "y": 100,
+          "w": 100,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "7/7"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 1220,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "CODEMALAYA"
+        },
+        {
+          "type": "text",
+          "x": 780,
+          "y": 1220,
+          "w": 200,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 22,
+            "fontWeight": 700,
+            "lineHeight": 1,
+            "letterSpacing": "0.02em",
+            "color": "#ffffff",
+            "textAlign": "right"
+          },
+          "step": 0,
+          "text": "SIMPAN"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 230,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 86,
+            "fontWeight": 800,
+            "lineHeight": 0.9,
+            "letterSpacing": "-0.058em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "PERNAH KENA\nMASALAH SEPELE?"
+        },
+        {
+          "type": "text",
+          "x": 100,
+          "y": 560,
+          "w": 800,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {
+            "fontFamily": "{sans}",
+            "fontSize": 52,
+            "fontWeight": 600,
+            "lineHeight": 1.1,
+            "letterSpacing": "-0.04em",
+            "color": "#ffffff"
+          },
+          "step": 0,
+          "text": "Ceritain yang paling konyol di komentar."
+        },
+        {
+          "type": "html",
+          "x": 100,
+          "y": 1000,
+          "w": 420,
+          "h": 120,
+          "rotate": 0,
+          "opacity": 1,
+          "z": 6,
+          "style": {},
+          "step": 0,
+          "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:420px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
+        }
+      ],
+      "name": "Pertanyaan"
     }
-   ]
-  },
-  {
-   "name": "Ekspektasi vs kenyataan",
-   "bg": "#f4f1ea",
-   "elements": [
-    {
-     "type": "shape",
-     "x": 0,
-     "y": 640,
-     "w": 1080,
-     "h": 710,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 0,
-     "step": 0,
-     "kind": "rect",
-     "fill": "#0a0a0a",
-     "style": {}
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "2/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 190,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "BAYANGANKU",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 26,
-      "fontWeight": 800,
-      "lineHeight": 1,
-      "letterSpacing": "0.04em",
-      "color": "#2457ff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 240,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Colok kabel, langsung online.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 59,
-      "fontWeight": 800,
-      "lineHeight": 0.98,
-      "letterSpacing": "-0.045em",
-      "color": "#0a0a0a"
-     },
-     "w": 860
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 700,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "KENYATAANNYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 26,
-      "fontWeight": 800,
-      "lineHeight": 1,
-      "letterSpacing": "0.04em",
-      "color": "#f9d361"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 750,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Dua perangkat rebutan satu IP.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 57,
-      "fontWeight": 800,
-      "lineHeight": 0.98,
-      "letterSpacing": "-0.05em",
-      "color": "#ffffff"
-     },
-     "w": 860
-    }
-   ]
-  },
-  {
-   "name": "Angka",
-   "bg": "#0a1a3f",
-   "elements": [
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "3/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 210,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Waktu yang kupakai buat satu hal sepele:",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 44,
-      "fontWeight": 600,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.03em",
-      "color": "#ffffff"
-     },
-     "w": 800
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 400,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "4 JAM",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 251,
-      "fontWeight": 800,
-      "lineHeight": 0.86,
-      "letterSpacing": "-0.058em",
-      "color": "#f9d361"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 760,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "nyari kenapa satu komputer nggak bisa konek. Ternyata kabelnya belum masuk sampai bunyi klik.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 52,
-      "fontWeight": 700,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.04em",
-      "color": "#ffffff"
-     },
-     "w": 800
-    }
-   ]
-  },
-  {
-   "name": "Tiga kata",
-   "bg": "#0a0a0a",
-   "elements": [
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "4/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 200,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "RESET.\nCEK.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 118,
-      "fontWeight": 800,
-      "lineHeight": 0.86,
-      "letterSpacing": "-0.058em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 432,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "RESET LAGI.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 118,
-      "fontWeight": 800,
-      "lineHeight": 0.86,
-      "letterSpacing": "-0.058em",
-      "color": "#fc1201"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 583,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Ulang-ulang sampai sadar yang salah bukan alatnya.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 52,
-      "fontWeight": 600,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.04em",
-      "color": "#ffffff"
-     },
-     "w": 800
-    }
-   ]
-  },
-  {
-   "name": "Stempel",
-   "bg": "#f9d361",
-   "elements": [
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "5/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#0a0a0a",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 200,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "KESALAHAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 28,
-      "fontWeight": 800,
-      "lineHeight": 1,
-      "letterSpacing": "0.04em",
-      "color": "#fc1201"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 250,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "KABEL\nDI PORT\nYANG SALAH.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 118,
-      "fontWeight": 800,
-      "lineHeight": 0.86,
-      "letterSpacing": "-0.058em",
-      "color": "#0a0a0a"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 604,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Dicolok ke port uplink, bukan port LAN.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 50,
-      "fontWeight": 700,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.04em",
-      "color": "#0a0a0a"
-     },
-     "w": 800
-    },
-    {
-     "type": "html",
-     "x": 100,
-     "y": 1010,
-     "w": 520,
-     "h": 120,
-     "rotate": -5,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "style": {},
-     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:520px;height:120px;background:#0a0a0a;color:#f9d361;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:40px;letter-spacing:-.03em\">KETEMU</div>"
-    }
-   ]
-  },
-  {
-   "name": "Belok",
-   "bg": "#2457ff",
-   "elements": [
-    {
-     "type": "shape",
-     "x": 300,
-     "y": -300,
-     "w": 900,
-     "h": 900,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 1,
-     "step": 0,
-     "kind": "circle",
-     "fill": "#3ad1ff",
-     "style": {
-      "filter": "blur(150px)",
-      "opacity": 0.5
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "6/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "GESER →",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 200,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "TAPI...",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 230,
-      "fontWeight": 800,
-      "lineHeight": 0.86,
-      "letterSpacing": "-0.058em",
-      "color": "#f9d361"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 500,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Pas semua lampu hijau dan semua perangkat online, puasnya nggak ketulungan.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 50,
-      "fontWeight": 700,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.04em",
-      "color": "#ffffff"
-     },
-     "w": 820
-    },
-    {
-     "type": "html",
-     "x": 100,
-     "y": 930,
-     "w": 666,
-     "h": 120,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "style": {},
-     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:666px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">Jaringan itu soal sabar.</div>"
-    }
-   ]
-  },
-  {
-   "name": "Pertanyaan",
-   "bg": "#0a0a0a",
-   "elements": [
-    {
-     "type": "text",
-     "x": 100,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PASANG JARINGAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 880,
-     "y": 100,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "7/7",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 100
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "CODEMALAYA",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 780,
-     "y": 1220,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "SIMPAN",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 22,
-      "fontWeight": 700,
-      "lineHeight": 1,
-      "letterSpacing": "0.02em",
-      "color": "#ffffff",
-      "textAlign": "right"
-     },
-     "w": 200
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 230,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "PERNAH KENA\nMASALAH SEPELE?",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 86,
-      "fontWeight": 800,
-      "lineHeight": 0.9,
-      "letterSpacing": "-0.058em",
-      "color": "#ffffff"
-     }
-    },
-    {
-     "type": "text",
-     "x": 100,
-     "y": 560,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "text": "Ceritain yang paling konyol di komentar.",
-     "style": {
-      "fontFamily": "{sans}",
-      "fontSize": 52,
-      "fontWeight": 600,
-      "lineHeight": 1.1,
-      "letterSpacing": "-0.04em",
-      "color": "#ffffff"
-     },
-     "w": 800
-    },
-    {
-     "type": "html",
-     "x": 100,
-     "y": 1000,
-     "w": 420,
-     "h": 120,
-     "rotate": 0,
-     "opacity": 1,
-     "z": 6,
-     "step": 0,
-     "style": {},
-     "html": "<div style=\"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;width:420px;height:120px;background:#f9d361;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:34px;letter-spacing:-.02em\">SIMPAN BUAT NANTI</div>"
-    }
-   ]
-  }
- ]
+  ]
 }
