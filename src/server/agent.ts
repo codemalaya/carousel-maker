@@ -234,6 +234,16 @@ function stream(res: ServerResponse, p: Provider, bin: string, run: Run) {
   const st = { text: "" };
 
   res.on("close", () => child.kill());
+  // Watchdog: a CLI that stops producing output (Gemini retries 503/429 silently for ever) must not keep the run "busy" for ever.
+  const idleMs = (Number(process.env.AGENT_IDLE_SEC) || 180) * 1000;
+  let idle: NodeJS.Timeout;
+  let stalled = false;
+  const poke = () => {
+    clearTimeout(idle);
+    idle = setTimeout(() => { stalled = true; child.kill(); }, idleMs);
+  };
+  poke();
+  child.on("close", () => clearTimeout(idle));
   let buf = "";
   let err = "";
   let finished = false;
@@ -248,6 +258,7 @@ function stream(res: ServerResponse, p: Provider, bin: string, run: Run) {
   };
   child.stderr.on("data", (d) => { err += d; });
   child.stdout.on("data", (d) => {
+    poke();
     buf += d;
     const lines = buf.split("\n");
     buf = lines.pop()!;
@@ -264,6 +275,7 @@ function stream(res: ServerResponse, p: Provider, bin: string, run: Run) {
   child.on("close", (code) => {
     // providers without an explicit result event (codex): a clean exit means the last message is the answer
     if (!finished && code === 0 && lastText) done(lastText);
+    else if (!finished && stalled) emit({ t: "error", message: `${p.name} tidak merespons ${idleMs / 1000} dtk, dihentikan. Kemungkinan model sibuk (503) atau kena batas kuota; coba lagi atau ganti model/provider.${err.trim() ? ` Log: ${err.trim().split("\n").pop()}` : ""}` });
     else if (!finished) emit({ t: "error", message: err.trim().split("\n").pop() || `exit ${code}` });
     res.end();
   });
