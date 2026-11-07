@@ -52,7 +52,7 @@ GEMINI_API_KEY=... GEMINI_MODEL=gemini-3.8-flash AGENT_PROVIDER=gemini npm run d
 ```
 
 Catatan:
-- Env bisa ditaruh di shell atau di `.env`; nama dan versi model Gemini sering berubah, cek `/model` di `gemini` kalau ditolak.
+- Env diset di shell (`.env` hanya dibaca untuk `PEXELS_*`); nama dan versi model Gemini sering berubah, cek `/model` di `gemini` kalau ditolak.
 - Login Google pribadi di Gemini CLI sudah ditutup Google (pesan "migrate to Antigravity"); pakai API key.
 - Gemini CLI butuh sekitar 12 detik untuk start, jadi tiap run terasa lebih lambat. Run pertama juga mengecek versinya.
 - macOS bisa memblokir binary Codex ("Apple could not verify..."). Binary-nya bertanda tangan OpenAI; hapus karantina dengan `xattr -dr com.apple.quarantine /usr/local/Caskroom/codex/<versi>`.
