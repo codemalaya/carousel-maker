@@ -9,6 +9,7 @@ import { toast } from "sonner";
 import { useDialogs, validateProjectId } from "@/app/dialogs";
 import { ExportBar } from "@/editor/inspector/ExportBar";
 import { CaptionDialog } from "@/editor/inspector/CaptionDialog";
+import { PinPhotoDialog } from "@/editor/inspector/PinPhotoDialog";
 import { MockupDialog } from "@/editor/inspector/MockupDialog";
 import { Header } from "@/app/Header";
 import { Preview } from "@/editor/present/Preview";
@@ -53,6 +54,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
   const [assetsOpen, setAssetsOpen] = useState(false);
   const [captionOpen, setCaptionOpen] = useState(false);
   const [mockupOpen, setMockupOpen] = useState(false);
+  const [pinPhotoOpen, setPinPhotoOpen] = useState(false);
   const aiBusy = useRuns(project)[0]?.status === "running";
   // a run that was started elsewhere (planner "Buat carousel") is already going when the editor opens: show it
   useEffect(() => {
@@ -66,7 +68,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
     return () => setViewing(null);
   }, [project]);
   const [exporting, setExporting] = useState<ExportOpts["format"] | null>(null);
-  const [scale, setScale] = useState(1);
+  const [scale, setScale] = useState(2);
   const [cur, setCur] = useState(0);
   const [sel, setSel] = useState<number | null>(null);
   const doc = ed.doc;
@@ -257,6 +259,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
             onScale={setScale}
             onExport={(o) => doExport({ ...o, slide: o.format === "png" ? cur : undefined })}
             onMockup={() => setMockupOpen(true)}
+            onPinPhoto={() => setPinPhotoOpen(true)}
             onCaption={async () => {
               await ed.flush(); // the agent reads the file on disk
               setCaptionOpen(true);
@@ -266,6 +269,7 @@ export function Workspace({ project, preloaded, projects, onSwitch, onHome, onPr
       />
       <CaptionDialog open={captionOpen} onOpenChange={setCaptionOpen} project={project} />
       <MockupDialog open={mockupOpen} onOpenChange={setMockupOpen} ed={ed} project={project} cur={cur} onInserted={setSel} />
+      <PinPhotoDialog open={pinPhotoOpen} onOpenChange={setPinPhotoOpen} ed={ed} project={project} cur={cur} onInserted={setSel} />
       <Resizer side="left" offset={leftW} onResize={setLeftW} />
       <Resizer side="right" offset={rightW} onResize={setRightW} />
       {present && (

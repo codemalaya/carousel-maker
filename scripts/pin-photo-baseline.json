@@ -1,0 +1,30 @@
+{
+  "ransel-pink.png": {
+    "pins": 5,
+    "noRim": 0,
+    "growMin": 1.073,
+    "growMax": 1.084,
+    "green": 0
+  },
+  "tangan.png": {
+    "pins": 1,
+    "noRim": 0,
+    "growMin": 1.057,
+    "growMax": 1.057,
+    "green": 0
+  },
+  "tote-hijau-sedang.png": {
+    "pins": 5,
+    "noRim": 0,
+    "growMin": 1.114,
+    "growMax": 1.129,
+    "green": 0
+  },
+  "tote-neon.png": {
+    "pins": 5,
+    "noRim": 0,
+    "growMin": 1.058,
+    "growMax": 1.112,
+    "green": 140
+  }
+}

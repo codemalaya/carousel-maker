@@ -44,31 +44,33 @@ async function exportProject(res: ServerResponse, id: string, q: URLSearchParams
   const format = z.enum(["png", "zip", "pdf", "html", "mp4", "gif"]).parse(q.get("format") ?? "png");
   const scale = z.coerce.number().min(1).max(3).parse(q.get("scale") ?? 1);
   const pad = (i: number) => String(i + 1).padStart(2, "0");
+  // downloads are named after the project's display name (title); the id (folder slug) is only the fallback
+  const base = c.title?.replace(/[\\/:*?"<>|\x00-\x1f]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 80) || id;
   const send = (data: Uint8Array | Buffer, name: string, type: string) => {
     res.setHeader("content-type", type);
-    res.setHeader("content-disposition", `attachment; filename="${name}"`);
+    res.setHeader("content-disposition", `attachment; filename="${name.replace(/[^\x20-\x7e]/g, "_")}"; filename*=UTF-8''${encodeURIComponent(name)}`);
     res.end(Buffer.from(data));
   };
 
-  if (format === "pdf") return send(await renderPdf(c, id), `${id}.pdf`, "application/pdf");
+  if (format === "pdf") return send(await renderPdf(c, id), `${base}.pdf`, "application/pdf");
   if (format === "html") {
     const { renderPresentHtml } = await import("../core/present.ts");
-    return send(Buffer.from(await renderPresentHtml(c, id)), `${id}.html`, "text/html; charset=utf-8");
+    return send(Buffer.from(await renderPresentHtml(c, id)), `${base}.html`, "text/html; charset=utf-8");
   }
   if (format === "mp4" || format === "gif") {
     const { renderVideo } = await import("../core/headless.ts");
     const num = (k: string, min: number, max: number) => (q.has(k) ? z.coerce.number().min(min).max(max).parse(q.get(k)) : undefined);
     const video = await renderVideo(c, id, { kind: format, fps: num("fps", 1, 60), hold: num("hold", 0, 30000), stepGap: num("stepGap", 100, 10000) });
-    return send(video, `${id}.${format}`, format === "mp4" ? "video/mp4" : "image/gif");
+    return send(video, `${base}.${format}`, format === "mp4" ? "video/mp4" : "image/gif");
   }
 
   const slide = q.get("slide");
   const which = format === "png" ? [z.coerce.number().int().min(0).parse(slide ?? 0)] : c.slides.map((_, i) => i);
   which.forEach((i) => { if (!c.slides[i]) throw new Error(`slide ${i} not found`); });
   const pngs = await renderPng(c, which, id, scale);
-  if (format === "png") return send(pngs[0], `${id}-slide-${pad(which[0])}.png`, "image/png");
-  const files = Object.fromEntries(pngs.map((b, n) => [`${id}-slide-${pad(which[n])}.png`, new Uint8Array(b)]));
-  send(zipSync(files, { level: 0 }), `${id}-slides.zip`, "application/zip");
+  if (format === "png") return send(pngs[0], `${base}-slide-${pad(which[0])}.png`, "image/png");
+  const files = Object.fromEntries(pngs.map((b, n) => [`${base}-slide-${pad(which[n])}.png`, new Uint8Array(b)]));
+  send(zipSync(files, { level: 0 }), `${base}-slides.zip`, "application/zip");
 }
 
 /**
@@ -344,6 +346,23 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
         .parse(JSON.parse((await body(req)).toString()));
       const { renderMockups } = await import("../core/mockup.ts"); // lazy: playwright + child process
       return json(res, await renderMockups(id, await loadProject(id), slides, opts)), true;
+    } else if (sub === "pins" && req.method === "POST") {
+      // green placeholder pins in a photo: {action:"detect", photo} -> pins | {action:"replace", photo, slides, grow?, shift?, pins?} -> {file,...}
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      const q = z
+        .object({
+          action: z.enum(["detect", "replace"]),
+          photo: z.string().min(1).max(200),
+          slides: z.array(z.number().int().min(0)).min(1).max(20).optional(),
+          grow: z.union([z.literal("auto"), z.number().min(1).max(1.4)]).optional(),
+          shift: z.tuple([z.number().min(-0.2).max(0.2), z.number().min(-0.2).max(0.2)]).optional(),
+          pins: z.array(z.any()).max(60).optional(),
+        })
+        .parse(JSON.parse((await body(req)).toString()));
+      const job = await import("../core/pinPhotoJob.ts"); // lazy: playwright
+      if (q.action === "detect") return json(res, await job.detectProjectPins(id, q.photo)), true;
+      if (!q.slides) return json(res, { error: "slides required" }, 400), true;
+      return json(res, await job.replaceProjectPins(id, q.photo, q.slides, { grow: q.grow, shift: q.shift, pins: q.pins })), true;
     } else if (sub === "export" && req.method === "GET") {
       await exportProject(res, id, query);
       return true;

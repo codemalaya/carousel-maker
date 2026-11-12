@@ -11,6 +11,7 @@ import { join } from "node:path";
 import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
 import { renderMockups } from "../core/mockup";
+import { detectProjectPins, replaceProjectPins } from "../core/pinPhotoJob";
 import { fetchSource, formatSource } from "../core/source";
 import { applyBrand, createBrand, listBrands, loadBrand } from "../core/brands";
 import { iconSvg, searchIcons } from "../core/icons";
@@ -419,6 +420,52 @@ server.registerTool(
 );
 
 server.registerTool(
+  "detect_pins",
+  {
+    description:
+      "Find the green chroma placeholder pins in a photo of the project's assets (check a photo BEFORE replace_pins). Returns how many and where (px of the photo, reading order). " +
+      "A usable photo has clearly green, flat, round discs of at least ~40 px. Also returns the photo so you can look at it.",
+    inputSchema: { photo: z.string().describe("file name in the project's assets"), project },
+  },
+  async ({ photo, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const d = await detectProjectPins(pid, photo);
+    const lines = d.pins.map((q, i) => `${i + 1}: centre ${Math.round(q.cx)},${Math.round(q.cy)} radius ${Math.round(q.a)}x${Math.round(q.b)}`);
+    const text = `${d.width}x${d.height}, ${d.pins.length} pin(s)${d.small ? `, ${d.small} green disc(s) too small (<40 px)` : ""}\n${lines.join("\n")}`;
+    return { content: [{ type: "text" as const, text }, { type: "image" as const, data: (await readAsset(pid, photo)).toString("base64"), mimeType: "image/png" }] };
+  },
+);
+
+server.registerTool(
+  "replace_pins",
+  {
+    description:
+      "Replace the green chroma placeholder pins in a photo with the design of slides, keeping the photo's own light, shadow and gloss. " +
+      "Pin i gets slides[i mod n] (reading order: rows top to bottom, left to right), so one slide = same design on every pin. " +
+      "Saves assets/pinphoto-<hash>.png and returns it so you can SEE it; use it as an `image` element (src \"assets/<file>\", usually the full slide). Does not change any slide. " +
+      "Size of the new disc is measured per pin (grow \"auto\"); set a number (1.05-1.15) only if the result shows a ghost rim (raise) or covers too much (lower). " +
+      "Fails with a clear message if no green pins are found: call detect_pins first on an unknown photo.",
+    inputSchema: {
+      photo: z.string().describe("file name in the project's assets"),
+      slides: z.array(idx).min(1).max(20).describe("0-indexed slides used as pin designs"),
+      grow: z.union([z.literal("auto"), z.number().min(1).max(1.4)]).default("auto"),
+      shift: z.tuple([z.number().min(-0.2).max(0.2), z.number().min(-0.2).max(0.2)]).optional().describe("move the new disc, fraction of the pin radius"),
+      project,
+    },
+  },
+  async ({ photo, slides, grow, shift, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const r = await replaceProjectPins(pid, photo, slides, { grow, ...(shift ? { shift } : {}) });
+    return {
+      content: [
+        { type: "text" as const, text: `${r.pins.length} pin(s) replaced -> assets/${r.file} (${r.width}x${r.height})` },
+        { type: "image" as const, data: (await readAsset(pid, r.file)).toString("base64"), mimeType: "image/png" },
+      ],
+    };
+  },
+);
+
+server.registerTool(
   "mockup_slide",
   {
     description:
@@ -439,10 +486,11 @@ server.registerTool(
       shadowTilt: z.number().min(0).max(90).optional().describe("shadow catcher tilt: 0 = floor under the pin, 90 = vertical wall right behind it (pin stuck on a bag/wall: soft halo only)"),
       grain: z.number().min(0).max(1).optional().describe("film grain on the pin pixels, to match a grainy photo"),
       softness: z.number().min(0).max(6).optional().describe("slight blur in output px, to match a soft photo"),
+      trueColor: z.boolean().optional().describe("keep the slide's colours on the pin face (neutral tone mapping + brighter light). Default look is filmic and turns pastel faces grey/beige: use this for coloured or pastel designs"),
       project,
     },
   },
-  async ({ slides, diameterMm, finish, fit, camera, background, transparent, environment, environmentBackground, shadowTilt, grain, softness, project: p }) => {
+  async ({ slides, diameterMm, finish, fit, camera, background, transparent, environment, environmentBackground, shadowTilt, grain, softness, trueColor, project: p }) => {
     const pid = p ?? DEFAULT_PROJECT;
     const c = await loadProject(pid);
     slides.forEach((i) => slideAt(c, i));
@@ -453,8 +501,9 @@ server.registerTool(
         ...(transparent ? { background: { type: "transparent" } } : background ? { background: { type: "solid", color: background } } : {}),
         ...(environment ? { environment: { src: environment, background: !!environmentBackground && !transparent } } : {}),
         ...(shadowTilt !== undefined ? { shadow: { tilt: shadowTilt, ...(shadowTilt >= 45 ? { distance: 0.25, blur: 3 } : {}) } } : {}),
+        ...(trueColor ? { lighting: { intensity: 1.5 } } : {}),
       },
-      output: { ...(transparent ? { transparent: true } : {}), ...(grain !== undefined ? { grain } : {}), ...(softness !== undefined ? { softness } : {}) },
+      output: { ...(transparent ? { transparent: true } : {}), ...(grain !== undefined ? { grain } : {}), ...(softness !== undefined ? { softness } : {}), ...(trueColor ? { toneMapping: "neutral" } : {}) },
     });
     const content: ({ type: "text"; text: string } | { type: "image"; data: string; mimeType: string })[] = [];
     for (const r of results) {

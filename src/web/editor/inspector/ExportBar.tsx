@@ -13,6 +13,7 @@ type ExportBarProps = {
   onExport: (o: ExportOpts) => void;
   onCaption: () => void;
   onMockup: () => void;
+  onPinPhoto: () => void;
 };
 
 const FORMATS = [
@@ -25,7 +26,7 @@ const FORMATS = [
 ] as const;
 
 /** Pinned to the bottom of the inspector. */
-export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCaption, onMockup }: ExportBarProps) {
+export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCaption, onMockup, onPinPhoto }: ExportBarProps) {
   return (
     <div className="grid shrink-0 gap-2 border-t p-3">
       <div className="flex items-center justify-between">
@@ -71,6 +72,9 @@ export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCap
       </div>
       <Button variant="outline" size="sm" className="h-8 gap-1.5" disabled={!hasSlide} onClick={onMockup}>
         <CircleDot className="size-3.5" /> Mockup button pin
+      </Button>
+      <Button variant="outline" size="sm" className="h-8 gap-1.5" disabled={!hasSlide} onClick={onPinPhoto}>
+        <CircleDot className="size-3.5" /> Ganti pin hijau di foto
       </Button>
       <Button variant="ghost" size="sm" className="text-muted-foreground h-7 gap-1.5 text-xs" disabled={!hasSlide} onClick={onCaption}>
         <Sparkles className="size-3.5" /> Buat caption &amp; hashtag

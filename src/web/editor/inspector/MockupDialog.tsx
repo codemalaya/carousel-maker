@@ -60,6 +60,7 @@ export function MockupDialog({ open, onOpenChange, ed, project, cur, onInserted 
   const [envBg, setEnvBg] = useState(false);
   const [grain, setGrain] = useState(0);
   const [soft, setSoft] = useState(0);
+  const [trueColor, setTrueColor] = useState(false); // neutral tone mapping + brighter light: pastel faces keep their colour
   const [tilt, setTilt] = useState(100); // 100 = faces the camera, lower = disc squashed like a surface seen at an angle
 
   useEffect(() => {
@@ -95,8 +96,9 @@ export function MockupDialog({ open, onOpenChange, ed, project, cur, onInserted 
           ...(env ? { environment: { src: env, background: envBg && !flat } } : {}),
           // the floor shadow would fall on a floor the photo does not have; a vertical plane right behind the pin only leaves a soft halo
           ...(onPhoto ? { shadow: { enabled: true, opacity: 0.5, tilt: 90, distance: 0.25, blur: 3 } } : {}),
+          ...(trueColor ? { lighting: { intensity: 1.5 } } : {}),
         },
-        output: { ...(flat ? { format: "png", transparent: true } : {}), ...(grain ? { grain: grain / 100 } : {}), ...(soft ? { softness: soft / 10 } : {}) },
+        output: { ...(trueColor ? { toneMapping: "neutral" } : {}), ...(flat ? { format: "png", transparent: true } : {}), ...(grain ? { grain: grain / 100 } : {}), ...(soft ? { softness: soft / 10 } : {}) },
       };
       const results = await api.mockup(project, slides, opts);
       setRun({ results, bg: flat ? "#ffffff" : bg, camera });
@@ -195,6 +197,11 @@ export function MockupDialog({ open, onOpenChange, ed, project, cur, onInserted 
               </label>
             </Row>
           )}
+          <Row label="Warna">
+            <label className="flex items-center gap-1.5 text-xs">
+              <input type="checkbox" checked={trueColor} onChange={(e) => setTrueColor(e.target.checked)} /> Setia warna slide (lebih terang, tanpa efek filmik)
+            </label>
+          </Row>
           <Row label="Tempel di atas foto">
             <label className="flex items-center gap-1.5 text-xs">
               <input type="checkbox" checked={onPhoto} onChange={(e) => toggleOnPhoto(e.target.checked)} /> Pin transparan, tanpa bayangan lantai

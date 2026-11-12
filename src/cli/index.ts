@@ -4,6 +4,8 @@ import { DEFAULT_PROJECT, createProject, listProjects, loadProject, projectDir }
 import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
 import { renderMockups } from "../core/mockup";
+import { detectProjectPins, replaceProjectPins } from "../core/pinPhotoJob";
+import { importAsset } from "../core/projects";
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (name: string) => {
@@ -22,8 +24,11 @@ const usage = () => {
     video/gif: [--fps 30] [--hold 1500] [--step-gap 1000]   (hold/step-gap in ms; needs ffmpeg)
   carousel mockup [project] [--slide 1,3 | --slide all] [--size 32|44] [--finish glossy|matte] [--fit cover|contain]
     [--camera angled|three-quarter|front|top-down|back] [--bg #hex | --bg transparent]
-    [--env <file in mockup-maker/hdri> [--env-bg]] [--shadow-tilt 0-90] [--grain 0-1] [--soft 0-6]   (slide numbers from 1; default: slide 1; needs mockup-maker, see MOCKUP_MAKER_DIR)
+    [--env <file in mockup-maker/hdri> [--env-bg]] [--shadow-tilt 0-90] [--grain 0-1] [--soft 0-6] [--true-color]   (slide numbers from 1; default: slide 1; needs mockup-maker, see MOCKUP_MAKER_DIR)
     -> projects/<project>/assets/mockup-<hash>.png
+  carousel mockup-photo [project] --photo <asset name or file path> [--slide 1,2,3] [--grow auto|1.1] [--shift x,y] [--detect]
+    photo with green chroma pins: every pin gets the design of a slide (pin i -> slide i mod n; default slide 1). --detect only lists the pins found.
+    -> projects/<project>/assets/pinphoto-<hash>.png
   carousel lint [project]`);
   process.exit(1);
 };
@@ -46,6 +51,7 @@ if (cmd === "list") {
   const tilt = num("shadow-tilt");
   const grain = num("grain");
   const soft = num("soft");
+  const trueColor = args.includes("--true-color"); // neutral tone mapping + brighter light: the face keeps the slide's colours
   const results = await renderMockups(project, c, slides, {
     diameterMm: size,
     finish: (flag("finish") as "glossy" | "matte" | undefined) ?? "glossy",
@@ -55,10 +61,29 @@ if (cmd === "list") {
       ...(bg === "transparent" ? { background: { type: "transparent" } } : bg ? { background: { type: "solid", color: bg } } : {}),
       ...(env ? { environment: { src: env, background: args.includes("--env-bg") && bg !== "transparent" } } : {}),
       ...(tilt !== undefined ? { shadow: { tilt, ...(tilt >= 45 ? { distance: 0.25, blur: 3 } : {}) } } : {}),
+      ...(trueColor ? { lighting: { intensity: 1.5 } } : {}),
     },
-    output: { ...(bg === "transparent" ? { transparent: true } : {}), ...(grain !== undefined ? { grain } : {}), ...(soft !== undefined ? { softness: soft } : {}) },
+    output: { ...(bg === "transparent" ? { transparent: true } : {}), ...(grain !== undefined ? { grain } : {}), ...(soft !== undefined ? { softness: soft } : {}), ...(trueColor ? { toneMapping: "neutral" } : {}) },
   });
   for (const r of results) console.log(`slide ${r.slide + 1} -> ${join(projectDir(project), "assets", r.file)}${r.cached ? " (cached)" : ""}`);
+} else if (cmd === "mockup-photo") {
+  let photo = flag("photo") ?? usage();
+  if (photo.includes("/") || photo.includes("\\")) photo = await importAsset(project, photo); // a file on disk: copy it into the assets first
+  if (args.includes("--detect")) {
+    const d = await detectProjectPins(project, photo);
+    console.log(`${d.pins.length} pin(s) in ${d.width}x${d.height}${d.small ? `, ${d.small} too small` : ""}`);
+    d.pins.forEach((p, i) => console.log(`${i + 1}\tcx ${Math.round(p.cx)} cy ${Math.round(p.cy)} a ${Math.round(p.a)} b ${Math.round(p.b)}`));
+    process.exit(0);
+  }
+  const slides = (flag("slide") ?? "1").split(",").map((n) => Number(n) - 1);
+  if (slides.some((i) => !Number.isInteger(i))) usage();
+  const g = flag("grow");
+  const grow = g === undefined || g === "auto" ? "auto" : Number(g);
+  if (grow !== "auto" && !(grow >= 1 && grow <= 1.4)) usage();
+  const sh = flag("shift")?.split(",").map(Number);
+  if (sh && (sh.length !== 2 || sh.some((n) => !Number.isFinite(n)))) usage();
+  const r = await replaceProjectPins(project, photo, slides, { grow, ...(sh ? { shift: [sh[0], sh[1]] as [number, number] } : {}) });
+  console.log(`${r.pins.length} pin(s) replaced -> ${join(projectDir(project), "assets", r.file)}`);
 } else if (cmd === "render" || cmd === "lint") {
   const c = await loadProject(project);
   const all = c.slides.map((_, i) => i);

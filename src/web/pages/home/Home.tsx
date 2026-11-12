@@ -134,7 +134,7 @@ export function Home({ projects, onOpen, onPlan, onBrands, onChanged }: {
     const t = toast.loading(`Export ${ids.length} project…`);
     setBulkBusy(true);
     try {
-      await exportMany(ids);
+      await exportMany(ids, 2, Object.fromEntries(projects.map((p) => [p.id, p.title])));
       toast.success(`${ids.length} project di-export${skipped ? ` (${skipped} tanpa slide dilewati)` : ""}`, { id: t });
     } catch (e) {
       toast.error(`Export gagal: ${errMsg(e)}`, { id: t });
@@ -280,7 +280,7 @@ export function Home({ projects, onOpen, onPlan, onBrands, onChanged }: {
   const exportTo = async (id: string, format: ExportOpts["format"]) => {
     const t = toast.loading(`Export ${format.toUpperCase()} "${id}"…`);
     try {
-      await exportProject(id, { format, slide: format === "png" ? 0 : undefined, scale: 1 });
+      await exportProject(id, { format, slide: format === "png" ? 0 : undefined, scale: 2 });
       toast.success("Export selesai", { id: t });
     } catch (e) {
       toast.error(`Export gagal: ${errMsg(e)}`, { id: t });

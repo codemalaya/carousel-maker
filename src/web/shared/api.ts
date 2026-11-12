@@ -18,6 +18,8 @@ export type PlanTrashItem = PlanItem & { deleted: number };
 export type BrandInfo = { id: string; name: string; colors: string[]; logo?: string; updated: number };
 type ApplyResult = { palette: string[]; fonts: string[]; logo?: string };
 
+export type PinInfo = { cx: number; cy: number; a: number; b: number; theta: number; grow?: number };
+export type PinsDetected = { width: number; height: number; pins: PinInfo[]; small: number };
 export type MockupResult = { slide: number; file: string; cached: boolean };
 
 const enc = encodeURIComponent;
@@ -60,6 +62,10 @@ export const api = {
   mockupHdri: () => call<string[]>("/api/mockup/hdri"),
   mockup: (project: string, slides: number[], opts: Record<string, unknown>) =>
     call<MockupResult[]>(`/api/projects/${enc(project)}/mockup`, send("POST", { slides, opts })),
+  pinsDetect: (project: string, photo: string) =>
+    call<PinsDetected>(`/api/projects/${enc(project)}/pins`, send("POST", { action: "detect", photo })),
+  pinsReplace: (project: string, photo: string, slides: number[], o: { grow?: "auto" | number; shift?: [number, number] } = {}) =>
+    call<{ file: string; width: number; height: number; pins: PinInfo[] }>(`/api/projects/${enc(project)}/pins`, send("POST", { action: "replace", photo, slides, ...o })),
   remove: (id: string) => call(`/api/projects/${enc(id)}`, { method: "DELETE" }),
   icons: (q: string) => call<IconHit[]>(`/api/icons?q=${enc(q)}`),
   stockStatus: () => call<{ enabled: boolean; provider: string }>("/api/stock/status"),
@@ -132,7 +138,9 @@ export async function exportProject(project: string, o: ExportOpts): Promise<voi
   if (o.slide != null) q.set("slide", String(o.slide));
   const res = await fetch(`/api/projects/${enc(project)}/export?${q}`);
   if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error ?? res.statusText);
-  const name = /filename="([^"]+)"/.exec(res.headers.get("content-disposition") ?? "")?.[1] ?? `${project}.${o.format}`;
+  const cd = res.headers.get("content-disposition") ?? "";
+  const utf = /filename\*=UTF-8''([^;]+)/.exec(cd)?.[1];
+  const name = (utf && decodeURIComponent(utf)) || /filename="([^"]+)"/.exec(cd)?.[1] || `${project}.${o.format}`;
   saveBlob(await res.blob(), name);
 }
 
@@ -145,13 +153,18 @@ function saveBlob(blob: Blob, name: string) {
 }
 
 /** One ZIP with a folder per project (each project's slides as PNG). Sequential: the server renders with a single browser. */
-export async function exportMany(ids: string[], scale = 1): Promise<void> {
+/** `titles` (id -> display name) names the folders; a clashing or empty name falls back to the id. */
+export async function exportMany(ids: string[], scale = 2, titles: Record<string, string> = {}): Promise<void> {
   const { unzipSync, zipSync } = await import("fflate");
   const all: Record<string, Uint8Array> = {};
+  const used = new Set<string>();
   for (const id of ids) {
+    let dir = (titles[id] ?? "").replace(/[\\/:*?"<>|\x00-\x1f]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 80) || id;
+    if (used.has(dir)) dir = `${dir} (${id})`;
+    used.add(dir);
     const res = await fetch(`/api/projects/${enc(id)}/export?${new URLSearchParams({ format: "zip", scale: String(scale) })}`);
     if (!res.ok) throw new Error(`${id}: ${(await res.json().catch(() => ({}))).error ?? res.statusText}`);
-    for (const [name, data] of Object.entries(unzipSync(new Uint8Array(await res.arrayBuffer())))) all[`${id}/${name}`] = data;
+    for (const [name, data] of Object.entries(unzipSync(new Uint8Array(await res.arrayBuffer())))) all[`${dir}/${name}`] = data;
   }
   saveBlob(new Blob([zipSync(all, { level: 0 }) as BlobPart], { type: "application/zip" }), "carousel-export.zip");
 }

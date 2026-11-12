@@ -9,7 +9,8 @@
     "typecheck": "tsc --noEmit",
     "render": "tsx src/cli/index.ts render",
     "mcp": "tsx src/mcp/server.ts",
-    "carousel": "tsx src/cli/index.ts"
+    "carousel": "tsx src/cli/index.ts",
+    "test:pins": "tsx scripts/pin-photo-regress.mts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
