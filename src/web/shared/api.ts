@@ -18,6 +18,8 @@ export type PlanTrashItem = PlanItem & { deleted: number };
 export type BrandInfo = { id: string; name: string; colors: string[]; logo?: string; updated: number };
 type ApplyResult = { palette: string[]; fonts: string[]; logo?: string };
 
+export type MockupResult = { slide: number; file: string; cached: boolean };
+
 const enc = encodeURIComponent;
 
 async function call<T>(url: string, init?: RequestInit): Promise<T> {
@@ -55,6 +57,9 @@ export const api = {
     call<{ id: string; template: SlideTemplate }>("/api/templates", send("POST", o)),
   deleteTemplate: (id: string) => call(`/api/templates/${enc(id)}`, { method: "DELETE" }),
   useTemplate: (project: string, template: string) => call<TemplateInstance>(`/api/projects/${enc(project)}/templates/${enc(template)}`, { method: "POST" }),
+  mockupHdri: () => call<string[]>("/api/mockup/hdri"),
+  mockup: (project: string, slides: number[], opts: Record<string, unknown>) =>
+    call<MockupResult[]>(`/api/projects/${enc(project)}/mockup`, send("POST", { slides, opts })),
   remove: (id: string) => call(`/api/projects/${enc(id)}`, { method: "DELETE" }),
   icons: (q: string) => call<IconHit[]>(`/api/icons?q=${enc(q)}`),
   stockStatus: () => call<{ enabled: boolean; provider: string }>("/api/stock/status"),

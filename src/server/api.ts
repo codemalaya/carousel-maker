@@ -35,6 +35,7 @@ const json = (res: ServerResponse, data: unknown, status = 200) => {
   res.end(JSON.stringify(data));
 };
 
+/** POST mockup {slides:[0-based], opts:{diameterMm,finish,fit,design,scene,camera,...}} -> [{slide,file,cached}] (file is in the project's assets) */
 /** GET export?format=png|zip|pdf|html|mp4|gif&slide=N&scale=1|2[&fps=&hold=&stepGap=] -> file download. */
 async function exportProject(res: ServerResponse, id: string, q: URLSearchParams) {
   const { renderPdf, renderPng } = await import("../core/headless.ts"); // lazy: playwright is heavy
@@ -211,6 +212,10 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       return json(res, { error: msg }, /not found|ENOENT/.test(msg) ? 404 : 400), true;
     }
   }
+  if (m[0] === "mockup" && m[1] === "hdri" && req.method === "GET") {
+    const { listEnvironments } = await import("../core/mockup.ts");
+    return json(res, await listEnvironments()), true;
+  }
   if (m[0] === "icons" && req.method === "GET") {
     try {
       const limit = z.coerce.number().int().min(1).max(120).parse(query.get("limit") ?? 60);
@@ -331,6 +336,14 @@ export async function handleApi(req: IncomingMessage, res: ServerResponse, path:
       const { runAgent } = await import("./agent.ts");
       await runAgent(req, res, id, prompt);
       return true;
+    } else if (sub === "mockup" && req.method === "POST") {
+      // button-pin mockup of slide(s): renders via the mockup-maker app, saves the PNG into assets and returns the file names
+      if (!(await projectExists(id))) return json(res, { error: "not found" }, 404), true;
+      const { slides, opts } = z
+        .object({ slides: z.array(z.number().int().min(0)).min(1).max(30), opts: z.record(z.string(), z.unknown()).default({}) })
+        .parse(JSON.parse((await body(req)).toString()));
+      const { renderMockups } = await import("../core/mockup.ts"); // lazy: playwright + child process
+      return json(res, await renderMockups(id, await loadProject(id), slides, opts)), true;
     } else if (sub === "export" && req.method === "GET") {
       await exportProject(res, id, query);
       return true;

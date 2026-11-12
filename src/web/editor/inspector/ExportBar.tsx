@@ -1,4 +1,4 @@
-import { FileArchive, Sparkles, FileCode, FileImage, FileText, Film, Images, Loader2 } from "lucide-react";
+import { CircleDot, FileArchive, Sparkles, FileCode, FileImage, FileText, Film, Images, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
@@ -12,6 +12,7 @@ type ExportBarProps = {
   onScale: (n: number) => void;
   onExport: (o: ExportOpts) => void;
   onCaption: () => void;
+  onMockup: () => void;
 };
 
 const FORMATS = [
@@ -24,7 +25,7 @@ const FORMATS = [
 ] as const;
 
 /** Pinned to the bottom of the inspector. */
-export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCaption }: ExportBarProps) {
+export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCaption, onMockup }: ExportBarProps) {
   return (
     <div className="grid shrink-0 gap-2 border-t p-3">
       <div className="flex items-center justify-between">
@@ -68,6 +69,9 @@ export function ExportBar({ hasSlide, exporting, scale, onScale, onExport, onCap
           </Tooltip>
         ))}
       </div>
+      <Button variant="outline" size="sm" className="h-8 gap-1.5" disabled={!hasSlide} onClick={onMockup}>
+        <CircleDot className="size-3.5" /> Mockup button pin
+      </Button>
       <Button variant="ghost" size="sm" className="text-muted-foreground h-7 gap-1.5 text-xs" disabled={!hasSlide} onClick={onCaption}>
         <Sparkles className="size-3.5" /> Buat caption &amp; hashtag
       </Button>

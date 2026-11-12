@@ -1,0 +1,87 @@
+<!doctype html><meta charset="utf-8">
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from "three";
+const q = new URLSearchParams(location.search);
+const letter = q.get("letter") || "";
+const faceColor = q.get("face") || "#f7e8c6";
+const inkColor = q.get("ink") || "#1b1b1b";
+const S = 1600;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(S, S);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.VSMShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.0;
+renderer.setClearColor(0x000000, 0);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const pm = new THREE.PMREMGenerator(renderer);
+const env = new THREE.Scene();
+const room = new THREE.Mesh(new THREE.SphereGeometry(60, 32, 16), new THREE.MeshBasicMaterial({ color: 0x7d838e, side: THREE.BackSide }));
+env.add(room);
+const panel = (w, h, pos, v) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ color: new THREE.Color(v, v, v), side: THREE.DoubleSide })); m.position.set(...pos); m.lookAt(0, 0, 0); env.add(m); };
+panel(22, 14, [-38, 34, 30], 5);   // big softbox top-left
+panel(5, 40, [44, 4, 20], 3);      // strip right
+panel(60, 6, [0, -40, 30], 1.5);   // floor bounce
+panel(50, 20, [0, 50, 0], 2.5);    // ceiling
+scene.environment = pm.fromScene(env, 0.03).texture;
+const cam = new THREE.PerspectiveCamera(22, 1, 1, 400);
+cam.position.set(0, 0, 118); cam.lookAt(0, 0, 0);
+
+const R = 16;
+// face texture
+const c = document.createElement("canvas"); c.width = c.height = 2048;
+const g = c.getContext("2d");
+g.fillStyle = faceColor; g.fillRect(0, 0, 2048, 2048);
+const grd = g.createRadialGradient(900, 800, 100, 1024, 1024, 1100);
+grd.addColorStop(0, "rgba(255,255,255,.35)"); grd.addColorStop(1, "rgba(0,0,0,.07)");
+g.fillStyle = grd; g.fillRect(0, 0, 2048, 2048);
+if (letter) {
+  g.fillStyle = inkColor; g.textAlign = "center"; g.textBaseline = "alphabetic";
+  g.font = '900 1350px "Arial Black","Helvetica Neue",Arial,sans-serif';
+  const m = g.measureText(letter); const h = m.actualBoundingBoxAscent + m.actualBoundingBoxDescent;
+  g.fillText(letter, 1024, 1024 + h / 2 - m.actualBoundingBoxDescent);
+}
+const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 16;
+
+const pin = new THREE.Group();
+const body = new THREE.Group(); body.rotation.x = Math.PI / 2; pin.add(body);
+
+// metal shell: lathe profile (r, y); y axis becomes pin's +z
+const prof = [
+  [0, -1.3], [R - 1.2, -1.3], [R - 0.5, -1.2], [R - 0.05, -0.9], [R, -0.4],
+  [R, 0.55], [R - 0.15, 0.95], [R - 0.7, 1.2], [R - 1.3, 1.1], [R - 1.45, 0.95], [R - 1.5, 0.7], [0, 0.7],
+].map(([x, y]) => new THREE.Vector2(x, y));
+const shell = new THREE.Mesh(new THREE.LatheGeometry(prof, 160),
+  new THREE.MeshStandardMaterial({ color: 0xe2e4e8, metalness: 1, roughness: 0.22, side: THREE.DoubleSide }));
+shell.castShadow = true; shell.receiveShadow = true; body.add(shell);
+
+// printed face
+const face = new THREE.Mesh(new THREE.CircleGeometry(R - 1.5, 128),
+  new THREE.MeshStandardMaterial({ map: tex, roughness: 0.5, metalness: 0, envMapIntensity: 0.9 }));
+face.rotation.x = -Math.PI / 2; face.position.y = 0.72; body.add(face);
+
+// glossy mylar dome
+const domeR = R - 1.35, domeH = 0.55, pts = [];
+const sphereR = (domeR * domeR + domeH * domeH) / (2 * domeH);
+for (let i = 0; i <= 48; i++) { const a = (i / 48) * Math.asin(domeR / sphereR); pts.push(new THREE.Vector2(Math.sin(a) * sphereR, Math.cos(a) * sphereR - sphereR + domeH)); }
+pts.reverse();
+const dome = new THREE.Mesh(new THREE.LatheGeometry(pts, 160),
+  new THREE.MeshPhysicalMaterial({ color: 0xffffff, transmission: 1, thickness: 0.2, roughness: 0.02, metalness: 0, ior: 1.5, specularIntensity: 1, envMapIntensity: 1.0 }));
+dome.position.y = 0.74; body.add(dome);
+
+pin.rotation.set(-0.32, 0.5, 0.06);
+scene.add(pin);
+
+// wall for shadow
+const wall = new THREE.Mesh(new THREE.PlaneGeometry(300, 300), new THREE.ShadowMaterial({ opacity: 0.22 }));
+wall.position.z = -6; wall.receiveShadow = true; scene.add(wall);
+const sun = new THREE.DirectionalLight(0xffffff, 1.6);
+sun.position.set(-30, 45, 90); sun.castShadow = true;
+sun.shadow.mapSize.set(4096, 4096); sun.shadow.radius = 18; sun.shadow.blurSamples = 25; sun.shadow.bias = -0.0003;
+Object.assign(sun.shadow.camera, { left: -40, right: 40, top: 40, bottom: -40, near: 10, far: 250 });
+sun.target.position.set(0, 0, 0); scene.add(sun, sun.target);
+scene.add(new THREE.HemisphereLight(0xffffff, 0xcfc6b4, 0.7));
+renderer.render(scene, cam);
+window.__done = true;
+</script>

@@ -10,6 +10,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { lint, renderPdf, renderPng, renderVideo } from "../core/headless";
 import { renderPresentHtml } from "../core/present";
+import { renderMockups } from "../core/mockup";
 import { fetchSource, formatSource } from "../core/source";
 import { applyBrand, createBrand, listBrands, loadBrand } from "../core/brands";
 import { iconSvg, searchIcons } from "../core/icons";
@@ -414,6 +415,53 @@ server.registerTool(
         { type: "image" as const, data: b.toString("base64"), mimeType: "image/png" },
       ]),
     };
+  },
+);
+
+server.registerTool(
+  "mockup_slide",
+  {
+    description:
+      "Put slides on a 3D button pin (32 or 44 mm) via the mockup-maker app and save the result as PNG in the project's assets. " +
+      "Returns the file names and the rendered images so you can SEE them. Use a file as an `image` element (src \"assets/<file>\") on a slide, usually a square, centered, with a plain bg. " +
+      "The slide is cropped to the pin circle: fit \"cover\" fills it (4:5 slides lose top and bottom), \"contain\" shows the whole slide. " +
+      "Each slide takes a few seconds. Identical input is served from cache. Does not change any slide.",
+    inputSchema: {
+      slides: z.array(idx).min(1).max(30).describe("0-indexed slides to turn into mockups"),
+      diameterMm: z.union([z.literal(32), z.literal(44)]).default(44),
+      finish: z.enum(["glossy", "matte"]).default("glossy"),
+      fit: z.enum(["cover", "contain"]).default("cover"),
+      camera: z.enum(["front", "three-quarter", "angled", "top-down", "back"]).optional(),
+      background: z.string().regex(/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/).optional().describe("scene background color (hex); omit for the default"),
+      transparent: z.boolean().optional().describe("transparent background (PNG); overrides `background`"),
+      environment: z.string().optional().describe("lighting + reflections from a file in mockup-maker/hdri (e.g. \"brown_photostudio_02.hdr\"); use it so the pin is lit like the photo it goes on. Overrides the built-in preset."),
+      environmentBackground: z.boolean().optional().describe("also show that environment as the background (ignored with `transparent`)"),
+      shadowTilt: z.number().min(0).max(90).optional().describe("shadow catcher tilt: 0 = floor under the pin, 90 = vertical wall right behind it (pin stuck on a bag/wall: soft halo only)"),
+      grain: z.number().min(0).max(1).optional().describe("film grain on the pin pixels, to match a grainy photo"),
+      softness: z.number().min(0).max(6).optional().describe("slight blur in output px, to match a soft photo"),
+      project,
+    },
+  },
+  async ({ slides, diameterMm, finish, fit, camera, background, transparent, environment, environmentBackground, shadowTilt, grain, softness, project: p }) => {
+    const pid = p ?? DEFAULT_PROJECT;
+    const c = await loadProject(pid);
+    slides.forEach((i) => slideAt(c, i));
+    const results = await renderMockups(pid, c, slides, {
+      diameterMm, finish, fit,
+      ...(camera ? { camera: { preset: camera } } : {}),
+      scene: {
+        ...(transparent ? { background: { type: "transparent" } } : background ? { background: { type: "solid", color: background } } : {}),
+        ...(environment ? { environment: { src: environment, background: !!environmentBackground && !transparent } } : {}),
+        ...(shadowTilt !== undefined ? { shadow: { tilt: shadowTilt, ...(shadowTilt >= 45 ? { distance: 0.25, blur: 3 } : {}) } } : {}),
+      },
+      output: { ...(transparent ? { transparent: true } : {}), ...(grain !== undefined ? { grain } : {}), ...(softness !== undefined ? { softness } : {}) },
+    });
+    const content: ({ type: "text"; text: string } | { type: "image"; data: string; mimeType: string })[] = [];
+    for (const r of results) {
+      content.push({ type: "text", text: `slide ${r.slide} -> assets/${r.file}${r.cached ? " (cached)" : ""}` });
+      content.push({ type: "image", data: (await readAsset(pid, r.file)).toString("base64"), mimeType: "image/png" });
+    }
+    return { content };
   },
 );
 
